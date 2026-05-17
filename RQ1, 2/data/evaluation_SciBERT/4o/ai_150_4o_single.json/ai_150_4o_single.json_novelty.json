@@ -1,0 +1,602 @@
+[
+  {
+    "baseline_avg": 0.07635,
+    "derived_avg": 0.06942
+  },
+  {
+    "baseline_avg": 0.06355,
+    "derived_avg": 0.06014
+  },
+  {
+    "baseline_avg": 0.07913,
+    "derived_avg": 0.06686
+  },
+  {
+    "baseline_avg": 0.06724,
+    "derived_avg": 0.05887
+  },
+  {
+    "baseline_avg": 0.09133,
+    "derived_avg": 0.07503
+  },
+  {
+    "baseline_avg": 0.07386,
+    "derived_avg": 0.06482
+  },
+  {
+    "baseline_avg": 0.05677,
+    "derived_avg": 0.0515
+  },
+  {
+    "baseline_avg": 0.08831,
+    "derived_avg": 0.07741
+  },
+  {
+    "baseline_avg": 0.0927,
+    "derived_avg": 0.08812
+  },
+  {
+    "baseline_avg": 0.09918,
+    "derived_avg": 0.0721
+  },
+  {
+    "baseline_avg": 0.10463,
+    "derived_avg": 0.07822
+  },
+  {
+    "baseline_avg": 0.0841,
+    "derived_avg": 0.07044
+  },
+  {
+    "baseline_avg": 0.09222,
+    "derived_avg": 0.05807
+  },
+  {
+    "baseline_avg": 0.09249,
+    "derived_avg": 0.05145
+  },
+  {
+    "baseline_avg": 0.06623,
+    "derived_avg": 0.05482
+  },
+  {
+    "baseline_avg": 0.08741,
+    "derived_avg": 0.06216
+  },
+  {
+    "baseline_avg": 0.0826,
+    "derived_avg": 0.06259
+  },
+  {
+    "baseline_avg": 0.07662,
+    "derived_avg": 0.07315
+  },
+  {
+    "baseline_avg": 0.07483,
+    "derived_avg": 0.06338
+  },
+  {
+    "baseline_avg": 0.07012,
+    "derived_avg": 0.05668
+  },
+  {
+    "baseline_avg": 0.10993,
+    "derived_avg": 0.06362
+  },
+  {
+    "baseline_avg": 0.0763,
+    "derived_avg": 0.04358
+  },
+  {
+    "baseline_avg": 0.08427,
+    "derived_avg": 0.06472
+  },
+  {
+    "baseline_avg": 0.09891,
+    "derived_avg": 0.05218
+  },
+  {
+    "baseline_avg": 0.08566,
+    "derived_avg": 0.06506
+  },
+  {
+    "baseline_avg": 0.11283,
+    "derived_avg": 0.07406
+  },
+  {
+    "baseline_avg": 0.08621,
+    "derived_avg": 0.07157
+  },
+  {
+    "baseline_avg": 0.05991,
+    "derived_avg": 0.06696
+  },
+  {
+    "baseline_avg": 0.06525,
+    "derived_avg": 0.06938
+  },
+  {
+    "baseline_avg": 0.07283,
+    "derived_avg": 0.07136
+  },
+  {
+    "baseline_avg": 0.08085,
+    "derived_avg": 0.06945
+  },
+  {
+    "baseline_avg": 0.09011,
+    "derived_avg": 0.07085
+  },
+  {
+    "baseline_avg": 0.07897,
+    "derived_avg": 0.07471
+  },
+  {
+    "baseline_avg": 0.08916,
+    "derived_avg": 0.07628
+  },
+  {
+    "baseline_avg": 0.07078,
+    "derived_avg": 0.06683
+  },
+  {
+    "baseline_avg": 0.10917,
+    "derived_avg": 0.10747
+  },
+  {
+    "baseline_avg": 0.09154,
+    "derived_avg": 0.07806
+  },
+  {
+    "baseline_avg": 0.06672,
+    "derived_avg": 0.05754
+  },
+  {
+    "baseline_avg": 0.0881,
+    "derived_avg": 0.06835
+  },
+  {
+    "baseline_avg": 0.07158,
+    "derived_avg": 0.0706
+  },
+  {
+    "baseline_avg": 0.08606,
+    "derived_avg": 0.05674
+  },
+  {
+    "baseline_avg": 0.07675,
+    "derived_avg": 0.05577
+  },
+  {
+    "baseline_avg": 0.09441,
+    "derived_avg": 0.0662
+  },
+  {
+    "baseline_avg": 0.06916,
+    "derived_avg": 0.05925
+  },
+  {
+    "baseline_avg": 0.0747,
+    "derived_avg": 0.05515
+  },
+  {
+    "baseline_avg": 0.08874,
+    "derived_avg": 0.05842
+  },
+  {
+    "baseline_avg": 0.07622,
+    "derived_avg": 0.05512
+  },
+  {
+    "baseline_avg": 0.08484,
+    "derived_avg": 0.05556
+  },
+  {
+    "baseline_avg": 0.07014,
+    "derived_avg": 0.06314
+  },
+  {
+    "baseline_avg": 0.08127,
+    "derived_avg": 0.06054
+  },
+  {
+    "baseline_avg": 0.06239,
+    "derived_avg": 0.05741
+  },
+  {
+    "baseline_avg": 0.07467,
+    "derived_avg": 0.06936
+  },
+  {
+    "baseline_avg": 0.08445,
+    "derived_avg": 0.07168
+  },
+  {
+    "baseline_avg": 0.07515,
+    "derived_avg": 0.07285
+  },
+  {
+    "baseline_avg": 0.09295,
+    "derived_avg": 0.06158
+  },
+  {
+    "baseline_avg": 0.11788,
+    "derived_avg": 0.09962
+  },
+  {
+    "baseline_avg": 0.09392,
+    "derived_avg": 0.09817
+  },
+  {
+    "baseline_avg": 0.12067,
+    "derived_avg": 0.08708
+  },
+  {
+    "baseline_avg": 0.09286,
+    "derived_avg": 0.07468
+  },
+  {
+    "baseline_avg": 0.08973,
+    "derived_avg": 0.06336
+  },
+  {
+    "baseline_avg": 0.0635,
+    "derived_avg": 0.06499
+  },
+  {
+    "baseline_avg": 0.06601,
+    "derived_avg": 0.07086
+  },
+  {
+    "baseline_avg": 0.08236,
+    "derived_avg": 0.06068
+  },
+  {
+    "baseline_avg": 0.09825,
+    "derived_avg": 0.06401
+  },
+  {
+    "baseline_avg": 0.07531,
+    "derived_avg": 0.05089
+  },
+  {
+    "baseline_avg": 0.07858,
+    "derived_avg": 0.07151
+  },
+  {
+    "baseline_avg": 0.08965,
+    "derived_avg": 0.06372
+  },
+  {
+    "baseline_avg": 0.09561,
+    "derived_avg": 0.07413
+  },
+  {
+    "baseline_avg": 0.08578,
+    "derived_avg": 0.05938
+  },
+  {
+    "baseline_avg": 0.10089,
+    "derived_avg": 0.07964
+  },
+  {
+    "baseline_avg": 0.11622,
+    "derived_avg": 0.08168
+  },
+  {
+    "baseline_avg": 0.10534,
+    "derived_avg": 0.09904
+  },
+  {
+    "baseline_avg": 0.10471,
+    "derived_avg": 0.07797
+  },
+  {
+    "baseline_avg": 0.14088,
+    "derived_avg": 0.12123
+  },
+  {
+    "baseline_avg": 0.09104,
+    "derived_avg": 0.08084
+  },
+  {
+    "baseline_avg": 0.09108,
+    "derived_avg": 0.08263
+  },
+  {
+    "baseline_avg": 0.06797,
+    "derived_avg": 0.07614
+  },
+  {
+    "baseline_avg": 0.07508,
+    "derived_avg": 0.05601
+  },
+  {
+    "baseline_avg": 0.07928,
+    "derived_avg": 0.06283
+  },
+  {
+    "baseline_avg": 0.07685,
+    "derived_avg": 0.0596
+  },
+  {
+    "baseline_avg": 0.06461,
+    "derived_avg": 0.05585
+  },
+  {
+    "baseline_avg": 0.07088,
+    "derived_avg": 0.06543
+  },
+  {
+    "baseline_avg": 0.05954,
+    "derived_avg": 0.04925
+  },
+  {
+    "baseline_avg": 0.05707,
+    "derived_avg": 0.05283
+  },
+  {
+    "baseline_avg": 0.06619,
+    "derived_avg": 0.05363
+  },
+  {
+    "baseline_avg": 0.05267,
+    "derived_avg": 0.0565
+  },
+  {
+    "baseline_avg": 0.08498,
+    "derived_avg": 0.07083
+  },
+  {
+    "baseline_avg": 0.16148,
+    "derived_avg": 0.14295
+  },
+  {
+    "baseline_avg": 0.07755,
+    "derived_avg": 0.0721
+  },
+  {
+    "baseline_avg": 0.11055,
+    "derived_avg": 0.11145
+  },
+  {
+    "baseline_avg": 0.13317,
+    "derived_avg": 0.12673
+  },
+  {
+    "baseline_avg": 0.12712,
+    "derived_avg": 0.12043
+  },
+  {
+    "baseline_avg": 0.11048,
+    "derived_avg": 0.11328
+  },
+  {
+    "baseline_avg": 0.07941,
+    "derived_avg": 0.0654
+  },
+  {
+    "baseline_avg": 0.1312,
+    "derived_avg": 0.09241
+  },
+  {
+    "baseline_avg": 0.07665,
+    "derived_avg": 0.06533
+  },
+  {
+    "baseline_avg": 0.08911,
+    "derived_avg": 0.07016
+  },
+  {
+    "baseline_avg": 0.0965,
+    "derived_avg": 0.10538
+  },
+  {
+    "baseline_avg": 0.08036,
+    "derived_avg": 0.0888
+  },
+  {
+    "baseline_avg": 0.11911,
+    "derived_avg": 0.10063
+  },
+  {
+    "baseline_avg": 0.1404,
+    "derived_avg": 0.13133
+  },
+  {
+    "baseline_avg": 0.08623,
+    "derived_avg": 0.06254
+  },
+  {
+    "baseline_avg": 0.16983,
+    "derived_avg": 0.12585
+  },
+  {
+    "baseline_avg": 0.05951,
+    "derived_avg": 0.05385
+  },
+  {
+    "baseline_avg": 0.04961,
+    "derived_avg": 0.04987
+  },
+  {
+    "baseline_avg": 0.0666,
+    "derived_avg": 0.05539
+  },
+  {
+    "baseline_avg": 0.06202,
+    "derived_avg": 0.04968
+  },
+  {
+    "baseline_avg": 0.06254,
+    "derived_avg": 0.06044
+  },
+  {
+    "baseline_avg": 0.05847,
+    "derived_avg": 0.05542
+  },
+  {
+    "baseline_avg": 0.06149,
+    "derived_avg": 0.04846
+  },
+  {
+    "baseline_avg": 0.09288,
+    "derived_avg": 0.06328
+  },
+  {
+    "baseline_avg": 0.06914,
+    "derived_avg": 0.06114
+  },
+  {
+    "baseline_avg": 0.07021,
+    "derived_avg": 0.05913
+  },
+  {
+    "baseline_avg": 0.11061,
+    "derived_avg": 0.10805
+  },
+  {
+    "baseline_avg": 0.10491,
+    "derived_avg": 0.09072
+  },
+  {
+    "baseline_avg": 0.12666,
+    "derived_avg": 0.11606
+  },
+  {
+    "baseline_avg": 0.05552,
+    "derived_avg": 0.06125
+  },
+  {
+    "baseline_avg": 0.07398,
+    "derived_avg": 0.06282
+  },
+  {
+    "baseline_avg": 0.10399,
+    "derived_avg": 0.08972
+  },
+  {
+    "baseline_avg": 0.09368,
+    "derived_avg": 0.06837
+  },
+  {
+    "baseline_avg": 0.08671,
+    "derived_avg": 0.05437
+  },
+  {
+    "baseline_avg": 0.07381,
+    "derived_avg": 0.07018
+  },
+  {
+    "baseline_avg": 0.07921,
+    "derived_avg": 0.07155
+  },
+  {
+    "baseline_avg": 0.07847,
+    "derived_avg": 0.05577
+  },
+  {
+    "baseline_avg": 0.08329,
+    "derived_avg": 0.07147
+  },
+  {
+    "baseline_avg": 0.12141,
+    "derived_avg": 0.08417
+  },
+  {
+    "baseline_avg": 0.08457,
+    "derived_avg": 0.0717
+  },
+  {
+    "baseline_avg": 0.08253,
+    "derived_avg": 0.05792
+  },
+  {
+    "baseline_avg": 0.0809,
+    "derived_avg": 0.06451
+  },
+  {
+    "baseline_avg": 0.07797,
+    "derived_avg": 0.06909
+  },
+  {
+    "baseline_avg": 0.06435,
+    "derived_avg": 0.06567
+  },
+  {
+    "baseline_avg": 0.08864,
+    "derived_avg": 0.04316
+  },
+  {
+    "baseline_avg": 0.09192,
+    "derived_avg": 0.06401
+  },
+  {
+    "baseline_avg": 0.0918,
+    "derived_avg": 0.06956
+  },
+  {
+    "baseline_avg": 0.06879,
+    "derived_avg": 0.0648
+  },
+  {
+    "baseline_avg": 0.06491,
+    "derived_avg": 0.04848
+  },
+  {
+    "baseline_avg": 0.07983,
+    "derived_avg": 0.09
+  },
+  {
+    "baseline_avg": 0.08828,
+    "derived_avg": 0.07731
+  },
+  {
+    "baseline_avg": 0.0644,
+    "derived_avg": 0.06178
+  },
+  {
+    "baseline_avg": 0.08584,
+    "derived_avg": 0.06976
+  },
+  {
+    "baseline_avg": 0.06706,
+    "derived_avg": 0.05502
+  },
+  {
+    "baseline_avg": 0.0754,
+    "derived_avg": 0.0578
+  },
+  {
+    "baseline_avg": 0.07045,
+    "derived_avg": 0.07033
+  },
+  {
+    "baseline_avg": 0.09099,
+    "derived_avg": 0.07516
+  },
+  {
+    "baseline_avg": 0.0763,
+    "derived_avg": 0.05586
+  },
+  {
+    "baseline_avg": 0.0755,
+    "derived_avg": 0.0496
+  },
+  {
+    "baseline_avg": 0.0886,
+    "derived_avg": 0.06578
+  },
+  {
+    "baseline_avg": 0.1099,
+    "derived_avg": 0.06404
+  },
+  {
+    "baseline_avg": 0.11208,
+    "derived_avg": 0.09561
+  },
+  {
+    "baseline_avg": 0.07734,
+    "derived_avg": 0.05997
+  }
+]

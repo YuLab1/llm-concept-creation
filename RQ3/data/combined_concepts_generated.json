@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuSlice Orchestrator",
+    "definition": "A 5G core network orchestration framework that leverages diffusion probabilistic models with U-Net architectures to dynamically generate and optimize network slice configurations, enabling adaptive, fine-grained resource allocation and enhanced service quality in real-time."
+  },
+  {
+    "id": 2,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusionSlice Orchestrator",
+    "definition": "A dynamic 5G core orchestration framework that uses diffusion-based world models to simulate and predict network slice behavior in real-time, enabling adaptive and optimized resource allocation across diverse service demands."
+  },
+  {
+    "id": 3,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Slice Learning Orchestration (FSLO)",
+    "definition": "FSLO is an intelligent 5G core orchestration framework that leverages federated learning with PEFT adapter tuning to enable personalized, privacy-preserving optimization of network slices across distributed edge nodes without centralized data sharing."
+  },
+  {
+    "id": 4,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowSlice Orchestrator",
+    "definition": "An intelligent 5G core orchestration framework that leverages generative ODE-based flow matching to dynamically and optimally assign network slices by modeling and predicting traffic patterns in real-time, ensuring seamless resource allocation and QoS adaptation."
+  },
+  {
+    "id": 5,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Dynamic 5G Network Slicing",
+    "definition": "An intelligent 5G core orchestration framework that employs Mixture of Experts foundation models to dynamically optimize and tailor network slices in real-time, enhancing resource allocation and service quality based on diverse and evolving user demands."
+  },
+  {
+    "id": 6,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "GenSlice Orchestrator",
+    "definition": "An intelligent 5G core orchestration system empowered by generative agents that autonomously create, adapt, and optimize network slices in real-time through self-evolution, ensuring dynamic and context-aware service delivery."
+  },
+  {
+    "id": 7,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaSlice Flow Orchestrator",
+    "definition": "An intelligent 5G core network slicing orchestration framework that leverages meta-learning enhanced Generative Flow Networks to dynamically generate and optimize network slice configurations, enabling adaptive and efficient resource allocation across diverse service demands."
+  },
+  {
+    "id": 8,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "KG-Driven Slice Orchestration",
+    "definition": "An intelligent 5G core orchestration framework that leverages knowledge graphs and retrieval-augmented generation (RAG) to dynamically model, infer, and optimize network slices based on contextual service requirements and real-time network states."
+  },
+  {
+    "id": 9,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Driven 5G Network Slicing Orchestrator",
+    "definition": "An intelligent 5G core orchestration framework that leverages Kolmogorov-Arnold Network (KAN) models to predict and optimize dynamic network slicing configurations in real-time, enhancing service adaptability and resource efficiency across diverse applications."
+  },
+  {
+    "id": 10,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "SliceWise LLM Orchestration",
+    "definition": "An intelligent 5G core orchestration framework that leverages large language models optimized via knowledge distillation to dynamically manage and adapt network slices, enabling real-time, context-aware resource allocation and service customization."
+  },
+  {
+    "id": 11,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "SliceCache Orchestrator",
+    "definition": "A dynamic 5G core orchestration framework that leverages LLM key-value cache fusion to intelligently predict, allocate, and optimize network slices based on real-time contextual data and usage patterns, enhancing network efficiency and responsiveness."
+  },
+  {
+    "id": 12,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "SliceSense LLM Orchestrator",
+    "definition": "An AI-driven orchestration framework where a Large Language Model agent dynamically manages 5G core network slicing by interpreting high-level service intents and optimizing resource allocation in real-time for diverse application demands."
+  },
+  {
+    "id": 13,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidSlice Orchestrator",
+    "definition": "A dynamic 5G core orchestration framework that leverages Liquid Neural Networks to continuously adapt and optimize network slicing configurations in real-time, ensuring ultra-responsive and context-aware resource allocation for diverse service requirements."
+  },
+  {
+    "id": 14,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaSlice Orchestrator",
+    "definition": "An AI-driven 5G core orchestration framework that leverages Llama-2 large language models integrated with GitOps principles to automate and optimize dynamic network slicing deployment and lifecycle management through intelligent, declarative configurations."
+  },
+  {
+    "id": 15,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaSlice Orchestrator",
+    "definition": "An intelligent 5G core orchestration framework that leverages the Mamba selective state space model to dynamically optimize and adapt network slicing policies based on real-time traffic and service state evaluations for enhanced efficiency and reliability."
+  },
+  {
+    "id": 16,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysGenSlice Orchestrator",
+    "definition": "A 5G core orchestration framework that leverages physics-informed generative AI to dynamically design and optimize network slices by predicting real-world network behavior and resource demands for enhanced performance and reliability."
+  },
+  {
+    "id": 17,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Orchestrated 5G Slicing (QO5GS)",
+    "definition": "Quantum-Orchestrated 5G Slicing leverages quantum machine learning algorithms to dynamically optimize and automate 5G core network slicing, enabling ultra-efficient, adaptive resource allocation and service orchestration in real-time."
+  },
+  {
+    "id": 18,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Slice Orchestration (RSO)",
+    "definition": "Retentive Slice Orchestration leverages RetNet's memory-augmented AI to continuously learn and optimize 5G core network slicing in real-time, enabling adaptive, context-aware resource allocation and seamless service continuity across dynamic network conditions."
+  },
+  {
+    "id": 19,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "Spiking Slice Orchestration",
+    "definition": "An intelligent 5G core orchestration framework that leverages Spiking Neural Networks to dynamically and efficiently manage network slicing by mimicking brain-like event-driven processing for ultra-low latency and adaptive resource allocation."
+  },
+  {
+    "id": 20,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Driven Dynamic Network Slice Orchestration",
+    "definition": "An intelligent 5G core orchestration framework leveraging xLSTM models to predict and adapt network slice resource allocation in real time, optimizing performance and QoS based on extended temporal and contextual data patterns."
+  },
+  {
+    "id": 21,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusive BeamNet",
+    "definition": "Diffusive BeamNet leverages diffusion probabilistic models combined with U-Net architectures to iteratively refine and predict optimal beamforming patterns for dynamic beam tracking in wireless communication, enhancing signal precision and robustness in complex environments."
+  },
+  {
+    "id": 22,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusionBeam Navigator",
+    "definition": "An AI-driven beamforming system that leverages diffusion-based world models to dynamically predict and track wireless channel environments, enabling real-time adaptive beam steering for enhanced connectivity and robustness."
+  },
+  {
+    "id": 23,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Beam Adapter Learning",
+    "definition": "A distributed learning framework where edge devices collaboratively train lightweight beamforming adapters via federated learning to dynamically optimize beam tracking performance without sharing raw data."
+  },
+  {
+    "id": 24,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowBeam Tracking",
+    "definition": "FlowBeam Tracking leverages generative ODE-based flow matching to dynamically predict and adapt beamforming directions in wireless communication, enabling real-time, continuous beam trajectory estimation for enhanced signal alignment and robustness."
+  },
+  {
+    "id": 25,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Beamformer",
+    "definition": "An adaptive beamforming system that leverages a Mixture of Experts foundation model to dynamically select and optimize beam tracking strategies in real-time, enhancing wireless link robustness and efficiency by intelligently combining specialized beamforming experts based on environmental context."
+  },
+  {
+    "id": 26,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoBeam Generative Tracking",
+    "definition": "An AI-driven beamforming system where generative agents autonomously evolve and adapt beam patterns in real-time to optimize wireless signal tracking and quality amid dynamic environments."
+  },
+  {
+    "id": 27,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaBeamFlow",
+    "definition": "MetaBeamFlow integrates meta-learning with generative flow networks to dynamically adapt and optimize beamforming and beam tracking strategies in wireless communication, enabling rapid generalization to new environments and efficient exploration of optimal beam configurations."
+  },
+  {
+    "id": 28,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "BeamGraph Intelligence",
+    "definition": "An AI-driven beamforming system that leverages knowledge graphs to dynamically model and predict environmental and user context for optimal beam tracking and adaptive signal steering in wireless networks."
+  },
+  {
+    "id": 29,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KanoBeam Tracking",
+    "definition": "KanoBeam Tracking leverages Kolmogorov-Arnold Networks to model and predict complex nonlinear wireless channel dynamics, enabling ultra-precise and adaptive beamforming and beam tracking for dynamic environments in next-generation communication systems."
+  },
+  {
+    "id": 30,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledBeam Navigator",
+    "definition": "An AI-powered beamforming system that leverages knowledge distillation from large language models to efficiently predict and track optimal beam directions, enabling real-time adaptive wireless communication with reduced computational overhead."
+  },
+  {
+    "id": 31,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "BeamCache Fusion",
+    "definition": "An adaptive wireless beamforming system that leverages LLM-inspired key-value cache fusion to rapidly predict and track optimal beam directions by storing and retrieving past beam states as contextual keys, enabling ultra-low latency and highly accurate beam alignment in dynamic environments."
+  },
+  {
+    "id": 32,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "BeamSense LLM Agent",
+    "definition": "An intelligent agent powered by a Large Language Model that dynamically interprets environmental context and user intent to optimize real-time beam tracking and beamforming decisions, enhancing wireless communication efficiency and adaptability."
+  },
+  {
+    "id": 33,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidBeam Adaptive Tracking",
+    "definition": "A dynamic beamforming and tracking system that leverages Liquid Neural Networks to continuously adapt to rapidly changing wireless channel conditions in real-time, enabling ultra-responsive and efficient directional signal optimization."
+  },
+  {
+    "id": 34,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaBeamOps",
+    "definition": "LlamaBeamOps leverages Llama-2's large language model capabilities combined with GitOps principles to autonomously optimize and manage beamforming and beam tracking in wireless networks, enabling real-time, AI-driven adaptive antenna control and seamless deployment of beam configuration updates."
+  },
+  {
+    "id": 35,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaBeam Adaptive Tracking",
+    "definition": "MambaBeam Adaptive Tracking leverages the selective state space modeling of Mamba to dynamically predict and optimize beamforming directions in real-time, enabling precise and efficient beam tracking in complex wireless environments."
+  },
+  {
+    "id": 36,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysBeamGen AI",
+    "definition": "PhysBeamGen AI leverages physics-informed generative models to dynamically predict and optimize beamforming and beam tracking in wireless networks, enhancing signal precision by embedding electromagnetic propagation laws into AI-driven antenna array control."
+  },
+  {
+    "id": 37,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "QuantumBeam AI Tracking",
+    "definition": "QuantumBeam AI Tracking leverages quantum machine learning algorithms to dynamically optimize and predict beamforming patterns for ultra-fast, adaptive wireless beam tracking, enhancing signal precision and network efficiency in complex environments."
+  },
+  {
+    "id": 38,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive BeamNet",
+    "definition": "Retentive BeamNet is an AI-driven beamforming system that leverages RetNet's retentive memory to continuously learn and predict optimal beam directions for dynamic wireless environments, enabling ultra-precise and adaptive beam tracking over time."
+  },
+  {
+    "id": 39,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeBeam Adaptive Tracking",
+    "definition": "SpikeBeam Adaptive Tracking leverages spiking neural networks to dynamically model and predict wireless channel variations, enabling ultra-fast and energy-efficient beamforming and beam tracking for next-generation communication systems."
+  },
+  {
+    "id": 40,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM BeamTrace",
+    "definition": "xLSTM BeamTrace leverages extended LSTM networks to dynamically predict and adapt beamforming parameters in real-time, enabling precise beam tracking for highly mobile or complex wireless environments by learning temporal spatial channel variations."
+  },
+  {
+    "id": 41,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuBeamOFDM",
+    "definition": "DiffuBeamOFDM leverages diffusion probabilistic models with U-Net architectures to iteratively refine beamforming and OFDM channel estimation, enhancing signal accuracy and robustness by modeling complex wireless propagation environments as a generative denoising process."
+  },
+  {
+    "id": 42,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusionBeam Estimator",
+    "definition": "A diffusion-based world model that generates probabilistic channel state representations to enhance OFDM beamforming estimation accuracy, enabling adaptive and robust spatial signal focusing in dynamic wireless environments."
+  },
+  {
+    "id": 43,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedBeam-PEFT Estimation",
+    "definition": "A distributed beamforming and OFDM channel estimation framework that leverages federated learning with parameter-efficient fine-tuning (PEFT) adapters to collaboratively optimize beam patterns across devices while preserving data privacy and minimizing communication overhead."
+  },
+  {
+    "id": 44,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowBeam OFDM Estimator",
+    "definition": "A novel beamforming and OFDM channel estimation technique that leverages generative ODE-based flow matching to model and predict dynamic wireless channel states, enabling adaptive and high-precision signal reconstruction in complex propagation environments."
+  },
+  {
+    "id": 45,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Adaptive Beam-OFDM Estimator",
+    "definition": "A wireless communication framework that leverages a Mixture of Experts foundation model to dynamically select specialized neural estimators for beamforming and OFDM channel estimation, optimizing performance across diverse propagation environments by adaptively combining expert outputs."
+  },
+  {
+    "id": 46,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoBeam Generative Estimator",
+    "definition": "An AI-driven self-evolving generative agent that dynamically optimizes OFDM beamforming estimation by iteratively learning and adapting channel models, enhancing wireless signal precision and robustness in real-time environments."
+  },
+  {
+    "id": 47,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow Beam-Estimation",
+    "definition": "A meta-learning powered generative flow network that adaptively optimizes OFDM channel estimation and beamforming strategies by efficiently exploring and learning from dynamic wireless environments to enhance signal quality and resource allocation."
+  },
+  {
+    "id": 48,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Aided Beam-OFDM Estimation",
+    "definition": "An advanced wireless estimation framework that leverages knowledge graph reasoning to enhance beamforming and OFDM channel estimation by dynamically integrating contextual and relational information for improved accuracy and adaptability."
+  },
+  {
+    "id": 49,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-BeamOF Estimator",
+    "definition": "A hybrid AI-driven estimation framework that leverages Kolmogorov-Arnold Networks to model and predict OFDM channel states for adaptive beamforming, enabling precise spatial filtering and enhanced multi-path resilience in wireless communication."
+  },
+  {
+    "id": 50,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledBeam Estimator",
+    "definition": "A novel approach that leverages knowledge distillation from large language models to enhance OFDM channel estimation and beamforming accuracy by intelligently predicting channel state information, reducing pilot overhead while adapting beam patterns in real-time."
+  },
+  {
+    "id": 51,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "BeamCache Fusion Estimation",
+    "definition": "A novel wireless communication framework that leverages LLM key-value cache fusion to dynamically optimize beamforming and OFDM channel estimation by recalling and adapting prior channel states, enabling faster, context-aware signal processing and improved spectral efficiency."
+  },
+  {
+    "id": 52,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "BeamformLLM Optimizer",
+    "definition": "An intelligent system where a Large Language Model agent analyzes real-time OFDM channel estimation data to dynamically optimize beamforming strategies, enhancing wireless signal quality and spectrum efficiency through contextual learning and adaptive decision-making."
+  },
+  {
+    "id": 53,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidBeam OFDM Estimator",
+    "definition": "A dynamic beamforming and OFDM channel estimation framework that leverages Liquid Neural Networks to adaptively model and predict time-varying wireless channel characteristics, enabling real-time, robust signal reconstruction and directional transmission in highly dynamic environments."
+  },
+  {
+    "id": 54,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "BeamFormOps-LLM",
+    "definition": "An AI-driven framework that leverages Llama-2 large language models to intelligently automate and optimize beamforming and OFDM channel estimation workflows through GitOps principles, enabling adaptive, real-time wireless communication configuration and deployment."
+  },
+  {
+    "id": 55,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaBeam Estimator",
+    "definition": "An advanced beamforming and OFDM channel estimation framework that leverages Mamba's selective state space modeling to dynamically adapt and optimize spatial signal processing, enhancing communication reliability and spectral efficiency in varying wireless environments."
+  },
+  {
+    "id": 56,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysBeamGen AI",
+    "definition": "PhysBeamGen AI leverages physics-informed generative models to accurately estimate and optimize OFDM beamforming parameters by embedding wireless channel physics into the AI training process, enabling robust and efficient spatial signal enhancement in dynamic environments."
+  },
+  {
+    "id": 57,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum Beam-OFDM Estimator",
+    "definition": "A hybrid system leveraging quantum machine learning algorithms to optimize beamforming and OFDM channel estimation by exploiting quantum parallelism for faster and more accurate wireless signal processing."
+  },
+  {
+    "id": 58,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Beam-OFDM Estimator",
+    "definition": "A hybrid system that leverages Retentive Networks to retain and adapt temporal channel state information for dynamic beamforming and OFDM channel estimation, enabling more accurate and context-aware wireless signal optimization over time."
+  },
+  {
+    "id": 59,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikingBeam OFDM Estimator",
+    "definition": "A novel beamforming and OFDM channel estimation framework that leverages spiking neural networks to process temporal spike patterns for ultra-low latency, energy-efficient, and adaptive wireless signal optimization."
+  },
+  {
+    "id": 60,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Enhanced Beam-OFDM Estimator",
+    "definition": "An advanced wireless channel estimation framework that integrates xLSTM networks to dynamically model and predict beamforming OFDM channel states, enabling adaptive and precise beam steering under rapidly varying conditions."
+  },
+  {
+    "id": 61,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuCSI-Net",
+    "definition": "DiffuCSI-Net is a novel framework that leverages diffusion probabilistic models with U-Net architectures to perform robust and efficient CSI feedback compression by iteratively refining channel estimations in noisy wireless environments."
+  },
+  {
+    "id": 62,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusive CSI Feedback Compression",
+    "definition": "A novel CSI feedback mechanism that leverages diffusion-based world models to generate compressed, predictive channel state representations, enabling efficient and robust channel feedback by modeling channel dynamics as a stochastic diffusion process."
+  },
+  {
+    "id": 63,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Fed-Adapted CSI Compression",
+    "definition": "A collaborative CSI feedback compression framework where lightweight adapter-tuned federated learning models optimize channel state information encoding locally across devices, enabling efficient, privacy-preserving channel compression and feedback without centralized data aggregation."
+  },
+  {
+    "id": 64,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMatch-CSI Compression",
+    "definition": "A novel CSI feedback compression framework that leverages flow matching-based generative ODE models to learn invertible, continuous transformations of channel state information for efficient and lossless feedback reconstruction."
+  },
+  {
+    "id": 65,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Adaptive CSI Compression",
+    "definition": "A channel state information (CSI) feedback framework that leverages a foundation model with a Mixture of Experts (MoE) architecture to dynamically select specialized expert networks for efficient and context-aware channel compression, optimizing feedback overhead across diverse wireless environments."
+  },
+  {
+    "id": 66,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoCSI Agent",
+    "definition": "EvoCSI Agent is a self-evolving generative AI system that continuously learns and adapts channel state information (CSI) feedback compression strategies to optimize wireless communication efficiency and accuracy in dynamic environments."
+  },
+  {
+    "id": 67,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow CSI Compression",
+    "definition": "A meta-learning driven generative flow network framework that adaptively compresses and reconstructs CSI feedback by learning diverse channel distributions, enabling efficient and robust channel state information compression across varying wireless environments."
+  },
+  {
+    "id": 68,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Driven CSI Compression",
+    "definition": "An AI-enhanced CSI feedback framework that leverages knowledge graphs to model and infer channel state relationships, enabling efficient channel compression by selectively encoding the most informative channel features guided by relational graph reasoning."
+  },
+  {
+    "id": 69,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Driven CSI Compression",
+    "definition": "A novel CSI feedback compression framework leveraging Kolmogorov-Arnold Networks to decompose and efficiently encode channel state information, enabling highly accurate channel reconstruction with reduced feedback overhead."
+  },
+  {
+    "id": 70,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Distilled CSI Feedback Transformer",
+    "definition": "An AI-driven channel state information (CSI) feedback compression framework that leverages large language model (LLM) inspired knowledge distillation to efficiently encode and transmit channel characteristics with minimal overhead while preserving critical spatial-temporal features."
+  },
+  {
+    "id": 71,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "KV-Cached CSI Compression",
+    "definition": "A novel CSI feedback technique that leverages LLM-inspired key-value cache fusion to store and compress channel state information efficiently, enabling rapid reconstruction and adaptive transmission by reusing previously cached channel patterns."
+  },
+  {
+    "id": 72,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LinguaCSI Agent",
+    "definition": "An intelligent LLM agent that dynamically compresses and reconstructs CSI feedback by understanding channel context and communication semantics, optimizing wireless channel reporting with adaptive, language-inspired encoding strategies."
+  },
+  {
+    "id": 73,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidCSI Compressor",
+    "definition": "A dynamic CSI feedback compression system that leverages Liquid Neural Networks to adaptively model and compress wireless channel state information in real-time, enhancing feedback efficiency and robustness under varying channel conditions."
+  },
+  {
+    "id": 74,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "Llama-CSI GitCompress",
+    "definition": "Llama-CSI GitCompress leverages Llama-2's large language model capabilities to automate and optimize CSI feedback channel compression workflows using GitOps principles, enabling adaptive, version-controlled AI-driven channel state reporting for enhanced wireless communication efficiency."
+  },
+  {
+    "id": 75,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaCSI Compression",
+    "definition": "MambaCSI Compression leverages the selective state space modeling of Mamba to efficiently encode and compress Channel State Information (CSI) feedback, enabling adaptive and low-latency channel representation for enhanced wireless communication performance."
+  },
+  {
+    "id": 76,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysGen CSI Compressor",
+    "definition": "A physics-informed generative AI framework that leverages wireless channel models to efficiently compress and reconstruct CSI feedback, improving accuracy and reducing overhead by integrating domain knowledge into the generative compression process."
+  },
+  {
+    "id": 77,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced CSI Compression",
+    "definition": "A novel approach leveraging quantum machine learning algorithms to optimize and compress channel state information feedback, enabling more efficient and accurate wireless channel representation with reduced overhead."
+  },
+  {
+    "id": 78,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive CSI Compression Network (RetCCNet)",
+    "definition": "RetCCNet leverages Retentive Network architectures to efficiently compress and reconstruct CSI feedback by selectively remembering and prioritizing critical channel state information over time, enabling highly accurate and low-latency channel compression in dynamic wireless environments."
+  },
+  {
+    "id": 79,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeCSI Compression",
+    "definition": "SpikeCSI Compression leverages spiking neural networks to efficiently encode and compress CSI feedback by mimicking the temporal dynamics of wireless channels, enabling low-latency and energy-efficient channel state representation for next-generation communication systems."
+  },
+  {
+    "id": 80,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-CSI Compressor",
+    "definition": "An advanced CSI feedback framework leveraging Extended LSTM architectures to dynamically model and compress channel state information, enabling efficient and adaptive channel compression with improved temporal-spatial correlation learning."
+  },
+  {
+    "id": 81,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusive U-Net Channel Estimator",
+    "definition": "A novel channel estimation framework that employs diffusion probabilistic models with U-Net architectures to iteratively refine wireless channel state information by denoising and recovering latent channel features from noisy pilot signals."
+  },
+  {
+    "id": 82,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusion-Driven Channel World Modeling",
+    "definition": "A novel channel estimation framework that leverages diffusion-based world models to simulate and predict dynamic wireless channel states, enabling more accurate and adaptive estimation by learning the underlying temporal and spatial channel distributions through generative diffusion processes."
+  },
+  {
+    "id": 83,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedAdapter Channel Estimation",
+    "definition": "A distributed channel estimation framework that leverages federated learning with parameter-efficient fine-tuning (adapter tuning) to collaboratively improve channel models across devices while preserving data privacy and minimizing communication overhead."
+  },
+  {
+    "id": 84,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMatch Channel Estimation",
+    "definition": "A generative ODE-based approach that leverages flow matching to model and predict wireless channel dynamics, enabling precise and adaptive channel estimation by learning continuous transformations of channel state distributions over time."
+  },
+  {
+    "id": 85,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Adaptive Channel Estimation",
+    "definition": "A channel estimation framework that employs a Foundation Model with a Mixture of Experts architecture to dynamically select specialized sub-models for different channel conditions, enabling highly accurate and efficient estimation across diverse wireless environments."
+  },
+  {
+    "id": 86,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoChannel Agent",
+    "definition": "An adaptive channel estimation system powered by a generative AI agent that continuously self-evolves by generating, testing, and refining channel models in real-time to optimize wireless communication performance under dynamic conditions."
+  },
+  {
+    "id": 87,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow Channel Estimation",
+    "definition": "A channel estimation framework that leverages Generative Flow Networks combined with meta-learning to efficiently generate diverse, adaptive channel state hypotheses and rapidly generalize across varying wireless environments for improved accuracy and robustness."
+  },
+  {
+    "id": 88,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Assisted Channel Estimation (GrACE)",
+    "definition": "GrACE leverages knowledge graphs to model and infer complex relationships among wireless channel parameters and environmental context, enabling more accurate and adaptive channel estimation through retrieval-augmented reasoning of prior channel states and correlated features."
+  },
+  {
+    "id": 89,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Enhanced Channel Estimation",
+    "definition": "A novel channel estimation technique that leverages the Kolmogorov-Arnold Network's universal function approximation to model and predict complex wireless channel states with high accuracy and low computational overhead."
+  },
+  {
+    "id": 90,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Distilled Channel Intelligence",
+    "definition": "A technique that leverages knowledge distillation from large language models to create lightweight, adaptive channel estimation models, enabling efficient and accurate wireless channel characterization with reduced computational overhead."
+  },
+  {
+    "id": 91,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "KV-Cache Enhanced Channel Estimation",
+    "definition": "A novel channel estimation technique that leverages LLM-style key-value cache fusion to dynamically store and retrieve historical channel state information, enabling rapid and context-aware estimation in time-varying wireless environments."
+  },
+  {
+    "id": 92,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LLM-Driven Adaptive Channel Estimation Agent",
+    "definition": "An intelligent agent leveraging a large language model to dynamically interpret and optimize channel estimation processes by understanding contextual communication scenarios and guiding adaptive signal processing strategies in real time."
+  },
+  {
+    "id": 93,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "Liquid ChannelNet",
+    "definition": "Liquid ChannelNet is a dynamic channel estimation framework that leverages liquid neural networks' continuous-time adaptability to model and predict rapidly varying wireless channel states in real time, enhancing estimation accuracy under complex and non-stationary environments."
+  },
+  {
+    "id": 94,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "Llama-2Driven ChannelOps",
+    "definition": "An AI-powered channel estimation framework that leverages Llama-2 large language models to dynamically generate, optimize, and manage channel estimation pipelines in a GitOps manner, enabling continuous learning and adaptation for robust wireless communication."
+  },
+  {
+    "id": 95,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "Mamba-Driven Adaptive Channel Estimation",
+    "definition": "A channel estimation framework that leverages the Mamba selective state space model to dynamically and selectively track wireless channel variations, enhancing estimation accuracy and robustness in time-varying environments."
+  },
+  {
+    "id": 96,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysGen Channel Estimator",
+    "definition": "A channel estimation framework that leverages physics-informed generative AI models to accurately predict and reconstruct wireless channel states by embedding physical propagation laws into the generative process, enhancing estimation robustness and reducing pilot overhead."
+  },
+  {
+    "id": 97,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced Channel Estimation",
+    "definition": "A technique leveraging quantum machine learning algorithms to perform ultra-precise and real-time channel estimation in wireless communication systems, exploiting quantum data encoding and processing to improve estimation accuracy and speed beyond classical limits."
+  },
+  {
+    "id": 98,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive ChannelNet",
+    "definition": "Retentive ChannelNet is an AI-driven channel estimation framework that leverages Retentive Networks to efficiently capture and remember temporal dependencies in wireless channels, enabling more accurate and adaptive channel state information predictions over time."
+  },
+  {
+    "id": 99,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeChannelNet",
+    "definition": "SpikeChannelNet leverages spiking neural networks to perform real-time, energy-efficient channel estimation by mimicking biological neural spiking dynamics to adaptively track wireless channel variations with high temporal precision."
+  },
+  {
+    "id": 100,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Enhanced Channel Estimator",
+    "definition": "An advanced channel estimation technique that leverages Extended LSTM (xLSTM) networks to model and predict complex wireless channel variations over time, improving estimation accuracy and robustness in dynamic communication environments."
+  },
+  {
+    "id": 101,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusive U-Net Channel Sensing",
+    "definition": "A pilot-free channel estimation framework that employs a U-Net architecture trained via diffusion probabilistic models to iteratively denoise and reconstruct wireless channel states from raw received signals, enabling accurate sensing without dedicated pilot signals."
+  },
+  {
+    "id": 102,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusive Channel World Modeling",
+    "definition": "A pilot-free wireless channel estimation framework that leverages diffusion-based world models to iteratively reconstruct and predict dynamic channel states, enabling real-time sensing and adaptation without explicit pilot signals."
+  },
+  {
+    "id": 103,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Pilot-Free Channel Adapters (FPFCA)",
+    "definition": "FPFCA leverages federated learning with parameter-efficient fine-tuning adapters to collaboratively improve pilot-free channel estimation models across distributed wireless devices, enabling accurate sensing without explicit pilots while preserving data privacy and reducing communication overhead."
+  },
+  {
+    "id": 104,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMatch Channel Sensing",
+    "definition": "A pilot-free wireless channel estimation approach that leverages flow matching generative ODE models to reconstruct channel state information by learning continuous transformations of received signal distributions without explicit training pilots."
+  },
+  {
+    "id": 105,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Pilotless Channel Foundation",
+    "definition": "A foundation model architecture leveraging a Mixture of Experts (MoE) to perform adaptive, pilot-free channel estimation by dynamically selecting specialized expert subnetworks that infer channel state information directly from raw wireless signals, eliminating traditional pilot overhead."
+  },
+  {
+    "id": 106,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSense Generative Channel Intelligence",
+    "definition": "An adaptive AI-driven channel estimation framework where generative agents autonomously evolve sensing models to perform pilot-free channel estimation, continuously improving accuracy by self-learning from environmental feedback without explicit training signals."
+  },
+  {
+    "id": 107,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow Pilot-Free Channel Sensing",
+    "definition": "A meta-learning driven generative flow network framework that adaptively models and estimates wireless channel states without pilots by learning efficient sensing policies, enabling robust and fast pilot-free channel estimation in dynamic environments."
+  },
+  {
+    "id": 108,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Aided Pilot-Free Channel Cognition",
+    "definition": "An innovative wireless sensing approach that leverages knowledge graphs to infer and estimate channel states without traditional pilot signals, using relational AI-driven context to enhance channel awareness and adaptivity."
+  },
+  {
+    "id": 109,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Driven Pilot-Free Channel Estimation",
+    "definition": "A novel channel estimation approach leveraging Kolmogorov-Arnold Networks to model complex wireless channel mappings without pilot signals, enabling accurate and efficient pilot-free sensing through decomposed nonlinear function approximation."
+  },
+  {
+    "id": 110,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledPilot-FreeNet",
+    "definition": "A wireless sensing framework that leverages knowledge distillation from large language models to enable accurate channel estimation without explicit pilot signals, by inferring channel states through learned environmental and signal context representations."
+  },
+  {
+    "id": 111,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "KV-Cache Assisted Pilot-Free Channel Sensing",
+    "definition": "An innovative wireless communication method that leverages LLM key-value cache fusion to dynamically infer and estimate channel states without explicit pilot signals, enabling real-time, context-aware channel estimation through AI-driven memory retrieval and fusion of historical channel patterns."
+  },
+  {
+    "id": 112,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LLM-Driven Pilotless Channel Cognition",
+    "definition": "An intelligent wireless communication framework where a Large Language Model agent interprets raw signal characteristics to perform accurate channel estimation without dedicated pilots, enabling adaptive and context-aware sensing for enhanced spectral efficiency."
+  },
+  {
+    "id": 113,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidPilot Estimation",
+    "definition": "A dynamic channel estimation framework that leverages Liquid Neural Networks to perform adaptive, pilot-free sensing by continuously learning and evolving with the wireless environment's temporal variations for real-time, robust signal reconstruction."
+  },
+  {
+    "id": 114,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaChannelOps",
+    "definition": "LlamaChannelOps leverages Llama-2's large language model capabilities to autonomously manage and optimize pilot-free channel estimation through GitOps-driven intelligent workflows, enabling adaptive wireless sensing without explicit pilot signals."
+  },
+  {
+    "id": 115,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaSense Estimator",
+    "definition": "MambaSense Estimator leverages the selective state-space modeling capabilities of Mamba to perform pilot-free channel estimation by dynamically identifying channel states from ambient signals, enabling efficient and accurate wireless sensing without dedicated pilot transmissions."
+  },
+  {
+    "id": 116,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysGen Pilot-Free Channel Estimation",
+    "definition": "A physics-informed generative AI framework that leverages underlying wireless channel models to perform accurate pilot-free channel estimation and sensing by synthesizing realistic channel state information from raw signal observations without explicit training pilots."
+  },
+  {
+    "id": 117,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "QuantumPilotNet",
+    "definition": "QuantumPilotNet leverages quantum machine learning algorithms to perform pilot-free channel estimation by exploiting quantum-enhanced pattern recognition on wireless signal environments, enabling ultra-accurate and efficient sensing without traditional pilot signals."
+  },
+  {
+    "id": 118,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Pilot-Free ChannelNet",
+    "definition": "A retentive neural network architecture that leverages long-range temporal dependencies to perform accurate channel estimation and pilot-free sensing by continuously learning and recalling channel state information without explicit pilot signals."
+  },
+  {
+    "id": 119,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSense Channel Estimation",
+    "definition": "A pilot-free channel estimation framework that leverages spiking neural networks to process temporal wireless signal dynamics, enabling real-time adaptive sensing and accurate channel state inference from raw signal fluctuations without explicit training pilots."
+  },
+  {
+    "id": 120,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-PilotNet",
+    "definition": "xLSTM-PilotNet leverages extended LSTM architectures to perform pilot-free channel estimation by learning temporal and spatial wireless channel dynamics directly from raw signal observations, enabling accurate real-time sensing without dedicated pilot signals."
+  },
+  {
+    "id": 121,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffusionMIMO Predictor",
+    "definition": "A channel prediction framework for MIMO systems that leverages diffusion probabilistic models with U-Net architectures to iteratively refine and denoise channel state estimates, enabling highly accurate and robust prediction under dynamic wireless environments."
+  },
+  {
+    "id": 122,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusive MIMO ChannelForesight",
+    "definition": "A diffusion-based world model framework that generates high-fidelity, probabilistic future channel state representations to enhance MIMO system performance by accurately predicting complex wireless channel dynamics over time."
+  },
+  {
+    "id": 123,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedMIMO-Adapter Channel Prediction",
+    "definition": "A distributed MIMO channel prediction framework leveraging federated learning with parameter-efficient fine-tuning (PEFT) adapters to collaboratively and efficiently adapt channel models across devices while preserving data privacy and minimizing communication overhead."
+  },
+  {
+    "id": 124,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMIMO Predictor",
+    "definition": "A generative ODE-based flow matching framework that models and predicts time-varying MIMO wireless channels by learning continuous latent dynamics, enabling accurate and adaptive channel state forecasts for enhanced multi-antenna communication performance."
+  },
+  {
+    "id": 125,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven MIMO Channel Oracle",
+    "definition": "A scalable Mixture of Experts foundation model that dynamically selects specialized subnetworks to predict massive MIMO channel states with high precision, enabling adaptive beamforming and resource allocation in complex wireless environments."
+  },
+  {
+    "id": 126,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoMIMO Predictor",
+    "definition": "An adaptive MIMO channel prediction system powered by generative agents that self-evolve by continuously learning from real-time channel feedback, enabling dynamic optimization of antenna configurations and transmission strategies for enhanced wireless performance."
+  },
+  {
+    "id": 127,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow MIMO Predictor",
+    "definition": "A novel MIMO channel prediction framework that leverages meta-learning to rapidly adapt generative flow networks for modeling complex channel dynamics, enabling efficient and accurate real-time channel state forecasting across diverse wireless environments."
+  },
+  {
+    "id": 128,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Driven MIMO Channel Predictor",
+    "definition": "An advanced MIMO channel prediction framework that leverages knowledge graphs to represent and infer complex relationships between channel states, environmental factors, and user behaviors, enabling more accurate and context-aware channel estimation through retrieval-augmented reasoning."
+  },
+  {
+    "id": 129,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-MIMO Channel Predictor",
+    "definition": "An advanced channel prediction framework that leverages the Kolmogorov-Arnold Network’s decompositional learning to model and forecast complex MIMO wireless channel states, enabling highly accurate and computationally efficient multi-antenna communication optimization."
+  },
+  {
+    "id": 130,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledMIMO Predictor",
+    "definition": "A communication system that leverages large language model-based knowledge distillation to compress and transfer complex MIMO channel prediction models into lightweight, real-time predictors, enabling efficient and accurate channel state forecasting with reduced computational overhead."
+  },
+  {
+    "id": 131,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "KVCache-Enhanced MIMO Channel Predictor",
+    "definition": "A novel MIMO channel prediction framework that leverages LLM-inspired key-value cache fusion to dynamically store and retrieve spatiotemporal channel state patterns, enabling efficient and accurate real-time channel estimation and adaptation."
+  },
+  {
+    "id": 132,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "MIMO-LLM Channel Oracle",
+    "definition": "An intelligent MIMO channel prediction system powered by a Large Language Model agent that interprets complex wireless environments and dynamically generates optimized transmission strategies by reasoning over spatial-temporal channel data and contextual network states."
+  },
+  {
+    "id": 133,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidMIMO Predictor",
+    "definition": "A dynamic MIMO channel prediction framework that leverages Liquid Neural Networks to continuously adapt and learn time-varying wireless channel states, enabling real-time, robust beamforming and resource allocation in complex environments."
+  },
+  {
+    "id": 134,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaMIMO Predictor",
+    "definition": "An AI-driven MIMO channel prediction system leveraging Llama-2 large language models to analyze and forecast complex wireless channel states in real-time, enabling adaptive beamforming and improved spectral efficiency through natural language-informed model updates and configuration automation."
+  },
+  {
+    "id": 135,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaMIMO Predictor",
+    "definition": "A selective state space modeling framework that leverages Mamba's adaptive filtering principles to enhance channel prediction accuracy in MIMO systems by dynamically selecting the most relevant channel states for reliable transmission."
+  },
+  {
+    "id": 136,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysGen MIMO Predictor",
+    "definition": "A physics-informed generative AI model that leverages fundamental wireless channel dynamics to produce highly accurate and robust MIMO channel predictions, enhancing adaptive communication strategies by integrating domain knowledge with data-driven synthesis."
+  },
+  {
+    "id": 137,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced MIMO Channel Predictor",
+    "definition": "A novel approach that leverages quantum machine learning algorithms to analyze and predict complex MIMO wireless channel states, enabling ultra-fast and highly accurate real-time channel estimation for improved communication reliability and throughput."
+  },
+  {
+    "id": 138,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive MIMO ChannelNet",
+    "definition": "A deep learning framework that leverages Retentive Networks to model and predict MIMO wireless channel states over time, enabling adaptive beamforming and resource allocation by capturing long-term temporal dependencies in channel variations."
+  },
+  {
+    "id": 139,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeMIMO Predictor",
+    "definition": "SpikeMIMO Predictor leverages spiking neural networks to model and predict complex MIMO wireless channel dynamics in real-time by mimicking neuron-like event-driven processing, enabling ultra-low-latency and energy-efficient channel estimation and adaptation."
+  },
+  {
+    "id": 140,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-MIMO Predictor",
+    "definition": "An advanced channel prediction framework that employs Extended LSTM networks to model and forecast complex MIMO channel dynamics, enabling more accurate and adaptive beamforming and resource allocation in wireless systems."
+  },
+  {
+    "id": 141,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusion-Enhanced Distributed Wireless Learning",
+    "definition": "A framework that leverages diffusion probabilistic models with U-Net architectures to iteratively refine and generate robust model updates across distributed wireless nodes, enabling efficient and privacy-preserving collaborative learning in dynamic wireless environments."
+  },
+  {
+    "id": 142,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusion-Driven Distributed Wireless Learning",
+    "definition": "A collaborative wireless learning framework where distributed devices utilize diffusion-based world models to iteratively propagate and refine environmental understanding, enabling robust decentralized AI training and decision-making over dynamic wireless networks."
+  },
+  {
+    "id": 143,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Distributed Adapter Learning (FDAL)",
+    "definition": "FDAL is a wireless communication framework that enables distributed devices to collaboratively train AI models using federated learning enhanced with parameter-efficient fine-tuning (adapter tuning), minimizing data exchange and communication overhead while preserving model personalization and privacy."
+  },
+  {
+    "id": 144,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowDistributed Learning",
+    "definition": "A framework that leverages flow matching with generative ODEs to synchronize and optimize distributed wireless learning models by continuously matching data distribution flows across decentralized nodes for efficient and scalable model convergence."
+  },
+  {
+    "id": 145,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "Federated Mixture of Experts Networks (FMoE-Net)",
+    "definition": "A distributed wireless learning framework where multiple edge devices collaboratively train and dynamically select specialized expert models from a foundation model ensemble, optimizing communication efficiency and personalized AI inference across the network."
+  },
+  {
+    "id": 146,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoNet Generative Learning",
+    "definition": "A distributed wireless learning framework where generative AI agents autonomously evolve by collaboratively training and adapting models across decentralized wireless nodes, enhancing learning efficiency and robustness through continuous self-improvement and network-aware knowledge sharing."
+  },
+  {
+    "id": 147,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaGFlow Distributed Learning",
+    "definition": "A distributed wireless learning framework that leverages Generative Flow Networks for meta-learning, enabling decentralized agents to collaboratively generate diverse and efficient learning trajectories over wireless networks for rapid adaptation and robust model generalization."
+  },
+  {
+    "id": 148,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Driven Distributed Wireless Learning (GD-DWL)",
+    "definition": "GD-DWL is a distributed wireless learning framework that leverages knowledge graphs to dynamically structure and retrieve contextual information across decentralized nodes, enabling more efficient and semantically enriched model training via retrieval-augmented generation (RAG) techniques over wireless networks."
+  },
+  {
+    "id": 149,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Driven Distributed Wireless Learning",
+    "definition": "A decentralized wireless learning framework that leverages Kolmogorov-Arnold Networks to efficiently model and aggregate complex non-linear relationships across distributed edge devices, enabling scalable and interpretable AI model training over wireless networks."
+  },
+  {
+    "id": 150,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Distilled Distributed Language Learning",
+    "definition": "A framework where large language models are collaboratively trained and refined across distributed wireless devices using knowledge distillation techniques to efficiently share and compress learned representations while minimizing communication overhead."
+  },
+  {
+    "id": 151,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Distributed KV-Cache Learning Mesh",
+    "definition": "A wireless network architecture where edge devices collaboratively share and fuse LLM key-value cache segments over distributed wireless links, enabling real-time, bandwidth-efficient collective language model adaptation and inference across the network."
+  },
+  {
+    "id": 152,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "Distributed LLM-Agent Wireless Learning Network",
+    "definition": "A decentralized wireless communication framework where multiple Large Language Model (LLM) agents collaboratively learn and adapt by exchanging contextual insights and model updates over distributed wireless nodes, enhancing real-time AI-driven decision making and network optimization."
+  },
+  {
+    "id": 153,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "Liquid Distributed Neural Learning (LDNL)",
+    "definition": "LDNL is a decentralized wireless learning framework that leverages the adaptive and continuous-time dynamics of Liquid Neural Networks to enable robust, real-time model training and inference across distributed edge devices with fluctuating connectivity."
+  },
+  {
+    "id": 154,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaOps for Distributed Wireless Learning",
+    "definition": "An AI-driven framework that leverages Llama-2 large language models integrated with GitOps principles to orchestrate, automate, and optimize distributed wireless learning systems, enabling seamless model updates and adaptive communication protocol tuning across decentralized edge devices."
+  },
+  {
+    "id": 155,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "Mamba-Driven Distributed Wireless Learning",
+    "definition": "A distributed wireless learning framework that leverages the Mamba selective state space model to dynamically optimize local learning states and communication efficiency, enabling adaptive and robust collaborative AI training across wireless networks."
+  },
+  {
+    "id": 156,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiLearn Mesh AI",
+    "definition": "PhysiLearn Mesh AI is a distributed wireless learning framework that leverages physics-informed generative AI models to collaboratively train and optimize wireless networks by embedding domain-specific physical laws into decentralized data-driven learning processes."
+  },
+  {
+    "id": 157,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum Federated Wireless Learning",
+    "definition": "A decentralized wireless learning framework that leverages quantum machine learning algorithms at edge devices to enhance model training efficiency and privacy, enabling faster convergence and superior performance in distributed networks through quantum-enhanced data processing and communication."
+  },
+  {
+    "id": 158,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Distributed Wireless Learning (RetDWL)",
+    "definition": "Retentive Distributed Wireless Learning (RetDWL) is an innovative framework that integrates RetNet's memory-efficient recurrent structures into distributed wireless learning systems, enabling edge devices to collaboratively train AI models while retaining temporal context and minimizing communication overhead."
+  },
+  {
+    "id": 159,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "Spiking Federated Wireless Learning",
+    "definition": "A distributed wireless learning framework that leverages spiking neural networks to enable energy-efficient, event-driven local model training and asynchronous spike-based communication for collaborative AI model aggregation across edge devices."
+  },
+  {
+    "id": 160,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Driven Distributed Wireless Learning",
+    "definition": "A novel framework that leverages Extended LSTM architectures to efficiently model and predict temporal dynamics across distributed wireless nodes, enabling collaborative learning and adaptive optimization in decentralized wireless networks."
+  },
+  {
+    "id": 161,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuLoc U-Net",
+    "definition": "DiffuLoc U-Net is an AI-augmented indoor localization system that leverages diffusion probabilistic models combined with U-Net architectures to enhance Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) data fusion, enabling highly accurate and robust position estimation in complex indoor environments."
+  },
+  {
+    "id": 162,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusive UWB-VIO Spatial Synthesizer",
+    "definition": "A hybrid indoor localization system that fuses Ultra-Wideband and Visual-Inertial Odometry data through a diffusion-based world model, enabling dynamic and probabilistic 3D spatial understanding for enhanced real-time positioning and environment mapping."
+  },
+  {
+    "id": 163,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedUWB-VIO AdaptNet",
+    "definition": "A privacy-preserving indoor localization framework that combines Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) sensor data with federated learning enhanced by Parameter-Efficient Fine-Tuning (PEFT) to collaboratively adapt localization models across distributed devices without sharing raw data."
+  },
+  {
+    "id": 164,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowLocODE",
+    "definition": "FlowLocODE leverages Flow Matching-based Generative ODE models to enhance Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) indoor localization by continuously modeling and predicting user trajectories in complex environments with high temporal and spatial accuracy."
+  },
+  {
+    "id": 165,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Enhanced UWB-VIO Localization",
+    "definition": "A hybrid indoor localization system that leverages a Mixture of Experts foundation model to dynamically fuse Ultra-Wideband (UWB) signals and Visual-Inertial Odometry (VIO) data, enabling highly accurate and robust real-time positioning in complex indoor environments."
+  },
+  {
+    "id": 166,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoLocate Agent",
+    "definition": "An intelligent generative agent that leverages Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) data to self-evolve its indoor localization models in real-time, continuously optimizing positioning accuracy and contextual awareness without human intervention."
+  },
+  {
+    "id": 167,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlowLoc",
+    "definition": "MetaFlowLoc combines Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) for precise indoor localization, using meta-learned Generative Flow Networks (GFlowNets) to efficiently explore and adapt probabilistic pose hypotheses in dynamic environments."
+  },
+  {
+    "id": 168,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "LocaKG-VIO",
+    "definition": "A hybrid indoor localization system that fuses Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) data with a dynamic Knowledge Graph (KG) to enhance positioning accuracy and context-aware navigation through Retrieval-Augmented Generation (RAG) for real-time environment understanding."
+  },
+  {
+    "id": 169,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Enhanced UWB-VIO Localization",
+    "definition": "A hybrid indoor localization system that leverages Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) data fused through a Kolmogorov-Arnold Network (KAN) to model and predict precise spatial positions with improved accuracy and robustness in complex indoor environments."
+  },
+  {
+    "id": 170,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledLoc-LLM",
+    "definition": "DistilledLoc-LLM leverages knowledge distillation to train lightweight large language models that interpret and fuse UWB and VIO sensor data for highly accurate and real-time indoor localization, enabling scalable deployment on edge devices."
+  },
+  {
+    "id": 171,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "CacheFusion LocAIze",
+    "definition": "CacheFusion LocAIze integrates UWB and VIO-based indoor localization data with LLM key-value cache fusion to dynamically refine and predict precise user positioning and contextual navigation insights by leveraging real-time sensor inputs and historical location patterns stored in the LLM cache."
+  },
+  {
+    "id": 172,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "UbiquiSense LLM Navigator",
+    "definition": "An intelligent indoor localization system that fuses UWB and Visual-Inertial Odometry data with a Large Language Model agent to interpret spatial contexts, provide real-time navigation guidance, and dynamically answer user queries about their environment through natural language interaction."
+  },
+  {
+    "id": 173,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidLocNet",
+    "definition": "LiquidLocNet is an adaptive indoor localization system that fuses UWB and VIO sensor data using a Liquid Neural Network to dynamically model and predict spatial positions in complex environments with real-time learning and robustness to sensor noise."
+  },
+  {
+    "id": 174,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaLocOps",
+    "definition": "LlamaLocOps integrates UWB and VIO-based indoor localization with Llama-2 powered GitOps automation to dynamically optimize and manage indoor positioning systems through intelligent, real-time configuration and deployment updates."
+  },
+  {
+    "id": 175,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaLoc Fusion",
+    "definition": "MambaLoc Fusion integrates Ultra-Wideband (UWB) based Indoor Localization and Visual-Inertial Odometry (VIO) with the Mamba selective state space model to dynamically optimize and selectively fuse multi-sensor data, enhancing real-time positioning accuracy and robustness in complex indoor environments."
+  },
+  {
+    "id": 176,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiGen UWB-VIO Localization",
+    "definition": "A physics-informed generative AI framework that fuses Ultra-Wideband (UWB) signals and Visual-Inertial Odometry (VIO) data to produce highly accurate and robust indoor localization by embedding physical motion and signal propagation models into the generative process."
+  },
+  {
+    "id": 177,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced UWB-VIO Localization",
+    "definition": "A hybrid indoor localization system that integrates Ultra-Wideband (UWB) and Visual-Inertial Odometry (VIO) data processed through Quantum Machine Learning algorithms to achieve unprecedented accuracy and real-time adaptive positioning in complex environments."
+  },
+  {
+    "id": 178,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive UWB-VIO FusionNet",
+    "definition": "A hybrid indoor localization system that leverages Ultraband Wideband (UWB) and Visual-Inertial Odometry (VIO) data streams processed through a Retentive Network (RetNet) to retain long-term spatiotemporal context, enabling highly accurate and stable position tracking in complex indoor environments."
+  },
+  {
+    "id": 179,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikingLoc: Neuromorphic UWB-VIO Indoor Positioning",
+    "definition": "SpikingLoc is an indoor localization system that leverages Spiking Neural Networks to efficiently fuse Ultra-Wideband ranging and Visual-Inertial Odometry data, enabling low-latency, energy-efficient, and highly accurate position tracking in complex indoor environments."
+  },
+  {
+    "id": 180,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Enhanced UWB-VIO Fusion Localization",
+    "definition": "A hybrid indoor localization system that leverages Extended LSTM (xLSTM) to intelligently fuse Ultra-Wideband (UWB) ranging data with Visual-Inertial Odometry (VIO), enhancing positioning accuracy and robustness in complex indoor environments."
+  },
+  {
+    "id": 181,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuMAC Signaling",
+    "definition": "DiffuMAC Signaling leverages diffusion probabilistic models with U-Net architectures to iteratively generate and optimize MAC protocol signaling patterns, enabling adaptive and noise-resilient medium access control decisions in dynamic wireless environments."
+  },
+  {
+    "id": 182,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusiveMAC Signaling",
+    "definition": "A MAC protocol design that leverages diffusion-based world models to predict and adapt signaling strategies dynamically, enabling more efficient medium access by simulating network state evolutions and optimizing contention resolution in real-time."
+  },
+  {
+    "id": 183,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedMAC-Adapter Signaling",
+    "definition": "A MAC protocol design that integrates federated learning with parameter-efficient fine-tuning by embedding lightweight adapter tuning updates within signaling messages, enabling decentralized and efficient on-device model personalization without compromising communication overhead."
+  },
+  {
+    "id": 184,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMatch-MAC Signaling",
+    "definition": "A MAC protocol design framework that leverages generative ODE-based flow matching to dynamically optimize signaling sequences, enabling adaptive and efficient medium access control by learning optimal transmission schedules in real-time."
+  },
+  {
+    "id": 185,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Adaptive MAC Signaling",
+    "definition": "A MAC protocol design that leverages a Mixture of Experts foundation model to dynamically select and optimize signaling strategies based on real-time network conditions, enabling context-aware and efficient communication management."
+  },
+  {
+    "id": 186,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoMAC Agent",
+    "definition": "An adaptive MAC protocol empowered by a generative AI agent that continuously self-evolves its signaling strategies in real-time, optimizing network access and resource allocation based on dynamic environmental feedback."
+  },
+  {
+    "id": 187,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlowMAC",
+    "definition": "MetaFlowMAC is a MAC protocol design framework that leverages meta-learning to adaptively optimize signaling strategies and resource allocation, while employing Generative Flow Networks to efficiently explore and generate optimal protocol configurations under dynamic wireless environments."
+  },
+  {
+    "id": 188,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Knowledge-Driven MAC Signaling (KD-MAC)",
+    "definition": "KD-MAC leverages a dynamically updated knowledge graph to optimize MAC protocol signaling by intelligently predicting network states and device behaviors, enabling adaptive, context-aware access control and resource allocation in wireless communication."
+  },
+  {
+    "id": 189,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KANO-MAC Adaptive Signaling",
+    "definition": "A MAC protocol design that leverages Kolmogorov-Arnold Networks to model and predict complex network traffic patterns, enabling dynamic and optimized signaling strategies for efficient medium access control in wireless systems."
+  },
+  {
+    "id": 190,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledMAC Signaling",
+    "definition": "DistilledMAC Signaling leverages knowledge distillation from large language models to optimize MAC protocol signaling by enabling lightweight, context-aware decision-making for efficient medium access and reduced overhead in wireless networks."
+  },
+  {
+    "id": 191,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Cache-Aware MAC Signaling",
+    "definition": "A MAC protocol design that leverages LLM key-value cache fusion to dynamically optimize signaling by predicting and reusing communication context, reducing overhead and latency in wireless networks."
+  },
+  {
+    "id": 192,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LLM-Driven Adaptive MAC Agent",
+    "definition": "An intelligent MAC protocol agent powered by a large language model that dynamically interprets network signaling and context to optimize medium access decisions and enhance communication efficiency in real-time."
+  },
+  {
+    "id": 193,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidMAC Signaling",
+    "definition": "A dynamic MAC protocol design that leverages Liquid Neural Networks to continuously adapt signaling strategies in real-time, optimizing medium access control under varying wireless channel conditions and network traffic patterns."
+  },
+  {
+    "id": 194,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaMACOps",
+    "definition": "An intelligent MAC protocol design framework that leverages Llama-2 powered large language models to automate and optimize signaling strategies through GitOps-driven continuous integration and deployment pipelines for adaptive wireless networks."
+  },
+  {
+    "id": 195,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaMAC Adaptive Signaling",
+    "definition": "An AI-driven MAC protocol design that leverages the Mamba selective state space model to dynamically predict and optimize signaling patterns, enabling efficient medium access control by selectively adapting to network state variations in real-time."
+  },
+  {
+    "id": 196,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiMACGen",
+    "definition": "PhysiMACGen is a physics-informed generative AI framework that designs adaptive MAC protocols by embedding wireless channel physics and signaling constraints into the generative model, enabling efficient and robust medium access strategies tailored to dynamic environments."
+  },
+  {
+    "id": 197,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced MAC Signaling",
+    "definition": "A MAC protocol design that leverages quantum machine learning algorithms to optimize signaling decisions and resource allocation in wireless networks, enabling ultra-fast, adaptive, and collision-free communication scheduling."
+  },
+  {
+    "id": 198,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "RetentiveMAC",
+    "definition": "RetentiveMAC is a MAC protocol design that leverages RetNet's retentive memory capabilities to adaptively optimize signaling and access decisions by retaining and recalling historical network states for improved efficiency and reduced collisions."
+  },
+  {
+    "id": 199,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeMAC",
+    "definition": "SpikeMAC is a novel MAC protocol design that leverages spiking neural networks to enable event-driven, adaptive signaling and resource allocation in wireless networks, mimicking biological neural timing to optimize communication efficiency and latency."
+  },
+  {
+    "id": 200,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-MAC Adaptive Signaling",
+    "definition": "An intelligent MAC protocol design that leverages Extended LSTM networks to predict and adapt signaling patterns dynamically, optimizing channel access and reducing collisions in real-time wireless communications."
+  },
+  {
+    "id": 201,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuNet Protocol Orchestrator",
+    "definition": "A network automation framework that employs diffusion probabilistic models combined with U-Net architectures to iteratively generate and optimize communication protocols, enabling adaptive and self-evolving network management with enhanced robustness and efficiency."
+  },
+  {
+    "id": 202,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusiveNet Orchestrator",
+    "definition": "An intelligent network automation framework that leverages diffusion-based world models to simulate and predict network protocol dynamics, enabling proactive and adaptive protocol management for optimized communication performance."
+  },
+  {
+    "id": 203,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Protocol Adaptation Automation (FPAA)",
+    "definition": "FPAA is an intelligent network automation framework that leverages federated learning combined with parameter-efficient fine-tuning (PEFT) to collaboratively optimize and adapt communication protocols across distributed network nodes without sharing raw data, enabling real-time, privacy-preserving protocol management and evolution."
+  },
+  {
+    "id": 204,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMatchNet Automation",
+    "definition": "An AI-driven network automation framework that leverages generative ODE-based flow matching to dynamically model, predict, and optimize communication protocol states and transitions in real-time, enabling seamless and adaptive protocol management."
+  },
+  {
+    "id": 205,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Adaptive Network Orchestrator",
+    "definition": "An intelligent network automation framework that leverages a Mixture of Experts foundation model to dynamically select and apply protocol management strategies, optimizing communication processes in real-time based on contextual network conditions."
+  },
+  {
+    "id": 206,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoNet Protocol Agent",
+    "definition": "An autonomous generative agent that continuously evolves and optimizes network automation protocols by learning from real-time network data and adapting communication strategies without human intervention."
+  },
+  {
+    "id": 207,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow Protocol Automation",
+    "definition": "An adaptive network automation framework that leverages meta-learning and Generative Flow Networks to dynamically generate and optimize protocol management strategies, enabling efficient and self-evolving communication workflows in complex wireless environments."
+  },
+  {
+    "id": 208,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Knowledge-Driven Network Automation (KDNA)",
+    "definition": "KDNA leverages knowledge graphs integrated with Retrieval-Augmented Generation (RAG) to dynamically model, reason, and automate network protocol management, enabling intelligent, context-aware decision-making and rapid adaptation in complex network environments."
+  },
+  {
+    "id": 209,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Driven Protocol Automata",
+    "definition": "An intelligent network automation framework that leverages Kolmogorov-Arnold Networks to model, predict, and optimize protocol behaviors dynamically, enabling self-adaptive and efficient protocol management in complex communication systems."
+  },
+  {
+    "id": 210,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "ProtocolGPT Automation",
+    "definition": "An intelligent network automation framework that leverages large language models distilled into compact agents to understand, optimize, and manage communication protocols dynamically, enabling adaptive and self-learning network operations."
+  },
+  {
+    "id": 211,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "CacheSync Protocol Automation",
+    "definition": "An intelligent network automation framework that leverages LLM key-value cache fusion to dynamically manage and optimize protocol states, enabling real-time adaptive control and seamless synchronization across distributed network elements."
+  },
+  {
+    "id": 212,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "ProtocolGPT Automator",
+    "definition": "An intelligent agent powered by large language models that autonomously understands, manages, and optimizes network protocols by interpreting network states and generating adaptive automation scripts in real-time."
+  },
+  {
+    "id": 213,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidNet Automation",
+    "definition": "An adaptive network automation framework that leverages Liquid Neural Networks to continuously learn and dynamically optimize protocol management in real-time, enabling resilient and efficient communication across complex network environments."
+  },
+  {
+    "id": 214,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaOps Network Automator",
+    "definition": "An intelligent network automation framework that leverages Llama-2 large language models to interpret, generate, and manage protocol configurations using GitOps principles, enabling autonomous, version-controlled, and adaptive network protocol management."
+  },
+  {
+    "id": 215,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaFlow Automation",
+    "definition": "MambaFlow Automation leverages the selective state space modeling of Mamba to dynamically optimize and manage network protocol behaviors, enabling intelligent, adaptive network automation that anticipates and responds to complex protocol state changes in real time."
+  },
+  {
+    "id": 216,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiNet AutoGen",
+    "definition": "PhysiNet AutoGen is an AI-driven network automation framework that leverages physics-informed generative models to dynamically design and optimize communication protocols, ensuring robust and efficient network performance grounded in real-world physical constraints."
+  },
+  {
+    "id": 217,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum Protocol Automata",
+    "definition": "A cutting-edge framework that leverages quantum machine learning algorithms to dynamically optimize and automate network protocol management, enabling ultra-efficient, adaptive, and secure communication networks."
+  },
+  {
+    "id": 218,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "RetNet AutoProtocol",
+    "definition": "RetNet AutoProtocol leverages retentive neural network architectures to continuously learn and optimize network automation and protocol management, enabling adaptive, memory-informed decision-making for dynamic wireless environments."
+  },
+  {
+    "id": 219,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeAutoNet",
+    "definition": "SpikeAutoNet leverages spiking neural networks to dynamically learn and optimize network automation and protocol management decisions in real-time, enabling ultra-efficient, adaptive communication systems that mimic biological neural processing for enhanced responsiveness and energy efficiency."
+  },
+  {
+    "id": 220,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Driven Network Protocol Orchestrator",
+    "definition": "An advanced network automation framework that leverages Extended LSTM architectures to dynamically learn, predict, and manage complex protocol behaviors for real-time adaptive network configuration and optimization."
+  },
+  {
+    "id": 221,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuNetSim Optimizer",
+    "definition": "A network simulation and optimization framework that leverages diffusion probabilistic models guided by U-Net architectures to iteratively generate and refine realistic wireless network scenarios, enabling efficient and adaptive optimization of network parameters under diverse conditions."
+  },
+  {
+    "id": 222,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusionNet Optimizer",
+    "definition": "A diffusion-based world model that generates high-fidelity synthetic network environments to simulate and optimize wireless communication systems dynamically, enabling adaptive and robust network planning through learned probabilistic scenario generation."
+  },
+  {
+    "id": 223,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FederatedSimTune",
+    "definition": "FederatedSimTune is a distributed network simulation and optimization framework that leverages federated learning with parameter-efficient fine-tuning (PEFT) to collaboratively train adaptable simulation models across multiple edge nodes without sharing raw data, enabling personalized and privacy-preserving network performance enhancements."
+  },
+  {
+    "id": 224,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowSimNet",
+    "definition": "FlowSimNet is an AI-driven network simulation and optimization framework that leverages generative ODE-based flow matching to dynamically model and optimize traffic patterns, enabling real-time adaptive network resource allocation with high fidelity and efficiency."
+  },
+  {
+    "id": 225,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven NetworkSim Optimizer",
+    "definition": "A network simulation and optimization framework powered by a Mixture of Experts foundation model that dynamically selects specialized AI sub-models to accurately predict and optimize complex wireless network behaviors in diverse scenarios."
+  },
+  {
+    "id": 226,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSimNet",
+    "definition": "EvoSimNet is a self-evolving generative agent framework that autonomously simulates, analyzes, and optimizes wireless network configurations by continuously learning from simulation outcomes to adapt and improve network performance in dynamic environments."
+  },
+  {
+    "id": 227,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlowNet Optimization Simulator",
+    "definition": "A simulation framework that leverages Meta-Learning powered Generative Flow Networks to efficiently explore and optimize complex wireless network configurations by learning adaptive policies for dynamic environment modeling and rapid performance tuning."
+  },
+  {
+    "id": 228,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Knowledge-Driven Network Simulation (KDNS)",
+    "definition": "KDNS integrates knowledge graphs with network simulation frameworks to enable context-aware optimization by dynamically incorporating expert domain knowledge and real-time data relationships, enhancing the accuracy and adaptability of wireless network performance predictions."
+  },
+  {
+    "id": 229,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KANO-Optimizer",
+    "definition": "A network simulation and optimization framework leveraging Kolmogorov-Arnold Network (KAN) architectures to model and predict complex wireless system behaviors, enabling highly accurate and efficient optimization of network parameters in dynamic environments."
+  },
+  {
+    "id": 230,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledNetSim",
+    "definition": "DistilledNetSim leverages large language models to perform knowledge distillation from complex network simulations, creating lightweight AI-driven models that optimize wireless network performance in real-time with reduced computational overhead."
+  },
+  {
+    "id": 231,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "CacheFusionNetSim",
+    "definition": "CacheFusionNetSim leverages LLM key-value cache fusion techniques to dynamically optimize network simulation models by efficiently recalling and integrating prior simulation states, enabling faster and more accurate wireless network performance predictions and adaptations."
+  },
+  {
+    "id": 232,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "SimuNet LLM Optimizer",
+    "definition": "A Large Language Model agent that intelligently generates, analyzes, and optimizes network simulation scenarios by interpreting complex network parameters and objectives, enabling adaptive and efficient wireless network design through natural language interaction."
+  },
+  {
+    "id": 233,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidSimNet",
+    "definition": "LiquidSimNet is an adaptive network simulation and optimization framework that leverages Liquid Neural Networks to dynamically model and predict complex wireless network behaviors in real-time, enabling continuous self-tuning and enhanced performance under varying conditions."
+  },
+  {
+    "id": 234,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaSimOps",
+    "definition": "LlamaSimOps leverages Llama-2 powered large language models to automate and optimize network simulation workflows through GitOps principles, enabling intelligent, continuous, and adaptive network configuration and performance tuning in wireless systems."
+  },
+  {
+    "id": 235,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaNet Optimizer",
+    "definition": "MambaNet Optimizer leverages the selective state space modeling of Mamba to dynamically simulate and optimize wireless network performance, enabling precise adaptation to varying conditions by selectively focusing on critical network states for enhanced efficiency and accuracy."
+  },
+  {
+    "id": 236,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiNetGen AI",
+    "definition": "A physics-informed generative AI framework that produces highly accurate and optimized network simulations by embedding fundamental wireless communication principles into the generative modeling process, enabling efficient and realistic network design and optimization."
+  },
+  {
+    "id": 237,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "QuantumSimNet Optimization",
+    "definition": "A framework that leverages quantum machine learning algorithms to accelerate and enhance network simulation and optimization processes, enabling more efficient modeling of complex wireless environments and rapid identification of optimal network configurations."
+  },
+  {
+    "id": 238,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "RetentiveNet Simulator",
+    "definition": "A network simulation and optimization framework that leverages Retentive Network architectures to model long-term temporal dependencies in wireless environments, enabling more accurate and adaptive network performance predictions and resource allocations."
+  },
+  {
+    "id": 239,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSimNet",
+    "definition": "SpikeSimNet leverages spiking neural networks to model and optimize wireless network simulations by mimicking neural spike dynamics for real-time adaptive resource allocation and performance prediction."
+  },
+  {
+    "id": 240,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-NetSimOptimizer",
+    "definition": "An advanced network simulation and optimization framework that leverages Extended LSTM architectures to predict and adaptively optimize wireless network performance in dynamic environments by capturing long-term temporal dependencies and complex system behaviors."
+  },
+  {
+    "id": 241,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffSliceNet",
+    "definition": "DiffSliceNet leverages diffusion probabilistic models with U-Net architectures to dynamically generate and optimize network slices by progressively refining resource allocation based on real-time traffic patterns and service demands."
+  },
+  {
+    "id": 242,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusive Slice Intelligence",
+    "definition": "An AI-driven network slicing framework that leverages diffusion-based world models to simulate and predict dynamic network environments, enabling proactive and adaptive resource management for optimized slice performance and user experience."
+  },
+  {
+    "id": 243,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Slice Tuning",
+    "definition": "A resource management framework that leverages federated learning with parameter-efficient fine-tuning (PEFT) to dynamically optimize network slices across distributed edge nodes, enabling personalized and adaptive network performance without centralized data sharing."
+  },
+  {
+    "id": 244,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowSlice Optimizer",
+    "definition": "FlowSlice Optimizer leverages generative ODE-based flow matching to dynamically and precisely allocate network slices by modeling and predicting traffic transformations, enabling adaptive, fine-grained resource management in 5G/6G networks."
+  },
+  {
+    "id": 245,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "SlicedMoE Network Orchestrator",
+    "definition": "An intelligent network slicing framework that leverages a Mixture of Experts foundation model to dynamically allocate and optimize network resources across slices by selecting specialized expert sub-models tailored to varying slice demands and service requirements."
+  },
+  {
+    "id": 246,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSlice Agent",
+    "definition": "EvoSlice Agent is an AI-driven generative agent that autonomously evolves and optimizes network slicing resource management by dynamically creating and adapting network slices to meet changing service demands and conditions in real-time."
+  },
+  {
+    "id": 247,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaSlice GFlowNet",
+    "definition": "MetaSlice GFlowNet is an adaptive network slicing framework that leverages meta-learning to rapidly customize generative flow networks for dynamic resource management, enabling efficient and scalable allocation of network slices tailored to varying service demands."
+  },
+  {
+    "id": 248,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Sliced Knowledge Graph Resource Orchestration (SKGRO)",
+    "definition": "SKGRO is an AI-driven network slicing framework that leverages knowledge graphs to dynamically model, reason, and optimize resource allocation in 5G/6G networks, enabling context-aware and adaptive slice management through real-time insights and relational data inference."
+  },
+  {
+    "id": 249,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "K-Slice Adaptive Orchestration",
+    "definition": "An intelligent network slicing framework leveraging Kolmogorov-Arnold Networks to model and predict multi-dimensional resource demands, enabling dynamic and optimal resource allocation across slices for enhanced QoS and efficiency."
+  },
+  {
+    "id": 250,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "SliceDistill AI",
+    "definition": "SliceDistill AI leverages large language model-based knowledge distillation to optimize and dynamically manage network slicing resource allocation by transferring distilled intelligence from complex models to lightweight controllers, enabling adaptive, efficient, and context-aware slice orchestration in real time."
+  },
+  {
+    "id": 251,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "SliceCache Fusion",
+    "definition": "SliceCache Fusion dynamically manages network slices by leveraging LLM key-value cache fusion to predict and allocate communication resources in real-time, optimizing performance and reducing latency across heterogeneous network demands."
+  },
+  {
+    "id": 252,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "SliceSense LLM Agent",
+    "definition": "An AI-driven Large Language Model agent that dynamically orchestrates and optimizes network slicing and resource allocation by interpreting real-time network data and service requirements through natural language inputs and predictive analytics."
+  },
+  {
+    "id": 253,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidSlice Adaptive Orchestration",
+    "definition": "An intelligent network slicing framework that leverages Liquid Neural Networks to dynamically and continuously adapt resource allocation in real-time, enabling fluid and context-aware management of wireless network slices under varying conditions."
+  },
+  {
+    "id": 254,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "SliceOps LLM",
+    "definition": "SliceOps LLM leverages Llama-2 powered large language models integrated with GitOps principles to automate, optimize, and dynamically manage network slicing resource configurations through intelligent, version-controlled declarative workflows."
+  },
+  {
+    "id": 255,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaSlice Intelligence",
+    "definition": "An advanced network slicing resource management framework that leverages the Mamba selective state space model to dynamically predict and optimize slice resource allocation based on evolving network states and service demands."
+  },
+  {
+    "id": 256,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiSlice AI",
+    "definition": "PhysiSlice AI leverages physics-informed generative AI models to dynamically optimize network slicing and resource allocation by predicting and adapting to real-world wireless channel behaviors and infrastructure constraints, ensuring efficient and reliable service differentiation."
+  },
+  {
+    "id": 257,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced Network Slice Orchestration",
+    "definition": "A dynamic network slicing framework that leverages quantum machine learning algorithms to optimize resource allocation and slice management in real-time, enabling ultra-efficient and adaptive wireless network performance."
+  },
+  {
+    "id": 258,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Network Slicing (RetSlice)",
+    "definition": "Retentive Network Slicing leverages RetNet's memory-augmented AI to dynamically manage and optimize network slice resource allocation by learning and retaining temporal traffic patterns and slice performance, enabling predictive and adaptive slice orchestration."
+  },
+  {
+    "id": 259,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSlice Resource Manager",
+    "definition": "A dynamic network slicing framework that leverages Spiking Neural Networks to adaptively allocate and optimize wireless resources in real-time by mimicking biological neural efficiency and temporal processing."
+  },
+  {
+    "id": 260,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Driven Adaptive Network Slicing",
+    "definition": "An intelligent network slicing framework that leverages Extended LSTM (xLSTM) models to predict and dynamically allocate network resources in real-time, optimizing slice performance and resource efficiency under varying traffic patterns and service demands."
+  },
+  {
+    "id": 261,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuNet Traffic Forecaster",
+    "definition": "A novel network traffic prediction and resource allocation framework that leverages diffusion probabilistic models enhanced with U-Net architectures to generate highly accurate, multi-scale traffic pattern forecasts, enabling dynamic and efficient wireless resource management."
+  },
+  {
+    "id": 262,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffuNet Traffic Forecaster",
+    "definition": "A diffusion-based world model that generates realistic future network traffic scenarios to enable proactive and optimized resource allocation in wireless networks by simulating complex temporal-spatial patterns of user demand."
+  },
+  {
+    "id": 263,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedAdapter Traffic Optimizer",
+    "definition": "A federated learning framework employing parameter-efficient fine-tuning (PEFT) via adapter tuning to collaboratively predict network traffic and optimize resource allocation across distributed edge nodes without sharing raw data."
+  },
+  {
+    "id": 264,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowMatchNet Resource Predictor",
+    "definition": "A network traffic prediction framework that leverages generative ODE-based flow matching to model and anticipate complex traffic patterns, enabling dynamic and precise resource allocation in wireless networks."
+  },
+  {
+    "id": 265,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Adaptive Traffic Oracle",
+    "definition": "A network resource allocation system that leverages a Mixture of Experts foundation model to dynamically predict and adapt to varying network traffic patterns by selectively activating specialized expert modules, optimizing bandwidth and latency in real-time."
+  },
+  {
+    "id": 266,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoNet Predictor",
+    "definition": "An adaptive generative agent that continuously self-evolves by learning from historical and real-time network data to predict traffic patterns and dynamically optimize resource allocation in wireless networks."
+  },
+  {
+    "id": 267,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlowNet Resource Allocator",
+    "definition": "A dynamic network traffic prediction and resource allocation framework that leverages meta-learning to rapidly adapt Generative Flow Networks (GFlowNets) for efficient and scalable decision-making in diverse wireless environments."
+  },
+  {
+    "id": 268,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Driven Traffic Intelligence (GDTI)",
+    "definition": "GDTI leverages knowledge graphs to model and infer complex relationships in network traffic data, enabling more accurate and context-aware traffic prediction and dynamic resource allocation in wireless networks."
+  },
+  {
+    "id": 269,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "K-ARNET Predictor",
+    "definition": "A network traffic prediction and resource allocation framework leveraging Kolmogorov-Arnold Networks to model and forecast complex nonlinear traffic patterns, enabling dynamic and optimized wireless resource management."
+  },
+  {
+    "id": 270,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledNet Predictor",
+    "definition": "A network traffic prediction system that leverages knowledge distillation from large language models to efficiently transfer complex traffic pattern understanding into lightweight models for real-time resource allocation in wireless networks."
+  },
+  {
+    "id": 271,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Cache-Fused Traffic Oracle",
+    "definition": "A predictive network resource allocation system that leverages LLM key-value cache fusion to dynamically synthesize and recall historical traffic patterns, enabling ultra-responsive and context-aware traffic forecasting and optimal resource distribution."
+  },
+  {
+    "id": 272,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LLM-Driven Adaptive Traffic Orchestrator",
+    "definition": "An intelligent agent leveraging large language models to analyze and predict network traffic patterns in real-time, enabling dynamic and context-aware resource allocation for optimized wireless communication performance."
+  },
+  {
+    "id": 273,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidFlow Allocator",
+    "definition": "A dynamic network traffic prediction and resource allocation framework that leverages Liquid Neural Networks to continuously adapt and model evolving traffic patterns in real-time, enabling highly responsive and efficient wireless resource management."
+  },
+  {
+    "id": 274,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaOps Traffic Orchestrator",
+    "definition": "An AI-driven network traffic prediction and resource allocation framework that leverages Llama-2's large language model capabilities to interpret real-time data and automate configuration changes through GitOps pipelines, enabling adaptive and intelligent network optimization."
+  },
+  {
+    "id": 275,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaFlow Predictor",
+    "definition": "MambaFlow Predictor leverages the Mamba selective state space model to dynamically forecast network traffic patterns and optimize resource allocation in wireless networks by selectively focusing on the most relevant state variables for accurate, adaptive predictions."
+  },
+  {
+    "id": 276,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiGen TrafficForecaster",
+    "definition": "A physics-informed generative AI model that predicts network traffic patterns by integrating fundamental wireless communication principles with data-driven synthesis, enabling optimized resource allocation under dynamic and complex network conditions."
+  },
+  {
+    "id": 277,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "QuantumFlow Predictor",
+    "definition": "QuantumFlow Predictor leverages quantum machine learning algorithms to analyze and forecast complex network traffic patterns with exponentially enhanced accuracy, enabling ultra-efficient dynamic resource allocation in wireless communication systems."
+  },
+  {
+    "id": 278,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive TrafficNet",
+    "definition": "Retentive TrafficNet leverages RetNet's memory-efficient sequence modeling to predict network traffic patterns with long-term temporal dependencies, enabling dynamic and precise resource allocation in wireless communication systems."
+  },
+  {
+    "id": 279,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeFlow Traffic Allocator",
+    "definition": "A resource allocation system that leverages spiking neural networks to predict network traffic dynamics in real-time by mimicking biological neuron firing patterns, enabling ultra-low latency and energy-efficient optimization of wireless network resources."
+  },
+  {
+    "id": 280,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Driven Dynamic Resource Forecasting",
+    "definition": "An advanced network traffic prediction framework leveraging Extended LSTM architectures to capture long-term temporal dependencies and multi-scale patterns, enabling proactive and fine-grained wireless resource allocation for optimized network performance."
+  },
+  {
+    "id": 281,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusion-Enhanced Directional Modulation",
+    "definition": "A novel physical layer security technique that leverages diffusion probabilistic models with U-Net architectures to generate adaptive, spatially selective modulation signals, enhancing directional modulation by probabilistically shaping transmitted waveforms for secure and robust communication against eavesdropping."
+  },
+  {
+    "id": 282,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusion-Driven Directional Security",
+    "definition": "A physical layer security technique that leverages diffusion-based world models to dynamically generate and adapt directional modulation patterns, enabling intelligent and context-aware secure transmission by predicting and shaping the wireless environment in real-time."
+  },
+  {
+    "id": 283,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Directional Modulation Tuning (FedDMT)",
+    "definition": "FedDMT leverages federated learning with parameter-efficient adapter tuning to collaboratively optimize directional modulation schemes at the physical layer, enhancing secure wireless transmissions without sharing raw data across distributed nodes."
+  },
+  {
+    "id": 284,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "Flow-Driven Directional Modulation",
+    "definition": "A physical layer security technique that leverages generative ODE-based flow matching to dynamically synthesize and steer secure modulation patterns, enabling adaptive and continuous directional modulation that resists eavesdropping through learned signal transformations."
+  },
+  {
+    "id": 285,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven Directional Modulation Security",
+    "definition": "A physical layer security framework that leverages a Mixture of Experts foundation model to dynamically optimize directional modulation beam patterns, enhancing secure wireless transmissions by adaptively selecting expert sub-networks tailored to varying channel conditions and eavesdropper threats."
+  },
+  {
+    "id": 286,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoModulated Secure Agents",
+    "definition": "Self-evolving generative agents dynamically adapt directional modulation parameters at the physical layer to optimize secure communication channels, autonomously enhancing resistance to eavesdropping by learning and evolving transmission patterns in real-time."
+  },
+  {
+    "id": 287,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaSecure Flow Modulation",
+    "definition": "A physical layer security approach that leverages meta-learning to adaptively optimize directional modulation patterns, using generative flow networks to efficiently explore secure transmission states for robust and dynamic wireless confidentiality."
+  },
+  {
+    "id": 288,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "KG-Driven Adaptive Directional Modulation",
+    "definition": "A secure physical layer communication technique that leverages knowledge graphs to dynamically infer optimal directional modulation parameters, enabling context-aware beamforming and real-time adaptive security against eavesdroppers based on evolving network and user knowledge."
+  },
+  {
+    "id": 289,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Directional Secure Modulation",
+    "definition": "A novel physical layer security technique that employs Kolmogorov-Arnold Networks to dynamically model and optimize directional modulation patterns, enhancing secure wireless transmission by adaptively shaping signal constellations towards intended users while nullifying eavesdroppers."
+  },
+  {
+    "id": 290,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Distilled Directional Secrecy",
+    "definition": "An intelligent physical layer security technique that leverages large language model-driven knowledge distillation to optimize directional modulation schemes, enabling adaptive and context-aware secure beamforming that dynamically minimizes eavesdropping risks."
+  },
+  {
+    "id": 291,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Directional KV-Fusion Secure Modulation",
+    "definition": "A physical layer security technique that dynamically fuses LLM-generated key-value caches to adaptively modulate directional signals, enabling context-aware, AI-driven secure beamforming and real-time message obfuscation against eavesdroppers."
+  },
+  {
+    "id": 292,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LLM-Driven Adaptive Directional Modulation",
+    "definition": "A secure physical layer communication system where a Large Language Model agent dynamically analyzes environmental and contextual data to optimize directional modulation parameters in real-time, enhancing information confidentiality and resilience against eavesdropping."
+  },
+  {
+    "id": 293,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidBeam Security Modulation",
+    "definition": "A dynamic physical layer security technique that employs liquid neural networks to adaptively control directional modulation patterns in real-time, enhancing secure wireless transmission by continuously optimizing signal beams against eavesdropping threats."
+  },
+  {
+    "id": 294,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "Llama-2 Guided Directional Modulation Security",
+    "definition": "An AI-powered physical layer security system that leverages Llama-2 large language models to dynamically optimize and adapt directional modulation parameters in real-time, enhancing secure wireless beamforming against eavesdropping threats."
+  },
+  {
+    "id": 295,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaBeam Secure Modulation",
+    "definition": "MambaBeam Secure Modulation integrates selective state space modeling from Mamba with directional modulation to dynamically adapt transmission patterns, enhancing physical layer security by precisely steering confidential signals and suppressing eavesdropping in real-time."
+  },
+  {
+    "id": 296,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhyGenDM SecureWave",
+    "definition": "PhyGenDM SecureWave leverages physics-informed generative AI to dynamically design and optimize directional modulation patterns at the physical layer, enhancing security by precisely shaping signal propagation based on real-time electromagnetic and channel physics constraints."
+  },
+  {
+    "id": 297,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-Enhanced Directional Modulation Security (QEDMS)",
+    "definition": "QEDMS leverages quantum machine learning algorithms to optimize and adapt directional modulation schemes in real-time, enhancing physical layer security by dynamically shaping signal patterns that are robust against eavesdropping and quantum-enabled attacks."
+  },
+  {
+    "id": 298,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Directional Modulation Network (RetDMNet)",
+    "definition": "RetDMNet integrates Retentive Networks with directional modulation to dynamically learn and remember spatial channel characteristics, enabling adaptive, memory-driven physical layer security that continuously enhances signal directionality and confidentiality against eavesdropping."
+  },
+  {
+    "id": 299,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "Spiking Directional Modulation (SDM)",
+    "definition": "Spiking Directional Modulation leverages spiking neural networks to dynamically and adaptively control the physical layer's directional modulation patterns, enhancing secure transmission by rapidly encoding and steering signals toward intended receivers while minimizing eavesdropping risks."
+  },
+  {
+    "id": 300,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Driven Adaptive Directional Modulation",
+    "definition": "An advanced physical layer security technique that leverages xLSTM networks to dynamically predict and adapt directional modulation patterns in real-time, enhancing secure transmission by intelligently shaping signal beams based on evolving channel and threat conditions."
+  },
+  {
+    "id": 301,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusive Semantic Communication Network (DSemCom-Net)",
+    "definition": "DSemCom-Net leverages diffusion probabilistic models with U-Net architectures to iteratively reconstruct and refine semantic information from noisy wireless signals, enabling robust, context-aware semantic communication that dynamically adapts to channel uncertainties."
+  },
+  {
+    "id": 302,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusive Semantic World Communication",
+    "definition": "A communication paradigm that leverages diffusion-based world models to generate and interpret semantic information, enabling context-aware transmission and reconstruction of meaning rather than raw data in wireless networks."
+  },
+  {
+    "id": 303,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Semantic Adaptation Communication (FedSemAdapt)",
+    "definition": "FedSemAdapt integrates federated learning with semantic communication by enabling distributed devices to collaboratively fine-tune lightweight semantic encoders through parameter-efficient adapter tuning, enhancing context-aware message transmission while preserving data privacy and reducing communication overhead."
+  },
+  {
+    "id": 304,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowSemantic Communication",
+    "definition": "FlowSemantic Communication leverages generative ODE-based flow matching to model and transmit semantic information distributions efficiently, enabling adaptive and robust end-to-end semantic encoding and decoding in communication systems."
+  },
+  {
+    "id": 305,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-SemanticNet",
+    "definition": "MoE-SemanticNet leverages a Mixture of Experts within foundation models to dynamically extract and transmit the most relevant semantic features in communication, optimizing bandwidth by adaptively selecting specialized expert pathways for context-aware semantic encoding and decoding."
+  },
+  {
+    "id": 306,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSemCom Agent",
+    "definition": "An adaptive semantic communication system powered by generative agents that self-evolve by continuously learning and refining the semantic representations and transmission strategies to optimize meaningful information exchange in dynamic environments."
+  },
+  {
+    "id": 307,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow Semantic Communication",
+    "definition": "A semantic communication framework that leverages generative flow networks combined with meta-learning to adaptively generate and transmit meaningful message representations, optimizing semantic fidelity and communication efficiency across diverse and dynamic environments."
+  },
+  {
+    "id": 308,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Semantic Knowledge-Graph Communication (SKGC)",
+    "definition": "SKGC is an advanced semantic communication framework that leverages knowledge graphs to encode, transmit, and decode information based on contextual and relational semantics, enabling more efficient and meaningful data exchange in wireless networks."
+  },
+  {
+    "id": 309,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KanoSemanticNet",
+    "definition": "KanoSemanticNet is an advanced semantic communication framework that leverages Kolmogorov-Arnold Networks to efficiently model and transmit the intrinsic meaning of messages by decomposing complex semantics into low-dimensional continuous functions, enabling robust and compact information exchange."
+  },
+  {
+    "id": 310,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Semantic Distilled Communication (SDC)",
+    "definition": "Semantic Distilled Communication leverages large language models to perform knowledge distillation on transmitted data, enabling efficient semantic encoding and decoding that preserves essential meaning while minimizing communication overhead."
+  },
+  {
+    "id": 311,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Semantic KV Fusion Communication",
+    "definition": "A communication framework that enhances semantic communication by dynamically integrating LLM key-value cache fusion to efficiently encode, transmit, and reconstruct meaning-rich messages leveraging contextual memory from pretrained language models."
+  },
+  {
+    "id": 312,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "Semantic Agent Communication (SAC)",
+    "definition": "Semantic Agent Communication leverages Large Language Model agents to dynamically interpret, generate, and optimize semantic information during wireless transmission, enabling context-aware and efficient end-to-end communication that transcends traditional data encoding."
+  },
+  {
+    "id": 313,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "Liquid Semantic Communication Network",
+    "definition": "A dynamic semantic communication framework that leverages liquid neural networks to adaptively encode, transmit, and decode meaning-rich information in real-time, enabling robust and context-aware wireless communication under varying channel conditions."
+  },
+  {
+    "id": 314,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaSemOps",
+    "definition": "LlamaSemOps leverages Llama-2 large language models to dynamically optimize semantic communication systems through GitOps-driven iterative deployment, enabling intelligent, context-aware transmission of meaning with automated, version-controlled network orchestration."
+  },
+  {
+    "id": 315,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "Mamba-SemCom",
+    "definition": "An intelligent semantic communication framework that leverages Mamba’s selective state space modeling to dynamically filter and transmit only contextually relevant semantic information, optimizing bandwidth and enhancing communication efficiency."
+  },
+  {
+    "id": 316,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiSemCom AI",
+    "definition": "A semantic communication framework enhanced by physics-informed generative AI that leverages physical laws to optimize and accurately reconstruct the meaning of transmitted messages, enabling more efficient and reliable communication under complex environmental constraints."
+  },
+  {
+    "id": 317,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum Semantic Learning Communication (QSLC)",
+    "definition": "QSLC leverages quantum machine learning to optimize semantic communication by encoding, interpreting, and transmitting meaning-rich information through quantum-enhanced models, enabling ultra-efficient and context-aware communication systems."
+  },
+  {
+    "id": 318,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Semantic Communication Network (RetSemNet)",
+    "definition": "RetSemNet is an advanced semantic communication framework that leverages Retentive Networks to dynamically retain and prioritize contextual semantic information over time, enabling efficient and robust transmission of meaning in evolving wireless environments."
+  },
+  {
+    "id": 319,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSemCom",
+    "definition": "SpikeSemCom is a semantic communication framework that leverages spiking neural networks to encode, transmit, and decode meaningful information via event-driven spikes, enabling ultra-efficient and biologically inspired semantic data exchange in wireless systems."
+  },
+  {
+    "id": 320,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-SemCom",
+    "definition": "xLSTM-SemCom leverages extended LSTM architectures to model and transmit semantic information efficiently by capturing long-range dependencies and contextual nuances in communication signals, enabling more accurate and meaningful semantic communication over wireless channels."
+  },
+  {
+    "id": 321,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Semantic Diffusion Communication",
+    "definition": "A communication framework that leverages diffusion probabilistic models with U-Net architectures to encode, transmit, and reconstruct semantic information across inter-model channels, enabling robust and semantically-aware wireless communication by iteratively refining message content in latent semantic spaces."
+  },
+  {
+    "id": 322,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusion-Driven Semantic Inter-Model Communication",
+    "definition": "A communication framework where diffusion-based world models encode and decode semantic information across AI agents, enabling context-aware and efficient inter-model communication by capturing and transmitting the underlying environmental semantics through learned generative processes."
+  },
+  {
+    "id": 323,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Semantic Federated Adapter Communication (SFAC)",
+    "definition": "SFAC is a communication framework where decentralized devices exchange compact semantic model adapters using federated learning, enabling efficient inter-model knowledge transfer and collaborative AI tuning without sharing raw data."
+  },
+  {
+    "id": 324,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "Semantic Flow Communication",
+    "definition": "A communication framework that leverages flow matching-based generative ODE models to encode and decode semantic information, enabling efficient and robust inter-model communication by aligning semantic distributions across wireless channels."
+  },
+  {
+    "id": 325,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "Semantic Mixture-of-Experts Communication (SMoE-Com)",
+    "definition": "SMoE-Com is a communication framework where semantic information is dynamically encoded and decoded through a mixture of specialized foundation model experts, enabling efficient inter-model communication by selectively activating expert pathways tailored to the semantic context of the transmitted message."
+  },
+  {
+    "id": 326,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSemantic Agents",
+    "definition": "EvoSemantic Agents are self-evolving generative AI entities that communicate through semantic-rich inter-model protocols, enabling continuous adaptation and mutual understanding across heterogeneous systems by exchanging meaningful, context-aware information rather than raw data."
+  },
+  {
+    "id": 327,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow Semantic Communication",
+    "definition": "A communication framework that leverages meta-learning to adaptively optimize semantic message encoding and decoding, using Generative Flow Networks to efficiently explore and generate diverse meaningful message distributions for inter-model communication."
+  },
+  {
+    "id": 328,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Semantic Knowledge Graph Communication (SKGC)",
+    "definition": "A communication paradigm where semantic information is encoded, transmitted, and decoded through dynamically constructed knowledge graphs, enabling inter-model communication that leverages retrieved and reasoned contextual knowledge for efficient and meaningful message exchange."
+  },
+  {
+    "id": 329,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "Semantic-KAN Communication",
+    "definition": "A communication framework leveraging Kolmogorov-Arnold Networks to encode and decode semantic representations, enabling efficient inter-model communication by capturing complex multivariate dependencies in transmitted messages."
+  },
+  {
+    "id": 330,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Semantic Distilled Inter-Model Communication",
+    "definition": "A communication framework where large language models distill and encode semantic knowledge into compact representations for efficient and meaningful inter-model communication, optimizing bandwidth while preserving contextual understanding."
+  },
+  {
+    "id": 331,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Semantic KV Fusion Communication",
+    "definition": "A communication framework that leverages inter-model semantic exchange by dynamically fusing LLM key-value caches to optimize the transmission and interpretation of contextual knowledge across distributed AI agents and wireless networks."
+  },
+  {
+    "id": 332,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "Semantic LLM Relay",
+    "definition": "A communication framework where Large Language Model agents exchange high-level semantic information directly, enabling efficient inter-model communication by transmitting meaningful representations rather than raw data."
+  },
+  {
+    "id": 333,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "Liquid Semantic Neural Communication",
+    "definition": "A dynamic communication framework that leverages liquid neural networks to adaptively encode, transmit, and interpret semantic information across heterogeneous AI models, enabling real-time, context-aware inter-model semantic communication with robust environmental adaptability."
+  },
+  {
+    "id": 334,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "SemanticGitOps LLM",
+    "definition": "A framework where Llama-2 powered large language models enable semantic communication for automated GitOps workflows, interpreting high-level intents into precise deployment and infrastructure changes through inter-model semantic exchanges."
+  },
+  {
+    "id": 335,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaSemantic Relay",
+    "definition": "An intelligent semantic communication framework that leverages Mamba's selective state space modeling to dynamically encode and transmit only the most contextually relevant semantic states between AI models, optimizing inter-model communication efficiency and accuracy."
+  },
+  {
+    "id": 336,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysiSemComm AI",
+    "definition": "A communication framework that leverages physics-informed generative AI to semantically encode and decode messages by embedding physical world models, enabling inter-model communication with enhanced interpretability and efficiency across heterogeneous AI systems."
+  },
+  {
+    "id": 337,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum Semantic Inter-model Communication (QSIC)",
+    "definition": "QSIC leverages quantum machine learning to encode and decode semantic information across heterogeneous AI models, enabling ultra-efficient inter-model communication by exploiting quantum correlations to preserve meaning and context beyond classical limits."
+  },
+  {
+    "id": 338,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Semantic Intermodel Communication (ReSIC)",
+    "definition": "ReSIC is a communication framework that leverages Retentive Networks to encode, retain, and transmit semantic information across heterogeneous AI models, enabling efficient, context-aware inter-model communication with long-term memory of semantic states."
+  },
+  {
+    "id": 339,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSemantic InterCom",
+    "definition": "A communication paradigm that leverages spiking neural networks to encode and decode semantic information between AI models, enabling efficient and biologically-inspired inter-model communication with minimal latency and energy consumption."
+  },
+  {
+    "id": 340,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-SemCom",
+    "definition": "xLSTM-SemCom is an advanced semantic communication framework that leverages extended LSTM architectures to model, encode, and decode deep semantic features between heterogeneous AI models, enabling efficient inter-model communication with context-aware temporal dynamics."
+  },
+  {
+    "id": 341,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "Diffusive Semantic Decoder",
+    "definition": "A semantic decoding framework that leverages diffusion probabilistic models combined with U-Net architectures to iteratively reconstruct and error-correct transmitted messages by modeling semantic distributions and refining them through learned denoising steps."
+  },
+  {
+    "id": 342,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "Diffusion-Guided Semantic Error Correction",
+    "definition": "A communication framework that leverages diffusion-based world models to semantically decode and correct errors by iteratively refining received signals based on learned contextual and environmental representations, enhancing message fidelity beyond traditional bit-level correction."
+  },
+  {
+    "id": 343,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Semantic Error Correction",
+    "definition": "A distributed learning framework where edge devices collaboratively train lightweight adapter models to semantically decode and correct communication errors, enhancing reliability by leveraging shared contextual knowledge without exchanging raw data."
+  },
+  {
+    "id": 344,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "Flow-Driven Semantic Error Correction",
+    "definition": "A novel decoding framework that leverages generative ODE-based flow matching to iteratively refine and correct semantic information in noisy communication signals, enabling robust error correction by modeling the semantic data distribution dynamics."
+  },
+  {
+    "id": 345,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "Semantic MoE Decoder",
+    "definition": "A communication decoder that leverages a Mixture of Experts foundation model to perform advanced semantic error correction by dynamically selecting specialized expert sub-models to interpret and reconstruct meaning from noisy or corrupted signals."
+  },
+  {
+    "id": 346,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSemantic Decoder",
+    "definition": "An adaptive semantic decoding system powered by generative agents that continuously self-evolve to improve error correction by learning contextual meaning and communication patterns in real-time, enabling more accurate and resilient wireless data interpretation."
+  },
+  {
+    "id": 347,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "Meta-Flow Semantic Correction",
+    "definition": "An adaptive semantic decoding framework that leverages meta-learned Generative Flow Networks to iteratively explore and correct errors in transmitted messages by modeling the distribution of plausible semantic interpretations, enabling robust and context-aware error correction in dynamic communication environments."
+  },
+  {
+    "id": 348,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "SemanticGraph Decoding",
+    "definition": "A communication framework that leverages knowledge graphs to perform semantic decoding and error correction by contextualizing received signals within structured domain knowledge, enabling more accurate interpretation and recovery of transmitted information despite noise and distortions."
+  },
+  {
+    "id": 349,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KanSemantic Decoder",
+    "definition": "A semantic decoding and error correction framework that leverages Kolmogorov-Arnold Networks to model and reconstruct transmitted messages by capturing their intrinsic multivariate functional dependencies, enabling robust and context-aware recovery of communication data beyond traditional error correction limits."
+  },
+  {
+    "id": 350,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "SemanticDistill Decoding",
+    "definition": "A communication decoding framework that leverages large language models trained via knowledge distillation to perform context-aware semantic error correction, enhancing message recovery by interpreting and refining transmitted data based on distilled linguistic knowledge."
+  },
+  {
+    "id": 351,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "Semantic KV-Corrector",
+    "definition": "A hybrid system that leverages LLM key-value cache fusion to perform context-aware semantic decoding and error correction in wireless communication, dynamically using cached knowledge to reconstruct and correct transmitted data with higher accuracy and efficiency."
+  },
+  {
+    "id": 352,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "Semantic LLM Decoder",
+    "definition": "A communication system that employs a Large Language Model agent to perform semantic decoding and error correction by understanding context and intent in transmitted messages, enabling more robust and intelligent recovery of information beyond traditional bit-level correction."
+  },
+  {
+    "id": 353,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "Liquid Semantic Decoder",
+    "definition": "A dynamic semantic decoding system that leverages Liquid Neural Networks to adaptively correct errors by continuously evolving its internal state in response to varying communication contexts, enabling robust and context-aware interpretation of transmitted information."
+  },
+  {
+    "id": 354,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "Llama-Enhanced Semantic Error Correction (LSEC)",
+    "definition": "LSEC leverages Llama-2's advanced language understanding to perform real-time semantic decoding and error correction in wireless communication, enabling context-aware recovery of corrupted messages by interpreting meaning rather than just bits."
+  },
+  {
+    "id": 355,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaSemantic Corrector",
+    "definition": "An advanced semantic decoding framework that leverages the Mamba selective state space model to dynamically identify and correct errors by focusing on contextually relevant state transitions, enhancing communication reliability and meaning preservation."
+  },
+  {
+    "id": 356,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysioSemantic AI Decoder",
+    "definition": "A semantic decoding framework that leverages physics-informed generative AI to perform error correction by understanding and reconstructing signal semantics grounded in physical communication channel models, enhancing decoding accuracy and robustness."
+  },
+  {
+    "id": 357,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum Semantic Error Correction (Q-SEC)",
+    "definition": "Quantum Semantic Error Correction leverages quantum machine learning algorithms to perform advanced semantic decoding and error correction by exploiting quantum-enhanced pattern recognition, enabling more accurate recovery of intended message meanings from noisy communication channels."
+  },
+  {
+    "id": 358,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Semantic Decoder (ReSemDec)",
+    "definition": "A neural architecture that leverages Retentive Network's long-range contextual retention to perform semantic-aware decoding and error correction, enabling more robust and meaning-driven communication by dynamically correcting errors based on retained semantic context across transmitted sequences."
+  },
+  {
+    "id": 359,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSemantic Decoder",
+    "definition": "A neural decoding framework that leverages spiking neural networks to perform real-time semantic error correction by interpreting the meaning of received signals through biologically inspired temporal spike patterns, enhancing robustness and efficiency in wireless communication."
+  },
+  {
+    "id": 360,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM Semantic Error Corrector",
+    "definition": "An advanced semantic decoding framework that leverages extended LSTM networks to perform context-aware error correction by understanding and predicting the intended meaning in noisy wireless communication signals."
+  },
+  {
+    "id": 361,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuLocNet",
+    "definition": "DiffuLocNet is a WiFi localization framework that leverages diffusion probabilistic models combined with U-Net architectures to iteratively denoise and reconstruct high-fidelity RSS fingerprint maps, enabling precise indoor positioning even in noisy signal environments."
+  },
+  {
+    "id": 362,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffusiveLoc WorldModel",
+    "definition": "A diffusion-based world model that generates and refines probabilistic WiFi RSS fingerprint maps for precise indoor localization by simulating realistic signal propagation and environmental dynamics, enabling robust and adaptive positioning in complex spaces."
+  },
+  {
+    "id": 363,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "FedLoc-Adapter",
+    "definition": "FedLoc-Adapter is a federated learning framework enhanced with parameter-efficient fine-tuning (PEFT) adapters to collaboratively improve WiFi RSS fingerprinting localization models across distributed devices while preserving data privacy and minimizing communication overhead."
+  },
+  {
+    "id": 364,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowLoc: Generative ODE-based WiFi Fingerprint Localization",
+    "definition": "FlowLoc leverages flow matching via generative ODE models to learn continuous transformations of WiFi RSS fingerprints, enabling highly accurate and robust indoor localization by modeling signal distributions as smooth latent flows."
+  },
+  {
+    "id": 365,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-FingerprintNet",
+    "definition": "A foundation model leveraging a Mixture of Experts architecture to dynamically specialize in diverse WiFi RSS fingerprint patterns, enabling highly accurate and scalable indoor localization by adapting expert subnetworks to varying environmental and signal conditions."
+  },
+  {
+    "id": 366,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoLoc Generative Agent",
+    "definition": "An AI-driven self-evolving agent that continuously generates and refines WiFi RSS fingerprinting models in real-time, adapting autonomously to environmental changes to enhance localization accuracy without manual intervention."
+  },
+  {
+    "id": 367,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlowWiFi Localization",
+    "definition": "A WiFi localization framework that leverages meta-learning to rapidly adapt RSS fingerprinting models across diverse environments, while employing Generative Flow Networks to efficiently explore and generate probabilistic location hypotheses for improved positioning accuracy."
+  },
+  {
+    "id": 368,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "Graph-Enhanced WiFi Fingerprint Localization",
+    "definition": "A localization approach that integrates WiFi RSS fingerprinting with a knowledge graph to model spatial and contextual relationships, enabling more accurate and semantically enriched indoor positioning by leveraging relational reasoning and retrieval-augmented inference."
+  },
+  {
+    "id": 369,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KanoFi Localization",
+    "definition": "KanoFi Localization leverages Kolmogorov-Arnold Network's universal functional decomposition to model complex WiFi RSS fingerprinting patterns, enabling highly accurate and computationally efficient indoor positioning by capturing nonlinear signal variations across environments."
+  },
+  {
+    "id": 370,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "DistilledLoc-LLM",
+    "definition": "DistilledLoc-LLM leverages knowledge distillation from large language models to compress and enhance WiFi RSS fingerprinting datasets, enabling efficient and accurate indoor localization by embedding contextual spatial knowledge into lightweight AI models."
+  },
+  {
+    "id": 371,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "CacheFusion Localization",
+    "definition": "CacheFusion Localization integrates WiFi RSS fingerprinting with LLM key-value cache fusion to dynamically aggregate and refine location estimates by leveraging contextual historical signal patterns stored in an AI-driven KV cache, enhancing real-time indoor positioning accuracy and adaptability."
+  },
+  {
+    "id": 372,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "LocaLLM Navigator",
+    "definition": "A WiFi localization system that leverages a Large Language Model agent to interpret complex RSS fingerprint data and dynamically generate real-time, context-aware location insights and navigation instructions through natural language interaction."
+  },
+  {
+    "id": 373,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidLocNet",
+    "definition": "LiquidLocNet is an adaptive WiFi localization system that leverages Liquid Neural Networks to dynamically model and interpret fluctuating RSS fingerprint data, enabling real-time, robust, and precise indoor positioning despite environmental variability."
+  },
+  {
+    "id": 374,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaLocOps",
+    "definition": "LlamaLocOps leverages Llama-2's natural language understanding to automate and optimize WiFi RSS fingerprinting workflows via GitOps practices, enabling adaptive, self-updating localization models through intelligent infrastructure-as-code management."
+  },
+  {
+    "id": 375,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaLoc",
+    "definition": "MambaLoc leverages the selective state space modeling approach of Mamba to dynamically refine WiFi RSS fingerprinting-based localization, enabling adaptive, context-aware position estimation by selectively focusing on the most informative signal states for enhanced accuracy and robustness."
+  },
+  {
+    "id": 376,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysioGen WiFiLoc",
+    "definition": "PhysioGen WiFiLoc leverages physics-informed generative AI to synthesize high-fidelity RSS fingerprint datasets grounded in wireless propagation models, enhancing WiFi localization accuracy and robustness in complex indoor environments."
+  },
+  {
+    "id": 377,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "QuantumRSS Locator",
+    "definition": "QuantumRSS Locator leverages quantum machine learning algorithms to analyze WiFi RSS fingerprinting data, enabling faster and more accurate indoor localization by exploiting quantum-enhanced pattern recognition and optimization capabilities."
+  },
+  {
+    "id": 378,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive WiFiLocNet",
+    "definition": "A WiFi localization system that leverages Retentive Networks (RetNet) to efficiently retain and update RSS fingerprint patterns over time, enabling robust and adaptive indoor positioning despite environmental changes."
+  },
+  {
+    "id": 379,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeLocNet",
+    "definition": "SpikeLocNet is a WiFi localization system that leverages spiking neural networks to process RSS fingerprinting data in a temporally dynamic and energy-efficient manner, enabling precise indoor positioning through biologically inspired spatiotemporal signal encoding."
+  },
+  {
+    "id": 380,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-RSSLoc",
+    "definition": "xLSTM-RSSLoc is a WiFi localization framework that leverages Extended LSTM architectures to model temporal and spatial dependencies in RSS fingerprint sequences, enabling highly accurate and adaptive indoor positioning even in dynamic environments."
+  },
+  {
+    "id": 381,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "composite_concept_name": "DiffuSense AIoT",
+    "definition": "DiffuSense AIoT leverages diffusion probabilistic models combined with U-Net architectures to enhance wireless sensing data reconstruction and interpretation in AIoT devices, enabling robust, high-fidelity environment awareness from noisy or incomplete wireless signals."
+  },
+  {
+    "id": 382,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Diffusion-based World Model",
+    "composite_concept_name": "DiffuSense AIoT",
+    "definition": "DiffuSense AIoT integrates diffusion-based world models with wireless sensing in AIoT networks to generate continuously evolving, high-fidelity environmental representations that enhance real-time decision-making and adaptive control in smart connected systems."
+  },
+  {
+    "id": 383,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "composite_concept_name": "Federated Adapter Sensing Network (FASN)",
+    "definition": "FASN is a distributed wireless sensing framework that leverages federated learning with parameter-efficient adapter tuning to collaboratively train AIoT devices, enabling privacy-preserving and resource-efficient adaptation of sensing models across diverse environments."
+  },
+  {
+    "id": 384,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "composite_concept_name": "FlowSense AIoT",
+    "definition": "FlowSense AIoT leverages generative ODE-based flow matching to dynamically model and predict wireless sensing data in AIoT networks, enabling real-time adaptive environment perception and device interaction through continuous probabilistic data transformations."
+  },
+  {
+    "id": 385,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "composite_concept_name": "MoE-Driven AIoT Sensing Mesh",
+    "definition": "A distributed wireless sensing network powered by a Mixture of Experts foundation model that dynamically selects specialized AI modules to optimize real-time environmental perception and decision-making across diverse IoT devices."
+  },
+  {
+    "id": 386,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "composite_concept_name": "EvoSense AIoT",
+    "definition": "EvoSense AIoT is a wireless sensing network integrated with generative agents that autonomously evolve their sensing strategies and data interpretation models to adapt dynamically to changing environments and user needs."
+  },
+  {
+    "id": 387,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "composite_concept_name": "MetaFlow AIoT Sensing",
+    "definition": "An adaptive wireless sensing framework for AIoT devices that leverages meta-learning to rapidly personalize generative flow networks (GFlowNets), enabling efficient and dynamic modeling of complex environmental states for real-time decision-making."
+  },
+  {
+    "id": 388,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "composite_concept_name": "KG-Enhanced AIoT Sensing",
+    "definition": "An advanced wireless sensing framework that integrates Knowledge Graphs with AIoT devices to enrich contextual understanding and enable real-time reasoning over heterogeneous sensor data for smarter environment perception and decision-making."
+  },
+  {
+    "id": 389,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "composite_concept_name": "KAN-Enabled Wireless AIoT Sensing",
+    "definition": "An advanced wireless sensing framework for AIoT devices that leverages Kolmogorov-Arnold Networks to model complex nonlinear sensor data patterns, enabling highly accurate and efficient environmental and contextual awareness in real-time."
+  },
+  {
+    "id": 390,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "composite_concept_name": "Distilled LLM-Enhanced Wireless Sensing",
+    "definition": "A system that leverages knowledge distillation to compress large language models into lightweight AIoT agents embedded in wireless sensing devices, enabling real-time semantic understanding and decision-making at the edge with minimal resource consumption."
+  },
+  {
+    "id": 391,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "composite_concept_name": "CacheFusion Sensing AIoT",
+    "definition": "An AIoT framework that leverages LLM key-value cache fusion to dynamically integrate and interpret multi-modal wireless sensing data in real-time, enabling efficient contextual awareness and adaptive decision-making at the edge."
+  },
+  {
+    "id": 392,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "composite_concept_name": "SensiLingua AI",
+    "definition": "SensiLingua AI integrates wireless sensing networks within AIoT devices with Large Language Model agents to enable real-time natural language interpretation and contextual decision-making from ambient environmental data, creating intuitive human-machine interactions and autonomous adaptive systems."
+  },
+  {
+    "id": 393,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "composite_concept_name": "LiquidSense AIoT",
+    "definition": "LiquidSense AIoT integrates adaptive Liquid Neural Networks into wireless sensing systems to enable real-time, context-aware interpretation of dynamic environmental data, enhancing the responsiveness and intelligence of AIoT devices in unpredictable wireless environments."
+  },
+  {
+    "id": 394,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "composite_concept_name": "LlamaSenseOps",
+    "definition": "LlamaSenseOps integrates large language models like Llama-2 with wireless sensing AIoT systems to enable autonomous, natural language-driven GitOps workflows for real-time deployment, monitoring, and optimization of distributed sensor networks."
+  },
+  {
+    "id": 395,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "composite_concept_name": "MambaSense AIoT",
+    "definition": "MambaSense AIoT leverages the Selective State Space Model (Mamba) to enable adaptive, context-aware wireless sensing in AIoT networks, optimizing data interpretation and device interaction by dynamically selecting relevant system states for efficient environment monitoring and decision-making."
+  },
+  {
+    "id": 396,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Physics-Informed Generative AI",
+    "composite_concept_name": "PhysioSense AIoT",
+    "definition": "PhysioSense AIoT integrates wireless sensing with physics-informed generative AI to create intelligent IoT systems that accurately model and predict physical environments in real-time, enabling enhanced situational awareness and adaptive decision-making."
+  },
+  {
+    "id": 397,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "composite_concept_name": "Quantum-AIoT Sensing",
+    "definition": "Quantum-AIoT Sensing leverages quantum machine learning algorithms to enhance wireless sensing in AIoT devices, enabling ultra-fast, high-precision environmental perception and adaptive decision-making in complex wireless environments."
+  },
+  {
+    "id": 398,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Retentive Network (RetNet)",
+    "composite_concept_name": "Retentive Wireless Sensing Network (RWSN)",
+    "definition": "An AIoT framework that leverages Retentive Networks to continuously learn and retain temporal wireless sensing data, enabling enhanced context-aware decision-making and adaptive environment monitoring in dynamic wireless environments."
+  },
+  {
+    "id": 399,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "composite_concept_name": "SpikeSense AIoT",
+    "definition": "SpikeSense AIoT integrates Spiking Neural Networks directly into wireless sensing devices, enabling ultra-low-power, real-time event-driven processing and decision-making at the edge for intelligent AIoT applications."
+  },
+  {
+    "id": 400,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "composite_concept_name": "xLSTM-Enhanced Wireless Sensing AIoT",
+    "definition": "An advanced AIoT framework that leverages extended LSTM architectures to process and predict complex temporal patterns in wireless sensing data, enabling more accurate and adaptive environment-aware applications in real-time."
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "Index": 0,
+    "ChineseTerm": "大规模多输入多输出",
+    "EnglishTerm": "Massive MIMO",
+    "Description": "Massive MIMO (Multiple Input Multiple Output) is a wireless communication technology characterized by the use of a large number of antennas at the base station to simultaneously serve multiple user terminals, thereby enhancing spectral efficiency, energy efficiency, and capacity through spatial multiplexing and beamforming. This technology leverages the spatial degrees of freedom offered by the large antenna arrays to improve signal quality and interference management in wireless networks."
+  },
+  {
+    "Index": 1,
+    "ChineseTerm": "多用户MIMO",
+    "EnglishTerm": "Multi-user MIMO (MU-MIMO)",
+    "Description": "Multi-user MIMO (MU-MIMO) is a communication technology that enhances spectral efficiency by enabling simultaneous data transmission from a single base station to multiple users, utilizing multiple antennas to exploit spatial multiplexing and reduce interference, thereby optimizing network capacity and performance in wireless communication systems."
+  },
+  {
+    "Index": 2,
+    "[object Object]Term": "毫米波通信",
+    "EnglishTerm": "Millimeter-wave communications",
+    "Description": "Millimeter-wave communications refer to the transmission of information using electromagnetic waves within the millimeter-wave spectrum, typically ranging from 30 to 300 gigahertz, characterized by short wavelengths that facilitate high data rates and bandwidth but pose challenges such as limited range and susceptibility to atmospheric attenuation, necessitating advanced technologies for effective deployment in wireless communication systems."
+  },
+  {
+    "Index": 3,
+    "ChineseTerm": "正交频分复用",
+    "EnglishTerm": "Orthogonal Frequency-Division Multiplexing (OFDM)",
+    "Description": "Orthogonal Frequency-Division Multiplexing (OFDM) is a digital modulation technique employed in communication systems where multiple carrier frequencies, orthogonal to each other, are used to transmit data in parallel, thereby minimizing interference and maximizing spectral efficiency by dividing the available bandwidth into closely spaced sub-channels. This method enables high data rates and resilience to frequency-selective fading and interference, by utilizing the orthogonality of the sub-carriers to eliminate inter-carrier interference."
+  },
+  {
+    "Index": 4,
+    "ChineseTerm": "单载波频分多址",
+    "EnglishTerm": "Single-Carrier FDMA (SC-FDMA)",
+    "Description": "Single-Carrier Frequency Division Multiple Access (SC-FDMA) is a modulation and multiple access scheme utilized in wireless communication systems, which allocates distinct frequency bands to multiple users while transmitting data in a single-carrier format, thereby reducing the peak-to-average power ratio and enhancing spectral efficiency compared to traditional multi-carrier systems like OFDMA. It is notably employed in the uplink of LTE networks, offering advantages in terms of power efficiency and reduced complexity in signal processing."
+  },
+  {
+    "Index": 5,
+    "ChineseTerm": "非正交多址",
+    "EnglishTerm": "Non-Orthogonal Multiple Access (NOMA)",
+    "Description": "Non-Orthogonal Multiple Access (NOMA) is a communication protocol that enables simultaneous transmission of multiple signals over the same frequency channel by employing power-domain multiplexing and successive interference cancellation techniques, thereby enhancing spectral efficiency and accommodating a higher number of users compared to orthogonal access methods. This approach leverages the differences in channel conditions and power levels to distinguish between users, allowing efficient resource allocation in wireless communication systems."
+  },
+  {
+    "Index": 6,
+    "ChineseTerm": "功率域NOMA",
+    "EnglishTerm": "Power-Domain NOMA (PD-NOMA)",
+    "Description": "Power-Domain Non-Orthogonal Multiple Access (PD-NOMA) is a wireless communication technique that allows multiple users to share the same frequency and time resources by superimposing their signals with different power levels, utilizing successive interference cancellation at the receiver to differentiate and decode the overlapping signals efficiently. This approach enhances spectral efficiency and user connectivity in cellular networks by leveraging the differences in channel conditions and power allocation strategies."
+  },
+  {
+    "Index": 7,
+    "ChineseTerm": "稀疏码多址",
+    "EnglishTerm": "Sparse Code Multiple Access (SCMA)",
+    "Description": "Sparse Code Multiple Access (SCMA) is a non-orthogonal multiple access (NOMA) scheme in wireless communication systems that enables the transmission of multiple data streams simultaneously by utilizing multi-dimensional codebooks with sparse structures, facilitating efficient resource allocation and enhanced spectral efficiency through the exploitation of the sparsity inherent in the signal design and advanced multi-user detection techniques."
+  },
+  {
+    "Index": 8,
+    "ChineseTerm": "速率分割多址",
+    "EnglishTerm": "Rate-Splitting Multiple Access (RSMA)",
+    "Description": "Rate-Splitting Multiple Access (RSMA) is a communication strategy that optimizes spectral efficiency in multi-user wireless networks by partitioning user messages into common and private components, which are then encoded, superimposed, and decoded using advanced signal processing techniques to effectively manage inter-user interference and achieve flexible resource allocation."
+  },
+  {
+    "Index": 9,
+    "ChineseTerm": "干扰对齐",
+    "EnglishTerm": "Interference Alignment",
+    "Description": "Interference Alignment is a signal processing technique employed in wireless communication systems to mitigate the detrimental effects of interference by strategically aligning interfering signals within a confined subspace at the receivers, thereby maximizing the capacity of the network through efficient utilization of the available degrees of freedom without necessitating additional bandwidth or power resources."
+  },
+  {
+    "Index": 10,
+    "ChineseTerm": "波束赋形",
+    "EnglishTerm": "Beamforming",
+    "Description": "Beamforming is a signal processing technique utilized in communication systems to direct the transmission or reception of signals in spatially selective ways, enhancing signal strength and reducing interference by adjusting the amplitude and phase of signals across an array of antennas. This method optimizes the signal-to-noise ratio and improves the efficiency of wireless communication systems by concentrating energy towards intended directions while suppressing undesired signals."
+  },
+  {
+    "Index": 11,
+    "ChineseTerm": "混合波束赋形",
+    "EnglishTerm": "Hybrid Beamforming",
+    "Description": "Hybrid Beamforming is a technique in wireless communication systems that combines both analog and digital signal processing to efficiently manage the spatial directionality of transmitted signals, optimizing the use of multiple antennas for enhanced spectral efficiency and reduced power consumption in millimeter-wave frequencies."
+  },
+  {
+    "Index": 12,
+    "ChineseTerm": "模拟波束赋形",
+    "EnglishTerm": "Analog Beamforming",
+    "Description": "Analog Beamforming is a signal processing technique employed in communication systems where multiple antenna elements are used to constructively combine signals in the analog domain, forming a directed radiation pattern that enhances signal reception or transmission by electronically controlling the phase and amplitude of each element's output. This method optimizes the gain and directivity of the antenna array, facilitating improved spatial signal discrimination and reducing interference."
+  },
+  {
+    "Index": 13,
+    "ChineseTerm": "数字波束赋形",
+    "EnglishTerm": "Digital Beamforming",
+    "Description": "Digital Beamforming is a signal processing technique utilized in communication systems to electronically steer the directionality of antenna arrays by adjusting the phase and amplitude of signals at each antenna element, thus optimizing spatial filtering and enhancing signal reception or transmission while minimizing interference. This method leverages digital algorithms to dynamically manipulate the beam pattern, improving system capacity and performance in applications such as radar, wireless communication, and satellite systems."
+  },
+  {
+    "Index": 14,
+    "ChineseTerm": "本征波束赋形",
+    "EnglishTerm": "EigenBeamforming",
+    "Description": "EigenBeamforming in Communication refers to a signal processing technique that utilizes the eigenvectors of the channel covariance matrix to optimize the spatial filtering and directing of signals in multi-antenna systems, thereby enhancing the signal-to-noise ratio and capacity by aligning the transmitted signal along the principal eigenmodes of the channel."
+  },
+  {
+    "Index": 15,
+    "ChineseTerm": "协同波束赋形",
+    "EnglishTerm": "Coordinated Beamforming",
+    "Description": "Coordinated Beamforming is a communication technique within wireless networks that involves the strategic adjustment of the phase and amplitude of transmitted signals across multiple antennas to optimize spatial signal distribution and enhance overall network performance by reducing interference and increasing signal quality at the receivers. It leverages cooperative processing among base stations or access points to achieve more efficient and targeted transmission, thereby improving spectral efficiency and user experience in complex radio environments."
+  },
+  {
+    "Index": 16,
+    "ChineseTerm": "相干波束赋形",
+    "EnglishTerm": "Coherent Beamforming",
+    "Description": "Coherent Beamforming refers to a signal processing technique employed in communication systems where multiple transmission sources are synchronized in phase and amplitude to direct signals towards a specific receiver, thereby enhancing signal strength and reducing interference through constructive superposition. This method utilizes precise control over the array elements to achieve optimal spatial filtering and improve the effective signal-to-noise ratio in wireless communication channels."
+  },
+  {
+    "Index": 17,
+    "ChineseTerm": "波束管理",
+    "EnglishTerm": "Beam Management",
+    "Description": "Beam Management refers to the systematic process of configuring, directing, and optimizing transmission and reception beams in wireless communication systems, particularly in advanced technologies such as 5G and beyond, to maintain reliable and efficient signal propagation and connectivity by dynamically adjusting beam parameters in response to varying environmental conditions and user mobility."
+  },
+  {
+    "Index": 18,
+    "ChineseTerm": "波束跟踪",
+    "EnglishTerm": "Beam Tracking",
+    "Description": "Beam Tracking in the context of Communication refers to the dynamic process of continuously adjusting the direction and characteristics of a communication beam in real-time to maintain optimal signal quality and connectivity between a transmitter and a receiver, often employed in environments with mobile or rapidly changing conditions such as those involving satellite or millimeter-wave communications. It involves sophisticated algorithms and sensor feedback to adapt the beam path in response to signal degradation or movement of communication nodes."
+  },
+  {
+    "Index": 19,
+    "ChineseTerm": "波束切换策略",
+    "EnglishTerm": "Beam Switching Strategies",
+    "Description": "Beam Switching Strategies refer to the systematic methodologies employed in wireless communication systems for dynamically adjusting the directionality and orientation of antenna beams to optimize signal transmission and reception, enhance coverage, and improve communication link reliability by adapting to changes in user location, environmental conditions, or network demand. These strategies are integral to the functionality of advanced communication technologies such as multiple-input multiple-output (MIMO) systems and phased array antennas, facilitating efficient spatial resource management and interference mitigation."
+  },
+  {
+    "Index": 20,
+    "ChineseTerm": "预编码",
+    "EnglishTerm": "Precoding",
+    "Description": "Precoding in communication refers to the process of transforming or modifying the signal at the transmitter before transmission to optimize the reception quality and mitigate interference or channel effects, particularly in multiple-input multiple-output (MIMO) systems, by leveraging knowledge of the channel state information. It involves the application of mathematical algorithms and techniques to enhance signal coherence and improve spatial diversity and multiplexing gains."
+  },
+  {
+    "Index": 21,
+    "ChineseTerm": "MMSE 预编码",
+    "EnglishTerm": "MMSE Precoding",
+    "Description": "MMSE Precoding, or Minimum Mean Square Error Precoding, is a linear signal processing technique used in multi-antenna communication systems to minimize the mean square error between the transmitted and received signals, optimizing the spatial distribution of signals across multiple channels to enhance signal quality and mitigate interference in wireless communication environments."
+  },
+  {
+    "Index": 22,
+    "ChineseTerm": "零强迫预编码",
+    "EnglishTerm": "Zero-Forcing Precoding",
+    "Description": "Zero-Forcing Precoding is a linear signal processing technique employed in multi-antenna communication systems to mitigate inter-user interference by pre-compensating the transmitted signals; it involves the inversion of the channel matrix to nullify interference at the receivers, thereby optimizing signal separation at the cost of potential noise amplification."
+  },
+  {
+    "Index": 23,
+    "ChineseTerm": "空间复用",
+    "EnglishTerm": "Spatial Multiplexing",
+    "Description": "Spatial Multiplexing is a transmission technique in wireless communication systems where multiple data streams are transmitted simultaneously across multiple antennas at both the transmitter and receiver, leveraging the spatial dimension to enhance data throughput and spectral efficiency without additional bandwidth or power. This method exploits the independent fading of signals in a multi-path environment to separate the data streams, requiring advanced signal processing techniques such as Multiple Input Multiple Output (MIMO) technology."
+  },
+  {
+    "Index": 24,
+    "ChineseTerm": "空间分集",
+    "EnglishTerm": "Spatial Diversity",
+    "Description": "Spatial Diversity in Communication refers to the strategic deployment of multiple antennas at distinct spatial locations to exploit variations in signal propagation paths, thereby enhancing signal quality and reliability through mitigated effects of multipath fading and improved overall system performance. This technique leverages the spatial dimension to increase channel capacity and reduce error rates by diversifying the reception and transmission of signals across different spatial coordinates."
+  },
+  {
+    "Index": 25,
+    "ChineseTerm": "极化分集",
+    "EnglishTerm": "Polarization Diversity",
+    "Description": "Polarization Diversity refers to a communication technique that leverages multiple polarization states of electromagnetic waves to enhance signal reception and transmission reliability, reducing the impact of fading and multipath interference by utilizing orthogonal polarizations to provide independent signal paths. This approach optimizes the use of channel bandwidth and improves link performance by counteracting polarization-specific signal degradation in wireless communication systems."
+  },
+  {
+    "Index": 26,
+    "ChineseTerm": "频率分集",
+    "EnglishTerm": "Frequency Diversity",
+    "Description": "Frequency Diversity refers to a communication technique that enhances signal reliability by transmitting the same information across multiple frequency channels, thereby mitigating the effects of frequency-selective fading and interference by ensuring that the likelihood of simultaneous degradation across all channels is minimized."
+  },
+  {
+    "Index": 27,
+    "ChineseTerm": "时间分集",
+    "EnglishTerm": "Time Diversity",
+    "Description": "Time Diversity in communication refers to a technique used to mitigate the effects of signal fading and interference by transmitting the same information signal at different time intervals, thereby increasing the probability that at least one of the transmissions will be received correctly. This method leverages variations in channel conditions over time to enhance signal reliability and integrity without requiring additional frequency or spatial resources."
+  },
+  {
+    "Index": 28,
+    "ChineseTerm": "调制分集",
+    "EnglishTerm": "Modulation Diversity",
+    "Description": "Modulation diversity in communication refers to the strategic utilization of multiple modulation schemes to enhance signal robustness and reliability by mitigating the effects of channel impairments such as fading, interference, and multipath propagation, thereby improving overall system performance. This approach leverages variations in modulation techniques to adaptively optimize signal transmission characteristics according to the prevailing channel conditions."
+  },
+  {
+    "Index": 29,
+    "ChineseTerm": "信道估计",
+    "EnglishTerm": "Channel Estimation",
+    "Description": "Channel Estimation is the process of determining the properties and characteristics of a communication channel by analyzing the received signal to facilitate accurate signal transmission and reception, mitigating the effects of noise, interference, and fading in wireless communication systems. It involves employing algorithms and techniques to model the channel response, thereby enabling the optimization of signal processing and enhancing overall system performance."
+  },
+  {
+    "Index": 30,
+    "ChineseTerm": "盲信道估计",
+    "EnglishTerm": "Blind Channel Estimation",
+    "Description": "Blind Channel Estimation is a signal processing technique used in communication systems to infer channel characteristics without the need for known training sequences or pilot signals, relying instead on the inherent statistical properties of the received signal and the transmitted data. This method enables the reconstruction of the channel impulse response by exploiting the structure of the transmitted signal and the randomness inherent in the communication channel."
+  },
+  {
+    "Index": 31,
+    "ChineseTerm": "稀疏信道估计",
+    "EnglishTerm": "Sparse Channel Estimation",
+    "Description": "Sparse Channel Estimation refers to the process of determining the impulse response of a communication channel characterized by a limited number of significant multipath components, leveraging sparsity-promoting techniques to efficiently reconstruct the channel state information from a reduced set of observations. This approach exploits the inherent sparsity in the channel's impulse response, typically utilizing methods such as compressed sensing to achieve accurate estimation with minimal data requirements."
+  },
+  {
+    "Index": 32,
+    "ChineseTerm": "压缩CSI反馈",
+    "EnglishTerm": "Compressed CSI Feedback",
+    "Description": "Compressed CSI Feedback refers to the process of reducing the dimensionality of Channel State Information (CSI) data before transmitting it from a receiver back to the transmitter in wireless communication systems, aiming to minimize feedback overhead while preserving essential channel characteristics for efficient adaptive transmission and resource allocation."
+  },
+  {
+    "Index": 33,
+    "ChineseTerm": "CSI 时域插值",
+    "EnglishTerm": "CSI Time-Domain Interpolation",
+    "Description": "CSI Time-Domain Interpolation refers to the process of estimating intermediate channel state information (CSI) values in the time domain between known CSI measurements, enhancing temporal resolution and facilitating more accurate channel tracking in communication systems. This technique is employed to improve the performance of adaptive systems by compensating for time-varying channel conditions, thus supporting reliable data transmission and reception."
+  },
+  {
+    "Index": 34,
+    "ChineseTerm": "信道预测",
+    "EnglishTerm": "Channel Prediction",
+    "Description": "Channel Prediction in the context of Communication refers to the process of estimating future channel state information based on historical data and statistical models, aiming to enhance the performance and reliability of communication systems by anticipating variations in channel conditions. This predictive capability is crucial for optimizing resource allocation, improving data throughput, and minimizing latency in dynamic environments."
+  },
+  {
+    "Index": 35,
+    "ChineseTerm": "DFT 扩频 OFDM",
+    "EnglishTerm": "DFT-spread OFDM",
+    "Description": "DFT-spread OFDM, also known as Single-Carrier Frequency Division Multiple Access (SC-FDMA), is a communication technique that combines Discrete Fourier Transform (DFT) processing with Orthogonal Frequency Division Multiplexing (OFDM) to enhance signal robustness by spreading the signal across multiple subcarriers, thereby reducing the peak-to-average power ratio and improving spectral efficiency in uplink transmission scenarios."
+  },
+  {
+    "Index": 36,
+    "ChineseTerm": "频域均衡",
+    "EnglishTerm": "Frequency-Domain Equalization",
+    "Description": "Frequency-Domain Equalization is a signal processing technique employed in communication systems to mitigate the effects of inter-symbol interference caused by frequency-selective fading channels, by transforming received signals into the frequency domain, applying an equalizer to adjust the amplitude and phase response, and subsequently converting the signals back to the time domain for accurate data recovery. This method leverages the computational efficiency of the Fast Fourier Transform (FFT) to perform equalization, facilitating improved system performance in environments with multipath propagation."
+  },
+  {
+    "Index": 37,
+    "ChineseTerm": "混合时域/频域均衡",
+    "EnglishTerm": "Hybrid Time-Frequency Equalization",
+    "Description": "Hybrid Time-Frequency Equalization is a signal processing technique employed in communication systems that combines both time-domain and frequency-domain equalization methods to mitigate intersymbol interference and channel distortion, optimizing the signal recovery by dynamically adjusting to varying channel conditions. It leverages the complementary strengths of time-domain and frequency-domain approaches to enhance the performance and robustness of data transmission in multipath and frequency-selective environments."
+  },
+  {
+    "Index": 38,
+    "ChineseTerm": "判决反馈均衡",
+    "EnglishTerm": "Decision Feedback Equalizer",
+    "Description": "A Decision Feedback Equalizer (DFE) is a nonlinear equalization technique used in digital communication systems to mitigate intersymbol interference by utilizing both the received signal and previously detected symbols to adaptively adjust the equalization process, thereby enhancing signal integrity and reducing error rates. It comprises a feedforward filter that processes the incoming signal and a feedback filter that uses decisions from prior symbol detections to cancel post-cursor interference."
+  },
+  {
+    "Index": 39,
+    "ChineseTerm": "符号级干扰消除",
+    "EnglishTerm": "Symbol-Level Interference Cancellation",
+    "Description": "Symbol-Level Interference Cancellation refers to a signal processing technique in communication systems designed to mitigate interference at the individual symbol level by estimating and subtracting the interference component from received signals, thereby enhancing signal quality and improving overall system performance. This method leverages advanced algorithms to differentiate between desired signal components and interference, optimizing the accuracy of symbol detection in environments with overlapping transmissions."
+  },
+  {
+    "Index": 40,
+    "ChineseTerm": "多用户检测",
+    "EnglishTerm": "Multiuser Detection",
+    "Description": "Multiuser Detection refers to a signal processing technique employed in communication systems to simultaneously detect and demodulate signals from multiple users, mitigating interference caused by overlapping transmissions in shared communication channels while optimizing performance metrics such as error rates and system capacity."
+  },
+  {
+    "Index": 41,
+    "ChineseTerm": "ZF 检测",
+    "EnglishTerm": "Zero-Forcing Detection (ZF)",
+    "Description": "Zero-Forcing Detection (ZF) is a linear signal processing technique employed in multi-antenna communication systems to mitigate inter-symbol interference by inverting the channel matrix, thereby forcing the interference to zero and allowing the separation of co-channel signals, though at the expense of potentially amplifying noise due to the non-optimal handling of channel fading conditions."
+  },
+  {
+    "Index": 42,
+    "ChineseTerm": "MMSE 检测",
+    "EnglishTerm": "Minimum Mean Square Error Detection (MMSE)",
+    "Description": "Minimum Mean Square Error Detection (MMSE) in Communication refers to an estimation technique that minimizes the mean square error between the estimated and true signal values, optimizing the detection process in communication systems by leveraging statistical properties of the signal and noise to achieve improved signal recovery in the presence of interference or additive noise."
+  },
+  {
+    "Index": 43,
+    "ChineseTerm": "最大似然检测",
+    "EnglishTerm": "Maximum Likelihood Detection (ML)",
+    "Description": "Maximum Likelihood Detection (ML) in Communication refers to a statistical method used to estimate transmitted signals by selecting the signal hypothesis that maximizes the likelihood function, thereby minimizing the probability of error in signal interpretation based on observed data. This technique assumes a probabilistic model of the signal and noise characteristics, aiming to optimize decision-making in decoding processes within digital communication systems."
+  },
+  {
+    "Index": 44,
+    "ChineseTerm": "球形译码",
+    "EnglishTerm": "Sphere Decoding",
+    "Description": "Sphere Decoding is an algorithmic technique used in digital communication systems for efficiently solving the maximum-likelihood detection problem in lattice constellations by constraining the search space to a hypersphere around the received signal vector, thereby reducing computational complexity while maintaining optimal performance. This method is particularly applicable in multiple-input multiple-output (MIMO) systems to decode transmitted signals with reduced processing requirements compared to exhaustive search methods."
+  },
+  {
+    "Index": 45,
+    "ChineseTerm": "盲源分离",
+    "EnglishTerm": "Blind Source Separation",
+    "Description": "Blind Source Separation (BSS) in the context of Communication refers to the computational technique for separating a set of source signals from a set of mixed signals without prior knowledge of the source characteristics or the mixing process, typically utilizing statistical properties and mathematical models to isolate individual components. This process is crucial in scenarios where the original signals must be retrieved from observed mixtures, such as in audio signal processing, telecommunication, and data analysis."
+  },
+  {
+    "Index": 46,
+    "ChineseTerm": "多通道盲源分离",
+    "EnglishTerm": "Multi-Channel Blind Source Separation",
+    "Description": "Multi-Channel Blind Source Separation (MCBSS) is a computational technique used in communication systems to isolate and recover original signals from multiple mixed observations without prior information regarding the source signals or mixing process, utilizing algorithms that exploit statistical independence, spatial diversity, and temporal coherence across multiple channels."
+  },
+  {
+    "Index": 47,
+    "ChineseTerm": "独立成分分析",
+    "EnglishTerm": "Independent Component Analysis (ICA)",
+    "Description": "Independent Component Analysis (ICA) in the context of Communication refers to a computational method for extracting statistically independent signals or components from a mixture of signals, aiming to identify underlying source signals by maximizing non-Gaussianity and statistical independence, often used for separating mixed audio signals or blind source separation in signal processing."
+  },
+  {
+    "Index": 48,
+    "ChineseTerm": "贝叶斯信号分离",
+    "EnglishTerm": "Bayesian Signal Separation",
+    "Description": "Bayesian Signal Separation is a probabilistic framework used in communication systems to isolate and retrieve individual source signals from a composite signal mixture by leveraging Bayesian inference to model and estimate the joint posterior distribution of signal components, utilizing prior knowledge and observed data to optimize separation accuracy and reliability."
+  },
+  {
+    "Index": 49,
+    "ChineseTerm": "图解码算法",
+    "EnglishTerm": "Graph-Based Decoding",
+    "Description": "Graph-Based Decoding is a computational technique in communication systems that utilizes graph-based representations to decode transmitted messages by leveraging the structural relationships between data elements, optimizing the decoding process through iterative algorithms that exploit the graphical model's connectivity and probabilistic dependencies. This method enhances error correction capabilities by systematically analyzing and updating node states based on received information and predetermined edge connections within the graph."
+  },
+  {
+    "Index": 50,
+    "ChineseTerm": "和-乘积算法",
+    "EnglishTerm": "Sum-Product Algorithm",
+    "Description": "Sum-Product Algorithm is an iterative message-passing algorithm used in factor graphs to perform inference by computing marginal distributions, where nodes exchange messages to update beliefs based on local functions and neighboring states, often employed in decoding and probabilistic reasoning within communication systems."
+  },
+  {
+    "Index": 51,
+    "ChineseTerm": "迭代检测与译码",
+    "EnglishTerm": "Iterative Detection and Decoding",
+    "Description": "Iterative Detection and Decoding is a computational technique used in communication systems to enhance error correction performance, wherein the detection and decoding processes are sequentially repeated, allowing for the exchange of extrinsic information between these processes to refine estimates and improve the reliability of received signals. This iterative approach leverages feedback loops between the detector and decoder, often employed in systems utilizing turbo codes or LDPC codes, to progressively converge towards an optimal solution."
+  },
+  {
+    "Index": 52,
+    "ChineseTerm": "Turbo 译码",
+    "EnglishTerm": "Turbo Decoding",
+    "Description": "Turbo Decoding is a sophisticated error correction technique employed in digital communication systems, characterized by iterative processing and the use of soft input and output values to decode data encoded with parallel concatenated convolutional codes, thereby enhancing the reliability of data transmission by substantially reducing bit error rates."
+  },
+  {
+    "Index": 53,
+    "ChineseTerm": "Viterbi 算法",
+    "EnglishTerm": "Viterbi Algorithm",
+    "Description": "The Viterbi Algorithm is a dynamic programming method used in communication systems to efficiently determine the most likely sequence of hidden states in a Markov process, particularly in decoding convolutional codes by maximizing the probability of the observed sequence given the underlying model. It operates by recursively computing the maximum path metric for each state, enabling rapid and reliable error correction in digital data transmission."
+  },
+  {
+    "Index": 54,
+    "ChineseTerm": "BCJR 算法",
+    "EnglishTerm": "BCJR Algorithm",
+    "Description": "The BCJR Algorithm, named after its developers Bahl, Cocke, Jelinek, and Raviv, is a forward-backward dynamic programming algorithm utilized in the field of Communication for optimal symbol-by-symbol decoding of convolutional codes, providing a posteriori probabilities of transmitted symbols by leveraging both prior information and the received sequence within a trellis structure."
+  },
+  {
+    "Index": 55,
+    "ChineseTerm": "LDPC 编码",
+    "EnglishTerm": "Low-Density Parity-Check (LDPC) Codes",
+    "Description": "Low-Density Parity-Check (LDPC) Codes are a class of linear error-correcting codes characterized by a sparse parity-check matrix, designed to enable reliable transmission over noisy communication channels by iteratively decoding received messages using belief propagation algorithms. These codes achieve near-Shannon limit performance and are utilized in various applications requiring efficient error correction, such as digital communication systems and data storage."
+  },
+  {
+    "Index": 56,
+    "ChineseTerm": "Polar 编码",
+    "EnglishTerm": "Polar Codes",
+    "Description": "Polar codes are a class of capacity-achieving error-correcting codes that utilize channel polarization to transform a communication channel into a set of polarized subchannels, enabling efficient encoding and decoding processes that approach Shannon capacity with low complexity. Developed by Erdal Arikan in 2009, these codes leverage recursive splitting of channels to achieve reliable data transmission and are particularly effective for symmetric binary-input discrete memoryless channels."
+  },
+  {
+    "Index": 57,
+    "ChineseTerm": "Raptor 码",
+    "EnglishTerm": "Raptor Codes",
+    "Description": "Raptor Codes are a class of fountain codes characterized by their ability to efficiently encode and decode data for reliable transmission over communication channels, employing a pre-coding stage with a fixed-rate erasure code followed by a sequence of LT codes, which facilitates scalability and robust error correction with linear time complexity. They are designed to achieve near-optimal performance in terms of overhead and computational efficiency, making them suitable for applications requiring high data throughput and resilience to packet loss."
+  },
+  {
+    "Index": 58,
+    "ChineseTerm": "喷泉码",
+    "EnglishTerm": "Fountain Codes",
+    "Description": "Fountain Codes are a class of erasure codes used in communication systems that facilitate reliable data transmission by generating potentially limitless encoded symbols from a finite set of source symbols, allowing the receiver to reconstruct the original data from any sufficiently large subset of these encoded symbols without the need for the sender to know which symbols are lost. They are particularly effective in scenarios involving unpredictable packet loss, as they enable efficient and flexible data recovery without requiring retransmission of specific lost packets."
+  },
+  {
+    "Index": 59,
+    "ChineseTerm": "联合源信道编码",
+    "EnglishTerm": "Joint Source-Channel Coding",
+    "Description": "Joint Source-Channel Coding is a communication technique that integrates source coding and channel coding processes to optimize the overall transmission efficiency and reliability by simultaneously considering the characteristics of both the source and the communication channel, often resulting in improved performance in terms of bandwidth usage and error resilience compared to separate coding approaches."
+  },
+  {
+    "Index": 60,
+    "ChineseTerm": "网络编码",
+    "EnglishTerm": "Network Coding",
+    "Description": "Network Coding is a communication technique that enhances network throughput and reliability by allowing intermediate nodes to perform algebraic operations on data packets, thereby enabling the encoding and mixing of information flows within the network to optimize the transmission processes. This method contrasts with traditional routing, where packets are forwarded without modification, and is leveraged to improve efficiency in data dissemination across complex network topologies."
+  },
+  {
+    "Index": 61,
+    "ChineseTerm": "信号重构",
+    "EnglishTerm": "Signal Reconstruction",
+    "Description": "Signal Reconstruction in Communication refers to the process of accurately restoring a signal to its original form from its sampled or digitized representations, typically involving algorithms and techniques that mitigate distortions and losses incurred during transmission or processing, ensuring fidelity to the source signal. This process is essential for maintaining the integrity and usability of transmitted data in digital communication systems."
+  },
+  {
+    "Index": 62,
+    "ChineseTerm": "快速 FFT 算法",
+    "EnglishTerm": "Fast FFT Algorithms",
+    "Description": "Fast FFT Algorithms, within the context of Communication, refer to optimized computational techniques designed to efficiently compute the Discrete Fourier Transform (DFT) and its inverse, significantly reducing the computational complexity from O(N²) to O(N log N), thereby enhancing the performance of signal processing tasks such as spectral analysis, filtering, and modulation in digital communication systems."
+  },
+  {
+    "Index": 63,
+    "ChineseTerm": "峰均功率比抑制",
+    "EnglishTerm": "PAPR Reduction Techniques",
+    "Description": "PAPR Reduction Techniques refer to a set of methodologies employed in communication systems, particularly in multicarrier transmission schemes like Orthogonal Frequency Division Multiplexing (OFDM), to mitigate the Peak-to-Average Power Ratio (PAPR) of transmitted signals, aiming to enhance power efficiency, reduce distortion, and improve signal fidelity by optimizing the dynamic range of the transmission. These techniques encompass various algorithmic strategies, including coding, modulation adjustments, and signal processing methods, designed to minimize the adverse effects of high PAPR on system performance and hardware constraints."
+  },
+  {
+    "Index": 64,
+    "ChineseTerm": "基于色彩多样化 OFDM",
+    "EnglishTerm": "Colored OFDM",
+    "Description": "Colored Orthogonal Frequency-Division Multiplexing (Colored OFDM) refers to a variant of OFDM in which adaptive power allocation is applied across subcarriers to mitigate channel impairments and optimize system performance, typically by adjusting the power spectral density according to the frequency-selective characteristics of the communication channel. This technique enhances signal robustness and spectral efficiency by dynamically responding to variations in channel conditions."
+  },
+  {
+    "Index": 65,
+    "ChineseTerm": "正交时频空间调制",
+    "EnglishTerm": "Orthogonal Time Frequency Space (OTFS) Modulation",
+    "Description": "Orthogonal Time Frequency Space (OTFS) Modulation is a waveform modulation technique designed for wireless communication systems, characterized by its use of a two-dimensional transformation that maps information onto a delay-Doppler domain, thereby enhancing resilience against channel impairments such as multipath fading and Doppler shift, and facilitating improved performance in highly dynamic environments."
+  },
+  {
+    "Index": 66,
+    "ChineseTerm": "滤波器组多载波",
+    "EnglishTerm": "Filter Bank MultiCarrier (FBMC)",
+    "Description": "Filter Bank MultiCarrier (FBMC) is a multicarrier modulation technique in digital communication that utilizes a bank of filters to achieve high spectral efficiency and reduced inter-symbol interference by minimizing spectral leakage, thereby enhancing performance in frequency-selective fading channels. It employs offset quadrature amplitude modulation (OQAM) to maintain orthogonality between subcarriers, optimizing bandwidth utilization compared to traditional orthogonal frequency-division multiplexing (OFDM)."
+  },
+  {
+    "Index": 67,
+    "ChineseTerm": "通用滤波多载波",
+    "EnglishTerm": "Universal Filtered MultiCarrier (UFMC)",
+    "Description": "Universal Filtered MultiCarrier (UFMC) is a multi-carrier modulation technique employed in wireless communication systems that enhances spectral efficiency and reduces out-of-band emissions by applying a filter to a group of subcarriers, rather than individual subcarriers as in OFDM, thereby improving performance in scenarios with limited frequency resources and asynchronous transmissions."
+  },
+  {
+    "Index": 68,
+    "ChineseTerm": "多载波码分多址",
+    "EnglishTerm": "Multi-Carrier CDMA (MC-CDMA)",
+    "Description": "Multi-Carrier CDMA (MC-CDMA) is a wireless communication technique that combines Code Division Multiple Access (CDMA) with Orthogonal Frequency Division Multiplexing (OFDM) to spread user data over multiple orthogonal subcarriers, enhancing spectral efficiency and resilience against frequency-selective fading by distributing the encoded signal across a wide frequency band. This approach enables multiple users to share the same frequency spectrum simultaneously while minimizing interference through the application of unique spreading codes across multiple carriers."
+  },
+  {
+    "Index": 69,
+    "ChineseTerm": "载波聚合",
+    "EnglishTerm": "Carrier Aggregation (CA)",
+    "Description": "Carrier Aggregation (CA) is a telecommunications technique used in wireless communication systems to increase data throughput by combining multiple frequency bands, or carriers, into a single data channel, thereby expanding the effective bandwidth available for data transmission and enhancing the overall spectral efficiency of a network. This method is integral to advanced mobile communication standards such as LTE-Advanced, allowing for improved network performance and capacity."
+  },
+  {
+    "Index": 70,
+    "ChineseTerm": "跨载波调度载波聚合",
+    "EnglishTerm": "Carrier Aggregation with Cross-Carrier Scheduling",
+    "Description": "Carrier Aggregation with Cross-Carrier Scheduling is a technique employed in advanced wireless communication systems whereby multiple frequency bands are aggregated to increase bandwidth and enhance data throughput, while scheduling decisions for user data transmission are made on a separate control channel from the data channels, thus optimizing resource allocation across the aggregated carriers. This method allows for efficient utilization of spectrum resources and improved network performance by decoupling the control and data plane operations within the carrier aggregation framework."
+  },
+  {
+    "Index": 71,
+    "ChineseTerm": "信道聚焦",
+    "EnglishTerm": "Carrier Focusing",
+    "Description": "Carrier focusing is a technique in communication systems that involves concentrating the energy of a carrier signal into a specific frequency band or direction to enhance signal strength and improve transmission efficiency, often utilized to optimize the performance of wireless communication channels by minimizing interference and maximizing bandwidth utilization."
+  },
+  {
+    "Index": 72,
+    "ChineseTerm": "载波同步",
+    "EnglishTerm": "Carrier Synchronization",
+    "Description": "Carrier Synchronization refers to the process of aligning the frequency and phase of a receiver's local oscillator with the carrier signal of the incoming transmission, ensuring coherent demodulation and accurate retrieval of the transmitted information in communication systems. This synchronization is critical for minimizing phase error and frequency drift, thereby preserving the integrity and fidelity of the transmitted signal."
+  },
+  {
+    "Index": 73,
+    "ChineseTerm": "载波频偏估计",
+    "EnglishTerm": "Carrier Frequency Offset Estimation",
+    "Description": "Carrier Frequency Offset Estimation refers to the process of quantifying the frequency discrepancy between the received signal and the local oscillator in communication systems, which arises due to Doppler shifts or oscillator inaccuracies, thereby facilitating the correction necessary for coherent demodulation and accurate data recovery. This estimation is crucial for maintaining signal integrity and minimizing phase errors in wireless communication systems."
+  },
+  {
+    "Index": 74,
+    "ChineseTerm": "随机接入信道",
+    "EnglishTerm": "Random Access Channel (RACH)",
+    "Description": "Random Access Channel (RACH) is a specialized uplink channel in a cellular communication system that facilitates initial access and connection establishment for mobile devices by enabling unscheduled transmission of short signaling messages to request network resources or initiate communication procedures, often employing contention-based access mechanisms."
+  },
+  {
+    "Index": 75,
+    "ChineseTerm": "随机接入",
+    "EnglishTerm": "Random Access",
+    "Description": "Random Access refers to a communication protocol or technique that enables multiple users or devices to transmit data over a shared medium without predefined coordination, relying on probabilistic methods to resolve potential conflicts and collisions that occur when multiple transmissions overlap in time. This approach is fundamental in network architectures where dynamic allocation of bandwidth is necessary, allowing for flexible and efficient use of communication channels."
+  },
+  {
+    "Index": 76,
+    "ChineseTerm": "RRC 信令",
+    "EnglishTerm": "Radio Resource Control (RRC)",
+    "Description": "Radio Resource Control (RRC) is a protocol layer in mobile communication systems responsible for managing the connection and transmission of signaling messages between the user equipment and the radio access network, facilitating procedures such as connection establishment, maintenance, and release, as well as mobility management and handover within the network. It operates within the control plane, ensuring efficient allocation and utilization of radio resources to optimize network performance and reliability."
+  },
+  {
+    "Index": 77,
+    "ChineseTerm": "MAC 调度",
+    "EnglishTerm": "MAC Scheduling",
+    "Description": "MAC Scheduling, within the context of Communication, refers to the algorithmic process by which the Medium Access Control (MAC) layer organizes and prioritizes access to the communication medium among multiple network devices, optimizing the allocation of transmission opportunities to enhance network efficiency, reduce latency, and ensure fair resource distribution based on predefined criteria such as channel conditions, device priorities, and traffic demands."
+  },
+  {
+    "Index": 78,
+    "ChineseTerm": "上行调度",
+    "EnglishTerm": "Uplink Scheduling",
+    "Description": "Uplink Scheduling is the process of allocating transmission resources in a communication network for data sent from user devices to a central node or base station, optimizing the timing, frequency, and priority of transmissions to enhance network performance and ensure efficient utilization of available bandwidth. This mechanism is integral to managing data flow within wireless communication systems, particularly in cellular networks, to accommodate varying user demands and maintain service quality."
+  },
+  {
+    "Index": 79,
+    "ChineseTerm": "下行调度",
+    "EnglishTerm": "Downlink Scheduling",
+    "Description": "Downlink Scheduling is the process in communication systems, particularly in cellular networks, of allocating and managing network resources to prioritize and efficiently deliver data packets from the base station to multiple user devices, optimizing throughput and minimizing latency based on predefined criteria and real-time network conditions."
+  },
+  {
+    "Index": 80,
+    "ChineseTerm": "半持久调度",
+    "EnglishTerm": "Semi-Persistent Scheduling (SPS)",
+    "Description": "Semi-Persistent Scheduling (SPS) is a communication protocol mechanism used predominantly in cellular networks to allocate radio resources periodically with minimal signaling overhead, optimizing the transmission of data packets for applications with predictable, regular traffic patterns such as voice over IP (VoIP) and real-time services, by pre-scheduling resources at fixed intervals and reducing the need for frequent dynamic scheduling."
+  },
+  {
+    "Index": 81,
+    "ChineseTerm": "混合ARQ",
+    "EnglishTerm": "Hybrid ARQ (HARQ)",
+    "Description": "Hybrid Automatic Repeat reQuest (HARQ) is a communication protocol that combines forward error correction (FEC) and automatic repeat request (ARQ) mechanisms to enhance data transmission reliability by allowing erroneous packets to be retransmitted while integrating error correction codes, thereby optimizing the balance between throughput efficiency and error resilience in wireless communication systems."
+  },
+  {
+    "Index": 82,
+    "ChineseTerm": "自动重传请求",
+    "EnglishTerm": "Automatic Repeat Request (ARQ)",
+    "Description": "Automatic Repeat Request (ARQ) is a protocol mechanism employed in communication systems to ensure data integrity by automatically requesting the retransmission of packets that are detected as erroneous or lost during transmission, thereby facilitating error control and reliable data exchange between sender and receiver."
+  },
+  {
+    "Index": 83,
+    "ChineseTerm": "自适应调制",
+    "EnglishTerm": "Adaptive Modulation",
+    "Description": "Adaptive Modulation is a communication technique that dynamically adjusts the modulation scheme of a transmission system in real-time based on varying channel conditions to optimize data throughput and maintain connection reliability. This process involves selecting among different modulation formats to balance performance metrics such as spectral efficiency, error rates, and power constraints in response to fluctuations in signal quality."
+  },
+  {
+    "Index": 84,
+    "ChineseTerm": "自适应编码",
+    "EnglishTerm": "Adaptive Coding",
+    "Description": "Adaptive Coding refers to the dynamic modification of encoding techniques in a communication system to optimize data transmission efficiency and reliability based on varying channel conditions, signal quality, or other environmental factors, thereby enhancing overall system performance and resilience."
+  },
+  {
+    "Index": 85,
+    "ChineseTerm": "自适应调制与编码",
+    "EnglishTerm": "Adaptive Modulation and Coding (AMC)",
+    "Description": "Adaptive Modulation and Coding (AMC) is a dynamic communication technique employed in wireless systems that optimizes data transmission rates and reliability by adjusting the modulation scheme and coding rate in response to real-time variations in channel conditions, thereby enhancing spectral efficiency and maintaining link quality."
+  },
+  {
+    "Index": 86,
+    "ChineseTerm": "链路自适应",
+    "EnglishTerm": "Link Adaptation",
+    "Description": "Link Adaptation refers to the dynamic adjustment of transmission parameters, such as modulation schemes and coding rates, in response to varying channel conditions to optimize communication performance by maintaining a balance between data rate, reliability, and signal quality in wireless communication systems."
+  },
+  {
+    "Index": 87,
+    "ChineseTerm": "功率分配优化",
+    "EnglishTerm": "Power Allocation Optimization",
+    "Description": "Power Allocation Optimization in Communication refers to the strategic distribution of transmission power across multiple channels, users, or resources in a communication system to maximize overall system performance metrics such as data rate, energy efficiency, or signal quality, while adhering to constraints such as power limits, interference levels, and quality of service requirements."
+  },
+  {
+    "Index": 88,
+    "ChineseTerm": "多用户功率分配",
+    "EnglishTerm": "Multi-User Power Allocation",
+    "Description": "Multi-User Power Allocation refers to the strategic distribution of transmission power among multiple users in a communication system to optimize performance metrics such as signal quality, data throughput, and spectral efficiency while adhering to constraints on total power consumption and minimizing interference. It entails algorithmic methodologies that balance competing demands for resources in a shared medium, ensuring efficient utilization of the available power across diverse communication channels."
+  },
+  {
+    "Index": 89,
+    "ChineseTerm": "动态功率分集",
+    "EnglishTerm": "Dynamic Power Diversity",
+    "Description": "Dynamic Power Diversity in the context of Communication refers to the adaptive variation in transmit power levels across multiple communication channels or paths to enhance signal reliability and mitigate fading effects, thereby optimizing the overall system performance by leveraging the temporal and spatial diversity of the communication environment."
+  },
+  {
+    "Index": 90,
+    "ChineseTerm": "流量卸载",
+    "EnglishTerm": "Traffic Offloading",
+    "Description": "Traffic Offloading in Communication refers to the strategic process of redirecting data traffic from primary networks, such as cellular networks, to alternative networks, like Wi-Fi or small cells, to optimize network efficiency, enhance performance, and alleviate congestion by utilizing diverse communication pathways."
+  },
+  {
+    "Index": 91,
+    "ChineseTerm": "干扰协调",
+    "EnglishTerm": "Interference Coordination",
+    "Description": "Interference Coordination in Communication refers to the systematic management and mitigation of signal interference between communication channels or devices within a shared frequency spectrum, utilizing techniques such as resource allocation, scheduling, and beamforming to enhance network performance and maintain signal integrity. This process is critical in optimizing spectral efficiency and ensuring reliable communication in wireless networks, especially in high-density environments."
+  },
+  {
+    "Index": 92,
+    "ChineseTerm": "协作多点检测",
+    "EnglishTerm": "Cooperative Multi-Point Detection",
+    "Description": "Cooperative Multi-Point Detection in Communication refers to a technique where multiple transmission and reception points collaborate to enhance signal detection and improve data transmission reliability in wireless networks, utilizing spatial diversity and coordinated signal processing to mitigate interference and optimize spectral efficiency. This approach leverages shared information and coordinated actions among distributed network nodes to achieve superior performance compared to traditional single-point detection methods."
+  },
+  {
+    "Index": 93,
+    "ChineseTerm": "干扰消除",
+    "EnglishTerm": "Interference Nulling",
+    "Description": "Interference Nulling in communication refers to the strategic process of minimizing or eliminating undesired signal interference within a communication system by adjusting system parameters or employing specific signal processing techniques, thereby enhancing the fidelity and reliability of the transmitted information. This process is typically implemented in adaptive antenna systems or signal processing algorithms to ensure optimal performance in environments with high interference levels."
+  },
+  {
+    "Index": 94,
+    "ChineseTerm": "自干扰消除",
+    "EnglishTerm": "Self-Interference Cancellation",
+    "Description": "Self-Interference Cancellation is a signal processing technique employed in communication systems to mitigate the detrimental effects of interference caused by a transmitter's signal on its own receiver, enabling simultaneous transmission and reception on the same frequency channel by dynamically estimating and subtracting the self-interference component from the received signal."
+  },
+  {
+    "Index": 95,
+    "ChineseTerm": "全双工通信",
+    "EnglishTerm": "Full Duplex Communication",
+    "Description": "Full Duplex Communication refers to a communication system configuration wherein simultaneous bidirectional data transmission occurs, enabling both sender and receiver to exchange information concurrently, thereby optimizing channel utilization and enhancing throughput efficiency. This mode of communication contrasts with half-duplex systems, which support alternating transmission directions, and is fundamental in facilitating real-time interactive exchanges in various network architectures."
+  },
+  {
+    "Index": 96,
+    "ChineseTerm": "带内全双工",
+    "EnglishTerm": "In-band Full Duplex",
+    "Description": "In-band Full Duplex refers to a communication system capability that allows simultaneous transmission and reception of signals over the same frequency channel, leveraging advanced signal processing techniques to cancel self-interference and optimize spectral efficiency within wireless or wired networks."
+  },
+  {
+    "Index": 97,
+    "ChineseTerm": "多径传播",
+    "EnglishTerm": "Multipath Propagation",
+    "Description": "Multipath Propagation refers to the phenomenon in wireless communication where transmitted signals travel from the transmitter to the receiver via multiple paths due to reflection, diffraction, and scattering caused by obstacles and environmental conditions, resulting in constructive or destructive interference that affects signal quality and reliability."
+  },
+  {
+    "Index": 98,
+    "ChineseTerm": "时延扩展",
+    "EnglishTerm": "Delay Spread",
+    "Description": "Delay Spread refers to the temporal dispersion of a transmitted signal as it propagates through a multipath channel, characterized by the difference in arrival times between the earliest and latest significant multipath components, impacting the signal's coherence and potentially leading to intersymbol interference in wireless communication systems."
+  },
+  {
+    "Index": 99,
+    "ChineseTerm": "阴影衰落",
+    "EnglishTerm": "Shadow Fading",
+    "Description": "Shadow Fading refers to the attenuation of radio signals caused by large obstructions in the signal path, resulting in spatial variations of received signal strength due to the irregular scattering and absorption by buildings, terrain, or other significant physical structures, and is characterized by its slow variation over distance compared to fast-fading phenomena."
+  },
+  {
+    "Index": 100,
+    "ChineseTerm": "瑞利衰落",
+    "EnglishTerm": "Rayleigh Fading",
+    "Description": "Rayleigh fading is a statistical model for the effect of a propagation environment on a radio signal, characterized by rapid amplitude fluctuations resulting from the superposition of multiple reflected and scattered signal paths, typically in scenarios where there is no dominant line-of-sight component, and the signal undergoes multipath propagation. This model assumes that the amplitude of the received signal follows a Rayleigh distribution, indicative of environments with numerous small-scale variations in signal strength."
+  },
+  {
+    "Index": 101,
+    "ChineseTerm": "里氏衰落",
+    "EnglishTerm": "Rician Fading",
+    "Description": "Rician Fading is a radio signal propagation phenomenon characterized by the presence of a dominant line-of-sight (LOS) path in the signal's transmission, combined with multiple scattered paths, leading to variations in signal amplitude that follow a Rician distribution. This type of fading is contrasted with Rayleigh fading, where no dominant LOS component exists, and is commonly analyzed in wireless communication systems to assess the impact of multipath interference on signal integrity."
+  },
+  {
+    "Index": 102,
+    "ChineseTerm": "Nakagami 衰落",
+    "EnglishTerm": "Nakagami Fading",
+    "Description": "Nakagami Fading refers to a statistical model used in wireless communications to characterize the signal amplitude variations caused by multipath propagation, where the power of the received signal follows a Nakagami distribution, parameterized by a shape factor (m) that allows for flexible modeling of different fading conditions ranging from Rayleigh to Rician distributions."
+  },
+  {
+    "Index": 103,
+    "ChineseTerm": "多普勒效应",
+    "EnglishTerm": "Doppler Effect",
+    "Description": "The Doppler Effect in the context of Communication refers to the change in frequency or wavelength of a signal as perceived by an observer moving relative to the source of the signal, which can affect the transmission and reception quality in wireless communication systems due to variations in the relative velocity between the transmitter and receiver."
+  },
+  {
+    "Index": 104,
+    "ChineseTerm": "路径损耗",
+    "EnglishTerm": "Path Loss",
+    "Description": "Path Loss is the reduction in power density of an electromagnetic signal as it propagates through space, often quantified as a function of distance and frequency, and influenced by environmental factors such as obstacles, atmospheric conditions, and diffraction, impacting the performance of wireless communication systems."
+  },
+  {
+    "Index": 105,
+    "ChineseTerm": "RF 前端校准",
+    "EnglishTerm": "RF Front-End Calibration",
+    "Description": "RF Front-End Calibration refers to the systematic adjustment and alignment of the radio frequency front-end components, including filters, amplifiers, and mixers, to optimize signal integrity, minimize distortions, and ensure accurate performance in communication systems under varying environmental and operational conditions. This process is essential for maintaining the fidelity and efficiency of RF signal transmission and reception across a broad range of frequencies and applications."
+  },
+  {
+    "Index": 106,
+    "ChineseTerm": "收发机不匹配补偿",
+    "EnglishTerm": "Transceiver Mismatch Compensation",
+    "Description": "Transceiver Mismatch Compensation refers to the systematic process of adjusting or correcting the discrepancies between the transmitting and receiving components in a communication system to ensure optimal signal integrity and performance, typically involving calibration techniques or adaptive algorithms that address variations in frequency response, phase, amplitude, or other parameters impacting effective data transmission and reception."
+  },
+  {
+    "Index": 107,
+    "ChineseTerm": "低噪声放大器",
+    "EnglishTerm": "Low Noise Amplifier (LNA)",
+    "Description": "A Low Noise Amplifier (LNA) is an electronic amplifier designed to amplify weak signals received by an antenna while minimizing the addition of extraneous noise, thereby preserving the signal-to-noise ratio essential for effective communication system performance across various frequency bands."
+  },
+  {
+    "Index": 108,
+    "ChineseTerm": "功率放大器",
+    "EnglishTerm": "Power Amplifier",
+    "Description": "A power amplifier is an electronic device designed to increase the amplitude of a signal, typically in the radio frequency or audio spectrum, to drive high-power loads such as antennas or loudspeakers, ensuring efficient signal transmission with minimal distortion. It achieves this by converting low-power input signals into higher power output signals, thereby facilitating effective communication over extended distances or through high-demand environments."
+  },
+  {
+    "Index": 109,
+    "ChineseTerm": "射频滤波器",
+    "EnglishTerm": "RF Filter",
+    "Description": "An RF Filter, or Radio Frequency Filter, is a device or circuit designed to selectively allow or attenuate electromagnetic signals within a specified frequency range, thereby facilitating the control of bandwidth and signal integrity in communication systems by reducing interference from adjacent frequencies. It achieves this by employing various filter topologies, such as low-pass, high-pass, band-pass, or band-stop, each tailored to the application's frequency requirements and performance criteria."
+  },
+  {
+    "Index": 110,
+    "ChineseTerm": "模数转换",
+    "EnglishTerm": "Analog-to-Digital Conversion (ADC)",
+    "Description": "Analog-to-Digital Conversion (ADC) is the process of transforming continuous analog signals into discrete digital signals by quantizing the amplitude of the analog input at regular intervals, thereby enabling the representation and processing of the signal in digital systems within communication networks. This conversion is fundamental for interfacing analog signal sources with digital equipment, allowing the digital manipulation and transmission of data across communication channels."
+  },
+  {
+    "Index": 111,
+    "ChineseTerm": "数模转换",
+    "EnglishTerm": "Digital-to-Analog Conversion (DAC)",
+    "Description": "Digital-to-Analog Conversion (DAC) is the process by which digital signals, typically represented in discrete binary code, are translated into continuous analog signals, enabling their transmission over analog communication channels or interpretation by analog devices. This conversion is fundamental in communication systems to facilitate the interaction between digital data sources and analog signal requirements, ensuring fidelity and compatibility across diverse media formats."
+  },
+  {
+    "Index": 112,
+    "ChineseTerm": "自动增益控制",
+    "EnglishTerm": "Automatic Gain Control (AGC)",
+    "Description": "Automatic Gain Control (AGC) is a signal processing technique employed in communication systems to dynamically adjust the gain of an amplifier or receiver to maintain a consistent output amplitude despite variations in input signal strength, thereby optimizing signal quality and reducing distortion across varying environmental conditions. AGC systems operate by continuously monitoring the signal level and automatically applying gain adjustments to ensure stable performance and efficient utilization of system resources."
+  },
+  {
+    "Index": 113,
+    "ChineseTerm": "同步序列",
+    "EnglishTerm": "Synchronization Sequence",
+    "Description": "Synchronization Sequence refers to a predetermined series of signals or data patterns utilized within communication systems to establish temporal alignment between transmitting and receiving entities, ensuring accurate timing and coordination for data transmission processes."
+  },
+  {
+    "Index": 114,
+    "ChineseTerm": "相位噪声建模",
+    "EnglishTerm": "Phase Noise Modeling",
+    "Description": "Phase Noise Modeling in communication refers to the analytical and simulation-based process of quantifying and predicting the spectral purity deviations and random fluctuations in the phase of a signal generated by oscillators, which impact the performance and reliability of communication systems by degrading signal quality and increasing error rates. It encompasses the mathematical representation and assessment of phase noise characteristics to optimize system design and enhance signal integrity in wireless and wired communication networks."
+  },
+  {
+    "Index": 115,
+    "ChineseTerm": "相位噪声抑制",
+    "EnglishTerm": "Phase Noise Mitigation",
+    "Description": "Phase Noise Mitigation refers to the set of techniques and processes employed to reduce or compensate for the random fluctuations in the phase of a signal, which can degrade the performance of communication systems by affecting signal integrity and spectral purity. This involves both hardware and software solutions aimed at stabilizing oscillators and enhancing signal processing algorithms to ensure accurate and reliable data transmission."
+  },
+  {
+    "Index": 116,
+    "ChineseTerm": "无线回声消除",
+    "EnglishTerm": "Wireless Echo Cancellation",
+    "Description": "Wireless Echo Cancellation refers to the process of identifying and mitigating unwanted echo effects that occur during wireless communication, utilizing digital signal processing techniques to enhance audio clarity and quality by eliminating feedback loops and reverberations caused by delayed signal reflections in transmission environments."
+  },
+  {
+    "Index": 117,
+    "ChineseTerm": "过采样 OFDM",
+    "EnglishTerm": "Oversampled OFDM",
+    "Description": "Oversampled Orthogonal Frequency Division Multiplexing (OFDM) refers to a signal processing technique in which the sampling rate exceeds the Nyquist rate, enhancing spectral resolution and mitigating aliasing by employing a higher number of subcarriers than strictly necessary for the bandwidth of the transmitted signal, thereby improving the performance in terms of synchronization, channel estimation, and reducing intercarrier interference in multi-path environments."
+  },
+  {
+    "Index": 118,
+    "ChineseTerm": "稀疏源编码",
+    "EnglishTerm": "Sparse Source Coding",
+    "Description": "Sparse Source Coding is a technique in communication systems that involves encoding information such that the resulting signal representation is dominated by a relatively small number of significant components, thereby exploiting the sparsity inherent in the source signal for efficient data compression and transmission. This approach leverages the mathematical properties of sparse signals to achieve reduced bandwidth requirements and computational complexity while preserving essential information content."
+  },
+  {
+    "Index": 119,
+    "ChineseTerm": "信号块重排",
+    "EnglishTerm": "Signal Block Reordering",
+    "Description": "Signal Block Reordering refers to the process of rearranging blocks of signals or data in a communication system to optimize transmission efficiency, improve error correction, or adapt to protocol requirements, ensuring that the sequence of signal blocks aligns with the intended temporal or logical order for decoding and processing. This technique is often utilized in digital communication to mitigate latency, enhance throughput, and maintain synchronization across various layers of a communication network."
+  },
+  {
+    "Index": 120,
+    "ChineseTerm": "基于张量的信号处理",
+    "EnglishTerm": "Tensor-Based Signal Processing",
+    "Description": "Tensor-Based Signal Processing in Communication refers to the advanced methodology that leverages multi-dimensional data arrays, known as tensors, to enhance signal representation, manipulation, and analysis, enabling efficient processing of complex, structured data across multiple dimensions such as time, frequency, and spatial domains. This approach facilitates improved performance and robustness in various communication systems by exploiting the inherent multidimensional structure of the data, which traditional vector-based methods may not fully capture."
+  },
+  {
+    "Index": 121,
+    "ChineseTerm": "多孔径接收",
+    "EnglishTerm": "Multi-Aperture Reception",
+    "Description": "Multi-Aperture Reception refers to a communication technique involving the use of multiple spatially distributed antennas or sensors to receive signals, enhancing the performance in terms of signal quality, resolution, and interference mitigation by exploiting spatial diversity and multi-path effects. This method is integral to advanced communication systems, such as radar and wireless networks, for improved accuracy and reliability in signal detection and processing."
+  },
+  {
+    "Index": 122,
+    "ChineseTerm": "收发分集",
+    "EnglishTerm": "Transmit-Receive Diversity",
+    "Description": "Transmit-Receive Diversity refers to a communication technique employed in wireless systems to enhance signal reliability and performance by utilizing multiple antennas at both the transmitter and receiver ends, thereby mitigating the effects of fading and signal degradation through spatial diversity. This method leverages distinct propagation paths to improve link quality and increase data throughput by optimizing the transmission and reception of signals across varied antenna configurations."
+  },
+  {
+    "Index": 123,
+    "ChineseTerm": "多天线传输",
+    "EnglishTerm": "Multi-Antenna Transmission",
+    "Description": "Multi-Antenna Transmission refers to a communication technique that utilizes multiple antennas at the transmitter, receiver, or both, to enhance signal quality, data rate, and reliability by exploiting spatial diversity and spatial multiplexing, thereby optimizing the utilization of the wireless channel's capacity and mitigating effects such as fading and interference. This approach is fundamental to advanced wireless communication systems, including MIMO (Multiple-Input Multiple-Output), which leverages multiple antennas to achieve higher spectral efficiency and improved communication performance."
+  },
+  {
+    "Index": 124,
+    "ChineseTerm": "分布式 MIMO 检测",
+    "EnglishTerm": "Distributed MIMO Detection",
+    "Description": "Distributed MIMO Detection refers to the process of detecting signals transmitted from multiple antennas in a distributed multiple-input multiple-output (MIMO) system, where the detection tasks are performed across spatially separated nodes or devices, leveraging cooperative processing and communication to enhance signal recovery, reduce computational complexity, and improve system performance in wireless communication networks."
+  },
+  {
+    "Index": 125,
+    "ChineseTerm": "深度学习信号检测",
+    "EnglishTerm": "Deep Learning-Based Detection",
+    "Description": "Deep Learning-Based Detection in Communication refers to the application of deep learning algorithms, particularly neural networks, to identify, classify, or predict patterns and anomalies within communication signals or data streams, leveraging vast amounts of data and complex model architectures to enhance accuracy and efficiency. This approach utilizes high-dimensional feature extraction and representation learning to achieve superior performance compared to traditional detection methods, thereby facilitating advancements in signal processing, network security, and information retrieval."
+  },
+  {
+    "Index": 126,
+    "ChineseTerm": "信道硬件失真建模",
+    "EnglishTerm": "Channel Hardware Impairment Modeling",
+    "Description": "Channel Hardware Impairment Modeling in the context of Communication refers to the analytical and computational process of representing and quantifying the non-ideal characteristics and imperfections introduced by physical hardware components in a communication system, which may affect signal propagation, reception, and overall system performance. This modeling encompasses the characterization of phenomena such as phase noise, amplifier nonlinearities, in-phase/quadrature (I/Q) imbalance, and other distortions that deviate from ideal channel behavior, thereby facilitating the design of more robust systems and compensation techniques."
+  },
+  {
+    "Index": 127,
+    "ChineseTerm": "信道不确定性建模",
+    "EnglishTerm": "Channel Uncertainty Modeling",
+    "Description": "Channel Uncertainty Modeling refers to the systematic representation and analysis of unpredictabilities and variabilities in communication channel characteristics, which may arise due to factors such as noise, interference, or dynamic environmental conditions, aiming to optimize signal transmission and reception and enhance reliability and efficiency of communication systems."
+  },
+  {
+    "Index": 128,
+    "ChineseTerm": "CSI 量化",
+    "EnglishTerm": "CSI Quantization",
+    "Description": "CSI Quantization refers to the process of discretizing the Channel State Information (CSI) into a finite set of values for efficient representation and transmission in communication systems, thereby facilitating the adaptation of link parameters to the varying channel conditions while minimizing the overhead associated with CSI feedback. This procedure is critical in optimizing resource allocation and enhancing system performance in wireless communications."
+  },
+  {
+    "Index": 129,
+    "ChineseTerm": "能量收集通信",
+    "EnglishTerm": "Energy Harvesting Communications",
+    "Description": "Energy Harvesting Communications refers to a communication paradigm in which electronic devices and systems autonomously gather, store, and utilize ambient energy from environmental sources, such as solar, thermal, or vibrational energy, to power communication functions, thereby enhancing sustainability and extending operational lifespan without reliance on conventional power supplies."
+  },
+  {
+    "Index": 130,
+    "ChineseTerm": "SWIPT 协议",
+    "EnglishTerm": "SWIPT Protocols",
+    "Description": "Simultaneous Wireless Information and Power Transfer (SWIPT) Protocols refer to a class of communication protocols designed to enable the concurrent transmission of information and energy over the same wireless communication channel, leveraging advanced signal processing and power management techniques to optimize the dual objectives of data communication efficiency and energy harvesting efficacy within wireless networks."
+  },
+  {
+    "Index": 131,
+    "ChineseTerm": "物理层安全",
+    "EnglishTerm": "Physical Layer Security",
+    "Description": "Physical Layer Security refers to the set of techniques and strategies employed to secure communication systems at the physical layer of the network architecture by exploiting the inherent properties of the physical medium, such as channel noise and fading, to enhance confidentiality and prevent eavesdropping, without relying solely on traditional cryptographic methods. It aims to achieve secure transmission by leveraging physical characteristics to provide information-theoretic security, thereby enhancing overall system resilience against adversarial attacks."
+  },
+  {
+    "Index": 132,
+    "ChineseTerm": "认知无线电",
+    "EnglishTerm": "Cognitive Radio",
+    "Description": "Cognitive Radio is an advanced communication system paradigm that employs intelligent, adaptive algorithms to dynamically sense and analyze the electromagnetic spectrum environment, thereby optimizing the utilization of available frequencies by autonomously adjusting its operational parameters to ensure efficient and interference-free transmission. This technology enhances spectrum efficiency through real-time cognitive processes, enabling the coexistence and interoperability of multiple communication devices in a shared spectrum space."
+  },
+  {
+    "Index": 133,
+    "ChineseTerm": "频谱感知",
+    "EnglishTerm": "Spectrum Sensing",
+    "Description": "Spectrum sensing is the process of detecting the presence or absence of primary users in a wireless communication channel by utilizing signal processing techniques to identify available frequency bands for opportunistic use by secondary users, thereby facilitating dynamic spectrum access and efficient spectrum management."
+  },
+  {
+    "Index": 134,
+    "ChineseTerm": "协作频谱感知",
+    "EnglishTerm": "Cooperative Spectrum Sensing",
+    "Description": "Cooperative Spectrum Sensing is a collaborative technique within cognitive radio networks where multiple secondary users share and combine their individual spectrum sensing data to enhance the accuracy and reliability of detecting unused frequency bands, thereby optimizing spectrum utilization and minimizing interference with primary users. This method leverages spatial diversity and collective processing to improve detection performance under varying environmental conditions and reduces the likelihood of erroneous decisions due to channel fading or noise."
+  },
+  {
+    "Index": 135,
+    "ChineseTerm": "多跳通信",
+    "EnglishTerm": "Multi-Hop Communication",
+    "Description": "Multi-Hop Communication refers to a communication technique in networking where data is transmitted from a source to a destination through multiple intermediate nodes or relay points, rather than a direct connection, thereby extending the communication range and enhancing network coverage and connectivity. This method is fundamental in ad-hoc, wireless, and sensor networks, where direct links between communicating entities may not be feasible due to distance, obstacles, or resource constraints."
+  },
+  {
+    "Index": 136,
+    "ChineseTerm": "车载自组织网络",
+    "EnglishTerm": "Vehicular Ad Hoc Network (VANET)",
+    "Description": "Vehicular Ad Hoc Network (VANET) refers to a decentralized communication network that enables vehicles to communicate with each other and with roadside infrastructure, utilizing wireless technologies to facilitate real-time exchange of information aimed at enhancing traffic management, safety, and efficiency in transportation systems. This network operates in a dynamic topology, characterized by high mobility and frequent changes in connectivity, necessitating robust protocols for data dissemination and network maintenance within a vehicular environment."
+  },
+  {
+    "Index": 137,
+    "ChineseTerm": "信息时效性",
+    "EnglishTerm": "Age of Information (AoI)",
+    "Description": "Age of Information (AoI) is a metric in communication systems that quantifies the freshness of information by measuring the time elapsed since the generation of the most recently received update at a receiver, reflecting the timeliness and relevance of data in scenarios where maintaining up-to-date information is critical. AoI is used to evaluate the performance of various network protocols and systems in terms of information latency, especially in environments characterized by frequent updates and delays."
+  },
+  {
+    "Index": 138,
+    "ChineseTerm": "UDN 干扰管理",
+    "EnglishTerm": "UDN Interference Management",
+    "Description": "UDN Interference Management refers to the systematic approach employed in Ultra-Dense Networks to mitigate and control interference among coexisting wireless communication nodes, thereby optimizing spectral efficiency and network performance through advanced techniques such as dynamic resource allocation, coordinated transmission strategies, and interference cancellation mechanisms."
+  },
+  {
+    "Index": 139,
+    "ChineseTerm": "空-地协同通信",
+    "EnglishTerm": "Air-Ground Cooperative Communications",
+    "Description": "Air-Ground Cooperative Communications refers to a communication paradigm in which airborne and terrestrial entities collaboratively engage in data exchange to enhance network performance, coverage, and reliability by utilizing joint signal processing, resource allocation, and information sharing techniques across air and ground communication channels. This cooperative framework is integral to optimizing the efficiency of wireless communication systems, particularly in aviation and unmanned aerial vehicle operations."
+  },
+  {
+    "Index": 140,
+    "ChineseTerm": "毫米波信道建模",
+    "EnglishTerm": "Millimeter-Wave Channel Modeling",
+    "Description": "Millimeter-Wave Channel Modeling refers to the analytical and computational process of characterizing the propagation environment and signal behavior in wireless communication systems operating in the millimeter-wave frequency spectrum (30-300 GHz), accounting for factors such as path loss, reflection, diffraction, and atmospheric absorption to optimize system performance and reliability. This modeling is crucial for the design and deployment of high-frequency communication networks, including 5G and beyond, where precise understanding of channel characteristics is essential for effective signal transmission and reception."
+  },
+  {
+    "Index": 141,
+    "ChineseTerm": "太赫兹信道建模",
+    "EnglishTerm": "Terahertz Channel Modeling",
+    "Description": "Terahertz Channel Modeling refers to the theoretical and computational analysis of electromagnetic wave propagation characteristics within the terahertz frequency band, typically ranging from 0.1 to 10 THz, aimed at understanding and predicting the behavior of communication channels in terms of attenuation, scattering, and absorption due to environmental factors, material interactions, and atmospheric conditions, thereby facilitating the design and optimization of terahertz communication systems."
+  },
+  {
+    "Index": 142,
+    "ChineseTerm": "超高频/Sub-THz 通信",
+    "EnglishTerm": "Sub-THz Communications",
+    "Description": "Sub-THz Communications refers to the transmission of information using electromagnetic waves within the frequency range of approximately 100 GHz to 1 THz, characterized by high data rates and low latency, and is utilized in applications requiring ultra-high bandwidth, such as next-generation wireless networks and ultra-high-definition multimedia streaming. This domain exploits the unique propagation and absorption properties of sub-terahertz frequencies to achieve enhanced spectral efficiency and spatial resolution, while addressing challenges related to signal attenuation and hardware limitations."
+  },
+  {
+    "Index": 143,
+    "ChineseTerm": "载波聚合感知",
+    "EnglishTerm": "Spectrum Aggregation Awareness",
+    "Description": "Spectrum Aggregation Awareness refers to the capability within communication systems to recognize, manage, and optimize the use of multiple frequency bands simultaneously, enhancing data throughput and network efficiency by dynamically aggregating available spectrum resources in response to varying network demands and conditions."
+  },
+  {
+    "Index": 144,
+    "ChineseTerm": "快速链路自适应",
+    "EnglishTerm": "Fast Link Adaptation",
+    "Description": "Fast Link Adaptation refers to a dynamic process in wireless communication systems that rapidly adjusts modulation schemes, coding rates, or transmission power in real-time based on the instantaneous channel conditions to optimize data throughput and maintain reliable connectivity. This technique enhances the efficiency of the communication link by responding swiftly to variations in signal quality and interference levels, thereby maximizing performance within the constraints of the existing network environment."
+  },
+  {
+    "Index": 145,
+    "ChineseTerm": "时隙级同步",
+    "EnglishTerm": "Slot-Level Synchronization",
+    "Description": "Slot-Level Synchronization refers to the precise alignment of time slots within a time-division multiplexing (TDM) scheme, ensuring that data packets or signals are accurately transmitted and received within their designated temporal intervals, thereby minimizing timing discrepancies and optimizing system efficiency in communication networks."
+  },
+  {
+    "Index": 146,
+    "ChineseTerm": "目标唤醒时间",
+    "EnglishTerm": "Target Wake Time (TWT)",
+    "Description": "Target Wake Time (TWT) is a communication protocol mechanism that schedules predetermined wake-up times for wireless devices to efficiently manage power consumption by coordinating device activity periods to minimize energy usage while maintaining network performance, particularly in IEEE 802.11 wireless networks."
+  },
+  {
+    "Index": 147,
+    "ChineseTerm": "BSS 着色",
+    "EnglishTerm": "BSS Coloring",
+    "Description": "BSS Coloring, in the context of Communication, refers to a technique used in wireless networks to differentiate between overlapping Basic Service Sets (BSS) by assigning unique identifiers or 'colors' to each BSS, thereby minimizing interference and enhancing spatial reuse through improved signal separation and management. This methodology is integral to optimizing network performance, particularly in environments with dense deployments of access points operating on similar frequencies."
+  },
+  {
+    "Index": 148,
+    "ChineseTerm": "空间复用参数",
+    "EnglishTerm": "Spatial Reuse Parameter (SRP)",
+    "Description": "Spatial Reuse Parameter (SRP) refers to a configurable metric in wireless communication systems that governs the degree to which multiple transmissions can occur simultaneously in the same spatial domain, thereby optimizing spectral efficiency and minimizing interference by adjusting transmission power and contention window settings. It plays a critical role in enhancing network performance through dynamic resource management and efficient utilization of the available frequency spectrum."
+  },
+  {
+    "Index": 149,
+    "ChineseTerm": "快速链路恢复",
+    "EnglishTerm": "Fast Link Recovery",
+    "Description": "Fast Link Recovery refers to the rapid restoration of communication pathways in a network following a disruption or failure, minimizing downtime by swiftly reestablishing connectivity through pre-configured alternate routes or mechanisms designed to detect and respond to such events efficiently. This process enhances network resilience and reliability by ensuring continuous data transmission and maintaining service quality amidst link failures."
+  }
+]

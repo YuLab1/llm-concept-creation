@@ -1,0 +1,902 @@
+[
+  {
+    "Index": 0,
+    "ChineseTerm": "有限元时域法",
+    "EnglishTerm": "Finite Element Time-Domain Method",
+    "Description": "The Finite Element Time-Domain Method (FETD) in Electromagnetism is a numerical technique that discretizes Maxwell's equations in both spatial and temporal domains using finite element analysis, enabling the simulation of electromagnetic wave propagation and interaction with complex geometries by solving time-dependent partial differential equations over a structured mesh. This method leverages the flexibility of finite elements to accommodate irregular boundaries and heterogeneous materials, allowing for precise modeling of electromagnetic fields in both linear and nonlinear media."
+  },
+  {
+    "Index": 1,
+    "ChineseTerm": "有限元频域法",
+    "EnglishTerm": "Finite Element Frequency-Domain Method",
+    "Description": "The Finite Element Frequency-Domain Method in Electromagnetism is a computational technique that employs the finite element method to solve Maxwell's equations in the frequency domain, enabling the analysis of electromagnetic fields by discretizing the spatial domain into smaller, manageable elements and applying harmonic time dependence to model complex interactions at specific frequencies. This method is particularly suited for problems involving steady-state sinusoidal excitations, allowing for the efficient computation of field distributions and resonances in complex geometries."
+  },
+  {
+    "Index": 2,
+    "ChineseTerm": "有限差分时域法",
+    "EnglishTerm": "Finite-Difference Time-Domain (FDTD) Method",
+    "Description": "The Finite-Difference Time-Domain (FDTD) Method is a computational technique used in Electromagnetism to solve Maxwell's equations by discretizing both time and space domains, employing finite difference approximations to iteratively calculate the electromagnetic field components over a grid. This method enables the simulation of complex interactions between electromagnetic waves and materials by updating field values in increments through time-stepping procedures."
+  },
+  {
+    "Index": 3,
+    "ChineseTerm": "移动窗有限差分法",
+    "EnglishTerm": "Moving Window FDTD",
+    "Description": "Moving Window FDTD (Finite-Difference Time-Domain) is a computational technique in electromagnetism that involves dynamically adjusting the simulation domain to follow the propagation of electromagnetic waves, effectively reducing computational resources by maintaining a fixed-size computational grid that moves with the wavefront. This method is particularly useful for simulating scenarios with large spatial extents or moving sources, ensuring efficient use of memory and processing power while maintaining accurate temporal and spatial resolution."
+  },
+  {
+    "Index": 4,
+    "ChineseTerm": "时域有限体积法",
+    "EnglishTerm": "Finite Volume Time-Domain (FVTD) Method",
+    "Description": "The Finite Volume Time-Domain (FVTD) Method in Electromagnetism is a numerical technique used to solve Maxwell's equations by discretizing the computational domain into finite volumes, where the fluxes of electromagnetic fields across the boundaries of each volume are computed to update field values over time, thus preserving the conservation laws inherent to the equations. This method integrates the advantages of finite volume schemes in handling complex geometries and ensuring local conservation properties with explicit time-stepping approaches for dynamic electromagnetic analysis."
+  },
+  {
+    "Index": 5,
+    "ChineseTerm": "边界元法",
+    "EnglishTerm": "Boundary Element Method (BEM)",
+    "Description": "The Boundary Element Method (BEM) in Electromagnetism is a numerical computational technique used for solving linear partial differential equations by transforming volume integrals into surface integrals, thus reducing the dimensionality of the problem and focusing computational efforts on the boundary alone, which facilitates the analysis of electromagnetic fields in complex geometries with infinite or semi-infinite domains."
+  },
+  {
+    "Index": 6,
+    "ChineseTerm": "时域边界元法",
+    "EnglishTerm": "Time-Domain Boundary Element Method",
+    "Description": "The Time-Domain Boundary Element Method (TDBEM) in Electromagnetism is a computational technique utilized to solve time-dependent electromagnetic field problems by discretizing only the boundary of the domain, thus reducing dimensionality and computational complexity, and employing integral formulations to evaluate transient electromagnetic interactions. This method is particularly advantageous for problems involving unbounded domains and interfaces, where it efficiently handles the radiation conditions and non-local interactions inherent in electromagnetic wave propagation."
+  },
+  {
+    "Index": 7,
+    "ChineseTerm": "多极子展开法",
+    "EnglishTerm": "Multipole Expansion Method",
+    "Description": "The Multipole Expansion Method in Electromagnetism is a mathematical technique used to express the potential field generated by a localized charge or current distribution as a series of terms, each corresponding to different orders of multipoles—monopole, dipole, quadrupole, etc.—thereby facilitating the analysis of the spatial dependence and symmetry properties of the field at points far from the source. This expansion leverages spherical harmonics to systematically approximate complex electromagnetic fields, enhancing computational efficiency and insight into the field's structure, particularly for non-uniform distributions."
+  },
+  {
+    "Index": 8,
+    "ChineseTerm": "表面等效电流原理",
+    "EnglishTerm": "Surface Equivalent Current Principle",
+    "Description": "The Surface Equivalent Current Principle in Electromagnetism refers to a theoretical method used to simplify the analysis of electromagnetic fields by replacing the actual sources on a surface with equivalent electric and magnetic surface currents, which reproduce the same electromagnetic effects in the region outside the surface. This principle facilitates the calculation of fields by employing boundary conditions and is pivotal in computational electromagnetics, particularly in solving problems involving complex geometries and scattering phenomena."
+  },
+  {
+    "Index": 9,
+    "ChineseTerm": "时域解析模态匹配",
+    "EnglishTerm": "Time-Domain Analytical Mode Matching",
+    "Description": "Time-Domain Analytical Mode Matching (TDAMM) is a mathematical technique used in electromagnetism for solving boundary value problems by decomposing electromagnetic fields into a series of modes, which are matched at interfaces in the time domain to ensure continuity and satisfy boundary conditions, thereby facilitating the analysis of complex structures and transient phenomena. This method leverages the temporal evolution of fields to achieve accurate solutions that are essential for applications involving dynamic electromagnetic interactions and non-stationary signal processing."
+  },
+  {
+    "Index": 10,
+    "ChineseTerm": "传输矩阵法",
+    "EnglishTerm": "Transfer Matrix Method",
+    "Description": "The Transfer Matrix Method in electromagnetism is a computational technique used to analyze wave propagation through stratified media by representing the relationship between incident, reflected, and transmitted waves at each interface with matrices, thereby facilitating the calculation of overall transmission and reflection coefficients across multilayer structures. This method systematically accounts for electromagnetic boundary conditions and material properties, enabling efficient modeling of complex optical systems and layered dielectric configurations."
+  },
+  {
+    "Index": 11,
+    "ChineseTerm": "多重散射模型",
+    "EnglishTerm": "Multiple Scattering Model",
+    "Description": "Multiple Scattering Model refers to a theoretical framework in electromagnetism used to describe the propagation and interaction of electromagnetic waves as they undergo successive scatterings by a collection of discrete particles or irregularities within a medium, accounting for the cumulative effects of these interactions on wave amplitude and phase. This model is fundamental in analyzing complex systems where single scattering approximations are insufficient, enabling the study of wave behavior in heterogeneous media such as atmospheric, biological, or engineered materials."
+  },
+  {
+    "Index": 12,
+    "ChineseTerm": "Green函数在均匀介质中的应用",
+    "EnglishTerm": "Green’s Function in Homogeneous Media",
+    "Description": "In the context of Electromagnetism, a Green's Function in homogeneous media refers to the mathematical construct used to describe the response of a system to a point source, characterized by the solution to the differential equation governing electromagnetic fields in a uniform medium, providing a fundamental solution that encapsulates the effects of source interactions and boundary conditions."
+  },
+  {
+    "Index": 13,
+    "ChineseTerm": "非均匀介质摄动法",
+    "EnglishTerm": "Perturbation Method for Inhomogeneous Media",
+    "Description": "The Perturbation Method for Inhomogeneous Media in Electromagnetism is a mathematical approach used to approximate the behavior of electromagnetic fields within media whose properties vary spatially, by expanding the field equations around a known solution and considering higher-order terms as small perturbations to account for inhomogeneities. This technique facilitates the analysis of complex systems by treating deviations from uniformity as incremental modifications to a background medium, thereby allowing the evaluation of the influence of spatial variations on electromagnetic wave propagation and field distributions."
+  },
+  {
+    "Index": 14,
+    "ChineseTerm": "瞬态谐波耦合",
+    "EnglishTerm": "Transient Harmonic Coupling",
+    "Description": "Transient Harmonic Coupling in Electromagnetism refers to the temporary interaction between harmonic oscillations in a system, wherein the energy transfer or influence occurs due to the alignment or synchronization of frequencies within electromagnetic fields, leading to a transient alteration in the system's electromagnetic behavior. This coupling is characterized by its short-lived nature and the dependence on specific conditions that facilitate the resonance or interference between the harmonic components."
+  },
+  {
+    "Index": 15,
+    "ChineseTerm": "多模谐波分析",
+    "EnglishTerm": "Multi-Mode Harmonic Analysis",
+    "Description": "Multi-Mode Harmonic Analysis in electromagnetism refers to the mathematical technique used to decompose complex electromagnetic fields into a series of harmonic components across multiple modes, facilitating the understanding and analysis of wave propagation, resonance, and interference phenomena in systems with multiple interacting frequencies or spatial configurations. This method is critical for solving Maxwell's equations in complex geometries and media, where multiple spatial or temporal harmonics coexist."
+  },
+  {
+    "Index": 16,
+    "ChineseTerm": "电磁-热耦合仿真",
+    "EnglishTerm": "Electromagnetic-Thermal Coupled Simulation",
+    "Description": "Electromagnetic-Thermal Coupled Simulation refers to the computational modeling approach that simultaneously solves the electromagnetic and thermal field equations to predict the interdependent interactions between electromagnetic phenomena and heat generation or dissipation within materials or systems. This technique is employed to analyze and understand the effects of electromagnetic fields on temperature distribution and thermal effects on electromagnetic behavior, ensuring accurate predictions in applications such as electronic device design, material processing, and power systems."
+  },
+  {
+    "Index": 17,
+    "ChineseTerm": "电磁-机械耦合机理",
+    "EnglishTerm": "Electromagnetic-Mechanical Coupling Mechanism",
+    "Description": "Electromagnetic-Mechanical Coupling Mechanism refers to the interaction process by which electromagnetic fields induce mechanical forces or motions, or conversely, mechanical movements influence electromagnetic properties or fields, typically facilitated through materials exhibiting magnetostrictive or piezoelectric characteristics, thereby enabling the conversion between electromagnetic energy and mechanical energy in devices or systems."
+  },
+  {
+    "Index": 18,
+    "ChineseTerm": "矢量有限元法",
+    "EnglishTerm": "Vector Finite Element Method",
+    "Description": "The Vector Finite Element Method (VFEM) is a numerical technique employed in electromagnetism for solving partial differential equations that govern vector fields, utilizing discretization of the problem domain into elements where vector basis functions are defined to ensure conformity with Maxwell's equations and accurately capture the behavior of electromagnetic fields. This method is particularly suited for complex geometries and anisotropic materials, providing a robust framework for simulating electromagnetic wave propagation, scattering, and resonance phenomena."
+  },
+  {
+    "Index": 19,
+    "ChineseTerm": "时域矢量边界元法",
+    "EnglishTerm": "Time-Domain Vector BEM",
+    "Description": "Time-Domain Vector Boundary Element Method (BEM) in Electromagnetism is a computational technique that solves Maxwell's equations by discretizing the boundaries of the electromagnetic problem domain in the time domain, enabling the simulation of transient electromagnetic fields and interactions using vector-based formulations that account for the spatial and temporal variations of the fields. This method is particularly advantageous for modeling open-region problems and complex geometries, where it efficiently handles boundary conditions and reduces the computational resources required compared to volumetric discretization methods."
+  },
+  {
+    "Index": 20,
+    "ChineseTerm": "分层介质传输线模型",
+    "EnglishTerm": "Layered Media Transmission Line Model",
+    "Description": "The \"Layered Media Transmission Line Model\" is a theoretical framework used in electromagnetism to analyze the propagation of electromagnetic waves through stratified materials, where each layer is characterized by distinct electromagnetic properties such as permittivity, permeability, and conductivity, thereby influencing the reflection, refraction, and absorption of waves at the interfaces between layers. This model employs transmission line theory to represent the complex interactions and impedance matching conditions across the layered structure, facilitating the calculation of wave parameters such as phase velocity, attenuation, and reflection coefficients."
+  },
+  {
+    "Index": 21,
+    "ChineseTerm": "分频滤波电磁模型",
+    "EnglishTerm": "Frequency-Selective Surface Model",
+    "Description": "A Frequency-Selective Surface Model is a theoretical construct used to describe surfaces composed of periodic arrays of conductive elements that exhibit selective transmission or reflection of electromagnetic waves based on frequency; these models are critical in analyzing and designing surfaces for applications such as filters, antennas, and electromagnetic shielding in various frequency ranges."
+  },
+  {
+    "Index": 22,
+    "ChineseTerm": "表面等离激元耦合",
+    "EnglishTerm": "Surface Plasmon Polariton Coupling",
+    "Description": "Surface Plasmon Polariton Coupling refers to the resonant interaction between electromagnetic waves and surface plasmons—collective oscillations of electrons—at the interface between a metal and a dielectric, resulting in confined electromagnetic modes known as surface plasmon polaritons that propagate along the interface. This coupling enables the concentration of electromagnetic energy at subwavelength scales, facilitating enhanced light-matter interactions and applications in sensing and photonic devices."
+  },
+  {
+    "Index": 23,
+    "ChineseTerm": "电磁带隙结构分析",
+    "EnglishTerm": "Electromagnetic Bandgap Structure Analysis",
+    "Description": "Electromagnetic Bandgap Structure Analysis refers to the systematic examination and characterization of periodic structures designed to prohibit the propagation of electromagnetic waves within certain frequency ranges, leveraging the principles of photonic or electromagnetic bandgaps to control wave behavior and enhance performance in applications such as antennas, sensors, and waveguides. This analysis involves the assessment of the structural configuration, material properties, and electromagnetic interaction mechanisms to optimize the bandgap features and achieve desired wave manipulation outcomes."
+  },
+  {
+    "Index": 24,
+    "ChineseTerm": "时域传输线模型",
+    "EnglishTerm": "Time-Domain Transmission Line Model",
+    "Description": "A Time-Domain Transmission Line Model is a mathematical representation used in electromagnetism to analyze the transient behavior and propagation of electromagnetic waves along transmission lines, characterized by time-dependent differential equations that account for distributed parameters such as resistance, inductance, capacitance, and conductance, enabling the simulation of signal reflection, distortion, and attenuation over time."
+  },
+  {
+    "Index": 25,
+    "ChineseTerm": "广义矩量法",
+    "EnglishTerm": "Generalized Method of Moments",
+    "Description": "The Generalized Method of Moments in the context of Electromagnetism refers to a mathematical technique used to derive approximate solutions to complex electromagnetic problems by expressing fields and potentials in terms of weighted integrals of basis functions, thereby enabling the formulation of moment equations that capture the essential characteristics of the electromagnetic phenomena under study. This method is particularly advantageous for handling problems involving boundary conditions and heterogeneous media, where exact analytical solutions are challenging to obtain."
+  },
+  {
+    "Index": 26,
+    "ChineseTerm": "时域矩量法",
+    "EnglishTerm": "Time-Domain Method of Moments",
+    "Description": "The Time-Domain Method of Moments (TD-MoM) is a computational technique used in electromagnetism to solve integral equations by discretizing them in both spatial and temporal domains, enabling the analysis of transient electromagnetic phenomena and complex, time-varying interactions within conductive and dielectric materials. This method employs basis functions and weighting functions to transform continuous equations into a system of linear equations, facilitating numerical solutions for electromagnetic fields over time."
+  },
+  {
+    "Index": 27,
+    "ChineseTerm": "多物理场电磁仿真",
+    "EnglishTerm": "Multi-Physics Electromagnetic Simulation",
+    "Description": "Multi-Physics Electromagnetic Simulation refers to the computational modeling and analysis of electromagnetic phenomena that interact with multiple physical domains, such as thermal, mechanical, and fluid dynamics, to capture the coupled effects and interdependencies between electromagnetic fields and other physical processes. This simulation approach utilizes advanced numerical techniques to solve complex systems of equations, enabling the accurate prediction and optimization of electromagnetic behavior in real-world applications where cross-disciplinary influences are significant."
+  },
+  {
+    "Index": 28,
+    "ChineseTerm": "非线性介质谐波生成",
+    "EnglishTerm": "Harmonic Generation in Nonlinear Media",
+    "Description": "Harmonic Generation in Nonlinear Media refers to the process by which the frequency of an electromagnetic wave is multiplied through its interaction with a medium possessing nonlinear optical properties, resulting in the production of new waves at integer multiples of the original frequency, known as harmonics, due to the medium's non-linear polarization response to the incident electromagnetic field."
+  },
+  {
+    "Index": 29,
+    "ChineseTerm": "电磁声耦合",
+    "EnglishTerm": "Electromagnetic-Acoustic Coupling",
+    "Description": "Electromagnetic-acoustic coupling refers to the phenomenon where electromagnetic fields interact with acoustic waves, resulting in the conversion of energy between electromagnetic and mechanical forms, often observed in materials where electromagnetic fields induce mechanical vibrations or vice versa, governed by the principles of electromechanical transduction. This coupling is characterized by the interplay between electromagnetic wave propagation and acoustic wave generation, significantly impacting the study of wave dynamics in heterogeneous media and the development of related technologies."
+  },
+  {
+    "Index": 30,
+    "ChineseTerm": "瞬态散射矩阵法",
+    "EnglishTerm": "Transient Scattering Matrix Method",
+    "Description": "The Transient Scattering Matrix Method is a computational technique in electromagnetism used to analyze the time-dependent scattering characteristics of electromagnetic waves interacting with complex structures, by representing the system's response as a matrix that relates incident and scattered waveforms over discrete time intervals, facilitating the study of dynamic wave propagation and reflection phenomena."
+  },
+  {
+    "Index": 31,
+    "ChineseTerm": "时频联合分析",
+    "EnglishTerm": "Time-Frequency Joint Analysis",
+    "Description": "Time-Frequency Joint Analysis in Electromagnetism refers to the analytical method that simultaneously examines the temporal and spectral characteristics of electromagnetic signals, enabling the assessment of signal behavior across both time and frequency domains to capture transient and non-stationary phenomena. This approach utilizes mathematical tools such as wavelet transforms or Wigner-Ville distributions to provide a comprehensive understanding of signal dynamics and energy distribution."
+  },
+  {
+    "Index": 32,
+    "ChineseTerm": "矢量格林张量",
+    "EnglishTerm": "Vector Green’s Tensor",
+    "Description": "In Electromagnetism, the Vector Green's Tensor is a mathematical construct that represents the influence of a point source on a vector field, typically used to solve inhomogeneous vector field equations by expressing the field in terms of integrals over the source distribution, where it acts as the kernel in the integral solution and satisfies the governing differential equation subject to specific boundary conditions."
+  },
+  {
+    "Index": 33,
+    "ChineseTerm": "自旋波与电磁耦合",
+    "EnglishTerm": "Spin Wave–Electromagnetic Coupling",
+    "Description": "Spin Wave–Electromagnetic Coupling refers to the interaction between spin waves, which are collective excitations of electron spins in a magnetic material, and electromagnetic fields, wherein the dynamic magnetic properties of the spin waves influence and are influenced by the electromagnetic radiation, thereby facilitating energy and information exchange between the magnonic and photonic systems. This coupling is fundamental for advancing spintronics and magnonics technologies, enabling control over spin wave propagation and manipulation through external electromagnetic fields."
+  },
+  {
+    "Index": 34,
+    "ChineseTerm": "超表面设计原理",
+    "EnglishTerm": "Metasurface Design Principles",
+    "Description": "Metasurface Design Principles refer to the systematic methodologies employed in the conceptualization and fabrication of ultrathin, planar structures composed of subwavelength-sized elements that manipulate electromagnetic wavefronts through tailored phase, amplitude, and polarization responses, thereby enabling advanced control over light-matter interactions at the nanoscale. These principles involve the strategic arrangement and material selection of metasurface components to achieve desired electromagnetic functionalities, such as anomalous reflection, refraction, and beam shaping, while adhering to fundamental constraints imposed by Maxwell's equations and boundary conditions."
+  },
+  {
+    "Index": 35,
+    "ChineseTerm": "时域多物理场自适应网格",
+    "EnglishTerm": "Time-Domain Multi-Physics Adaptive Mesh",
+    "Description": "A Time-Domain Multi-Physics Adaptive Mesh is a computational grid framework employed in numerical simulations to dynamically adjust mesh resolution based on temporal changes and interactions between multiple physical phenomena, such as electromagnetic fields, thermal effects, and mechanical forces, enhancing accuracy and efficiency in modeling complex systems over time. This technique is pivotal in finite-difference time-domain (FDTD) methods, where adaptive mesh refinement allows for optimized resource allocation and detailed analysis of transient electromagnetic behavior."
+  },
+  {
+    "Index": 36,
+    "ChineseTerm": "微波射频线性化技术",
+    "EnglishTerm": "Microwave RF Linearization Techniques",
+    "Description": "Microwave RF Linearization Techniques refer to a set of methodologies employed to enhance the linearity of radio frequency (RF) microwave systems by mitigating non-linear distortions, thereby improving signal fidelity and performance in communication systems through the application of feedback, feedforward, and predistortion strategies within the electromagnetic spectrum. These techniques are crucial for ensuring accurate signal processing and transmission in systems operating at microwave frequencies, where non-linearities can significantly impact the quality and reliability of RF signals."
+  },
+  {
+    "Index": 37,
+    "ChineseTerm": "频域多模分析",
+    "EnglishTerm": "Frequency-Domain Multi-Mode Analysis",
+    "Description": "Frequency-Domain Multi-Mode Analysis in Electromagnetism refers to a computational technique for evaluating the behavior of electromagnetic fields across multiple propagation modes at distinct frequencies, facilitating the characterization of complex systems by analyzing how different frequency components interact and contribute to the overall system response. This method is integral to understanding the dispersion, coupling, and modal interactions within structures such as waveguides and resonators, providing insights into the frequency-dependent properties of electromagnetic phenomena."
+  },
+  {
+    "Index": 38,
+    "ChineseTerm": "复介电常数测量技术",
+    "EnglishTerm": "Complex Permittivity Measurement Techniques",
+    "Description": "Complex Permittivity Measurement Techniques in Electromagnetism refer to the methodologies utilized to quantify the frequency-dependent permittivity of a material, encompassing both its real component, which represents the material's ability to store electric energy, and its imaginary component, which accounts for the material's energy dissipation characteristics. These techniques are essential for characterizing materials in various applications, including telecommunications, material science, and microwave engineering, and typically involve the use of specialized equipment such as vector network analyzers and dielectric probes."
+  },
+  {
+    "Index": 39,
+    "ChineseTerm": "共形天线匹配理论",
+    "EnglishTerm": "Conformal Antenna Matching Theory",
+    "Description": "Conformal Antenna Matching Theory refers to the study and application of electromagnetic principles to optimize the impedance matching between antennas and transmission lines, specifically when antennas are integrated onto curved or non-planar surfaces, ensuring maximum power transfer and minimizing signal reflection across a broad frequency range. This theory encompasses the analysis and design of matching networks that accommodate the unique geometrical and material constraints imposed by conformal antenna structures while maintaining efficient radiative performance."
+  },
+  {
+    "Index": 40,
+    "ChineseTerm": "介质谐振腔耦合",
+    "EnglishTerm": "Dielectric Resonator Coupling",
+    "Description": "Dielectric Resonator Coupling refers to the interaction between electromagnetic fields and dielectric resonators, where the resonators are typically non-conductive materials that confine and store electromagnetic energy at microwave frequencies, enabling the transfer of energy between resonators or between a resonator and external circuits by exploiting the resonator's natural modes and the evanescent or radiative field interactions. This coupling is characterized by the resonator's geometry, material properties, and the spatial arrangement relative to other components, influencing the resonator's performance in applications such as filters, oscillators, and antennas."
+  },
+  {
+    "Index": 41,
+    "ChineseTerm": "功率守恒时域算法",
+    "EnglishTerm": "Power-Conserving Time-Domain Algorithm",
+    "Description": "A Power-Conserving Time-Domain Algorithm in the context of Electromagnetism refers to a computational method designed to simulate electromagnetic fields over time while ensuring that the discretized numerical solution adheres to the principle of energy conservation, thereby accurately maintaining the total electromagnetic power within the system boundaries as dictated by the underlying physical laws. This algorithmic approach is particularly crucial for modeling wave propagation in media with minimal numerical dispersion and dissipation to preserve the fidelity of energy exchange in transient simulations."
+  },
+  {
+    "Index": 42,
+    "ChineseTerm": "电磁环境兼容性仿真",
+    "EnglishTerm": "Electromagnetic Compatibility Simulation",
+    "Description": "Electromagnetic Compatibility Simulation is a computational process designed to predict and analyze the electromagnetic interactions and interference within electronic systems, ensuring compliance with standards that prevent undesired effects on device performance and functionality. It involves the use of mathematical models and algorithms to simulate the behavior of electromagnetic fields and their impact on system components, facilitating the design and validation of systems for optimal electromagnetic compatibility."
+  },
+  {
+    "Index": 43,
+    "ChineseTerm": "辐射边界条件",
+    "EnglishTerm": "Absorbing Boundary Conditions",
+    "Description": "Absorbing boundary conditions in electromagnetism refer to mathematical formulations applied at the boundaries of computational domains to simulate the effect of open space by minimizing reflections of electromagnetic waves back into the domain, thereby facilitating the accurate modeling of wave propagation in unbounded media. These conditions are essential in numerical simulations to ensure that outgoing waves are absorbed effectively, allowing for the realistic prediction of electromagnetic field behavior in scenarios such as radar and antenna design."
+  },
+  {
+    "Index": 44,
+    "ChineseTerm": "完美匹配层",
+    "EnglishTerm": "Perfectly Matched Layer (PML)",
+    "Description": "A Perfectly Matched Layer (PML) is an artificial absorbing boundary condition used in computational electromagnetics to simulate the infinite extent of space by minimizing reflections of electromagnetic waves at the truncation boundaries of a finite computational domain, thereby facilitating accurate numerical solutions of Maxwell's equations in open-region problems."
+  },
+  {
+    "Index": 45,
+    "ChineseTerm": "自适应网格细化",
+    "EnglishTerm": "Adaptive Mesh Refinement",
+    "Description": "Adaptive Mesh Refinement (AMR) in Electromagnetism is a computational technique used to dynamically adjust the resolution of the mesh in numerical simulations, optimizing the allocation of computational resources by refining the mesh in regions with high field gradients or complex geometrical features, thereby enhancing the accuracy and efficiency of solving Maxwell's equations."
+  },
+  {
+    "Index": 46,
+    "ChineseTerm": "时频域耦合谐波分析",
+    "EnglishTerm": "Time-Frequency Coupled Harmonic Analysis",
+    "Description": "Time-Frequency Coupled Harmonic Analysis in the context of Electromagnetism refers to a mathematical framework that simultaneously examines the temporal and spectral characteristics of electromagnetic signals, facilitating the decomposition of these signals into components that are localized in both time and frequency domains. This approach enhances the resolution and characterization of transient and dispersive electromagnetic phenomena by employing joint time-frequency representations to capture the dynamic interactions and energy distributions inherent in complex electromagnetic environments."
+  },
+  {
+    "Index": 47,
+    "ChineseTerm": "射线追踪法",
+    "EnglishTerm": "Ray-Tracing Method",
+    "Description": "The \"Ray-Tracing Method\" in Electromagnetism is a computational technique used to model the propagation of electromagnetic waves by approximating their paths as rays, which are traced through a medium to analyze wave interactions with surfaces and interfaces, thereby enabling the calculation of wavefronts, reflection, refraction, and diffraction phenomena according to geometric optics principles."
+  },
+  {
+    "Index": 48,
+    "ChineseTerm": "射线跟踪脉冲响应",
+    "EnglishTerm": "Ray-Tracing Impulse Response",
+    "Description": "Ray-Tracing Impulse Response in Electromagnetism refers to the analysis and modeling of electromagnetic wave propagation by calculating the paths, delays, and amplitudes of rays as they interact with various objects and surfaces, providing a detailed characterization of the spatial and temporal distribution of the received signal in response to an impulse excitation. This method is instrumental in assessing the multipath effects and signal behavior within complex environments, aiding in the design and optimization of communication systems and electromagnetic compatibility studies."
+  },
+  {
+    "Index": 49,
+    "ChineseTerm": "全波电磁仿真",
+    "EnglishTerm": "Full-Wave Electromagnetic Simulation",
+    "Description": "Full-Wave Electromagnetic Simulation is a computational technique used to numerically solve Maxwell's equations in order to model the complete electromagnetic field behavior over a specified domain, accounting for all wave phenomena including reflection, diffraction, and interference across a broad frequency spectrum. This method enables the accurate analysis of complex structures and materials by employing discretization methods such as finite-difference time-domain (FDTD), finite element method (FEM), or method of moments (MoM), ensuring comprehensive assessment of electromagnetic interactions and responses."
+  },
+  {
+    "Index": 50,
+    "ChineseTerm": "瞬态场逆向散射成像",
+    "EnglishTerm": "Time-Domain Inverse Scattering Imaging",
+    "Description": "Time-Domain Inverse Scattering Imaging in Electromagnetism is a computational technique used to reconstruct the spatial distribution of electromagnetic properties within a medium by analyzing the scattered electromagnetic fields resulting from a time-dependent incident wave, employing inverse problem-solving methodologies to estimate variations in permittivity, permeability, or conductivity. This method leverages the temporal evolution of scattered signals to enhance resolution and accuracy in imaging complex or heterogeneous media."
+  },
+  {
+    "Index": 51,
+    "ChineseTerm": "广义偶极子模型",
+    "EnglishTerm": "Generalized Dipole Model",
+    "Description": "The Generalized Dipole Model in Electromagnetism refers to an analytical framework that extends the concept of a classical electric or magnetic dipole to incorporate distributed sources of polarization or magnetization, allowing for the representation of complex field interactions and spatially varying dipole moments in continuous media. This model is utilized to approximate the electromagnetic response of materials or systems by considering the superposition of localized dipole contributions, thereby facilitating the analysis of scattering, absorption, and radiation phenomena."
+  },
+  {
+    "Index": 52,
+    "ChineseTerm": "分数阶电磁模型",
+    "EnglishTerm": "Fractional-Order Electromagnetic Model",
+    "Description": "A Fractional-Order Electromagnetic Model is a mathematical framework within Electromagnetism that utilizes fractional calculus to describe electromagnetic phenomena, allowing for the representation of complex, non-integer order dynamics and anomalous dispersion characteristics in materials and systems, thereby extending the classical integer-order differential equations to capture more nuanced physical behaviors."
+  },
+  {
+    "Index": 53,
+    "ChineseTerm": "拓扑优化天线设计",
+    "EnglishTerm": "Topology Optimization for Antenna Design",
+    "Description": "Topology Optimization for Antenna Design refers to a systematic computational approach that seeks to determine the optimal material distribution within a predefined design space to achieve desired electromagnetic performance characteristics, such as radiation pattern, impedance matching, and bandwidth, by utilizing mathematical algorithms and iterative simulations to maximize or minimize specific objective functions under given constraints."
+  },
+  {
+    "Index": 54,
+    "ChineseTerm": "时域量子电动力学",
+    "EnglishTerm": "Time-Domain Quantum Electrodynamics",
+    "Description": "Time-Domain Quantum Electrodynamics (TD-QED) is a theoretical framework in electromagnetism that extends quantum electrodynamics to describe the interaction of quantized electromagnetic fields with matter as a function of time, enabling the analysis of transient, non-stationary processes and ultrafast phenomena at the quantum level. It involves the use of time-dependent perturbation theory and advanced computational techniques to solve the time-dependent Schrödinger or Dirac equations, accounting for dynamic changes in the electromagnetic field and the corresponding quantum states of interacting particles."
+  },
+  {
+    "Index": 55,
+    "ChineseTerm": "高阶基函数",
+    "EnglishTerm": "High-Order Basis Functions",
+    "Description": "High-Order Basis Functions in Electromagnetism refer to mathematical constructs employed in the numerical solution of Maxwell's equations, particularly in methods such as the Finite Element Method (FEM), to enhance solution accuracy by using polynomial functions of higher degree, thereby enabling the representation of complex field variations within each element of the discretized domain. These functions facilitate improved convergence rates and computational efficiency in electromagnetic simulations by capturing intricate geometrical and field characteristics with fewer elements compared to low-order basis functions."
+  },
+  {
+    "Index": 56,
+    "ChineseTerm": "分形天线多尺度分析",
+    "EnglishTerm": "Fractal Antenna Multi-Scale Analysis",
+    "Description": "Fractal Antenna Multi-Scale Analysis refers to the systematic examination of fractal antennas, which utilize self-similar geometric patterns to achieve efficient electromagnetic performance across multiple frequency scales, by employing mathematical and computational methods that analyze their complex, recursive structures to optimize parameters such as bandwidth, gain, and radiation pattern. This analysis leverages the unique properties of fractals to enhance antenna functionality in diverse electromagnetic applications, facilitating a comprehensive understanding of their behavior across varying spatial and frequency domains."
+  },
+  {
+    "Index": 57,
+    "ChineseTerm": "线性时不变系统分析",
+    "EnglishTerm": "Linear Time-Invariant System Analysis",
+    "Description": "Linear Time-Invariant System Analysis in Electromagnetism refers to the study of systems that maintain linearity and time-invariance properties, enabling the application of superposition and convolution principles to analyze electromagnetic responses under various inputs, characterized by consistent system behavior over time and predictable output proportional to input."
+  },
+  {
+    "Index": 58,
+    "ChineseTerm": "非线性谐波分量提取",
+    "EnglishTerm": "Nonlinear Harmonic Component Extraction",
+    "Description": "Nonlinear Harmonic Component Extraction in Electromagnetism refers to the process of isolating and identifying harmonic frequencies generated by nonlinear interactions within electromagnetic systems, where the response of the system is not directly proportional to the input signal, necessitating advanced mathematical techniques to separate these components from the fundamental and linear harmonics for accurate analysis and characterization of the system's behavior."
+  },
+  {
+    "Index": 59,
+    "ChineseTerm": "全息天线原理",
+    "EnglishTerm": "Holographic Antenna Principle",
+    "Description": "The \"Holographic Antenna Principle\" refers to a method of antenna design that employs the modulation of a surface wave across a planar or conformal structure to create a desired radiation pattern, utilizing principles analogous to optical holography where the interference of waves encodes and reconstructs spatial information. This technique leverages electromagnetic wavefront manipulation to achieve beam steering and shaping without mechanical movement, facilitating adaptive and reconfigurable antenna systems."
+  },
+  {
+    "Index": 60,
+    "ChineseTerm": "随机多径信道模型",
+    "EnglishTerm": "Stochastic Multipath Channel Model",
+    "Description": "A Stochastic Multipath Channel Model in Electromagnetism is a mathematical framework that characterizes the propagation of electromagnetic waves in a communication channel where multiple signal paths arise due to reflection, diffraction, and scattering, employing probabilistic methods to account for the random nature and statistical properties of these paths in the analysis of signal transmission and reception."
+  },
+  {
+    "Index": 61,
+    "ChineseTerm": "时域信道冲激响应",
+    "EnglishTerm": "Time-Domain Channel Impulse Response",
+    "Description": "Time-Domain Channel Impulse Response is a mathematical representation of the output of a linear time-invariant system in response to a delta function input, characterizing the system's behavior by describing how electromagnetic signals are modified as they propagate through a medium, typically conveying information about dispersion, reflection, and attenuation effects within the channel. It serves as a fundamental descriptor in signal processing and communication systems for analyzing and predicting the temporal evolution of electromagnetic fields in response to impulsive excitations."
+  },
+  {
+    "Index": 62,
+    "ChineseTerm": "时域快速多极子法",
+    "EnglishTerm": "Fast Multipole Method in Time Domain",
+    "Description": "The Fast Multipole Method in Time Domain (FMM-TD) is a numerical algorithm designed to accelerate the computation of time-dependent electromagnetic field interactions by efficiently approximating the contribution of distant sources through hierarchical decomposition and multipole expansions, thereby reducing the complexity of solving large-scale time-domain integral equations."
+  },
+  {
+    "Index": 63,
+    "ChineseTerm": "复频域特征值分析",
+    "EnglishTerm": "Complex Frequency-Domain Eigenanalysis",
+    "Description": "Complex Frequency-Domain Eigenanalysis in Electromagnetism refers to the computational technique used to determine the eigenvalues and eigenvectors of an electromagnetic system's response matrix, where the system is expressed in the frequency domain and complex numbers are employed to represent both magnitude and phase of the electromagnetic fields, enabling the characterization of resonant frequencies, damping factors, and modal behaviors of the system. This analysis is crucial for understanding wave propagation, resonance phenomena, and stability characteristics in complex electromagnetic environments."
+  },
+  {
+    "Index": 64,
+    "ChineseTerm": "平面波展宽理论",
+    "EnglishTerm": "Plane Wave Spectrum Theory",
+    "Description": "Plane Wave Spectrum Theory in electromagnetism is a conceptual framework that represents electromagnetic fields as a superposition of plane waves, each characterized by distinct propagation vectors and angular frequencies, facilitating the analysis and synthesis of complex field distributions in homogeneous and linear media. This theory is instrumental in solving Maxwell's equations in the spectral domain, particularly in applications involving wave scattering, diffraction, and radiation problems."
+  },
+  {
+    "Index": 65,
+    "ChineseTerm": "时域分裂步进法",
+    "EnglishTerm": "Split-Step Time-Domain Method",
+    "Description": "The Split-Step Time-Domain Method is a numerical technique employed to solve partial differential equations in electromagnetism by iteratively advancing the solution in time through alternating between linear and nonlinear transformations, effectively decomposing complex wave propagation phenomena into manageable computational steps that leverage Fourier transforms for efficient spectral analysis. This method is particularly used to model the evolution of electromagnetic fields in media with varying properties, addressing challenges in dispersion and nonlinearity by partitioning the computational domain into segments where linear and nonlinear effects are handled separately."
+  },
+  {
+    "Index": 66,
+    "ChineseTerm": "复介质多极子展开",
+    "EnglishTerm": "Multipole Expansion in Complex Media",
+    "Description": "Multipole Expansion in Complex Media refers to the mathematical technique used to express electromagnetic fields as a series of multipole moments, specifically adapted to account for the interactions and modifications introduced by media with complex permittivity and permeability properties. This expansion enables the systematic analysis of the spatial distribution and behavior of electromagnetic fields in environments characterized by heterogeneous and anisotropic material properties, facilitating the study of scattering, absorption, and emission phenomena."
+  },
+  {
+    "Index": 67,
+    "ChineseTerm": "非均匀网格FDTD",
+    "EnglishTerm": "Nonuniform Grid FDTD",
+    "Description": "Nonuniform Grid Finite-Difference Time-Domain (FDTD) refers to a numerical computational technique used in electromagnetism to solve Maxwell's equations over spatial domains characterized by variable discretization, allowing for finer resolution in regions with rapid field variations while maintaining computational efficiency across the entire simulation domain. This approach enhances the adaptability and accuracy of electromagnetic simulations by tailoring the grid density to the local electromagnetic phenomena, thereby optimizing the balance between precision and computational resource allocation."
+  },
+  {
+    "Index": 68,
+    "ChineseTerm": "时域差分边界条件",
+    "EnglishTerm": "Time-Domain Difference Boundary Conditions",
+    "Description": "Time-Domain Difference Boundary Conditions in Electromagnetism refer to mathematical formulations applied at the boundaries of a computational domain to accurately simulate the temporal evolution of electromagnetic fields by discretizing Maxwell's equations in the time domain, ensuring continuity and stability of field variables while minimizing reflection and numerical error at the boundary interfaces. These conditions are critical for the effective implementation of time-domain numerical methods, such as the Finite-Difference Time-Domain (FDTD) method, in solving complex electromagnetic problems."
+  },
+  {
+    "Index": 69,
+    "ChineseTerm": "电磁-化学耦合",
+    "EnglishTerm": "Electromagnetic–Chemical Coupling",
+    "Description": "Electromagnetic–Chemical Coupling refers to the interaction between electromagnetic fields and chemical processes whereby electromagnetic fields influence chemical reactions, kinetics, or the structural properties of molecules, potentially altering the rates of reactions or the stability of chemical compounds through mechanisms such as induced polarization or altered energy states. This coupling is fundamental in understanding phenomena where electromagnetic fields directly impact molecular behavior, bridging principles of electromagnetism and chemistry."
+  },
+  {
+    "Index": 70,
+    "ChineseTerm": "时域Keldysh格林函数",
+    "EnglishTerm": "Time-Domain Keldysh Green’s Function",
+    "Description": "The Time-Domain Keldysh Green’s Function is a complex-valued mathematical construct used in the non-equilibrium quantum field theory to describe the time-dependent evolution of electromagnetic fields and interactions within many-body quantum systems, capturing the effects of external perturbations and facilitating the calculation of electronic properties in non-equilibrium scenarios. It extends the conventional Green's function framework by incorporating the Keldysh contour, thereby allowing for the systematic treatment of time-dependent systems and transient phenomena in electromagnetism."
+  },
+  {
+    "Index": 71,
+    "ChineseTerm": "存储介质电磁响应",
+    "EnglishTerm": "Memory Effect in Electromagnetic Response",
+    "Description": "Memory Effect in Electromagnetic Response refers to the phenomenon where the electromagnetic properties of a material or system depend not only on the present state of the applied electromagnetic field but also on its past configurations, typically manifested as hysteresis or temporal non-locality in the material's response functions. This effect is characterized by a dependence on history, where past states influence current behavior, fundamentally altering the system's dynamic response to electromagnetic stimuli."
+  },
+  {
+    "Index": 72,
+    "ChineseTerm": "超宽带信号传播模型",
+    "EnglishTerm": "Ultra-Wideband Signal Propagation Model",
+    "Description": "An Ultra-Wideband Signal Propagation Model is a theoretical framework used to characterize and predict the behavior of electromagnetic signals with large relative bandwidths as they traverse various environments, incorporating factors such as path loss, multipath effects, and frequency-dependent propagation characteristics to accurately describe signal attenuation and dispersion. This model is essential for the design and analysis of communication systems that operate over ultra-wide frequency ranges, ensuring optimal performance by accounting for the complex interactions between ultra-wideband signals and the physical medium."
+  },
+  {
+    "Index": 73,
+    "ChineseTerm": "时域矢量格林函数",
+    "EnglishTerm": "Time-Domain Vector Green’s Function",
+    "Description": "The Time-Domain Vector Green’s Function in Electromagnetism is a mathematical construct used to solve time-dependent vector field problems by representing the response of an electromagnetic system to a point impulse, characterized by its ability to relate the source current density vector to the resulting electric and magnetic fields in a causal manner within the time domain. This function is fundamental in expressing the influence of boundary conditions and material properties on the propagation and interaction of electromagnetic waves in space and time."
+  },
+  {
+    "Index": 74,
+    "ChineseTerm": "电磁透射矩阵法",
+    "EnglishTerm": "Electromagnetic Transfer Matrix Method",
+    "Description": "The Electromagnetic Transfer Matrix Method is a computational technique used to analyze the propagation of electromagnetic waves through stratified media by representing the multilayer system with matrices that describe the relationship between the electric and magnetic fields at each interface. This method facilitates the calculation of reflection and transmission coefficients by systematically applying boundary conditions across the interfaces of consecutive layers."
+  },
+  {
+    "Index": 75,
+    "ChineseTerm": "高频近似射线法",
+    "EnglishTerm": "High-Frequency Asymptotic Ray Method",
+    "Description": "The High-Frequency Asymptotic Ray Method is an analytical technique in electromagnetism used to approximate the behavior of electromagnetic waves in the high-frequency limit by modeling them as rays, leveraging geometrical optics principles to simplify complex wave interactions and predict wave propagation, reflection, and diffraction phenomena. This method is particularly effective for solving problems where the wavelength is small relative to the dimensions of the structures involved, allowing for the representation of wave behavior through ray paths rather than full wave equations."
+  },
+  {
+    "Index": 76,
+    "ChineseTerm": "非均匀各向异性介质分析",
+    "EnglishTerm": "Inhomogeneous Anisotropic Media Analysis",
+    "Description": "Inhomogeneous Anisotropic Media Analysis in Electromagnetism refers to the study and characterization of materials whose electromagnetic properties vary spatially and exhibit direction-dependent behavior, necessitating the consideration of spatially varying permittivity, permeability, and conductivity tensors to accurately describe the propagation and interaction of electromagnetic waves within such media."
+  },
+  {
+    "Index": 77,
+    "ChineseTerm": "多尺度网格技术",
+    "EnglishTerm": "Multi-Scale Meshing Techniques",
+    "Description": "Multi-Scale Meshing Techniques refer to computational methods used in electromagnetic simulations that involve creating meshes with varying levels of granularity, enabling the accurate representation of complex geometries and electromagnetic fields across different spatial scales to optimize solution accuracy and computational efficiency. These techniques facilitate the efficient allocation of computational resources by refining mesh density in regions with high field gradients or intricate structures while maintaining coarser meshes in areas with lesser detail requirements."
+  },
+  {
+    "Index": 78,
+    "ChineseTerm": "时域散射参数提取",
+    "EnglishTerm": "Time-Domain S-Parameter Extraction",
+    "Description": "Time-Domain S-Parameter Extraction is a technique in electromagnetism used to determine the scattering parameters (S-parameters) of a network or device by analyzing its response to time-domain stimuli, enabling the characterization of its behavior in terms of reflection and transmission properties across different frequencies. This method involves transforming time-domain measurements into the frequency domain using mathematical techniques such as the Fourier transform, facilitating the evaluation of the network's performance in high-frequency applications."
+  },
+  {
+    "Index": 79,
+    "ChineseTerm": "电磁隐身原理",
+    "EnglishTerm": "Electromagnetic Cloaking Principles",
+    "Description": "Electromagnetic Cloaking Principles refer to the theoretical and practical methodologies that enable the manipulation of electromagnetic waves to render an object undetectable or minimally detectable by redirecting, absorbing, or otherwise altering the propagation of the waves around the object, typically achieved through engineered materials with specific permittivity and permeability profiles, known as metamaterials. These principles are grounded in Maxwell's equations and involve complex interactions between electromagnetic fields and materials designed to achieve specific spatial and frequency-dependent responses."
+  },
+  {
+    "Index": 80,
+    "ChineseTerm": "矩量法高阶基函数",
+    "EnglishTerm": "High-Order MOM Basis Functions",
+    "Description": "High-Order MOM Basis Functions in Electromagnetism refer to advanced mathematical constructs employed in the Method of Moments (MoM) to represent electromagnetic field distributions over geometrical entities with increased accuracy and computational efficiency, by utilizing basis functions that capture higher polynomial degrees or complex geometrical features compared to standard basis functions. These functions facilitate the accurate solution of integral equations in electromagnetic scattering and radiation problems, enhancing the precision of numerical simulations and modeling."
+  },
+  {
+    "Index": 81,
+    "ChineseTerm": "时域快速傅里叶变换",
+    "EnglishTerm": "Time-Domain Fast Fourier Transform",
+    "Description": "The Time-Domain Fast Fourier Transform (FFT) in the context of Electromagnetism is a computational algorithm that efficiently computes the discrete Fourier transform (DFT) of time-domain signals, enabling the analysis of frequency components within electromagnetic waveforms by transforming the signal from the time domain to the frequency domain, thus facilitating the study of spectral characteristics and interactions of electromagnetic fields."
+  },
+  {
+    "Index": 82,
+    "ChineseTerm": "压缩感知超分辨成像",
+    "EnglishTerm": "Compressed Sensing Super-Resolution Imaging",
+    "Description": "Compressed Sensing Super-Resolution Imaging in Electromagnetism refers to a computational technique that reconstructs high-resolution electromagnetic images from sparse, undersampled data by exploiting the signal's inherent sparsity and leveraging optimization algorithms, thereby overcoming the Nyquist sampling limit and enhancing spatial resolution beyond conventional methods. This approach utilizes mathematical frameworks such as convex optimization and sparse representation to effectively capture and process electromagnetic fields with reduced data acquisition requirements."
+  },
+  {
+    "Index": 83,
+    "ChineseTerm": "随机介质电磁波传播",
+    "EnglishTerm": "Wave Propagation in Random Media",
+    "Description": "Wave Propagation in Random Media refers to the transmission and interaction of electromagnetic waves through a medium characterized by spatially varying properties, where the randomness of the medium's permittivity, permeability, or refractive index induces scattering, absorption, and phase shifts in the wave, leading to complex propagation dynamics and statistical behavior. This phenomenon necessitates the use of stochastic methods and models to predict and analyze wave behavior due to the inherent uncertainties and irregularities in the medium's structure."
+  },
+  {
+    "Index": 84,
+    "ChineseTerm": "时域混合基方法",
+    "EnglishTerm": "Time-Domain Hybrid Basis Method",
+    "Description": "The Time-Domain Hybrid Basis Method is a computational technique in electromagnetism that combines multiple basis functions to represent electromagnetic fields and solve time-dependent Maxwell's equations, enabling efficient and accurate modeling of complex scattering and radiation problems over a wide frequency range. This method leverages the strengths of different basis sets, such as local and global basis functions, to optimize numerical stability and computational performance in time-domain simulations."
+  },
+  {
+    "Index": 85,
+    "ChineseTerm": "微带天线谐波分析",
+    "EnglishTerm": "Microstrip Antenna Harmonic Analysis",
+    "Description": "Microstrip Antenna Harmonic Analysis refers to the study and evaluation of the harmonic frequencies generated by microstrip antennas, which are typically planar antennas characterized by a dielectric substrate with a metallic patch, to understand and mitigate unwanted harmonic radiation and enhance antenna performance through the application of electromagnetic theory and numerical modeling techniques. This analysis is essential for optimizing the antenna design to ensure efficient frequency response and minimal interference in high-frequency applications."
+  },
+  {
+    "Index": 86,
+    "ChineseTerm": "天线阵列波束形成",
+    "EnglishTerm": "Antenna Array Beamforming",
+    "Description": "Antenna Array Beamforming is an electromagnetic signal processing technique that involves the strategic manipulation of the relative phase and amplitude of signals emitted or received by multiple antennas in an array, enabling the constructive interference of waves to form a directional radiation pattern that optimizes signal strength and spatial selectivity. This method enhances performance by focusing energy in desired directions and minimizing interference, thereby improving the capacity and efficiency of wireless communication systems."
+  },
+  {
+    "Index": 87,
+    "ChineseTerm": "时域等效源法",
+    "EnglishTerm": "Time-Domain Equivalent Source Method",
+    "Description": "The Time-Domain Equivalent Source Method in Electromagnetism is a computational technique used to approximate the electromagnetic fields in a given region by replacing the original sources with equivalent sources that produce identical field distributions, facilitating the analysis of transient electromagnetic phenomena by solving time-dependent field equations. This method is particularly advantageous for simplifying complex boundary conditions and enhancing computational efficiency in the simulation of dynamic electromagnetic systems."
+  },
+  {
+    "Index": 88,
+    "ChineseTerm": "宽带匹配网络设计",
+    "EnglishTerm": "Broadband Matching Network Design",
+    "Description": "Broadband Matching Network Design refers to the systematic process of configuring impedance matching networks to ensure efficient power transfer across a wide frequency range between electromagnetic devices, optimizing performance by minimizing reflection and ensuring maximal energy transmission. This design involves the strategic selection and arrangement of reactive components, typically inductors and capacitors, to achieve desired impedance characteristics over broad frequency spectra, essential for applications such as antennas, amplifiers, and RF circuits."
+  },
+  {
+    "Index": 89,
+    "ChineseTerm": "瞬态电磁干扰评估",
+    "EnglishTerm": "Transient Electromagnetic Interference Assessment",
+    "Description": "Transient Electromagnetic Interference Assessment refers to the systematic evaluation of short-duration electromagnetic disturbances that can affect the performance and reliability of electronic systems, involving the identification, measurement, and analysis of these temporal electromagnetic phenomena to mitigate adverse effects and ensure compliance with regulatory standards."
+  },
+  {
+    "Index": 90,
+    "ChineseTerm": "跳频电磁兼容设计",
+    "EnglishTerm": "Frequency-Hopping EMC Design",
+    "Description": "Frequency-Hopping EMC Design refers to an electromagnetic compatibility strategy that involves dynamically altering the transmission frequency of a system within a predefined set of frequencies to mitigate interference and enhance the robustness of communication channels against electromagnetic disturbances. This design approach leverages rapid frequency changes to reduce susceptibility to noise and jamming, thereby ensuring reliable performance in electromagnetically complex environments."
+  },
+  {
+    "Index": 91,
+    "ChineseTerm": "时域光电耦合模型",
+    "EnglishTerm": "Time-Domain Optoelectronic Coupling Model",
+    "Description": "The Time-Domain Optoelectronic Coupling Model is a computational framework that quantitatively describes the interaction between electromagnetic fields and optoelectronic devices by solving Maxwell's equations and semiconductor carrier dynamics in the time domain, thereby enabling the analysis of transient behaviors and dynamic responses in integrated photonic circuits."
+  },
+  {
+    "Index": 92,
+    "ChineseTerm": "异质材料界面条件",
+    "EnglishTerm": "Interface Conditions for Heterogeneous Materials",
+    "Description": "Interface Conditions for Heterogeneous Materials in Electromagnetism refer to the boundary conditions that govern the behavior of electromagnetic fields at the junction between materials with differing electromagnetic properties, ensuring continuity of the tangential components of the electric and magnetic fields and accommodating discontinuities in normal components proportional to surface charge and current densities."
+  },
+  {
+    "Index": 93,
+    "ChineseTerm": "多体耦合散射",
+    "EnglishTerm": "Multi-Body Coupled Scattering",
+    "Description": "Multi-Body Coupled Scattering in Electromagnetism refers to the interaction and redistribution of electromagnetic waves as they encounter multiple distinct scatterers, where the scattered fields from each body are influenced by the presence and properties of others, necessitating a collective analysis of scattering phenomena that accounts for mutual coupling effects between the bodies."
+  },
+  {
+    "Index": 94,
+    "ChineseTerm": "时域反射系数法",
+    "EnglishTerm": "Time-Domain Reflection Coefficient Method",
+    "Description": "The Time-Domain Reflection Coefficient Method is an analytical technique in electromagnetism used to determine the reflection coefficient of a transmission line by analyzing the time-domain response of reflected electromagnetic waves, thereby facilitating the characterization of impedance discontinuities and mismatches along the line. This method involves measuring the amplitude and phase of reflected signals as a function of time to infer information about the transmission line's properties and potential defects."
+  },
+  {
+    "Index": 95,
+    "ChineseTerm": "电磁频谱分解",
+    "EnglishTerm": "Electromagnetic Spectrum Decomposition",
+    "Description": "Electromagnetic Spectrum Decomposition refers to the process of separating an electromagnetic signal into its constituent frequencies or wavelengths, thereby analyzing the spectral components that characterize the signal's distribution across the electromagnetic spectrum. This decomposition facilitates the examination of the signal's properties, enabling applications such as signal processing, spectroscopy, and communication analysis within the field of Electromagnetism."
+  },
+  {
+    "Index": 96,
+    "ChineseTerm": "频域谐振分析",
+    "EnglishTerm": "Frequency-Domain Resonance Analysis",
+    "Description": "Frequency-Domain Resonance Analysis in Electromagnetism refers to the examination of a system's response characteristics by analyzing how its impedance or admittance varies with frequency, identifying resonance phenomena where the system exhibits maximal energy storage or transfer due to constructive interference at specific frequencies. This technique enables the characterization of electromagnetic components and systems, such as antennas and circuits, by revealing their resonant frequencies, bandwidth, and quality factor, essential for optimizing performance in applications involving signal transmission and reception."
+  },
+  {
+    "Index": 97,
+    "ChineseTerm": "矢量场时频重构",
+    "EnglishTerm": "Time-Frequency Reconstruction of Vector Fields",
+    "Description": "Time-Frequency Reconstruction of Vector Fields in Electromagnetism refers to the process of reconstructing the spatial and temporal variations of electromagnetic vector fields by applying time-frequency analysis techniques, which allow for the simultaneous examination of both time and frequency domain characteristics to capture the dynamic behavior of the fields. This approach is crucial for understanding complex electromagnetic phenomena, such as wave propagation and field interactions, by providing detailed insights into the spectral content and temporal evolution of the vector fields."
+  },
+  {
+    "Index": 98,
+    "ChineseTerm": "多通道传输矩阵",
+    "EnglishTerm": "Multi-Channel Transfer Matrix",
+    "Description": "In the context of Electromagnetism, a \"Multi-Channel Transfer Matrix\" is a mathematical construct used to describe the linear relationship between the electromagnetic field vectors at multiple input and output channels of a complex system, capturing how the fields are transformed as they propagate through or interact with the system. This matrix formulation accounts for multiple pathways and interactions, enabling the analysis of scattering, transmission, and reflection phenomena across different spatial or frequency channels."
+  },
+  {
+    "Index": 99,
+    "ChineseTerm": "谐振子模型",
+    "EnglishTerm": "Resonator Model",
+    "Description": "In the context of Electromagnetism, the \"Resonator Model\" refers to a theoretical construct wherein electromagnetic waves are confined within a resonant cavity, leading to the establishment of discrete resonant frequencies determined by the cavity's boundary conditions and geometric properties, thereby facilitating the analysis of wave behavior and energy distribution within the structure. This model is instrumental in understanding and designing systems such as lasers, microwave cavities, and optical resonators, where resonance phenomena are critical to their operation and efficiency."
+  },
+  {
+    "Index": 100,
+    "ChineseTerm": "时域电子磁耦合",
+    "EnglishTerm": "Time-Domain Electro-Magnetic Coupling",
+    "Description": "Time-Domain Electro-Magnetic Coupling refers to the interaction between electric and magnetic fields as a function of time, characterized by the transient response of electromagnetic systems where changes in current or voltage induce corresponding variations in the magnetic field, often analyzed using time-dependent Maxwell's equations to understand the dynamic behavior of coupled systems. This coupling is fundamental in the study of non-stationary electromagnetic phenomena, where the temporal evolution of fields plays a critical role in determining system responses and energy transfer mechanisms."
+  },
+  {
+    "Index": 101,
+    "ChineseTerm": "非局域介质响应",
+    "EnglishTerm": "Nonlocal Medium Response",
+    "Description": "Nonlocal Medium Response in Electromagnetism refers to the phenomenon where the polarization or magnetization of a medium at a given point is influenced not only by the electromagnetic field at that point but also by the fields at other locations within a specified region, necessitating a spatially-dependent response function or kernel to describe the medium's electromagnetic behavior accurately."
+  },
+  {
+    "Index": 102,
+    "ChineseTerm": "高频电磁近似",
+    "EnglishTerm": "High-Frequency Electromagnetic Approximation",
+    "Description": "The High-Frequency Electromagnetic Approximation is a theoretical approach in electromagnetism where the wavelength of the electromagnetic waves is much smaller than the dimensions of the structures involved, allowing simplifications such as neglecting diffraction and wave interference effects, and enabling the use of geometric optics principles to model the propagation and interaction of electromagnetic waves."
+  },
+  {
+    "Index": 103,
+    "ChineseTerm": "表面波传播机理",
+    "EnglishTerm": "Surface Wave Propagation Mechanism",
+    "Description": "Surface Wave Propagation Mechanism refers to the process by which electromagnetic waves travel along the interface between two media, typically involving a dielectric and a conductor, where the wave's energy is concentrated near the surface and decays exponentially perpendicular to the interface, driven by boundary conditions that facilitate the coupling and confinement of wave energy within the surface region."
+  },
+  {
+    "Index": 104,
+    "ChineseTerm": "时频耦合端口模型",
+    "EnglishTerm": "Time-Frequency Coupled Port Model",
+    "Description": "The \"Time-Frequency Coupled Port Model\" in Electromagnetism refers to a mathematical and conceptual framework that characterizes the interaction between time-domain and frequency-domain responses in a multi-port system, enabling the analysis and design of electromagnetic devices and circuits by accounting for the temporal and spectral characteristics of signal transmission and reflection at each port. This model facilitates the accurate depiction of non-stationary and frequency-dependent phenomena by integrating time-domain waveform dynamics with frequency-domain spectral components, thereby providing a comprehensive representation of electromagnetic interactions."
+  },
+  {
+    "Index": 105,
+    "ChineseTerm": "复频域散射参数",
+    "EnglishTerm": "Complex-Frequency S-Parameters",
+    "Description": "Complex-Frequency S-Parameters, also known as S-parameters in the complex frequency domain, are a set of parameters used to describe the electrical behavior of linear electrical networks, particularly in the context of frequency-dependent scattering phenomena, where the frequency variable is extended into the complex plane to account for system dynamics beyond steady-state sinusoidal signals. They characterize the transmission and reflection properties of the network by relating incident and reflected waves at its ports, facilitating the analysis of non-stationary processes and allowing for the exploration of stability and transient responses."
+  },
+  {
+    "Index": 106,
+    "ChineseTerm": "电磁兼容通带设计",
+    "EnglishTerm": "EMC Passband Design",
+    "Description": "EMC Passband Design refers to the methodical process of designing electromagnetic compatibility filters that selectively allow signals within a specified frequency range to pass while attenuating signals outside this range to mitigate electromagnetic interference and ensure compliance with regulatory standards. This involves precise specification of passband parameters and filter characteristics to achieve optimal performance in controlling emissions and susceptibility within electronic systems."
+  },
+  {
+    "Index": 107,
+    "ChineseTerm": "非线性瞬态场模拟",
+    "EnglishTerm": "Nonlinear Transient Field Simulation",
+    "Description": "Nonlinear Transient Field Simulation in electromagnetism refers to the computational modeling of electromagnetic fields that evolve over time under conditions where the material properties or boundary conditions exhibit nonlinear behavior, necessitating the use of numerical methods to solve the time-dependent Maxwell's equations in scenarios where linear assumptions are insufficient. This simulation accounts for the dynamic interactions between the electromagnetic fields and the nonlinear media, capturing transient phenomena such as changes in field intensity, frequency-dependent effects, and hysteresis."
+  },
+  {
+    "Index": 108,
+    "ChineseTerm": "周期性结构Bloch分析",
+    "EnglishTerm": "Bloch Analysis of Periodic Structures",
+    "Description": "Bloch Analysis of Periodic Structures in Electromagnetism refers to the application of Bloch's theorem to the study of wave propagation in periodic media, where electromagnetic waves are expressed as Bloch waves characterized by a periodic function modulated by a plane wave, enabling the determination of band structures and dispersion relations critical for understanding the electromagnetic behavior of photonic crystals and other periodic systems."
+  },
+  {
+    "Index": 109,
+    "ChineseTerm": "多谐波瞬态方法",
+    "EnglishTerm": "Multi-Harmonic Transient Method",
+    "Description": "The Multi-Harmonic Transient Method in Electromagnetism is a computational technique used to analyze and simulate electromagnetic systems by decomposing transient signals into multiple harmonic components, facilitating the study of dynamic behavior and frequency response over time. This method enables precise modeling of complex electromagnetic interactions by incorporating both time-domain and frequency-domain analyses, enhancing the understanding of transient phenomena in electrical and electronic systems."
+  },
+  {
+    "Index": 110,
+    "ChineseTerm": "格点Boltzmann电磁模型",
+    "EnglishTerm": "Lattice Boltzmann Electromagnetic Model",
+    "Description": "The Lattice Boltzmann Electromagnetic Model is a computational framework that employs the lattice Boltzmann method to simulate electromagnetic phenomena by discretizing Maxwell's equations onto a lattice grid, enabling the study of complex fluid-structure interactions and electromagnetic field dynamics through mesoscopic scale approaches. This model integrates the principles of kinetic theory and electromagnetism, providing a versatile tool for solving problems involving electromagnetic wave propagation, scattering, and interactions in various media."
+  },
+  {
+    "Index": 111,
+    "ChineseTerm": "分层介质模式耦合",
+    "EnglishTerm": "Mode Coupling in Layered Media",
+    "Description": "Mode Coupling in Layered Media refers to the phenomenon wherein electromagnetic wave modes propagate through stratified structures, leading to energy transfer between different modes due to variations in refractive indices or discontinuities in the medium's composition, which alters the wave's propagation characteristics and impedance matching conditions at layer interfaces."
+  },
+  {
+    "Index": 112,
+    "ChineseTerm": "时域反演成像",
+    "EnglishTerm": "Time-Domain Backprojection Imaging",
+    "Description": "Time-Domain Backprojection Imaging is an electromagnetic imaging technique that reconstructs the spatial distribution of scattering centers by backprojecting time-domain signals received from a target, utilizing the impulse response of the system to correlate the temporal sequence of echoes with their originating locations in space. This method leverages the temporal resolution of received signals to achieve high-resolution imaging, particularly in applications involving radar and microwave imaging systems."
+  },
+  {
+    "Index": 113,
+    "ChineseTerm": "多尺度瑞利散射",
+    "EnglishTerm": "Multi-Scale Rayleigh Scattering",
+    "Description": "Multi-Scale Rayleigh Scattering refers to the electromagnetic scattering phenomenon characterized by the interaction of light with particles significantly smaller in size than the wavelength of the incident radiation, where multiple scales of particle size or density variations are considered, resulting in a complex scattering pattern that is analyzed across different spatial scales to understand the distribution and intensity of scattered light."
+  },
+  {
+    "Index": 114,
+    "ChineseTerm": "电磁导数边界元",
+    "EnglishTerm": "Electromagnetic Derivative BEM",
+    "Description": "Electromagnetic Derivative BEM refers to a computational technique within the Boundary Element Method (BEM) framework, specifically employed to solve electromagnetic field problems by discretizing boundary integral equations that incorporate derivative terms of electromagnetic variables, thereby facilitating the analysis of fields and interactions on the boundaries of complex geometries without requiring volumetric discretization. This method is particularly useful in handling problems involving wave propagation and scattering in electromagnetism by accurately capturing boundary behaviors and derivative effects."
+  },
+  {
+    "Index": 115,
+    "ChineseTerm": "时域PEC/PMC条件",
+    "EnglishTerm": "Time-Domain PEC/PMC Boundary Conditions",
+    "Description": "Time-Domain PEC/PMC Boundary Conditions refer to the constraints applied to electromagnetic field simulations in the time domain, where Perfect Electric Conductor (PEC) boundary conditions enforce zero tangential electric field and Perfect Magnetic Conductor (PMC) boundary conditions enforce zero tangential magnetic field at the boundary surface, ensuring that simulations accurately reflect the theoretical behavior of electromagnetic fields at idealized conductor interfaces. These conditions are integral to computational models such as Finite-Difference Time-Domain (FDTD) methods, facilitating the analysis of wave interactions with surfaces that perfectly conduct electricity or magnetism."
+  },
+  {
+    "Index": 116,
+    "ChineseTerm": "光子晶体谐波分析",
+    "EnglishTerm": "Photonic Crystal Harmonic Analysis",
+    "Description": "Photonic Crystal Harmonic Analysis is the study of the electromagnetic wave propagation properties within photonic crystals using harmonic functions, facilitating the understanding of band structures and spectral characteristics by analyzing periodic dielectric structures through Fourier methods and eigenvalue problems. This approach aids in determining the resonant frequencies and field distributions within the crystal, crucial for manipulating the flow of light and designing optoelectronic devices."
+  },
+  {
+    "Index": 117,
+    "ChineseTerm": "电磁脉冲响应函数",
+    "EnglishTerm": "Electromagnetic Impulse Response Function",
+    "Description": "The Electromagnetic Impulse Response Function is a mathematical representation that characterizes the temporal and spatial response of an electromagnetic system or medium to an impulsive excitation, typically modeled as a Dirac delta function, encapsulating the inherent properties and dynamics of the system in terms of its ability to propagate, reflect, and absorb electromagnetic waves."
+  },
+  {
+    "Index": 118,
+    "ChineseTerm": "瞬态带隙计算",
+    "EnglishTerm": "Transient Bandgap Calculation",
+    "Description": "Transient Bandgap Calculation refers to the computational determination of the bandgap energy of a material under non-equilibrium conditions, typically induced by external perturbations such as electromagnetic fields or ultrafast laser pulses, capturing the dynamic evolution of electronic states and energy levels within the transient regime. This process is crucial for understanding time-dependent material properties and the influence of transient electromagnetic interactions on electronic band structures."
+  },
+  {
+    "Index": 119,
+    "ChineseTerm": "非对称网格自适应",
+    "EnglishTerm": "Asymmetric Mesh Adaptation",
+    "Description": "Asymmetric Mesh Adaptation in Electromagnetism refers to the computational technique for dynamically modifying the discretization mesh to optimize the solution accuracy of electromagnetic field simulations, where the mesh refinement or coarsening is non-uniform and specifically tailored to capture anisotropic features or localized phenomena in the electromagnetic domain. This approach enhances computational efficiency by concentrating resolution in regions with steep field gradients or complex geometries, thereby improving the fidelity of numerical analyses without uniformly increasing the computational load."
+  },
+  {
+    "Index": 120,
+    "ChineseTerm": "时域多物理耦合",
+    "EnglishTerm": "Time-Domain Multi-Physics Coupling",
+    "Description": "Time-Domain Multi-Physics Coupling in Electromagnetism refers to the computational technique that integrates electromagnetic simulations with other physical phenomena, such as thermal, mechanical, or fluid dynamics, in the time domain to accurately model and analyze the dynamic interactions and interdependencies between these coupled systems over time. This approach facilitates the simultaneous resolution of governing equations across multiple physical domains, ensuring the temporal coherence and precision necessary for realistic predictions of complex, transient behaviors in engineered and natural systems."
+  },
+  {
+    "Index": 121,
+    "ChineseTerm": "高阶时域差分",
+    "EnglishTerm": "High-Order Time-Domain Differencing",
+    "Description": "High-Order Time-Domain Differencing in Electromagnetism refers to a numerical technique employed to solve Maxwell's equations by discretizing time derivatives with higher-order accuracy, thereby enhancing computational precision and stability in simulating electromagnetic wave propagation and interactions over discrete time steps. This method involves using advanced finite difference schemes that minimize numerical dispersion and error accumulation, crucial for accurately modeling complex electromagnetic phenomena."
+  },
+  {
+    "Index": 122,
+    "ChineseTerm": "等离子体电磁响应",
+    "EnglishTerm": "Plasma Electromagnetic Response",
+    "Description": "Plasma Electromagnetic Response refers to the characteristic behavior and interaction of plasma—a quasi-neutral medium of charged particles—when subjected to external electromagnetic fields, encompassing phenomena such as dielectric permittivity, conductivity, and wave propagation, governed by the collective motion of electrons and ions and described by Maxwell's equations coupled with the plasma kinetic theory."
+  },
+  {
+    "Index": 123,
+    "ChineseTerm": "时域边界耦合模式",
+    "EnglishTerm": "Time-Domain Boundary Coupled Mode",
+    "Description": "\"Time-Domain Boundary Coupled Mode\" refers to a computational technique in electromagnetism where the interaction between electromagnetic modes is analyzed at the boundaries over time, allowing for the study of transient phenomena and dynamic coupling effects between different waveguide modes or structures in time-domain simulations. This approach enables the accurate modeling of wave propagation and mode conversion processes at interfaces, enhancing the understanding of time-dependent boundary interactions in complex electromagnetic systems."
+  },
+  {
+    "Index": 124,
+    "ChineseTerm": "随机网格FDTD",
+    "EnglishTerm": "Stochastic Grid FDTD",
+    "Description": "Stochastic Grid Finite-Difference Time-Domain (SG-FDTD) is a numerical method in computational electromagnetism that extends the conventional FDTD approach by incorporating stochastic elements or random variables into the grid parameters, enabling the modeling of electromagnetic wave propagation in media with uncertainties or random variations. This technique is employed to simulate and analyze the impact of material property fluctuations, boundary conditions, or other uncertainties on the electromagnetic field behavior over time."
+  },
+  {
+    "Index": 125,
+    "ChineseTerm": "变分边界元法",
+    "EnglishTerm": "Variational Boundary Element Method",
+    "Description": "The Variational Boundary Element Method (VBEM) in Electromagnetism is a numerical computational technique that formulates boundary value problems through variational principles, discretizing the surfaces of interest into elements to solve integral equations that represent electromagnetic fields, typically providing efficient solutions where the domain is unbounded or has complex geometries. This method leverages the principles of functional minimization and boundary integral equations to accurately model electromagnetic interactions by reducing problem dimensionality while ensuring compliance with boundary conditions."
+  },
+  {
+    "Index": 126,
+    "ChineseTerm": "多物理场数据驱动模型",
+    "EnglishTerm": "Data-Driven Multi-Physics Model",
+    "Description": "A Data-Driven Multi-Physics Model in the context of Electromagnetism refers to a computational framework that integrates data-driven methodologies, such as machine learning or statistical inference, with the governing equations of electromagnetism and other relevant physical domains (e.g., thermal, mechanical), to predict and analyze complex interactions and phenomena that arise due to the coupling of multiple physical processes. This model leverages empirical data to enhance the accuracy and adaptability of simulations, facilitating the exploration of intricate electromagnetic behaviors in systems where traditional purely analytical approaches may be insufficient."
+  },
+  {
+    "Index": 127,
+    "ChineseTerm": "电磁导波理论",
+    "EnglishTerm": "Electromagnetic Waveguide Theory",
+    "Description": "Electromagnetic Waveguide Theory is the study of the propagation of electromagnetic waves through structures designed to confine and direct the flow of energy, typically involving the analysis of wave modes, boundary conditions, dispersion relations, and the influence of the waveguide's geometrical and material properties on the behavior of the waves within it. This theory is fundamental in understanding the transmission mechanisms in various applications, including telecommunications, microwave engineering, and optical systems, and is governed by Maxwell's equations and the principles of wave propagation in bounded media."
+  },
+  {
+    "Index": 128,
+    "ChineseTerm": "时域随机噪声模型",
+    "EnglishTerm": "Time-Domain Stochastic Noise Model",
+    "Description": "A Time-Domain Stochastic Noise Model in Electromagnetism refers to a mathematical framework used to characterize and predict the random fluctuations in electromagnetic fields or signals over time, incorporating probabilistic elements to account for uncertainties and variability inherent in the system's behavior and external influences. This model typically involves statistical analysis and stochastic differential equations to simulate the temporal evolution of noise processes affecting electromagnetic phenomena."
+  },
+  {
+    "Index": 129,
+    "ChineseTerm": "复频域自适应基",
+    "EnglishTerm": "Adaptive Basis in Complex Frequency Domain",
+    "Description": "Adaptive Basis in Complex Frequency Domain refers to a computational method in electromagnetism where the basis functions are dynamically modified in the complex frequency domain to efficiently represent electromagnetic fields, enhancing the accuracy and convergence of numerical solutions in response to varying material properties and geometrical configurations."
+  },
+  {
+    "Index": 130,
+    "ChineseTerm": "谐振态展开法",
+    "EnglishTerm": "Resonant State Expansion Method",
+    "Description": "The Resonant State Expansion Method in Electromagnetism is a computational technique used to represent and analyze the electromagnetic response of open systems by expanding the electromagnetic fields in terms of a discrete set of resonant states, which are solutions to the Maxwell's equations under specific boundary conditions that characterize the system's resonances. This method facilitates the efficient calculation of scattering properties and modal characteristics by leveraging the orthogonal basis formed by these resonant states to approximate the electromagnetic field distribution within complex structures."
+  },
+  {
+    "Index": 131,
+    "ChineseTerm": "宽带多模耦合",
+    "EnglishTerm": "Broadband Multi-Mode Coupling",
+    "Description": "Broadband Multi-Mode Coupling refers to the process of efficiently transmitting electromagnetic waves across a wide frequency range into multiple spatial modes within a waveguide or optical fiber, thereby enabling enhanced bandwidth utilization and signal propagation through diverse modal pathways. This coupling technique is critical in optimizing signal integrity and capacity in systems where multi-modal propagation is employed for improved data transmission performance."
+  },
+  {
+    "Index": 132,
+    "ChineseTerm": "高频快速混合法",
+    "EnglishTerm": "High-Frequency Fast Hybrid Method",
+    "Description": "The \"High-Frequency Fast Hybrid Method\" in Electromagnetism refers to a computational technique that combines multiple numerical methods, such as the Method of Moments (MoM) and the Geometrical Theory of Diffraction (GTD), to efficiently analyze electromagnetic wave interactions with complex structures at high frequencies, optimizing accuracy and computational speed by leveraging the strengths of each method in relevant frequency domains."
+  },
+  {
+    "Index": 133,
+    "ChineseTerm": "非平衡格林函数",
+    "EnglishTerm": "Non-Equilibrium Green’s Function",
+    "Description": "Non-Equilibrium Green's Function is a mathematical construct utilized in quantum transport theory to describe the time evolution and interaction of quantum states in systems driven out of equilibrium, allowing for the calculation of observables such as electronic current and charge density under non-equilibrium conditions. This formalism extends the Green's function approach to incorporate time-dependent perturbations, thereby facilitating the analysis of transient and steady-state phenomena in nanostructures and mesoscopic systems subject to external fields or biases."
+  },
+  {
+    "Index": 134,
+    "ChineseTerm": "时域表面电磁波",
+    "EnglishTerm": "Time-Domain Surface Electromagnetic Waves",
+    "Description": "Time-Domain Surface Electromagnetic Waves refer to electromagnetic waves propagating along the interface between two media, characterized by their temporal evolution captured in a time-resolved manner, which facilitates the analysis of transient phenomena and complex interactions with the surface materials. These waves are typically analyzed using time-domain techniques to provide insights into their dynamic behavior and interactions with the surface, including absorption, scattering, and dispersion effects."
+  },
+  {
+    "Index": 135,
+    "ChineseTerm": "多分辨率分析法",
+    "EnglishTerm": "Multi-Resolution Analysis Method",
+    "Description": "Multi-Resolution Analysis Method in Electromagnetism refers to a computational technique that decomposes electromagnetic fields into components across multiple scales or resolutions, enabling efficient representation and analysis of complex electromagnetic phenomena by capturing both global structures and localized details within a hierarchical framework. This approach facilitates enhanced accuracy and computational efficiency in solving electromagnetic problems by systematically refining the spatial and frequency domain representations of the fields."
+  },
+  {
+    "Index": 136,
+    "ChineseTerm": "复介电常数提取",
+    "EnglishTerm": "Complex Permittivity Extraction",
+    "Description": "Complex Permittivity Extraction is the process of determining the frequency-dependent permittivity of a material, represented as a complex quantity, which encompasses both the real part indicating the material's ability to store electric energy and the imaginary part accounting for energy dissipation due to dielectric losses, typically through techniques such as reflectometry, resonant cavity methods, or transmission line measurements. This extraction is crucial for characterizing the electromagnetic behavior of materials in various applications ranging from telecommunications to material science."
+  },
+  {
+    "Index": 137,
+    "ChineseTerm": "光电磁波干涉",
+    "EnglishTerm": "Optoelectromagnetic Wave Interference",
+    "Description": "Optoelectromagnetic Wave Interference refers to the phenomenon arising from the superposition of electromagnetic waves within optoelectronic systems, where the constructive or destructive interaction between waves modifies the resultant intensity and phase distribution, leading to observable effects in the propagation and behavior of light and electromagnetic fields."
+  },
+  {
+    "Index": 138,
+    "ChineseTerm": "时域电路-场耦合",
+    "EnglishTerm": "Time-Domain Circuit-Field Coupling",
+    "Description": "Time-Domain Circuit-Field Coupling refers to the interaction and mutual influence between electrical circuits and electromagnetic fields, analyzed within the temporal domain, where the dynamic behavior of electromagnetic fields and circuit elements are simultaneously modeled and solved over time to account for transient phenomena and non-stationary processes in coupled electromagnetic systems."
+  },
+  {
+    "Index": 139,
+    "ChineseTerm": "多谱段电磁仿真",
+    "EnglishTerm": "Multi-Band Electromagnetic Simulation",
+    "Description": "Multi-Band Electromagnetic Simulation refers to the computational modeling and analysis of electromagnetic phenomena across multiple frequency bands simultaneously, enabling the evaluation of complex interactions and behaviors of electromagnetic fields and waves as they pertain to varied spectral ranges. This simulation technique is critical for designing and optimizing devices and systems that operate over broad frequency spectra, such as antennas, radar systems, and communication equipment, ensuring accurate predictions of performance and electromagnetic compatibility."
+  },
+  {
+    "Index": 140,
+    "ChineseTerm": "频域混合基方法",
+    "EnglishTerm": "Frequency-Domain Hybrid Basis Method",
+    "Description": "The Frequency-Domain Hybrid Basis Method in Electromagnetism refers to a computational approach that combines different basis functions to efficiently solve electromagnetic scattering problems in the frequency domain, optimizing computational resources by integrating the strengths of various numerical techniques, such as the Method of Moments and Finite Element Method, to accurately capture complex field interactions across diverse materials and geometries."
+  },
+  {
+    "Index": 141,
+    "ChineseTerm": "时域分数阶微分",
+    "EnglishTerm": "Time-Domain Fractional Derivatives",
+    "Description": "Time-Domain Fractional Derivatives in Electromagnetism refer to a mathematical generalization of the conventional derivative operator, extending its order to non-integer values, which enables the modeling of complex, frequency-dependent phenomena in electromagnetic fields by capturing memory and hereditary properties intrinsic to certain materials and systems. This approach facilitates the description of electromagnetic wave propagation and signal behavior in media with anomalous dispersion or fractal-like characteristics, enhancing the analysis and simulation of systems beyond classical integer-order differential equations."
+  },
+  {
+    "Index": 142,
+    "ChineseTerm": "电磁波折射机理",
+    "EnglishTerm": "Mechanism of Electromagnetic Wave Refraction",
+    "Description": "The \"Mechanism of Electromagnetic Wave Refraction\" refers to the alteration in the direction of propagation of electromagnetic waves as they traverse the interface between two media with differing refractive indices, a phenomenon governed by Snell's Law, which results from the variation in wave speed due to the media's distinct electromagnetic properties."
+  },
+  {
+    "Index": 143,
+    "ChineseTerm": "瞬态与稳态切换分析",
+    "EnglishTerm": "Transient-to-Steady-State Transition Analysis",
+    "Description": "Transient-to-Steady-State Transition Analysis in Electromagnetism refers to the systematic examination of the temporal evolution of electromagnetic fields and system variables from their initial transient response towards a stable steady-state condition, where all time-dependent changes cease and the system exhibits constant behavior under persistent external inputs or conditions. This analysis is pivotal for understanding the dynamic behavior and energy dissipation processes in electromagnetic systems, ensuring accurate predictions and optimizations of system performance over time."
+  },
+  {
+    "Index": 144,
+    "ChineseTerm": "多组分介质模型",
+    "EnglishTerm": "Multi-Component Medium Model",
+    "Description": "In Electromagnetism, a Multi-Component Medium Model refers to a mathematical framework that characterizes the electromagnetic properties of a medium composed of multiple distinct constituents, each with its own dielectric, magnetic, and conductive characteristics, allowing for the analysis of complex interactions and phenomena such as wave propagation, scattering, and absorption in heterogeneous environments."
+  },
+  {
+    "Index": 145,
+    "ChineseTerm": "时域双边谱分析",
+    "EnglishTerm": "Time-Domain Bilateral Spectrum Analysis",
+    "Description": "Time-Domain Bilateral Spectrum Analysis in electromagnetism refers to the method of examining electromagnetic signals by analyzing their frequency components in both forward and reverse time directions, allowing for the investigation of signal characteristics and behaviors that are not observable through traditional unilateral spectrum analysis, thereby providing a more comprehensive understanding of transient and complex electromagnetic phenomena. This approach is particularly useful for identifying and characterizing non-stationary signals and interactions within systems that exhibit time-reversal symmetry or require insights into causality and signal propagation."
+  },
+  {
+    "Index": 146,
+    "ChineseTerm": "自适应波动方程解法",
+    "EnglishTerm": "Adaptive Wave Equation Solver",
+    "Description": "An Adaptive Wave Equation Solver in the context of Electromagnetism is a computational algorithm designed to dynamically adjust its parameters and discretization strategies to efficiently and accurately solve the wave equation, which models the propagation of electromagnetic waves, by optimizing computational resources and minimizing errors according to the evolving characteristics of the solution domain."
+  },
+  {
+    "Index": 147,
+    "ChineseTerm": "高阶不连续Galerkin法",
+    "EnglishTerm": "High-Order Discontinuous Galerkin Method",
+    "Description": "The High-Order Discontinuous Galerkin Method in Electromagnetism is a numerical technique that employs piecewise polynomial basis functions with discontinuities at element boundaries to solve Maxwell's equations, providing high accuracy and flexibility in handling complex geometries and variable material properties through local approximation and flux computation across interfaces."
+  },
+  {
+    "Index": 148,
+    "ChineseTerm": "时域随机信号耦合",
+    "EnglishTerm": "Time-Domain Stochastic Signal Coupling",
+    "Description": "Time-Domain Stochastic Signal Coupling in the context of Electromagnetism refers to the interaction and transfer of energy between stochastic electromagnetic signals in the time domain, characterized by random variations and noise, which influence the behavior and properties of coupled systems or circuits. This phenomenon is analyzed to understand and mitigate interference issues, ensuring the integrity and performance of electromagnetic systems subjected to random signal environments."
+  },
+  {
+    "Index": 149,
+    "ChineseTerm": "多物理场模态分解",
+    "EnglishTerm": "Multi-Physics Modal Decomposition",
+    "Description": "Multi-Physics Modal Decomposition in the context of Electromagnetism refers to the analytical technique that involves decomposing electromagnetic fields into a series of orthogonal modes to facilitate the simultaneous consideration of multiple physical phenomena, such as thermal, mechanical, and electromagnetic interactions, thereby enabling the detailed analysis and optimization of complex systems governed by coupled differential equations."
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "Index": 0,
+    "ChineseTerm": "卷积神经网络",
+    "EnglishTerm": "Convolutional Neural Network (CNN)",
+    "Description": "A Convolutional Neural Network (CNN) is a class of deep neural networks characterized by the use of convolutional layers that apply learnable filters to input data, primarily designed to process and analyze grid-like structures such as images by leveraging spatial hierarchies and local receptive fields to automatically extract and learn hierarchical feature representations."
+  },
+  {
+    "Index": 1,
+    "ChineseTerm": "循环神经网络",
+    "EnglishTerm": "Recurrent Neural Network (RNN)",
+    "Description": "A Recurrent Neural Network (RNN) is a class of artificial neural networks in which connections between nodes form a directed graph along a temporal sequence, allowing the model to exhibit dynamic temporal behavior and process sequential data by maintaining a hidden state that captures dependencies across time steps. RNNs are characterized by their ability to leverage internal memory to consider previous inputs in the computation of subsequent outputs, making them suitable for tasks involving time-series analysis, natural language processing, and sequence prediction."
+  },
+  {
+    "Index": 2,
+    "ChineseTerm": "长短期记忆网络",
+    "EnglishTerm": "Long Short-Term Memory (LSTM)",
+    "Description": "Long Short-Term Memory (LSTM) is a specialized recurrent neural network architecture designed to effectively capture temporal dependencies and mitigate the vanishing gradient problem by employing memory cells equipped with input, output, and forget gates to regulate the flow of information over extended sequences."
+  },
+  {
+    "Index": 3,
+    "ChineseTerm": "门控循环单元",
+    "EnglishTerm": "Gated Recurrent Unit (GRU)",
+    "Description": "A Gated Recurrent Unit (GRU) is a type of recurrent neural network architecture characterized by its gating mechanism, which modulates the flow of information and controls the update of hidden states through reset and update gates, enabling efficient modeling of sequential dependencies while mitigating vanishing gradient issues."
+  },
+  {
+    "Index": 4,
+    "ChineseTerm": "多层感知机",
+    "EnglishTerm": "Multilayer Perceptron (MLP)",
+    "Description": "A Multilayer Perceptron (MLP) is a class of feedforward artificial neural networks composed of multiple layers of nodes, including an input layer, one or more hidden layers, and an output layer, where each node implements a nonlinear activation function and is fully connected to nodes in adjacent layers; it is utilized to approximate complex functions and solve problems that are not linearly separable through supervised learning techniques."
+  },
+  {
+    "Index": 5,
+    "ChineseTerm": "自编码器",
+    "EnglishTerm": "Autoencoder",
+    "Description": "An autoencoder is a type of artificial neural network used for unsupervised learning that consists of an encoder and a decoder, where the encoder maps input data to a latent representation and the decoder reconstructs the original data from this representation, thereby minimizing the reconstruction error through backpropagation. It is primarily utilized for dimensionality reduction, feature learning, and denoising tasks by capturing essential data structures within the latent space."
+  },
+  {
+    "Index": 6,
+    "ChineseTerm": "变分自编码器",
+    "EnglishTerm": "Variational Autoencoder (VAE)",
+    "Description": "A Variational Autoencoder (VAE) is a generative model that utilizes a probabilistic encoder-decoder architecture to learn continuous latent representations of data by optimizing the evidence lower bound (ELBO) through variational inference, enabling the generation of new data samples from the learned latent space. It leverages stochastic gradient descent and reparameterization techniques to approximate complex posterior distributions, thereby facilitating unsupervised learning and data generation in high-dimensional spaces."
+  },
+  {
+    "Index": 7,
+    "ChineseTerm": "降噪自编码器",
+    "EnglishTerm": "Denoising Autoencoder",
+    "Description": "A Denoising Autoencoder is a type of neural network architecture designed to learn robust feature representations by reconstructing input data from a corrupted version, thereby optimizing the model to ignore noise and preserve essential structures in the data. It achieves this by minimizing the reconstruction error between the original, uncorrupted input and the output generated from the corrupted input, thus enhancing the model's ability to generalize and extract relevant features."
+  },
+  {
+    "Index": 8,
+    "ChineseTerm": "生成对抗网络",
+    "EnglishTerm": "Generative Adversarial Network (GAN)",
+    "Description": "A Generative Adversarial Network (GAN) is a class of machine learning frameworks composed of two neural networks, the generator and the discriminator, which are trained simultaneously through adversarial processes wherein the generator aims to produce data indistinguishable from real data, while the discriminator evaluates the authenticity of the generated data, thereby optimizing both networks through iterative feedback loops."
+  },
+  {
+    "Index": 9,
+    "ChineseTerm": "支持向量机",
+    "EnglishTerm": "Support Vector Machine (SVM)",
+    "Description": "A Support Vector Machine (SVM) is a supervised machine learning model used for classification and regression tasks, which constructs a hyperplane or set of hyperplanes in a high-dimensional space to optimally separate data points into distinct classes, maximizing the margin between them; it employs kernel functions to handle non-linear separations by implicitly mapping input data into higher-dimensional spaces."
+  },
+  {
+    "Index": 10,
+    "ChineseTerm": "线性回归",
+    "EnglishTerm": "Linear Regression",
+    "Description": "Linear Regression is a statistical method employed in Artificial Intelligence to model and analyze the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data, aiming to predict the dependent variable's values based on the independent variables. It assumes a linear correlation between the variables and minimizes the sum of squared differences between the observed and predicted values to achieve optimal parameter estimation."
+  },
+  {
+    "Index": 11,
+    "ChineseTerm": "逻辑回归",
+    "EnglishTerm": "Logistic Regression",
+    "Description": "Logistic Regression is a statistical and machine learning algorithm used for binary classification tasks, which models the probability of a categorical dependent variable by applying the logistic function to a linear combination of independent variables, thereby transforming the output into a value between 0 and 1. It estimates the parameters of the logistic model using maximum likelihood estimation and is commonly employed to predict binary outcomes in various domains within Artificial Intelligence."
+  },
+  {
+    "Index": 12,
+    "ChineseTerm": "决策树",
+    "EnglishTerm": "Decision Tree",
+    "Description": "A decision tree in the context of Artificial Intelligence is a hierarchical model used for classification or regression tasks, wherein internal nodes represent tests on attributes, branches represent the outcomes of these tests, and leaf nodes represent class labels or continuous values, facilitating decision-making through a path from the root to a leaf. This model is constructed through recursive partitioning of the dataset, aimed at minimizing impurity or error in the outcomes while maintaining interpretability and simplicity."
+  },
+  {
+    "Index": 13,
+    "ChineseTerm": "随机森林",
+    "EnglishTerm": "Random Forest",
+    "Description": "Random Forest is an ensemble learning method within artificial intelligence that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees, leveraging the principle of bagging to improve predictive accuracy and control overfitting. This approach enhances model robustness by aggregating decisions from diverse trees, each trained on random subsets of the data, thereby mitigating the variance inherent in single decision tree models."
+  },
+  {
+    "Index": 14,
+    "ChineseTerm": "极端随机树",
+    "EnglishTerm": "Extra Trees",
+    "Description": "Extra Trees, or Extremely Randomized Trees, is an ensemble learning method within Artificial Intelligence characterized by the construction of multiple decision trees, where both the choice of the cut-points and the subset of features used for splitting nodes are randomized, enhancing variance reduction and computational efficiency compared to traditional decision tree models. This approach aims to improve predictive accuracy by averaging the predictions of the individual trees, leveraging stochastic processes to mitigate overfitting and increase robustness in handling diverse datasets."
+  },
+  {
+    "Index": 15,
+    "ChineseTerm": "梯度提升机",
+    "EnglishTerm": "Gradient Boosting Machine (GBM)",
+    "Description": "Gradient Boosting Machine (GBM) is an ensemble learning method in artificial intelligence that constructs a predictive model by sequentially combining multiple weak learners, typically decision trees, with the objective of minimizing a loss function through iterative optimization of residual errors using gradient descent techniques. It achieves high predictive accuracy by incrementally refining the model through successive iterations, where each new learner compensates for the deficiencies of the current ensemble, thereby enhancing the overall model performance."
+  },
+  {
+    "Index": 16,
+    "ChineseTerm": "AdaBoost",
+    "EnglishTerm": "Adaptive Boosting",
+    "Description": "Adaptive Boosting, commonly known as AdaBoost, is an ensemble learning algorithm in artificial intelligence that iteratively combines a sequence of weak classifiers, each trained with a distribution of weights adjusted to emphasize previously misclassified instances, to construct a single, strong classifier with reduced generalization error. This method incrementally adjusts the weights of the training samples and assigns a higher weight to misclassified instances, thus focusing subsequent weak learners on the more challenging cases."
+  },
+  {
+    "Index": 17,
+    "ChineseTerm": "XGBoost",
+    "EnglishTerm": "eXtreme Gradient Boosting",
+    "Description": "eXtreme Gradient Boosting (XGBoost) is a scalable, high-performance machine learning library for gradient boosting, designed to optimize prediction accuracy and computational efficiency by integrating advanced regularization techniques, parallel processing capabilities, and a distributed computing framework, primarily for structured data classification and regression tasks."
+  },
+  {
+    "Index": 18,
+    "ChineseTerm": "LightGBM",
+    "EnglishTerm": "Light Gradient Boosting Machine",
+    "Description": "Light Gradient Boosting Machine (LightGBM) is a gradient boosting framework that utilizes tree-based learning algorithms, optimized for efficiency and scalability by employing techniques such as histogram-based feature discretization and leaf-wise tree growth, thereby enabling faster training and lower memory usage compared to traditional gradient boosting approaches in the context of machine learning models."
+  },
+  {
+    "Index": 19,
+    "ChineseTerm": "CatBoost",
+    "EnglishTerm": "Categorical Boosting",
+    "Description": "Categorical Boosting is a machine learning technique that enhances the performance of predictive models by iteratively adjusting weights assigned to categorical features, thereby improving the model's ability to capture and leverage the intrinsic structure and interactions within categorical data for classification or regression tasks. It is typically implemented within ensemble learning frameworks, where the method systematically refines model accuracy through repeated application and combination of base learners."
+  },
+  {
+    "Index": 20,
+    "ChineseTerm": "K均值聚类",
+    "EnglishTerm": "K-Means Clustering",
+    "Description": "K-Means Clustering is an unsupervised machine learning algorithm used to partition a dataset into K distinct, non-overlapping subgroups, or clusters, by iteratively assigning data points to the nearest cluster centroid and recalculating centroids to minimize the within-cluster variance. This algorithm operates by optimizing the squared Euclidean distance between data points and their respective centroids, thereby achieving a local minimum for intra-cluster compactness and inter-cluster separation."
+  },
+  {
+    "Index": 21,
+    "ChineseTerm": "层次聚类",
+    "EnglishTerm": "Hierarchical Clustering",
+    "Description": "Hierarchical Clustering is a method of cluster analysis in Artificial Intelligence that seeks to build a hierarchy of clusters through either agglomerative (bottom-up) or divisive (top-down) approaches, where data points are successively merged or split based on a predefined metric of similarity or dissimilarity, facilitating the exploration of data structure at multiple levels of granularity. This technique produces a dendrogram, which visually represents the nested clustering arrangements and allows for the interpretation of data in terms of its hierarchical organization."
+  },
+  {
+    "Index": 22,
+    "ChineseTerm": "密度聚类",
+    "EnglishTerm": "DBSCAN",
+    "Description": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a density-based clustering algorithm that identifies clusters of arbitrary shape by grouping points that are closely packed together based on a specified neighborhood radius and minimum number of points, while marking points in low-density regions as noise. It is particularly effective in distinguishing clusters in datasets with varying densities and is robust to noise, making it suitable for spatial data analysis and applications requiring noise identification."
+  },
+  {
+    "Index": 23,
+    "ChineseTerm": "基于均值漂移聚类",
+    "EnglishTerm": "Mean Shift Clustering",
+    "Description": "Mean Shift Clustering is a non-parametric clustering algorithm that iteratively shifts data points towards regions of higher density by updating their positions based on a kernel density estimate, effectively identifying the modes of the probability density function in the feature space without the need for specifying the number of clusters a priori. This technique is particularly suitable for detecting arbitrarily shaped clusters and is utilized in various applications including image processing and computer vision."
+  },
+  {
+    "Index": 24,
+    "ChineseTerm": "高斯混合模型",
+    "EnglishTerm": "Gaussian Mixture Model (GMM)",
+    "Description": "A Gaussian Mixture Model (GMM) is a probabilistic model in Artificial Intelligence that represents a distribution of data points as a combination of multiple Gaussian distributions, each characterized by its own mean and covariance, allowing for the modeling of complex, multimodal datasets and enabling tasks such as clustering and density estimation by employing the Expectation-Maximization algorithm for parameter optimization."
+  },
+  {
+    "Index": 25,
+    "ChineseTerm": "主成分分析",
+    "EnglishTerm": "Principal Component Analysis (PCA)",
+    "Description": "Principal Component Analysis (PCA) is a dimensionality reduction technique utilized in Artificial Intelligence to transform a dataset into a set of linearly uncorrelated variables called principal components, achieved by orthogonal transformation, with the objective of preserving as much variance as possible from the original data."
+  },
+  {
+    "Index": 26,
+    "ChineseTerm": "线性判别分析",
+    "EnglishTerm": "Linear Discriminant Analysis (LDA)",
+    "Description": "Linear Discriminant Analysis (LDA) is a supervised dimensionality reduction technique in Artificial Intelligence and machine learning that aims to maximize class separability by projecting data onto a lower-dimensional space using a linear transformation, calculated based on the eigenvectors of the scatter matrices derived from the dataset's features and class labels. It seeks to find a linear combination of features that best discriminates between predefined classes, facilitating optimal classification performance in the reduced feature space."
+  },
+  {
+    "Index": 27,
+    "ChineseTerm": "独立成分分析",
+    "EnglishTerm": "Independent Component Analysis (ICA)",
+    "Description": "Independent Component Analysis (ICA) is a computational method for separating a multivariate signal into additive, statistically independent components by maximizing non-Gaussianity, typically used in the context of blind source separation and feature extraction within artificial intelligence and signal processing domains. It assumes a linear mixing model and leverages higher-order statistical properties to identify underlying independent sources from observed data."
+  },
+  {
+    "Index": 28,
+    "ChineseTerm": "非负矩阵分解",
+    "EnglishTerm": "Non-negative Matrix Factorization (NMF)",
+    "Description": "Non-negative Matrix Factorization (NMF) is a linear dimensionality reduction technique employed in artificial intelligence, where a non-negative matrix \\( V \\) is approximately factorized into two non-negative matrices \\( W \\) and \\( H \\), such that \\( V \\approx WH \\); this decomposition facilitates the extraction of latent features subject to non-negativity constraints, making it particularly suitable for applications involving non-negative data representations."
+  },
+  {
+    "Index": 29,
+    "ChineseTerm": "t-SNE",
+    "EnglishTerm": "t-Distributed Stochastic Neighbor Embedding",
+    "Description": "t-Distributed Stochastic Neighbor Embedding (t-SNE) is a nonlinear dimensionality reduction technique that models high-dimensional data by minimizing the divergence between probability distributions of pairwise similarities in high-dimensional and low-dimensional spaces, employing Student's t-distribution to maintain local structure and effectively visualize complex data patterns."
+  },
+  {
+    "Index": 30,
+    "ChineseTerm": "核主成分分析",
+    "EnglishTerm": "Kernel PCA",
+    "Description": "Kernel Principal Component Analysis (Kernel PCA) is a dimensionality reduction technique that extends traditional Principal Component Analysis by utilizing kernel methods to map input data into a higher-dimensional feature space, where linear separability and extraction of non-linear relationships are facilitated through the computation of eigenvectors and eigenvalues of the kernel matrix. This approach enables the identification of principal components in a transformed space, thus capturing complex structures in the data that are not accessible through linear methods."
+  },
+  {
+    "Index": 31,
+    "ChineseTerm": "特征选择",
+    "EnglishTerm": "Feature Selection",
+    "Description": "Feature Selection is a process in machine learning and artificial intelligence that involves identifying and selecting a subset of relevant features from the original dataset, aiming to improve model performance by enhancing generalization, reducing overfitting, and decreasing computational complexity. It is an essential step in model optimization that seeks to retain the most informative attributes while discarding redundant or irrelevant data."
+  },
+  {
+    "Index": 32,
+    "ChineseTerm": "特征缩放",
+    "EnglishTerm": "Feature Scaling",
+    "Description": "Feature Scaling is a preprocessing technique in machine learning that involves adjusting the range of independent variables or features to enable uniformity and comparability across them, thereby improving the performance and convergence speed of learning algorithms by mitigating bias due to disparate feature magnitudes. It commonly entails methods such as normalization and standardization, which respectively rescale data to a specific range or transform it to have a mean of zero and a standard deviation of one."
+  },
+  {
+    "Index": 33,
+    "ChineseTerm": "标准化",
+    "EnglishTerm": "Standardization",
+    "Description": "Standardization in the context of Artificial Intelligence refers to the process of transforming input data into a common scale by adjusting its distribution to have a mean of zero and a standard deviation of one, thereby facilitating improved model performance and comparability across different datasets. This process is essential for ensuring that variations in data magnitude do not disproportionately influence model training and prediction outcomes."
+  },
+  {
+    "Index": 34,
+    "ChineseTerm": "归一化",
+    "EnglishTerm": "Normalization",
+    "Description": "Normalization, in the context of Artificial Intelligence, refers to the process of adjusting and scaling input data or feature values to a common range or distribution, typically between specified bounds such as [0, 1] or [-1, 1], to ensure uniformity and improve the stability and performance of machine learning models by mitigating issues arising from disparate scales or distributions. This technique is essential for facilitating convergence during training, enhancing the interpretability of results, and optimizing computational efficiency by ensuring consistent numerical conditions."
+  },
+  {
+    "Index": 35,
+    "ChineseTerm": "最小-最大缩放",
+    "EnglishTerm": "Min-Max Scaling",
+    "Description": "Min-Max Scaling, in the context of Artificial Intelligence, refers to a data preprocessing technique that transforms the features of a dataset to lie within a specified range, typically [0, 1], by linearly rescaling each feature according to the formula: \\(x' = \\frac{x - \\text{min}(X)}{\\text{max}(X) - \\text{min}(X)}\\), where \\(x\\) is an original feature value and \\(X\\) represents the set of all feature values. This process is essential for ensuring that the features contribute equally to the distance computations and convergence in optimization algorithms."
+  },
+  {
+    "Index": 36,
+    "ChineseTerm": "留一交叉验证",
+    "EnglishTerm": "Leave-One-Out Cross-Validation",
+    "Description": "Leave-One-Out Cross-Validation (LOOCV) is a model evaluation technique in machine learning in which a dataset containing \\( n \\) samples is partitioned such that a single observation is used as the validation set while the remaining \\( n-1 \\) observations constitute the training set; this process is iteratively repeated \\( n \\) times, with each observation serving as the validation set exactly once, thereby providing an exhaustive assessment of the model's predictive performance."
+  },
+  {
+    "Index": 37,
+    "ChineseTerm": "K折交叉验证",
+    "EnglishTerm": "K-Fold Cross-Validation",
+    "Description": "K-Fold Cross-Validation is a statistical method used in machine learning to assess the predictive performance and generalizability of a model by partitioning the dataset into K subsets, where each subset serves as a test set once while the remaining K-1 subsets are used for training, thereby enabling the evaluation of the model's accuracy across multiple iterations. This technique ensures more reliable estimation of model performance by mitigating overfitting and variance associated with random train-test splits."
+  },
+  {
+    "Index": 38,
+    "ChineseTerm": "网格搜索",
+    "EnglishTerm": "Grid Search",
+    "Description": "Grid Search is a hyperparameter optimization technique in artificial intelligence that systematically explores a predefined subset of the hyperparameter space by exhaustively evaluating model performance at each point in the grid, enabling the identification of the optimal parameter configuration based on a specified evaluation metric."
+  },
+  {
+    "Index": 39,
+    "ChineseTerm": "随机搜索",
+    "EnglishTerm": "Random Search",
+    "Description": "Random Search is an optimization technique within Artificial Intelligence that involves exploring the solution space by sampling candidate solutions uniformly or according to a specified probability distribution, without relying on gradient information or specific heuristics to guide the search process. This method is typically employed in scenarios where the search space is large or complex, and traditional deterministic approaches are computationally infeasible or inadequately informed."
+  },
+  {
+    "Index": 40,
+    "ChineseTerm": "提升法",
+    "EnglishTerm": "Boosting",
+    "Description": "Boosting is a machine learning ensemble technique that iteratively improves the predictive performance of weak learners by adjusting their weights according to the errors of previous iterations, thereby combining them into a single strong classifier with enhanced accuracy. It operates by sequentially training weak models, emphasizing misclassified instances, and aggregating their outputs through weighted voting to reduce bias and variance in the final prediction."
+  },
+  {
+    "Index": 41,
+    "ChineseTerm": "装袋法",
+    "EnglishTerm": "Bagging",
+    "Description": "Bagging, short for Bootstrap Aggregating, is an ensemble learning technique in Artificial Intelligence that improves predictive accuracy by generating multiple versions of a model through resampling with replacement from the training dataset and aggregating their predictions, typically via averaging for regression tasks or voting for classification tasks. This method reduces variance and mitigates overfitting by leveraging the diversity among the individual models created from varied subsets of the data."
+  },
+  {
+    "Index": 42,
+    "ChineseTerm": "堆叠集成",
+    "EnglishTerm": "Stacking Ensemble",
+    "Description": "Stacking Ensemble is an advanced machine learning technique that combines multiple predictive models by training a meta-model, typically a higher-level classifier or regressor, on the outputs or predictions of the base models, thereby leveraging their diverse strengths to improve overall predictive performance and generalization capabilities. This method involves a hierarchical integration where the meta-model synthesizes the outputs of the base models, often through weighted or nonlinear aggregation, to produce final predictions."
+  },
+  {
+    "Index": 43,
+    "ChineseTerm": "混合法",
+    "EnglishTerm": "Blending",
+    "Description": "Blending, in the context of Artificial Intelligence, refers to the computational process of synthesizing new data representations by integrating multiple distinct data sources or models, thereby generating novel insights or functionalities through the systematic combination of disparate information. This technique leverages algorithmic strategies to merge semantic or syntactic elements, often enhancing the capability of AI systems to perform complex tasks by creating enriched or hybrid data constructs."
+  },
+  {
+    "Index": 44,
+    "ChineseTerm": "引导法",
+    "EnglishTerm": "Bootstrapping",
+    "Description": "Bootstrapping in Artificial Intelligence refers to a self-starting process that involves incrementally improving a model or system through iterative cycles of training and evaluation, where initial, often limited, knowledge or data is used to generate predictions or insights that inform subsequent learning stages. This method is employed to enhance the system's performance by leveraging the outcomes of prior iterations to refine algorithms, parameters, or datasets, thereby progressively building upon its capabilities without external guidance or additional input."
+  },
+  {
+    "Index": 45,
+    "ChineseTerm": "支持向量回归",
+    "EnglishTerm": "Support Vector Regression (SVR)",
+    "Description": "Support Vector Regression (SVR) is a supervised learning algorithm within the framework of Support Vector Machines (SVM) that aims to predict continuous values by constructing a hyperplane or set of hyperplanes in a high-dimensional space, minimizing a specified loss function with a margin of tolerance, known as epsilon, to balance model complexity and prediction accuracy while maintaining robustness to outliers. It leverages kernel functions to handle non-linear relationships by transforming input data into higher-dimensional feature spaces, facilitating the identification of optimal regression hyperplanes."
+  },
+  {
+    "Index": 46,
+    "ChineseTerm": "高斯过程回归",
+    "EnglishTerm": "Gaussian Process Regression (GPR)",
+    "Description": "Gaussian Process Regression (GPR) is a non-parametric, Bayesian approach to regression that models the underlying distribution of data using Gaussian processes, which define a prior over functions characterized by a mean function and a covariance kernel, enabling predictions with associated uncertainties by conditioning on observed data. In the context of Artificial Intelligence, GPR is employed for its capacity to provide flexible modeling of complex data patterns and quantification of prediction uncertainty, critical for tasks involving continuous data and probabilistic inference."
+  },
+  {
+    "Index": 47,
+    "ChineseTerm": "岭回归",
+    "EnglishTerm": "Ridge Regression",
+    "Description": "Ridge Regression is a linear regression technique that introduces a regularization parameter, known as the ridge penalty, to the loss function, thereby mitigating overfitting by constraining the size of the coefficients through L2 norm regularization, which is particularly beneficial in situations involving multicollinearity or high-dimensional datasets. In the context of Artificial Intelligence, Ridge Regression enhances model generalization by balancing the trade-off between fitting the training data and maintaining model simplicity to improve predictive performance on unseen data."
+  },
+  {
+    "Index": 48,
+    "ChineseTerm": "套索回归",
+    "EnglishTerm": "Lasso Regression",
+    "Description": "Lasso Regression, formally known as Least Absolute Shrinkage and Selection Operator Regression, is a linear regression technique in artificial intelligence and statistics that employs L1 regularization to constrain and minimize the absolute sum of the model's coefficients, thereby promoting sparsity and feature selection by reducing some coefficients to exactly zero. This method is particularly effective for high-dimensional datasets, as it simultaneously performs variable selection and regularization to enhance prediction accuracy and interpretability."
+  },
+  {
+    "Index": 49,
+    "ChineseTerm": "弹性网回归",
+    "EnglishTerm": "Elastic Net",
+    "Description": "Elastic Net is a regularization technique for linear regression models that combines the penalties of both L1 (Lasso) and L2 (Ridge) regularization methods, effectively addressing limitations such as variable selection and multicollinearity by incorporating a linear combination of the L1 and L2 norms to control model complexity and improve prediction accuracy."
+  },
+  {
+    "Index": 50,
+    "ChineseTerm": "朴素贝叶斯",
+    "EnglishTerm": "Naive Bayes",
+    "Description": "Naive Bayes is a probabilistic classifier based on Bayes' theorem, assuming independence among features, which is employed for classification tasks in machine learning and artificial intelligence by estimating the posterior probability of a class given a set of feature values. This approach leverages the simplicity of the conditional independence assumption to facilitate efficient computation, despite potential correlations among features, thereby providing robust performance in various applications such as text classification and spam detection."
+  },
+  {
+    "Index": 51,
+    "ChineseTerm": "贝叶斯网络",
+    "EnglishTerm": "Bayesian Network",
+    "Description": "A Bayesian Network in Artificial Intelligence is a probabilistic graphical model that represents a set of variables and their conditional dependencies via a directed acyclic graph, facilitating the computation of joint probabilities and inference by employing Bayes' theorem to update beliefs based on new evidence."
+  },
+  {
+    "Index": 52,
+    "ChineseTerm": "马尔可夫链",
+    "EnglishTerm": "Markov Chain",
+    "Description": "A Markov Chain, within the context of Artificial Intelligence, is a mathematical model describing a stochastic process characterized by a sequence of states where the probability of transitioning to the next state is dependent solely on the current state, adhering to the Markov property of memorylessness. This model is employed to analyze systems where future states are independent of past states, with transitions governed by fixed probabilities, often represented by a transition matrix."
+  },
+  {
+    "Index": 53,
+    "ChineseTerm": "隐马尔可夫模型",
+    "EnglishTerm": "Hidden Markov Model (HMM)",
+    "Description": "A Hidden Markov Model (HMM) is a statistical model characterized by a system assumed to be a Markov process with unobservable, or \"hidden,\" states, where observable outputs are generated by these hidden states according to certain probability distributions; it is employed in AI for tasks involving sequence prediction and pattern recognition, leveraging the model's capability to infer hidden state sequences from observed data."
+  },
+  {
+    "Index": 54,
+    "ChineseTerm": "条件随机场",
+    "EnglishTerm": "Conditional Random Field (CRF)",
+    "Description": "A Conditional Random Field (CRF) is a type of discriminative probabilistic graphical model used for structured prediction, which models the conditional distribution of a set of output variables given a set of observed input variables, where the output variables form an undirected graph and are conditioned on the input data. It enables modeling of contextual dependencies between outputs while capturing complex relationships in sequence or spatial data, typically used in tasks such as sequence labeling and image segmentation."
+  },
+  {
+    "Index": 55,
+    "ChineseTerm": "期望最大化算法",
+    "EnglishTerm": "Expectation-Maximization (EM)",
+    "Description": "Expectation-Maximization (EM) is an iterative optimization algorithm used to find maximum likelihood estimates of parameters in statistical models, particularly those with latent variables, by alternating between the expectation (E) step, which computes the expected value of the log-likelihood given the current parameter estimates, and the maximization (M) step, which updates the parameters to maximize this expected log-likelihood."
+  },
+  {
+    "Index": 56,
+    "ChineseTerm": "梯度下降法",
+    "EnglishTerm": "Gradient Descent",
+    "Description": "Gradient Descent is an iterative optimization algorithm employed to minimize a differentiable objective function by iteratively moving in the direction of the steepest descent, as defined by the negative of the gradient, to find local minima, with applications in training machine learning models by adjusting parameters to reduce the error or loss function."
+  },
+  {
+    "Index": 57,
+    "ChineseTerm": "随机梯度下降法",
+    "EnglishTerm": "Stochastic Gradient Descent (SGD)",
+    "Description": "Stochastic Gradient Descent (SGD) is an iterative optimization algorithm used to minimize the objective function in machine learning models by approximating the gradient of the function using randomly selected subsets of the training data, thereby reducing computational cost and enabling faster convergence compared to batch gradient descent."
+  },
+  {
+    "Index": 58,
+    "ChineseTerm": "小批量梯度下降",
+    "EnglishTerm": "Mini-Batch Gradient Descent",
+    "Description": "Mini-Batch Gradient Descent is an optimization algorithm used in training machine learning models, where the model parameters are updated iteratively based on the gradient computed from a subset of the training data, known as a mini-batch, allowing for a balance between the computational efficiency of batch gradient descent and the convergence stability of stochastic gradient descent."
+  },
+  {
+    "Index": 59,
+    "ChineseTerm": "动量法",
+    "EnglishTerm": "Momentum",
+    "Description": "Momentum, in the context of Artificial Intelligence, refers to a technique used in optimization algorithms, particularly gradient descent, where an exponentially decaying moving average of past gradients is utilized to accelerate convergence and mitigate oscillations by allowing the algorithm to continue moving in the direction of consistent gradients, thereby improving training stability and speed."
+  },
+  {
+    "Index": 60,
+    "ChineseTerm": "Nesterov加速梯度",
+    "EnglishTerm": "Nesterov Accelerated Gradient",
+    "Description": "Nesterov Accelerated Gradient (NAG) is an optimization technique that enhances the convergence speed of gradient descent algorithms by incorporating a momentum term; it anticipates the future position of the parameter vector by evaluating the gradient at a point adjusted by the current momentum, thereby reducing oscillations and improving the efficiency of navigating the loss surface in non-convex optimization problems."
+  },
+  {
+    "Index": 61,
+    "ChineseTerm": "RMSProp",
+    "EnglishTerm": "Root Mean Square Propagation",
+    "Description": "Root Mean Square Propagation (RMSProp) is an adaptive learning rate optimization algorithm utilized in training neural networks, which dynamically adjusts the learning rate of each parameter by maintaining a moving average of the squared gradients, thereby mitigating the risk of vanishing or exploding gradients and enhancing convergence efficiency. It modifies the standard gradient descent approach by dividing the gradient by a root mean square of its recent magnitudes, ensuring stable and effective learning processes in complex, non-convex optimization landscapes."
+  },
+  {
+    "Index": 62,
+    "ChineseTerm": "Adam优化器",
+    "EnglishTerm": "Adam Optimizer",
+    "Description": "Adam Optimizer is an adaptive learning rate optimization algorithm used in training artificial neural networks, which combines the benefits of AdaGrad and RMSProp by maintaining exponentially decaying averages of past gradients and squared gradients to compute adaptive learning rates for each parameter. It utilizes first-order gradients with bias correction to improve convergence speed and stability, making it suitable for large-scale and sparse data problems."
+  },
+  {
+    "Index": 63,
+    "ChineseTerm": "Adagrad",
+    "EnglishTerm": "Adaptive Gradient Algorithm",
+    "Description": "Adaptive Gradient Algorithm refers to a class of optimization methods in Artificial Intelligence that dynamically adjust the learning rates of model parameters during training based on the accumulation of past gradient information, thereby improving convergence speed and mitigating issues related to sparse gradients. These algorithms, characterized by techniques such as per-parameter learning rate adaptation, include variants like AdaGrad, RMSProp, and Adam, each designed to enhance performance in different learning scenarios by addressing data-specific characteristics and optimization challenges."
+  },
+  {
+    "Index": 64,
+    "ChineseTerm": "Adadelta",
+    "EnglishTerm": "Adadelta",
+    "Description": "Adadelta is an optimization algorithm for stochastic gradient descent that dynamically adjusts learning rates using a per-dimension rate based on a moving window of gradient updates, eliminating the need for manual tuning and reducing the sensitivity to initial learning rate selection. It achieves this by maintaining exponentially decaying averages of squared gradients and squared parameter updates to compute adaptive learning rates, thereby promoting robust and efficient convergence in neural network training."
+  },
+  {
+    "Index": 65,
+    "ChineseTerm": "共轭梯度法",
+    "EnglishTerm": "Conjugate Gradient",
+    "Description": "Conjugate Gradient is an iterative optimization algorithm designed for solving systems of linear equations with a symmetric positive definite matrix, particularly employed in minimizing quadratic functions in machine learning applications where direct methods are computationally prohibitive. It operates by iteratively generating conjugate directions for descent, leveraging the properties of inner product spaces to efficiently reach the solution within a finite number of steps, commensurate with the number of variables."
+  },
+  {
+    "Index": 66,
+    "ChineseTerm": "L-BFGS",
+    "EnglishTerm": "Limited-memory BFGS",
+    "Description": "Limited-memory BFGS (L-BFGS) is an optimization algorithm that extends the Broyden-Fletcher-Goldfarb-Shanno (BFGS) method for approximating the inverse Hessian matrix in quasi-Newton methods, utilizing a compact representation to store only a few vectors, thereby enabling efficient handling of large-scale optimization problems commonly encountered in machine learning and artificial intelligence."
+  },
+  {
+    "Index": 67,
+    "ChineseTerm": "牛顿法",
+    "EnglishTerm": "Newton's Method",
+    "Description": "Newton's Method, in the context of Artificial Intelligence, refers to an iterative numerical optimization technique used to find local minima or maxima of a differentiable function by approximating the function with its second-order Taylor expansion, relying on the calculation of the gradient and Hessian matrix to update the parameters iteratively. This method is particularly effective for optimization problems where the objective function is convex and smooth, facilitating rapid convergence by leveraging second-order derivative information."
+  },
+  {
+    "Index": 68,
+    "ChineseTerm": "拉格朗日乘数法",
+    "EnglishTerm": "Lagrange Multipliers",
+    "Description": "Lagrange Multipliers are a mathematical technique used for optimizing a function subject to equality constraints, wherein artificial intelligence they facilitate the formulation and solution of constrained optimization problems by introducing auxiliary variables to incorporate constraint conditions into the objective function, transforming constrained problems into unconstrained problems in higher dimensions. This method enables the analysis and adjustment of the trade-offs between competing objectives, thereby aiding in the design and refinement of models and algorithms that require adherence to specific constraints."
+  },
+  {
+    "Index": 69,
+    "ChineseTerm": "均方误差",
+    "EnglishTerm": "Mean Squared Error (MSE)",
+    "Description": "Mean Squared Error (MSE) is a statistical measure used in Artificial Intelligence to quantify the average squared difference between the predicted values generated by a model and the actual values observed, serving as a key indicator of the model's prediction accuracy and performance in regression tasks. It is mathematically expressed as the mean of the squares of the residuals, where residuals are the differences between observed and predicted values."
+  },
+  {
+    "Index": 70,
+    "ChineseTerm": "交叉熵",
+    "EnglishTerm": "Cross-Entropy",
+    "Description": "Cross-Entropy is a loss function used in machine learning and statistical models that quantifies the difference between two probability distributions, typically an empirical distribution and a predicted distribution, by measuring the average log likelihood of the predicted distribution under the true distribution. It is defined as the negative sum of the true distribution's probabilities multiplied by the logarithm of the predicted probabilities, serving as a key metric for optimizing models in classification tasks."
+  },
+  {
+    "Index": 71,
+    "ChineseTerm": "铰链损失",
+    "EnglishTerm": "Hinge Loss",
+    "Description": "Hinge Loss is a convex loss function used primarily in machine learning for training classifiers, particularly in support vector machines, defined as \\( \\max(0, 1 - y \\cdot f(x)) \\), where \\( y \\) is the true label and \\( f(x) \\) is the predicted score, penalizing misclassified samples and enforcing a margin by discouraging scores that are not sufficiently confident."
+  },
+  {
+    "Index": 72,
+    "ChineseTerm": "对数似然",
+    "EnglishTerm": "Log-Likelihood",
+    "Description": "Log-Likelihood, in the context of Artificial Intelligence, refers to the natural logarithm of the likelihood function, which quantifies the probability of observed data given a particular model and parameter values, facilitating numerical stability and computational efficiency in optimization processes such as model fitting and parameter estimation. It is commonly employed in probabilistic models, enabling easier differentiation and convergence analysis by transforming multiplicative relations into additive ones."
+  },
+  {
+    "Index": 73,
+    "ChineseTerm": "KL散度",
+    "EnglishTerm": "Kullback-Leibler Divergence",
+    "Description": "Kullback-Leibler Divergence, in the context of Artificial Intelligence, is a measure of the difference between two probability distributions P and Q, defined as \\( D_{KL}(P \\parallel Q) = \\sum_{x} P(x) \\log \\frac{P(x)}{Q(x)} \\), quantifying the amount of information lost when Q is used to approximate P and serving as a fundamental tool in statistical inference and machine learning algorithms."
+  },
+  {
+    "Index": 74,
+    "ChineseTerm": "JS散度",
+    "EnglishTerm": "Jensen-Shannon Divergence",
+    "Description": "Jensen-Shannon Divergence is a symmetric and finite measure of similarity between two probability distributions, defined as the average of the Kullback-Leibler divergences of each distribution from the mean of the two distributions, and is particularly valued in artificial intelligence for its ability to quantify the dissimilarity between discrete probability distributions while maintaining boundedness and symmetry properties."
+  },
+  {
+    "Index": 75,
+    "ChineseTerm": "L1正则化",
+    "EnglishTerm": "L1 Regularization",
+    "Description": "L1 Regularization, also known as Lasso regularization, is a technique employed in machine learning models to impose a penalty equal to the absolute value of the magnitude of coefficients, thereby promoting sparsity in the model parameters and reducing overfitting by eliminating irrelevant features. It achieves this by augmenting the loss function with the L1 norm of the parameter vector, effectively driving some coefficients to zero and facilitating feature selection."
+  },
+  {
+    "Index": 76,
+    "ChineseTerm": "L2正则化",
+    "EnglishTerm": "L2 Regularization",
+    "Description": "L2 Regularization, also known as Tikhonov regularization or weight decay, is a technique used in machine learning models to prevent overfitting by adding a penalty term to the loss function equal to the sum of the squared magnitudes of the model parameters, thereby discouraging large weights and promoting smoother model complexity. This regularization method aims to enhance model generalization by effectively constraining the capacity of the model through the minimization of the Euclidean norm of the parameter vector."
+  },
+  {
+    "Index": 77,
+    "ChineseTerm": "丢弃法",
+    "EnglishTerm": "Dropout",
+    "Description": "Dropout is a regularization technique used in artificial neural networks to prevent overfitting by randomly setting a subset of neurons to zero during training, effectively creating sparse representations and promoting model robustness by averaging the effects of multiple network architectures. This method modifies the network's connectivity during training, enhancing its ability to generalize to unseen data by mitigating the reliance on specific neurons and their associated weights."
+  },
+  {
+    "Index": 78,
+    "ChineseTerm": "权重衰减",
+    "EnglishTerm": "Weight Decay",
+    "Description": "Weight decay, in the context of artificial intelligence, refers to a regularization technique that involves adding a penalty term to the loss function proportional to the magnitude of the weights, typically the L2 norm, to prevent overfitting by discouraging large weights and promoting simpler models. This method effectively constrains the model complexity by systematically reducing the model parameters during the training process, thereby enhancing generalization to unseen data."
+  },
+  {
+    "Index": 79,
+    "ChineseTerm": "早停",
+    "EnglishTerm": "Early Stopping",
+    "Description": "Early Stopping is a regularization technique in machine learning and artificial intelligence that halts the training process when a monitored performance metric, typically the validation error, ceases to improve, thereby preventing overfitting and optimizing model generalization. This method involves setting a predefined condition or patience level to terminate training based on the stagnation or degradation of the metric over successive iterations."
+  },
+  {
+    "Index": 80,
+    "ChineseTerm": "批归一化",
+    "EnglishTerm": "Batch Normalization",
+    "Description": "Batch Normalization is a technique in artificial neural networks used to improve training stability and speed by normalizing the inputs of each layer across a mini-batch, thereby reducing internal covariate shift and allowing for higher learning rates and less dependency on initialization, achieved through scaling and shifting operations parameterized by learnable parameters."
+  },
+  {
+    "Index": 81,
+    "ChineseTerm": "层归一化",
+    "EnglishTerm": "Layer Normalization",
+    "Description": "Layer normalization is a technique used in artificial neural networks to normalize the activations of a layer by computing the mean and variance across all neurons in that layer for each individual training example, thereby improving training speed and stability by reducing internal covariate shift. Unlike batch normalization, layer normalization operates independently of the batch size, making it particularly suited for recurrent neural networks and other architectures where batch-dependent normalization is less effective."
+  },
+  {
+    "Index": 82,
+    "ChineseTerm": "实例归一化",
+    "EnglishTerm": "Instance Normalization",
+    "Description": "Instance Normalization is a normalization technique applied to individual data instances within a neural network, which involves scaling and shifting the features of each instance by computing the mean and variance across the spatial dimensions of the instance, to facilitate style adaptation and improve the stability and convergence of training, particularly in generative models. This method operates on a per-instance basis, contrasting with batch normalization, and aims to normalize feature maps independently for each instance, thus allowing for more flexibility in handling diverse data distributions."
+  },
+  {
+    "Index": 83,
+    "ChineseTerm": "群组归一化",
+    "EnglishTerm": "Group Normalization",
+    "Description": "Group Normalization is a normalization technique used in deep learning that divides channels into groups and computes the mean and variance for normalization within each group, thereby maintaining consistent performance across different mini-batch sizes by addressing limitations of Batch Normalization related to batch size dependency. This method enhances stability and convergence in training neural networks by reducing internal covariate shift and improving feature representation consistency."
+  },
+  {
+    "Index": 84,
+    "ChineseTerm": "最大池化",
+    "EnglishTerm": "Max Pooling",
+    "Description": "Max Pooling is a downsampling operation commonly used in convolutional neural networks that selects the maximum value from non-overlapping subregions of the input feature maps, thereby reducing dimensionality while retaining the most prominent features. This technique aids in achieving translation invariance and mitigates overfitting by diminishing the spatial resolution of the input data."
+  },
+  {
+    "Index": 85,
+    "ChineseTerm": "平均池化",
+    "EnglishTerm": "Average Pooling",
+    "Description": "Average Pooling is a downsampling operation in convolutional neural networks that computes the average value of a set of neighboring pixels within a defined pooling window, reducing the spatial dimensions of the feature map while preserving translational invariance and mitigating overfitting by summarizing local information."
+  },
+  {
+    "Index": 86,
+    "ChineseTerm": "上采样",
+    "EnglishTerm": "Upsampling",
+    "Description": "Upsampling in the context of Artificial Intelligence refers to the process of increasing the spatial resolution of data, typically achieved by interpolating additional data points or using techniques such as transposed convolution, with the objective of enhancing the granularity or dimensionality of input features, often in image processing or neural network architectures. This technique is integral to operations such as image super-resolution, semantic segmentation, and generative model output refinement."
+  },
+  {
+    "Index": 87,
+    "ChineseTerm": "软最大函数",
+    "EnglishTerm": "Softmax",
+    "Description": "Softmax is a mathematical function used in machine learning that transforms a vector of real numbers into a probability distribution, where each element is positive and the sum is equal to one, typically applied as the final activation in classification models to interpret outputs as probabilities of class membership. It is defined as \\( \\text{Softmax}(z_i) = \\frac{e^{z_i}}{\\sum_{j=1}^{K} e^{z_j}} \\) for each element \\( z_i \\) in the input vector \\( \\mathbf{z} \\), where \\( K \\) is the number of classes."
+  },
+  {
+    "Index": 88,
+    "ChineseTerm": "修正线性单元",
+    "EnglishTerm": "ReLU",
+    "Description": "ReLU, or Rectified Linear Unit, is an activation function employed in artificial neural networks that outputs the input directly if it is positive, otherwise it outputs zero; mathematically defined as \\( f(x) = \\max(0, x) \\), ReLU introduces non-linearity and mitigates the vanishing gradient problem by maintaining constant gradients for positive inputs, thereby facilitating efficient learning in deep neural networks."
+  },
+  {
+    "Index": 89,
+    "ChineseTerm": "带泄露ReLU",
+    "EnglishTerm": "Leaky ReLU",
+    "Description": "Leaky ReLU, or Leaky Rectified Linear Unit, is an activation function used in artificial neural networks that allows a small, non-zero, constant gradient when the input is negative, defined as \\(f(x) = x\\) for \\(x \\geq 0\\) and \\(f(x) = \\alpha x\\) for \\(x < 0\\), where \\(\\alpha\\) is a small positive scalar, typically less than 1, which mitigates the \"dying ReLU\" problem by enabling gradient flow for negative input values."
+  },
+  {
+    "Index": 90,
+    "ChineseTerm": "指数线性单元",
+    "EnglishTerm": "ELU",
+    "Description": "Exponential Linear Unit (ELU) is a type of activation function used in neural networks, defined as \\( f(x) = x \\) for \\( x > 0 \\) and \\( f(x) = \\alpha(\\exp(x) - 1) \\) for \\( x \\leq 0 \\), where \\( \\alpha \\) is a hyperparameter that determines the saturation level for negative inputs; ELU enhances learning by mitigating the vanishing gradient problem and enabling faster convergence during training due to its non-linear, continuous nature."
+  },
+  {
+    "Index": 91,
+    "ChineseTerm": "双曲正切函数",
+    "EnglishTerm": "Tanh",
+    "Description": "Tanh, short for hyperbolic tangent, is a mathematical activation function used in artificial neural networks, defined as \\( \\text{tanh}(x) = \\frac{e^x - e^{-x}}{e^x + e^{-x}} \\), which outputs values in the range \\([-1, 1]\\), providing a nonlinear transformation that can mitigate issues of gradient saturation during backpropagation by centering activations around zero."
+  },
+  {
+    "Index": 92,
+    "ChineseTerm": "Sigmoid函数",
+    "EnglishTerm": "Sigmoid",
+    "Description": "Sigmoid, in the context of Artificial Intelligence, refers to the mathematical function characterized by an \"S\"-shaped curve, commonly implemented as the logistic function, \\(\\sigma(x) = \\frac{1}{1 + e^{-x}}\\), which is utilized as an activation function in artificial neural networks to map input values to a range between 0 and 1, thereby facilitating non-linear transformations and enabling binary classification tasks."
+  },
+  {
+    "Index": 93,
+    "ChineseTerm": "余弦相似度",
+    "EnglishTerm": "Cosine Similarity",
+    "Description": "Cosine Similarity is a metric used in Artificial Intelligence to quantify the similarity between two non-zero vectors by measuring the cosine of the angle between them, representing the vectors' orientation rather than magnitude, where a value of 1 indicates complete similarity and 0 indicates orthogonality. This metric is commonly employed in text analysis, recommendation systems, and clustering algorithms to assess the similarity between feature vectors in high-dimensional spaces."
+  },
+  {
+    "Index": 94,
+    "ChineseTerm": "欧氏距离",
+    "EnglishTerm": "Euclidean Distance",
+    "Description": "Euclidean Distance, within the context of Artificial Intelligence, is a measure derived from the Euclidean norm that quantifies the straight-line distance between two points in a Euclidean space, calculated as the square root of the sum of the squared differences between corresponding coordinates, often utilized in clustering algorithms and similarity assessments to evaluate proximity."
+  },
+  {
+    "Index": 95,
+    "ChineseTerm": "曼哈顿距离",
+    "EnglishTerm": "Manhattan Distance",
+    "Description": "Manhattan Distance, in the context of Artificial Intelligence, refers to a metric for measuring the distance between two points in a grid-based pathfinding or spatial domain, calculated as the sum of the absolute differences of their Cartesian coordinates, reflecting movement only along orthogonal paths. This distance metric is integral in algorithms such as A* search for evaluating heuristic costs in discrete state spaces where diagonal movement is not permissible."
+  },
+  {
+    "Index": 96,
+    "ChineseTerm": "马氏距离",
+    "EnglishTerm": "Mahalanobis Distance",
+    "Description": "Mahalanobis Distance is a multivariate measure that quantifies the distance between a point and a distribution, considering the correlations between variables, and is defined as the square root of the difference between the point and the mean vector, scaled by the inverse covariance matrix; it is widely used in anomaly detection, clustering, and classification tasks in Artificial Intelligence to account for the distribution's shape and spread."
+  },
+  {
+    "Index": 97,
+    "ChineseTerm": "杰卡德相似性",
+    "EnglishTerm": "Jaccard Similarity",
+    "Description": "Jaccard Similarity, in the context of Artificial Intelligence, is a measure of similarity between two sets, defined as the size of the intersection divided by the size of the union of the sets, which quantifies the degree of overlap between the sets and is commonly used in clustering, classification, and information retrieval tasks to evaluate the similarity between data samples, feature sets, or document collections."
+  },
+  {
+    "Index": 98,
+    "ChineseTerm": "哈希距离",
+    "EnglishTerm": "Hamming Distance",
+    "Description": "Hamming Distance is a metric for quantifying the difference between two strings of equal length by counting the number of positions at which the corresponding symbols differ, commonly used in error detection and correction algorithms within Artificial Intelligence to assess similarity or dissimilarity in categorical data representations."
+  },
+  {
+    "Index": 99,
+    "ChineseTerm": "欧式核",
+    "EnglishTerm": "Radial Basis Function (RBF) Kernel",
+    "Description": "A Radial Basis Function (RBF) Kernel is a type of kernel function used in machine learning and support vector machines, defined mathematically as \\( K(x, y) = \\exp(-\\gamma \\|x - y\\|^2) \\), where \\( x \\) and \\( y \\) are input vectors and \\( \\gamma \\) is a parameter that determines the spread of the kernel, enabling the transformation of data into a higher-dimensional space to facilitate non-linear classification. By measuring the similarity between data points based on their Euclidean distance, the RBF Kernel effectively captures complex patterns and relationships within the dataset."
+  },
+  {
+    "Index": 100,
+    "ChineseTerm": "多项式核",
+    "EnglishTerm": "Polynomial Kernel",
+    "Description": "A Polynomial Kernel is a type of kernel function used in support vector machines and other kernel-based learning algorithms, defined as \\( K(x, y) = (\\alpha \\langle x, y \\rangle + c)^d \\), where \\( \\alpha \\) is a constant scaling factor, \\( c \\) is a constant offset, \\( d \\) is the degree of the polynomial, and \\(\\langle x, y \\rangle\\) denotes the dot product between feature vectors \\( x \\) and \\( y \\), enabling the transformation of input data into a higher-dimensional feature space to capture complex relationships for classification or regression tasks."
+  },
+  {
+    "Index": 101,
+    "ChineseTerm": "线性核",
+    "EnglishTerm": "Linear Kernel",
+    "Description": "A linear kernel is a function used in support vector machines and other kernel-based learning algorithms that computes the dot product between two input vectors, effectively facilitating the projection of data into a higher-dimensional space without altering its linear separability properties, thereby enabling the modeling of linear relationships."
+  },
+  {
+    "Index": 102,
+    "ChineseTerm": "Sigmoid核",
+    "EnglishTerm": "Sigmoid Kernel",
+    "Description": "Sigmoid Kernel is a type of kernel function used in support vector machines and other kernelized learning algorithms, defined as \\( K(x, y) = \\tanh(\\alpha \\langle x, y \\rangle + c) \\), where \\( \\tanh \\) denotes the hyperbolic tangent function, \\( \\alpha \\) is a scale parameter, \\( c \\) is an offset parameter, and \\( \\langle x, y \\rangle \\) is the dot product between feature vectors \\( x \\) and \\( y \\); it is often employed to introduce non-linearity by mapping input data into a higher-dimensional space resembling the behavior of neural networks."
+  },
+  {
+    "Index": 103,
+    "ChineseTerm": "袋装法",
+    "EnglishTerm": "Bag-of-Words",
+    "Description": "Bag-of-Words (BoW) is a feature extraction model for text data representation in which a document is expressed as an unordered collection of its constituent words, disregarding grammar and word order, where each word's occurrence frequency is used to construct a vector for machine learning applications, notably in natural language processing tasks. This model transforms textual data into numerical form, facilitating computational analysis by representing each document as a fixed-length vector corresponding to the vocabulary size."
+  },
+  {
+    "Index": 104,
+    "ChineseTerm": "TF-IDF",
+    "EnglishTerm": "Term Frequency-Inverse Document Frequency",
+    "Description": "Term Frequency-Inverse Document Frequency (TF-IDF) is a numerical statistic utilized in information retrieval and text mining to evaluate the importance of a word within a document relative to a collection or corpus, calculated as the product of Term Frequency (TF), indicating how often a word appears in a document, and Inverse Document Frequency (IDF), measuring the word's rarity across the corpus. This metric enhances the weighting of terms that are significant within specific documents but less common across the corpus, thereby optimizing the relevance assessment in textual analysis and feature extraction processes in Artificial Intelligence applications."
+  },
+  {
+    "Index": 105,
+    "ChineseTerm": "Word2Vec",
+    "EnglishTerm": "Word2Vec Embedding",
+    "Description": "Word2Vec Embedding is a neural network-based model that transforms words into continuous vector representations in a high-dimensional space, capturing semantic relationships between words by training on large text corpora using architectures such as Continuous Bag of Words (CBOW) or Skip-Gram, thereby enabling the computation of word similarity and facilitating downstream natural language processing tasks."
+  },
+  {
+    "Index": 106,
+    "ChineseTerm": "GloVe",
+    "EnglishTerm": "Global Vectors for Word Representation",
+    "Description": "Global Vectors for Word Representation (GloVe) is a statistical technique for learning vector representations of words by aggregating global word co-occurrence statistics from a corpus, where the resulting word vectors capture semantic relationships and analogies through linear algebraic properties in a high-dimensional space. Developed by researchers at Stanford University, GloVe constructs a weighted least squares model to encode the meaningful geometric relationships among words based on their contextual usage patterns across the entire corpus."
+  },
+  {
+    "Index": 107,
+    "ChineseTerm": "跳字模型",
+    "EnglishTerm": "Skip-Gram Model",
+    "Description": "The Skip-Gram Model is a neural network-based approach used in natural language processing for word representation, where the model predicts the context words surrounding a target word within a fixed window of text, thereby enabling the learning of dense vector embeddings that capture semantic relationships between words."
+  },
+  {
+    "Index": 108,
+    "ChineseTerm": "连续词袋模型",
+    "EnglishTerm": "Continuous Bag-of-Words (CBOW)",
+    "Description": "Continuous Bag-of-Words (CBOW) is a neural network-based language model architecture used in Natural Language Processing that predicts a target word based on the surrounding context words within a fixed window size, thereby capturing semantic relationships by optimizing word embeddings through minimizing the loss associated with the prediction tasks."
+  },
+  {
+    "Index": 109,
+    "ChineseTerm": "隐语义分析",
+    "EnglishTerm": "Latent Semantic Analysis (LSA)",
+    "Description": "Latent Semantic Analysis (LSA) is a natural language processing technique within artificial intelligence that applies singular value decomposition to a term-document matrix to uncover latent semantic structures by reducing dimensionality, thereby enhancing the identification of conceptual relationships between words and documents based on their contextual usage. This unsupervised method facilitates the extraction of semantic meaning by analyzing the co-occurrence patterns of terms across large corpora, aiding in tasks such as information retrieval and text categorization."
+  },
+  {
+    "Index": 110,
+    "ChineseTerm": "隐Dirichlet分配",
+    "EnglishTerm": "Latent Dirichlet Allocation (LDA)",
+    "Description": "Latent Dirichlet Allocation (LDA) is a generative probabilistic model used for uncovering latent topics in a collection of discrete data, typically text corpora, by representing documents as random mixtures over latent topics, where each topic is characterized by a distribution over words, utilizing Dirichlet priors to ensure the robustness of topic-word and document-topic distributions. It operates by inferring the underlying structure of data through approximate posterior inference of the latent variables, typically using methods such as variational Bayes or Gibbs sampling."
+  },
+  {
+    "Index": 111,
+    "ChineseTerm": "BLEU分数",
+    "EnglishTerm": "BLEU Score",
+    "Description": "BLEU Score (Bilingual Evaluation Understudy) is a quantitative metric used in natural language processing to evaluate the quality of machine-generated translations by comparing them against one or more reference translations, relying on n-gram precision, brevity penalty, and weighted averaging to measure linguistic similarity and fluency."
+  },
+  {
+    "Index": 112,
+    "ChineseTerm": "ROUGE分数",
+    "EnglishTerm": "ROUGE Score",
+    "Description": "ROUGE Score, an acronym for Recall-Oriented Understudy for Gisting Evaluation, is a metric used in Natural Language Processing to evaluate the quality of automatic text summarization and machine translation by comparing the overlap of n-grams, word sequences, and word pairs between the generated text and a reference text, thus quantifying the similarity based on recall, precision, and F-measure."
+  },
+  {
+    "Index": 113,
+    "ChineseTerm": "准确率",
+    "EnglishTerm": "Accuracy",
+    "Description": "Accuracy, in the context of Artificial Intelligence, refers to the proportion of correct predictions made by a model relative to the total number of predictions, serving as a measure of the model's overall performance in classification tasks. It is mathematically expressed as the ratio of the sum of true positive and true negative results to the total number of instances evaluated."
+  },
+  {
+    "Index": 114,
+    "ChineseTerm": "精确率",
+    "EnglishTerm": "Precision",
+    "Description": "Precision, in the context of Artificial Intelligence, refers to the proportion of true positive outcomes among all positive predictions made by a model, quantifying the accuracy of positive classifications and indicating the degree to which false positive errors are minimized. It is a critical metric in evaluating model performance, particularly in scenarios where the cost of false positives is significant, and is mathematically expressed as the ratio of true positives to the sum of true positives and false positives."
+  },
+  {
+    "Index": 115,
+    "ChineseTerm": "召回率",
+    "EnglishTerm": "Recall",
+    "Description": "Recall, in the context of Artificial Intelligence and machine learning, is a metric used to evaluate the performance of a classification model, defined as the ratio of correctly predicted positive instances to the total actual positive instances, thus measuring the model's ability to identify all relevant instances within a dataset. Mathematically, recall is expressed as \\( \\text{Recall} = \\frac{\\text{True Positives}}{\\text{True Positives} + \\text{False Negatives}} \\)."
+  },
+  {
+    "Index": 116,
+    "ChineseTerm": "F1分数",
+    "EnglishTerm": "F1-Score",
+    "Description": "The F1-Score is a metric used in the evaluation of binary classification models, defined as the harmonic mean of precision and recall, thus providing a single measure that balances the trade-off between these two metrics to assess the model's accuracy in classifying positive instances. It is particularly useful in scenarios with imbalanced class distributions, as it accounts for both false positives and false negatives in its computation."
+  },
+  {
+    "Index": 117,
+    "ChineseTerm": "ROC曲线",
+    "EnglishTerm": "Receiver Operating Characteristic (ROC) Curve",
+    "Description": "A Receiver Operating Characteristic (ROC) Curve is a graphical representation used in the evaluation of binary classifiers, depicting the trade-off between the true positive rate and the false positive rate across various threshold settings, thus illustrating the classifier's performance and its ability to discriminate between the positive and negative classes. The area under the ROC Curve (AUC) provides a single scalar value that summarizes the model's discriminatory ability, with higher values indicating better overall performance."
+  },
+  {
+    "Index": 118,
+    "ChineseTerm": "AUC",
+    "EnglishTerm": "Area Under Curve (AUC)",
+    "Description": "Area Under Curve (AUC) in the context of Artificial Intelligence refers to a performance metric for binary classification models, representing the area under the Receiver Operating Characteristic (ROC) curve, which plots the true positive rate against the false positive rate across various threshold settings, thereby quantifying the model's ability to distinguish between classes. AUC values range from 0 to 1, where a value of 1 indicates perfect classification and a value of 0.5 denotes performance equivalent to random guessing."
+  },
+  {
+    "Index": 119,
+    "ChineseTerm": "混淆矩阵",
+    "EnglishTerm": "Confusion Matrix",
+    "Description": "A confusion matrix is a tabular representation used in the evaluation of machine learning classification models, detailing the number of true positive, true negative, false positive, and false negative predictions, thereby providing insights into the model's accuracy and error distribution across different classes."
+  },
+  {
+    "Index": 120,
+    "ChineseTerm": "Q学习",
+    "EnglishTerm": "Q-Learning",
+    "Description": "Q-Learning is a model-free reinforcement learning algorithm that seeks to find the optimal action-selection policy for a given finite Markov decision process by iteratively updating an action-value function, denoted as Q(s, a), which estimates the expected cumulative reward of taking action a in state s and following the optimal policy thereafter. The algorithm employs the Bellman equation to update Q-values based on the reward received and the maximum expected future rewards, enabling convergence towards the optimal policy without requiring prior knowledge of the environment's dynamics."
+  },
+  {
+    "Index": 121,
+    "ChineseTerm": "SARSA",
+    "EnglishTerm": "State-Action-Reward-State-Action",
+    "Description": "State-Action-Reward-State-Action (SARSA) is an on-policy temporal difference learning algorithm used in reinforcement learning, wherein the agent updates its action-value function based on the current state, the action taken, the reward received, the subsequent state, and the next action, thus refining its policy through the accumulation of experience while adhering to its current policy."
+  },
+  {
+    "Index": 122,
+    "ChineseTerm": "蒙特卡罗方法",
+    "EnglishTerm": "Monte Carlo Methods",
+    "Description": "Monte Carlo Methods in the context of Artificial Intelligence refer to a class of computational algorithms that utilize random sampling and statistical modeling to approximate solutions to deterministic and stochastic problems, often employed for optimization, numerical integration, and simulation tasks where analytical solutions are intractable. These methods leverage probabilistic inference to explore complex state spaces and evaluate the expected outcomes of decisions or actions under uncertainty."
+  },
+  {
+    "Index": 123,
+    "ChineseTerm": "时序差分学习",
+    "EnglishTerm": "Temporal Difference Learning",
+    "Description": "Temporal Difference Learning is a class of model-free reinforcement learning algorithms that estimate the value function of a policy by utilizing differences between temporally successive predictions to update value estimates, thereby integrating aspects of both Monte Carlo methods and dynamic programming without requiring a model of the environment's dynamics. It leverages the temporal difference error, defined as the discrepancy between predicted and actual rewards, to incrementally refine value predictions based on the agent's interaction with the environment over time."
+  },
+  {
+    "Index": 124,
+    "ChineseTerm": "价值迭代",
+    "EnglishTerm": "Value Iteration",
+    "Description": "Value Iteration is an iterative algorithm used in the context of reinforcement learning and dynamic programming to compute the optimal policy and value function for a Markov Decision Process (MDP) by iteratively updating the value estimates of states based on the Bellman equation until convergence. It systematically evaluates and improves the policy by considering the expected returns of actions, thereby seeking to identify the optimal strategy that maximizes cumulative rewards over time."
+  },
+  {
+    "Index": 125,
+    "ChineseTerm": "策略迭代",
+    "EnglishTerm": "Policy Iteration",
+    "Description": "Policy Iteration is an iterative algorithm used in reinforcement learning and dynamic programming to compute optimal policies by alternating between policy evaluation, which calculates the value function for a given policy, and policy improvement, which updates the policy by selecting actions that maximize the value function, until convergence to the optimal policy is achieved."
+  },
+  {
+    "Index": 126,
+    "ChineseTerm": "策略梯度",
+    "EnglishTerm": "Policy Gradient",
+    "Description": "Policy Gradient refers to a class of reinforcement learning algorithms that optimize the policy directly by computing the gradient of the expected return with respect to the policy parameters and adjusting these parameters in the direction that increases the expected return, typically using stochastic gradient ascent. This approach enables the learning of complex, non-deterministic policies that map states to actions in environments where the action space can be continuous or high-dimensional."
+  },
+  {
+    "Index": 127,
+    "ChineseTerm": "基于演员-评论家的方法",
+    "EnglishTerm": "Actor-Critic Methods",
+    "Description": "Actor-Critic Methods are a class of reinforcement learning algorithms wherein the policy function, represented by the \"actor,\" and the value function, represented by the \"critic,\" are concurrently learned to optimize decision-making and value estimation, respectively, leveraging the critic's feedback to iteratively refine the actor's policy performance. These methods balance exploration and exploitation by employing the critic to evaluate actions taken by the actor, facilitating more stable and efficient policy updates compared to purely value-based or policy-based approaches."
+  },
+  {
+    "Index": 128,
+    "ChineseTerm": "马尔可夫决策过程",
+    "EnglishTerm": "Markov Decision Process (MDP)",
+    "Description": "A Markov Decision Process (MDP) is a mathematical framework utilized in Artificial Intelligence for modeling decision-making scenarios where outcomes are partly random and partly under the control of a decision maker, defined by a tuple (S, A, P, R, γ) where S represents a finite set of states, A denotes a finite set of actions, P is the state transition probability function, R is the reward function, and γ is the discount factor for future rewards."
+  },
+  {
+    "Index": 129,
+    "ChineseTerm": "部分观测马尔可夫决策过程",
+    "EnglishTerm": "Partially Observable MDP (POMDP)",
+    "Description": "A Partially Observable Markov Decision Process (POMDP) is a mathematical framework used in Artificial Intelligence to model decision-making problems where the system state is not fully observable, involving a sequence of observations, actions, and rewards, with the goal of optimizing the expected cumulative reward over time under uncertainty and partial observability, characterized by a belief state that represents a probabilistic distribution over possible system states."
+  },
+  {
+    "Index": 130,
+    "ChineseTerm": "可分离管道模式",
+    "EnglishTerm": "Pipeline Pattern",
+    "Description": "Pipeline Pattern in Artificial Intelligence refers to a sequential processing architecture where multiple stages or components are linked in a linear sequence, each performing a distinct transformation or processing task on the data, thereby facilitating the modular design, scalability, and efficient execution of complex AI workflows. This pattern optimizes data flow and resource allocation by ensuring that outputs from one stage serve as inputs for the subsequent stage, enabling systematic integration and refinement of machine learning models and algorithms."
+  },
+  {
+    "Index": 131,
+    "ChineseTerm": "特征管道",
+    "EnglishTerm": "Feature Pipeline",
+    "Description": "A Feature Pipeline in Artificial Intelligence refers to a sequential process that transforms raw data into a set of features optimized for input into a machine learning model, encompassing stages such as data preprocessing, feature extraction, selection, and transformation to enhance model performance and predictive accuracy. This structured approach facilitates the systematic handling of data complexities and ensures that the resulting features are suitable for the model's learning algorithm and objectives."
+  },
+  {
+    "Index": 132,
+    "ChineseTerm": "模型管道",
+    "EnglishTerm": "Model Pipeline",
+    "Description": "A Model Pipeline in the context of Artificial Intelligence refers to a structured sequence of processes that encompass the stages of data preprocessing, model training, validation, and deployment, designed to systematically transform raw data into actionable insights through the application of machine learning algorithms. This sequential framework ensures the reproducibility, scalability, and automation of tasks necessary for the efficient development and operationalization of AI models."
+  },
+  {
+    "Index": 133,
+    "ChineseTerm": "贝叶斯推断",
+    "EnglishTerm": "Bayesian Inference",
+    "Description": "Bayesian Inference in the context of Artificial Intelligence is a probabilistic method for updating the probability of a hypothesis as more evidence or information becomes available, utilizing Bayes' theorem to calculate the posterior probability by combining the prior probability with the likelihood of the observed data. This approach enables the incorporation of prior knowledge and evidence to make informed probabilistic predictions or decisions within AI systems."
+  },
+  {
+    "Index": 134,
+    "ChineseTerm": "马尔可夫链蒙特卡罗",
+    "EnglishTerm": "Markov Chain Monte Carlo (MCMC)",
+    "Description": "Markov Chain Monte Carlo (MCMC) is a class of algorithms used in Artificial Intelligence for sampling from probability distributions based on constructing a Markov chain that has the desired distribution as its equilibrium distribution, enabling approximate inference and optimization in complex, high-dimensional spaces where direct sampling is computationally infeasible."
+  },
+  {
+    "Index": 135,
+    "ChineseTerm": "高斯核密度估计",
+    "EnglishTerm": "Kernel Density Estimation (KDE)",
+    "Description": "Kernel Density Estimation (KDE) is a non-parametric method for estimating the probability density function of a random variable by aggregating individual kernel functions centered at each data point, facilitating the inference of underlying data distributions in unsupervised learning tasks within Artificial Intelligence. This technique employs a bandwidth parameter to control the smoothness of the resulting density estimate, influencing its sensitivity to the data's local structure."
+  },
+  {
+    "Index": 136,
+    "ChineseTerm": "最大期望算法",
+    "EnglishTerm": "Maximum Likelihood Estimation (MLE)",
+    "Description": "Maximum Likelihood Estimation (MLE) is a statistical method used to estimate the parameters of a probabilistic model by maximizing the likelihood function, which quantifies the probability of observing the given data under the assumed model, thereby identifying the parameter values that make the observed data most probable. In the context of Artificial Intelligence, MLE serves as a foundational technique for training models by determining optimal parameter settings that enhance predictive accuracy and model performance based on empirical data."
+  },
+  {
+    "Index": 137,
+    "ChineseTerm": "最大后验估计",
+    "EnglishTerm": "Maximum A Posteriori (MAP)",
+    "Description": "Maximum A Posteriori (MAP) is a statistical estimation technique used in Artificial Intelligence to infer the most likely value of a parameter or state given observed data and prior knowledge, by maximizing the posterior probability distribution derived from Bayes' theorem; it combines prior distributions and likelihood functions to provide a point estimate of the parameter that is most probable under the assumed model."
+  },
+  {
+    "Index": 138,
+    "ChineseTerm": "投票分类器",
+    "EnglishTerm": "Voting Classifier",
+    "Description": "A Voting Classifier is an ensemble learning algorithm in Artificial Intelligence that aggregates the predictions from multiple base classifiers, typically using majority voting or weighted voting mechanisms, to produce a final decision, thereby improving predictive performance and robustness compared to individual models. It leverages the diversity and complementary strengths of the constituent classifiers to enhance overall accuracy and generalization capabilities in classification tasks."
+  },
+  {
+    "Index": 139,
+    "ChineseTerm": "堆叠分类器",
+    "EnglishTerm": "Stacked Classifier",
+    "Description": "A stacked classifier in the context of Artificial Intelligence is an ensemble learning technique that combines multiple base classifiers by training a meta-classifier on the outputs of these base classifiers, thereby leveraging the complementary strengths of the individual models to improve predictive accuracy and generalization performance. This method involves a two-tier architecture where the first tier consists of diverse classifiers whose predictions are input as features to the second-tier meta-classifier, which synthesizes the final prediction."
+  },
+  {
+    "Index": 140,
+    "ChineseTerm": "异构集成",
+    "EnglishTerm": "Heterogeneous Ensemble",
+    "Description": "A heterogeneous ensemble in Artificial Intelligence refers to a model aggregation strategy that combines multiple learning algorithms of different types to improve predictive performance, robustness, and generalization capabilities by leveraging the diverse strengths and complementary characteristics of the individual models. This approach is grounded in the principle that diverse methods can produce a more accurate and stable composite model than any single homogeneous algorithm."
+  },
+  {
+    "Index": 141,
+    "ChineseTerm": "内核方法",
+    "EnglishTerm": "Kernel Methods",
+    "Description": "Kernel methods are a class of algorithms in artificial intelligence and machine learning that utilize kernel functions to implicitly map input data into higher-dimensional feature spaces, enabling linear separation of data that is not linearly separable in its original space, thereby facilitating tasks such as classification, regression, and clustering. These methods rely on the kernel trick, which allows computations in the transformed feature space without explicitly performing the transformation, thus leveraging efficient computations in potentially infinite-dimensional spaces."
+  },
+  {
+    "Index": 142,
+    "ChineseTerm": "特征重要性",
+    "EnglishTerm": "Feature Importance",
+    "Description": "Feature Importance, in the context of Artificial Intelligence and machine learning, refers to a metric or ranking that quantifies the contribution of each input feature to the predictive performance of a model, thereby enabling the interpretation and understanding of the model's decision-making process by assessing the impact of individual features on the output predictions."
+  },
+  {
+    "Index": 143,
+    "ChineseTerm": "主干网络",
+    "EnglishTerm": "Backbone Network",
+    "Description": "In the context of Artificial Intelligence, a \"Backbone Network\" refers to the foundational architecture or primary neural network within a deep learning model that is responsible for initial feature extraction and representation learning from input data, serving as the base upon which additional specialized layers or modules are built to perform specific tasks such as classification, detection, or segmentation."
+  },
+  {
+    "Index": 144,
+    "ChineseTerm": "注意力机制",
+    "EnglishTerm": "Attention Mechanism",
+    "Description": "An Attention Mechanism in Artificial Intelligence is a neural network component that dynamically weights the relevance of different input data segments, facilitating the model's focus on specific parts of the input to enhance performance in tasks such as sequence-to-sequence learning or image recognition. It operates by computing attention scores that guide the allocation of computational resources, thereby improving the model's ability to capture dependencies and contextual relationships within the data."
+  },
+  {
+    "Index": 145,
+    "ChineseTerm": "编码-解码架构",
+    "EnglishTerm": "Encoder-Decoder Architecture",
+    "Description": "Encoder-Decoder Architecture is a neural network framework designed to transform input data into a fixed-dimensional representation via an encoder, and subsequently reconstruct or predict output data from this representation using a decoder, facilitating tasks such as sequence-to-sequence learning, translation, and generation in Artificial Intelligence. This architecture is characterized by its ability to handle variable-length input and output sequences while maintaining the structural integrity of information through latent space encoding."
+  },
+  {
+    "Index": 146,
+    "ChineseTerm": "基于图的方法",
+    "EnglishTerm": "Graph-Based Methods",
+    "Description": "Graph-Based Methods in Artificial Intelligence refer to computational techniques that leverage graph structures—comprising vertices and edges—to model, analyze, and solve problems by representing entities and their relationships, facilitating tasks such as semantic representation, knowledge inference, and network analysis through graph algorithms and graph theory principles."
+  },
+  {
+    "Index": 147,
+    "ChineseTerm": "谱聚类",
+    "EnglishTerm": "Spectral Clustering",
+    "Description": "Spectral Clustering is a technique in machine learning and artificial intelligence that involves transforming data into a lower-dimensional space using the eigenvectors of a similarity matrix or Laplacian matrix derived from the data, and then applying a clustering algorithm such as k-means to the transformed space, leveraging the properties of spectral graph theory to identify clusters based on the connectivity structure of the data."
+  },
+  {
+    "Index": 148,
+    "ChineseTerm": "拉普拉斯算子",
+    "EnglishTerm": "Graph Laplacian",
+    "Description": "Graph Laplacian, in the context of Artificial Intelligence, refers to a matrix representation of a graph that encapsulates the connectivity structure of the graph, defined as \\( L = D - A \\), where \\( D \\) is the degree matrix and \\( A \\) is the adjacency matrix; it is instrumental in spectral graph theory and is used in algorithms for tasks such as clustering, dimensionality reduction, and manifold learning."
+  },
+  {
+    "Index": 149,
+    "ChineseTerm": "页面排名算法",
+    "EnglishTerm": "PageRank",
+    "Description": "PageRank is an algorithm developed by Larry Page and Sergey Brin that assigns a numerical weighting to each element of a hyperlinked set of documents, such as web pages, with the purpose of measuring its relative importance within the network, based on the quantity and quality of links pointing to it; it operates iteratively by distributing rank values across the graph structure, thereby serving as a foundational mechanism for search engine ranking systems."
+  }
+]

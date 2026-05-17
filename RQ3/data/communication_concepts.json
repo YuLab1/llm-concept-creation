@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "concept": "5G Core Orchestration / Network Slicing",
+    "domain": "Communication"
+  },
+  {
+    "id": 2,
+    "concept": "Beam Tracking / Beamforming",
+    "domain": "Communication"
+  },
+  {
+    "id": 3,
+    "concept": "Beamforming / OFDM Estimation",
+    "domain": "Communication"
+  },
+  {
+    "id": 4,
+    "concept": "CSI Feedback / Channel Compression",
+    "domain": "Communication"
+  },
+  {
+    "id": 5,
+    "concept": "Channel Estimation",
+    "domain": "Communication"
+  },
+  {
+    "id": 6,
+    "concept": "Channel Estimation / Pilot-free Sensing",
+    "domain": "Communication"
+  },
+  {
+    "id": 7,
+    "concept": "Channel Prediction / MIMO",
+    "domain": "Communication"
+  },
+  {
+    "id": 8,
+    "concept": "Distributed Wireless Learning",
+    "domain": "Communication"
+  },
+  {
+    "id": 9,
+    "concept": "Indoor Localization / UWB / VIO",
+    "domain": "Communication"
+  },
+  {
+    "id": 10,
+    "concept": "MAC Protocol Design / Signaling",
+    "domain": "Communication"
+  },
+  {
+    "id": 11,
+    "concept": "Network Automation / Protocol Management",
+    "domain": "Communication"
+  },
+  {
+    "id": 12,
+    "concept": "Network Simulation / Optimization",
+    "domain": "Communication"
+  },
+  {
+    "id": 13,
+    "concept": "Network Slicing / Resource Management",
+    "domain": "Communication"
+  },
+  {
+    "id": 14,
+    "concept": "Network Traffic Prediction / Resource Allocation",
+    "domain": "Communication"
+  },
+  {
+    "id": 15,
+    "concept": "Physical Layer Security / Directional Modulation",
+    "domain": "Communication"
+  },
+  {
+    "id": 16,
+    "concept": "Semantic Communication (SemCom)",
+    "domain": "Communication"
+  },
+  {
+    "id": 17,
+    "concept": "Semantic Communication / Inter-model Comm",
+    "domain": "Communication"
+  },
+  {
+    "id": 18,
+    "concept": "Semantic Decoding / Error Correction",
+    "domain": "Communication"
+  },
+  {
+    "id": 19,
+    "concept": "WiFi Localization / RSS Fingerprinting",
+    "domain": "Communication"
+  },
+  {
+    "id": 20,
+    "concept": "Wireless Sensing / AIoT",
+    "domain": "Communication"
+  }
+]

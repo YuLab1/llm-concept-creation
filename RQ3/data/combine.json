@@ -1,0 +1,162 @@
+[
+    {
+      "No": 1,
+      "Composite Concept Name": "MobiWorld",
+      "Definition": "A generative world model for simulating and optimizing mobile wireless networks via counterfactual reasoning.",
+      "Communication Concept": "Network Simulation / Optimization",
+      "AI Concept": "Diffusion-based World Model",
+      "Literature Name": "MobiWorld: World Models for Mobile Wireless Network"
+    },
+    {
+      "No": 2,
+      "Composite Concept Name": "WirelessAgent",
+      "Definition": "An autonomous agent framework using LLMs for closed-loop wireless network management tasks like slicing.",
+      "Communication Concept": "Network Slicing / Resource Management",
+      "AI Concept": "Large Language Model (LLM) Agent",
+      "Literature Name": "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks"
+    },
+    {
+      "No": 3,
+      "Composite Concept Name": "WiFo-CF",
+      "Definition": "A wireless foundation model designed to compress and reconstruct heterogeneous CSI feedback across varying configurations.",
+      "Communication Concept": "CSI Feedback / Channel Compression",
+      "AI Concept": "Foundation Model / Mixture of Experts (MoE)",
+      "Literature Name": "WiFo-CF: Wireless Foundation Model for CSI Feedback"
+    },
+    {
+      "No": 4,
+      "Composite Concept Name": "DiffSem",
+      "Definition": "A semantic communication framework using diffusion models for noise-resilient semantic transmission and reconstruction.",
+      "Communication Concept": "Semantic Communication (SemCom)",
+      "AI Concept": "Diffusion Probabilistic Model / U-Net",
+      "Literature Name": "Diffusion-aided Task-oriented Semantic Communications with Model Inversion Attack"
+    },
+    {
+      "No": 5,
+      "Composite Concept Name": "ChannelMamba",
+      "Definition": "An end-to-end channel prediction model utilizing the Mamba architecture for linear-complexity temporal modeling.",
+      "Communication Concept": "Channel Prediction / MIMO",
+      "AI Concept": "Mamba (Selective State Space Model)",
+      "Literature Name": "ChannelMamba: A Mamba-Driven Selective State-Space Model for Channel Prediction of High-Mobility MIMO in 6G IoT"
+    },
+    {
+      "No": 6,
+      "Composite Concept Name": "FM-Channel Estimator",
+      "Definition": "A pilot-free channel inference framework using Flow Matching to map multimodal sensing data to channel matrices.",
+      "Communication Concept": "Channel Estimation / Pilot-free Sensing",
+      "AI Concept": "Flow Matching (Generative ODE)",
+      "Literature Name": "Environment-Aware Channel Inference via Cross-Modal Flow: From Multimodal Sensing to Wireless Channels"
+    },
+    {
+      "No": 7,
+      "Composite Concept Name": "C2C-SemCom",
+      "Definition": "A direct communication paradigm where LLMs exchange KV-Cache states instead of tokenized text.",
+      "Communication Concept": "Semantic Communication / Inter-model Comm",
+      "AI Concept": "LLM Key-Value (KV) Cache Fusion",
+      "Literature Name": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models"
+    },
+    {
+      "No": 8,
+      "Composite Concept Name": "KGRAG-SC",
+      "Definition": "A semantic communication scheme using Retrieval-Augmented Generation with Knowledge Graphs for error correction.",
+      "Communication Concept": "Semantic Decoding / Error Correction",
+      "AI Concept": "Knowledge Graph (KG) / RAG",
+      "Literature Name": "KGRAG-SC: Knowledge Graph RAG-Assisted Semantic Communication"
+    },
+    {
+      "No": 9,
+      "Composite Concept Name": "SpikACom",
+      "Definition": "A neuromorphic framework using Spiking Neural Networks for power-efficient beamforming and channel estimation.",
+      "Communication Concept": "Beamforming / OFDM Estimation",
+      "AI Concept": "Spiking Neural Network (SNN)",
+      "Literature Name": "SpikACom: A Neuromorphic Computing Framework for Green Communications"
+    },
+    {
+      "No": 10,
+      "Composite Concept Name": "T3NPM",
+      "Definition": "A hybrid MAC protocol framework combining token-based LLM adaptation with lightweight neural distillation.",
+      "Communication Concept": "MAC Protocol Design / Signaling",
+      "AI Concept": "LLM / Knowledge Distillation",
+      "Literature Name": "Resilient LLM-Empowered Semantic MAC Protocols via Zero-Shot Adaptation and Knowledge Distillation"
+    },
+    {
+      "No": 11,
+      "Composite Concept Name": "Meta-GFlowNet",
+      "Definition": "A security framework using meta-learning and GFlowNets for rapid adaptation of secure beamforming in mobile scenarios.",
+      "Communication Concept": "Physical Layer Security / Directional Modulation",
+      "AI Concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+      "Literature Name": "Meta-Learning-Driven GFlowNets for 3D Directional Modulation in Mobile Wireless Systems"
+    },
+    {
+      "No": 12,
+      "Composite Concept Name": "LNN-Beam Tracking",
+      "Definition": "A robust beam tracking method using Liquid Neural Networks to handle noisy, continuous-time channel dynamics.",
+      "Communication Concept": "Beam Tracking / Beamforming",
+      "AI Concept": "Liquid Neural Network (LNN)",
+      "Literature Name": "Robust Continuous-Time Beam Tracking with Liquid Neural Network"
+    },
+    {
+      "No": 13,
+      "Composite Concept Name": "WiKAN",
+      "Definition": "An indoor localization model replacing MLPs with Kolmogorov-Arnold Networks to capture non-linear RSS-distance mappings.",
+      "Communication Concept": "WiFi Localization / RSS Fingerprinting",
+      "AI Concept": "Kolmogorov-Arnold Network (KAN)",
+      "Literature Name": "WiKAN: Lightweight Kolmogorov-Arnold Networks for Accurate Indoor WiFi Localization"
+    },
+    {
+      "No": 14,
+      "Composite Concept Name": "WirelessAgent++",
+      "Definition": "A self-evolving generative agent framework that designs and refines task-oriented workflows for specialized wireless tasks.",
+      "Communication Concept": "Network Automation / Protocol Management",
+      "AI Concept": "Generative Agent / Self-Evolution",
+      "Literature Name": "WirelessAgent++: Automated Agentic Workflow Design and Benchmarking for Wireless Networks"
+    },
+    {
+      "No": 15,
+      "Composite Concept Name": "Fed-PEFT",
+      "Definition": "A federated parameter-efficient fine-tuning paradigm for adapting large models under distributed learning settings.",
+      "Communication Concept": "Distributed Wireless Learning",
+      "AI Concept": "Federated Learning / PEFT (Adapter Tuning)",
+      "Literature Name": "Federated Large Language Model: Solutions, Challenges and Future Directions"
+    },
+    {
+      "No": 16,
+      "Composite Concept Name": "xLSTM-IMU-UWB",
+      "Definition": "An indoor localization framework using xLSTM for temporal modeling and multimodal fusion of UWB and IMU data.",
+      "Communication Concept": "Indoor Localization / UWB / VIO",
+      "AI Concept": "xLSTM (Extended LSTM)",
+      "Literature Name": "An Advanced Indoor Localization Method Based on xLSTM and Residual Multimodal Fusion of UWB/IMU Data"
+    },
+    {
+      "No": 17,
+      "Composite Concept Name": "Llama-Recipe",
+      "Definition": "A Llama-based platform for 5G network-slice orchestration and cloud-native service deployment.",
+      "Communication Concept": "5G Core Orchestration / Network Slicing",
+      "AI Concept": "Llama-2 (LLM) / GitOps",
+      "Literature Name": "Llama-Recipe — Fine-Tuned Meta's Llama LLM, PBOM and NFT Enabled 5G Network-Slice Orchestration and End-to-End Supply-Chain Verification Platform"
+    },
+    {
+      "No": 18,
+      "Composite Concept Name": "Ret-TS",
+      "Definition": "A traffic prediction model utilizing Retentive Networks (RetNet) to optimize Elastic Optical Network (EON) resources.",
+      "Communication Concept": "Network Traffic Prediction / Resource Allocation",
+      "AI Concept": "Retentive Network (RetNet)",
+      "Literature Name": "Retentive Time Series: A Scalable Machine Learning Model for Traffic Prediction in Elastic Optical Networks"
+    },
+    {
+      "No": 19,
+      "Composite Concept Name": "QML-Wireless Sensing",
+      "Definition": "A framework utilizing quantum machine learning models to process wireless signals for sensing applications in AIoT.",
+      "Communication Concept": "Wireless Sensing / AIoT",
+      "AI Concept": "Quantum Machine Learning (QML)",
+      "Literature Name": "Wireless Sensing in Artificial Intelligence of Things: A General QML Framework"
+    },
+    {
+      "No": 20,
+      "Composite Concept Name": "Physics-GenAI",
+      "Definition": "A physics-grounded generative AI framework for mitigating hallucination in wireless communication tasks.",
+      "Communication Concept": "Channel Estimation",
+      "AI Concept": "Physics-Informed Generative AI",
+      "Literature Name": "Wireless Hallucination in Generative AI-enabled Communications: Concepts, Issues, and Solutions"
+    }
+  ]

@@ -1,0 +1,3602 @@
+[
+  {
+    "id": 1,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuSlice Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 2,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusionSlice Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 3,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Slice Learning Orchestration (FSLO)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 4,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowSlice Orchestrator",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 5,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Dynamic 5G Network Slicing",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 6,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "GenSlice Orchestrator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 7,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaSlice Flow Orchestrator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 8,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "KG-Driven Slice Orchestration",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 9,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Driven 5G Network Slicing Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 10,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "SliceWise LLM Orchestration",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 11,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "SliceCache Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 12,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "SliceSense LLM Orchestrator",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 13,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidSlice Orchestrator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 14,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaSlice Orchestrator",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 15,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaSlice Orchestrator",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 16,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysGenSlice Orchestrator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 17,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Orchestrated 5G Slicing (QO5GS)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 18,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Slice Orchestration (RSO)",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 19,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "Spiking Slice Orchestration",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 20,
+    "communication_concept": "5G Core Orchestration / Network Slicing",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Driven Dynamic Network Slice Orchestration",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 21,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusive BeamNet",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 22,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusionBeam Navigator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 23,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Beam Adapter Learning",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 24,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowBeam Tracking",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 25,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Beamformer",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 26,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoBeam Generative Tracking",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 27,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaBeamFlow",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 28,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "BeamGraph Intelligence",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 29,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KanoBeam Tracking",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 30,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledBeam Navigator",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 31,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "BeamCache Fusion",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 32,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "BeamSense LLM Agent",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 33,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidBeam Adaptive Tracking",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 34,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaBeamOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 35,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaBeam Adaptive Tracking",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 36,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysBeamGen AI",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 37,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "QuantumBeam AI Tracking",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 38,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive BeamNet",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 39,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeBeam Adaptive Tracking",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 40,
+    "communication_concept": "Beam Tracking / Beamforming",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM BeamTrace",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 41,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuBeamOFDM",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 42,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusionBeam Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 43,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedBeam-PEFT Estimation",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 44,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowBeam OFDM Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 45,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Adaptive Beam-OFDM Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 46,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoBeam Generative Estimator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 47,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow Beam-Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 48,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Aided Beam-OFDM Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 49,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-BeamOF Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 50,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledBeam Estimator",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 51,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "BeamCache Fusion Estimation",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 52,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "BeamformLLM Optimizer",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 53,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidBeam OFDM Estimator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 54,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "BeamFormOps-LLM",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 55,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaBeam Estimator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 56,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysBeamGen AI",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 57,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum Beam-OFDM Estimator",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 58,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Beam-OFDM Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 59,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikingBeam OFDM Estimator",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 60,
+    "communication_concept": "Beamforming / OFDM Estimation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Enhanced Beam-OFDM Estimator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 61,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuCSI-Net",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 62,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusive CSI Feedback Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 63,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Fed-Adapted CSI Compression",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 64,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMatch-CSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 65,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Adaptive CSI Compression",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 66,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoCSI Agent",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 67,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow CSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 68,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Driven CSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 69,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Driven CSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 70,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Distilled CSI Feedback Transformer",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 71,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "KV-Cached CSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 72,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LinguaCSI Agent",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 73,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidCSI Compressor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 74,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "Llama-CSI GitCompress",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 75,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaCSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 76,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysGen CSI Compressor",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 77,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced CSI Compression",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 78,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive CSI Compression Network (RetCCNet)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 79,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeCSI Compression",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 80,
+    "communication_concept": "CSI Feedback / Channel Compression",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-CSI Compressor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 81,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusive U-Net Channel Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 82,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusion-Driven Channel World Modeling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 83,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedAdapter Channel Estimation",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 84,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMatch Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 85,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Adaptive Channel Estimation",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 86,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoChannel Agent",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 87,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 88,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Assisted Channel Estimation (GrACE)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 89,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Enhanced Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 90,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Distilled Channel Intelligence",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 91,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "KV-Cache Enhanced Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 92,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LLM-Driven Adaptive Channel Estimation Agent",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 93,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "Liquid ChannelNet",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 94,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "Llama-2Driven ChannelOps",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 95,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "Mamba-Driven Adaptive Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 96,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysGen Channel Estimator",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 97,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 98,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive ChannelNet",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 99,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeChannelNet",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 100,
+    "communication_concept": "Channel Estimation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Enhanced Channel Estimator",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 101,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusive U-Net Channel Sensing",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 102,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusive Channel World Modeling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 103,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Pilot-Free Channel Adapters (FPFCA)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 104,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMatch Channel Sensing",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 105,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Pilotless Channel Foundation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 106,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSense Generative Channel Intelligence",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 107,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow Pilot-Free Channel Sensing",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 108,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Aided Pilot-Free Channel Cognition",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 109,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Driven Pilot-Free Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 110,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledPilot-FreeNet",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 111,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "KV-Cache Assisted Pilot-Free Channel Sensing",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 112,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LLM-Driven Pilotless Channel Cognition",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 113,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidPilot Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 114,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaChannelOps",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 115,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaSense Estimator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 116,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysGen Pilot-Free Channel Estimation",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 117,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "QuantumPilotNet",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 118,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Pilot-Free ChannelNet",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 119,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSense Channel Estimation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 120,
+    "communication_concept": "Channel Estimation / Pilot-free Sensing",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-PilotNet",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 121,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffusionMIMO Predictor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 122,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusive MIMO ChannelForesight",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 123,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedMIMO-Adapter Channel Prediction",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 124,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMIMO Predictor",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 125,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven MIMO Channel Oracle",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 126,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoMIMO Predictor",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 127,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow MIMO Predictor",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 128,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Driven MIMO Channel Predictor",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 129,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-MIMO Channel Predictor",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 130,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledMIMO Predictor",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 131,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "KVCache-Enhanced MIMO Channel Predictor",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 132,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "MIMO-LLM Channel Oracle",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 133,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidMIMO Predictor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 134,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaMIMO Predictor",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 135,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaMIMO Predictor",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 136,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysGen MIMO Predictor",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 137,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced MIMO Channel Predictor",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 138,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive MIMO ChannelNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 139,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeMIMO Predictor",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 140,
+    "communication_concept": "Channel Prediction / MIMO",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-MIMO Predictor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 141,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusion-Enhanced Distributed Wireless Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 142,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusion-Driven Distributed Wireless Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 143,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Distributed Adapter Learning (FDAL)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 144,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowDistributed Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 145,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "Federated Mixture of Experts Networks (FMoE-Net)",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 146,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoNet Generative Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 147,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaGFlow Distributed Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 148,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Driven Distributed Wireless Learning (GD-DWL)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 149,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Driven Distributed Wireless Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 150,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Distilled Distributed Language Learning",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 151,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Distributed KV-Cache Learning Mesh",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 152,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "Distributed LLM-Agent Wireless Learning Network",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 153,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "Liquid Distributed Neural Learning (LDNL)",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 154,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaOps for Distributed Wireless Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 155,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "Mamba-Driven Distributed Wireless Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 156,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiLearn Mesh AI",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 157,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum Federated Wireless Learning",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 158,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Distributed Wireless Learning (RetDWL)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 159,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "Spiking Federated Wireless Learning",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 160,
+    "communication_concept": "Distributed Wireless Learning",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Driven Distributed Wireless Learning",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 161,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuLoc U-Net",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 162,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusive UWB-VIO Spatial Synthesizer",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 163,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedUWB-VIO AdaptNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 164,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowLocODE",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 165,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Enhanced UWB-VIO Localization",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 166,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoLocate Agent",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 167,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlowLoc",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 168,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "LocaKG-VIO",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 169,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Enhanced UWB-VIO Localization",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 170,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledLoc-LLM",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 171,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "CacheFusion LocAIze",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 172,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "UbiquiSense LLM Navigator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 173,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidLocNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 174,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaLocOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 175,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaLoc Fusion",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 176,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiGen UWB-VIO Localization",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 177,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced UWB-VIO Localization",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 178,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive UWB-VIO FusionNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 179,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikingLoc: Neuromorphic UWB-VIO Indoor Positioning",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 180,
+    "communication_concept": "Indoor Localization / UWB / VIO",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Enhanced UWB-VIO Fusion Localization",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 181,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuMAC Signaling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 182,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusiveMAC Signaling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 183,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedMAC-Adapter Signaling",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 184,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMatch-MAC Signaling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 185,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Adaptive MAC Signaling",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 186,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoMAC Agent",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 187,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlowMAC",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 188,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Knowledge-Driven MAC Signaling (KD-MAC)",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 189,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KANO-MAC Adaptive Signaling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 190,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledMAC Signaling",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 191,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Cache-Aware MAC Signaling",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 192,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LLM-Driven Adaptive MAC Agent",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 193,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidMAC Signaling",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 194,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaMACOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 195,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaMAC Adaptive Signaling",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 196,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiMACGen",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 197,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced MAC Signaling",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 198,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "RetentiveMAC",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 199,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeMAC",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 200,
+    "communication_concept": "MAC Protocol Design / Signaling",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-MAC Adaptive Signaling",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 201,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuNet Protocol Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 202,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusiveNet Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 203,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Protocol Adaptation Automation (FPAA)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 204,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMatchNet Automation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 205,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Adaptive Network Orchestrator",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 206,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoNet Protocol Agent",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 207,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow Protocol Automation",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 208,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Knowledge-Driven Network Automation (KDNA)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 209,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Driven Protocol Automata",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 210,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "ProtocolGPT Automation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 211,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "CacheSync Protocol Automation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 212,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "ProtocolGPT Automator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 213,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidNet Automation",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 214,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaOps Network Automator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 215,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaFlow Automation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 216,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiNet AutoGen",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 217,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum Protocol Automata",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 218,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "RetNet AutoProtocol",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 219,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeAutoNet",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 220,
+    "communication_concept": "Network Automation / Protocol Management",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Driven Network Protocol Orchestrator",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 221,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuNetSim Optimizer",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 222,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusionNet Optimizer",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 223,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FederatedSimTune",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 224,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowSimNet",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 225,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven NetworkSim Optimizer",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 226,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSimNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 227,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlowNet Optimization Simulator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 228,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Knowledge-Driven Network Simulation (KDNS)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 229,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KANO-Optimizer",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 230,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledNetSim",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 231,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "CacheFusionNetSim",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 232,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "SimuNet LLM Optimizer",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 233,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidSimNet",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 234,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaSimOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 235,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaNet Optimizer",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 236,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiNetGen AI",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 237,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "QuantumSimNet Optimization",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 238,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "RetentiveNet Simulator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 239,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSimNet",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 240,
+    "communication_concept": "Network Simulation / Optimization",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-NetSimOptimizer",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 241,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffSliceNet",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 242,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusive Slice Intelligence",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 243,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Slice Tuning",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 244,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowSlice Optimizer",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 245,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "SlicedMoE Network Orchestrator",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 246,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSlice Agent",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 247,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaSlice GFlowNet",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 248,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Sliced Knowledge Graph Resource Orchestration (SKGRO)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 249,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "K-Slice Adaptive Orchestration",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 250,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "SliceDistill AI",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 251,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "SliceCache Fusion",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 252,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "SliceSense LLM Agent",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 253,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidSlice Adaptive Orchestration",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 254,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "SliceOps LLM",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 255,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaSlice Intelligence",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 256,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiSlice AI",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 257,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced Network Slice Orchestration",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 258,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Network Slicing (RetSlice)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 259,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSlice Resource Manager",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 260,
+    "communication_concept": "Network Slicing / Resource Management",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Driven Adaptive Network Slicing",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 261,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuNet Traffic Forecaster",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 262,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffuNet Traffic Forecaster",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 263,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedAdapter Traffic Optimizer",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 264,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowMatchNet Resource Predictor",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 265,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Adaptive Traffic Oracle",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 266,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoNet Predictor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 267,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlowNet Resource Allocator",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 268,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Driven Traffic Intelligence (GDTI)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 269,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "K-ARNET Predictor",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 270,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledNet Predictor",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 271,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Cache-Fused Traffic Oracle",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 272,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LLM-Driven Adaptive Traffic Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 273,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidFlow Allocator",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 274,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaOps Traffic Orchestrator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 275,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaFlow Predictor",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 276,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiGen TrafficForecaster",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 277,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "QuantumFlow Predictor",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 278,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive TrafficNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 279,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeFlow Traffic Allocator",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 280,
+    "communication_concept": "Network Traffic Prediction / Resource Allocation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Driven Dynamic Resource Forecasting",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 281,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusion-Enhanced Directional Modulation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 282,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusion-Driven Directional Security",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 283,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Directional Modulation Tuning (FedDMT)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 284,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "Flow-Driven Directional Modulation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 285,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven Directional Modulation Security",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 286,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoModulated Secure Agents",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 287,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaSecure Flow Modulation",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 288,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "KG-Driven Adaptive Directional Modulation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 289,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Directional Secure Modulation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 290,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Distilled Directional Secrecy",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 291,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Directional KV-Fusion Secure Modulation",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 292,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LLM-Driven Adaptive Directional Modulation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 293,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidBeam Security Modulation",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 294,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "Llama-2 Guided Directional Modulation Security",
+    "score": 2.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 295,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaBeam Secure Modulation",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 296,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhyGenDM SecureWave",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 297,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-Enhanced Directional Modulation Security (QEDMS)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 298,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Directional Modulation Network (RetDMNet)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 299,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "Spiking Directional Modulation (SDM)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 300,
+    "communication_concept": "Physical Layer Security / Directional Modulation",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Driven Adaptive Directional Modulation",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 301,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusive Semantic Communication Network (DSemCom-Net)",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 302,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusive Semantic World Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 303,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Semantic Adaptation Communication (FedSemAdapt)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 304,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowSemantic Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 305,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-SemanticNet",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 306,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSemCom Agent",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 307,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow Semantic Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 308,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Semantic Knowledge-Graph Communication (SKGC)",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 309,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KanoSemanticNet",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 310,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Semantic Distilled Communication (SDC)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 311,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Semantic KV Fusion Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 312,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "Semantic Agent Communication (SAC)",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 313,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "Liquid Semantic Communication Network",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 314,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaSemOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 315,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "Mamba-SemCom",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 316,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiSemCom AI",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 317,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum Semantic Learning Communication (QSLC)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 318,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Semantic Communication Network (RetSemNet)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 319,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSemCom",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 320,
+    "communication_concept": "Semantic Communication (SemCom)",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-SemCom",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 321,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Semantic Diffusion Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 322,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusion-Driven Semantic Inter-Model Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 323,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Semantic Federated Adapter Communication (SFAC)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 324,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "Semantic Flow Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 325,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "Semantic Mixture-of-Experts Communication (SMoE-Com)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 326,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSemantic Agents",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 327,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow Semantic Communication",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 328,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Semantic Knowledge Graph Communication (SKGC)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 329,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "Semantic-KAN Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 330,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Semantic Distilled Inter-Model Communication",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 331,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Semantic KV Fusion Communication",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 332,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "Semantic LLM Relay",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 333,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "Liquid Semantic Neural Communication",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 334,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "SemanticGitOps LLM",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 335,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaSemantic Relay",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 336,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysiSemComm AI",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 337,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum Semantic Inter-model Communication (QSIC)",
+    "score": 2.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 338,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Semantic Intermodel Communication (ReSIC)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 339,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSemantic InterCom",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 340,
+    "communication_concept": "Semantic Communication / Inter-model Comm",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-SemCom",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 341,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "Diffusive Semantic Decoder",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 342,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "Diffusion-Guided Semantic Error Correction",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 343,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Semantic Error Correction",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 344,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "Flow-Driven Semantic Error Correction",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 345,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "Semantic MoE Decoder",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 346,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSemantic Decoder",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 347,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "Meta-Flow Semantic Correction",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 348,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "SemanticGraph Decoding",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 349,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KanSemantic Decoder",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 350,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "SemanticDistill Decoding",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 351,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "Semantic KV-Corrector",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 352,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "Semantic LLM Decoder",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 353,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "Liquid Semantic Decoder",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 354,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "Llama-Enhanced Semantic Error Correction (LSEC)",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 355,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaSemantic Corrector",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 356,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysioSemantic AI Decoder",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 357,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum Semantic Error Correction (Q-SEC)",
+    "score": 2.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 358,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Semantic Decoder (ReSemDec)",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 359,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSemantic Decoder",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 360,
+    "communication_concept": "Semantic Decoding / Error Correction",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM Semantic Error Corrector",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 361,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuLocNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 362,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffusiveLoc WorldModel",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 363,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "FedLoc-Adapter",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 364,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowLoc: Generative ODE-based WiFi Fingerprint Localization",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 365,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-FingerprintNet",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 366,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoLoc Generative Agent",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 367,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlowWiFi Localization",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 368,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "Graph-Enhanced WiFi Fingerprint Localization",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 369,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KanoFi Localization",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 370,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "DistilledLoc-LLM",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 371,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "CacheFusion Localization",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 372,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "LocaLLM Navigator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 373,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidLocNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 374,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaLocOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 375,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaLoc",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 376,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysioGen WiFiLoc",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 377,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "QuantumRSS Locator",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 378,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive WiFiLocNet",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 379,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeLocNet",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 380,
+    "communication_concept": "WiFi Localization / RSS Fingerprinting",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-RSSLoc",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 381,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Diffusion Probabilistic Model / U-Net",
+    "concept_name": "DiffuSense AIoT",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 382,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Diffusion-based World Model",
+    "concept_name": "DiffuSense AIoT",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 383,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "concept_name": "Federated Adapter Sensing Network (FASN)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 384,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Flow Matching (Generative ODE)",
+    "concept_name": "FlowSense AIoT",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 385,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Foundation Model / Mixture of Experts (MoE)",
+    "concept_name": "MoE-Driven AIoT Sensing Mesh",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 386,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Generative Agent / Self-Evolution",
+    "concept_name": "EvoSense AIoT",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 387,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "concept_name": "MetaFlow AIoT Sensing",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 388,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Knowledge Graph (KG) / RAG",
+    "concept_name": "KG-Enhanced AIoT Sensing",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 389,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Kolmogorov-Arnold Network (KAN)",
+    "concept_name": "KAN-Enabled Wireless AIoT Sensing",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 390,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "LLM / Knowledge Distillation",
+    "concept_name": "Distilled LLM-Enhanced Wireless Sensing",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 391,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "LLM Key-Value (KV) Cache Fusion",
+    "concept_name": "CacheFusion Sensing AIoT",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 392,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Large Language Model (LLM) Agent",
+    "concept_name": "SensiLingua AI",
+    "score": 3.33,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 393,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Liquid Neural Network (LNN)",
+    "concept_name": "LiquidSense AIoT",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 394,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Llama-2 (LLM) / GitOps",
+    "concept_name": "LlamaSenseOps",
+    "score": 3.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 395,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Mamba (Selective State Space Model)",
+    "concept_name": "MambaSense AIoT",
+    "score": 3.67,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 396,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Physics-Informed Generative AI",
+    "concept_name": "PhysioSense AIoT",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 397,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Quantum Machine Learning (QML)",
+    "concept_name": "Quantum-AIoT Sensing",
+    "score": 5.0,
+    "is_baseline_match": true,
+    "evaluation_method": "baseline_match"
+  },
+  {
+    "id": 398,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Retentive Network (RetNet)",
+    "concept_name": "Retentive Wireless Sensing Network (RWSN)",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 399,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "Spiking Neural Network (SNN)",
+    "concept_name": "SpikeSense AIoT",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  },
+  {
+    "id": 400,
+    "communication_concept": "Wireless Sensing / AIoT",
+    "ai_concept": "xLSTM (Extended LSTM)",
+    "concept_name": "xLSTM-Enhanced Wireless Sensing AIoT",
+    "score": 4.0,
+    "is_baseline_match": false,
+    "evaluation_method": "quality_evaluation_1to4"
+  }
+]

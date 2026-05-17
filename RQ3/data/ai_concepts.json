@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "concept": "Diffusion Probabilistic Model / U-Net",
+    "domain": "AI"
+  },
+  {
+    "id": 2,
+    "concept": "Diffusion-based World Model",
+    "domain": "AI"
+  },
+  {
+    "id": 3,
+    "concept": "Federated Learning / PEFT (Adapter Tuning)",
+    "domain": "AI"
+  },
+  {
+    "id": 4,
+    "concept": "Flow Matching (Generative ODE)",
+    "domain": "AI"
+  },
+  {
+    "id": 5,
+    "concept": "Foundation Model / Mixture of Experts (MoE)",
+    "domain": "AI"
+  },
+  {
+    "id": 6,
+    "concept": "Generative Agent / Self-Evolution",
+    "domain": "AI"
+  },
+  {
+    "id": 7,
+    "concept": "Generative Flow Network (GFlowNet) / Meta-Learning",
+    "domain": "AI"
+  },
+  {
+    "id": 8,
+    "concept": "Knowledge Graph (KG) / RAG",
+    "domain": "AI"
+  },
+  {
+    "id": 9,
+    "concept": "Kolmogorov-Arnold Network (KAN)",
+    "domain": "AI"
+  },
+  {
+    "id": 10,
+    "concept": "LLM / Knowledge Distillation",
+    "domain": "AI"
+  },
+  {
+    "id": 11,
+    "concept": "LLM Key-Value (KV) Cache Fusion",
+    "domain": "AI"
+  },
+  {
+    "id": 12,
+    "concept": "Large Language Model (LLM) Agent",
+    "domain": "AI"
+  },
+  {
+    "id": 13,
+    "concept": "Liquid Neural Network (LNN)",
+    "domain": "AI"
+  },
+  {
+    "id": 14,
+    "concept": "Llama-2 (LLM) / GitOps",
+    "domain": "AI"
+  },
+  {
+    "id": 15,
+    "concept": "Mamba (Selective State Space Model)",
+    "domain": "AI"
+  },
+  {
+    "id": 16,
+    "concept": "Physics-Informed Generative AI",
+    "domain": "AI"
+  },
+  {
+    "id": 17,
+    "concept": "Quantum Machine Learning (QML)",
+    "domain": "AI"
+  },
+  {
+    "id": 18,
+    "concept": "Retentive Network (RetNet)",
+    "domain": "AI"
+  },
+  {
+    "id": 19,
+    "concept": "Spiking Neural Network (SNN)",
+    "domain": "AI"
+  },
+  {
+    "id": 20,
+    "concept": "xLSTM (Extended LSTM)",
+    "domain": "AI"
+  }
+]

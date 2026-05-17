@@ -1,0 +1,1202 @@
+[
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 2.0,
+    "base_F_avg": 3.33,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.33,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.5,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.33,
+    "base_F2_avg": 2.33,
+    "base_F_avg": 3.33,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.0,
+    "base_F2_avg": 2.33,
+    "base_F_avg": 3.17,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 4.33,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.67,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.33,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.67
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.67,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.44,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.67
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.67,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.33,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.67
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.33,
+    "base_F2_avg": 2.33,
+    "base_F_avg": 3.33,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.67,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.22,
+    "der_F2_avg": 2.78,
+    "der_F_avg": 3.5
+  },
+  {
+    "base_F1_avg": 4.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.5,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.33,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.5,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.72
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.33,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.67,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.78,
+    "der_F_avg": 3.72
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.33,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.67,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 2.33,
+    "base_F_avg": 3.5,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.78,
+    "der_F_avg": 3.72
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.33,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.67
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.56,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.78
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.67,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 4.67,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 2.89,
+    "der_F_avg": 3.83
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 5.0,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 4.0
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 2.67,
+    "base_F_avg": 3.83,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.78,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.89
+  },
+  {
+    "base_F1_avg": 5.0,
+    "base_F2_avg": 3.0,
+    "base_F_avg": 4.0,
+    "der_F1_avg": 4.89,
+    "der_F2_avg": 3.0,
+    "der_F_avg": 3.94
+  }
+]

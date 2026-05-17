@@ -1,0 +1,41 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# LLM cache
+.llm_cache/
+match_cache/
+
+# Local models (download separately, see README)
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+test_output/
+_verify_tmp/
+
+# Generated outputs (all reproducible via scripts)
+*.pdf
+*.png
+**/evaluation/**/deviation_table*.txt
+**/evaluation/**/feasibility_table*.txt
+**/evaluation/**/feasibility_summary.json
+**/evaluation/**/Table 1*.txt
+**/evaluation/**/Table1*.txt
+**/RQ3/data/exact_match_report.txt
+RQ3/output/
