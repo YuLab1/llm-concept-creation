@@ -40,7 +40,7 @@ EMBEDDING_MODEL_PATH = os.getenv(
 # ============================================================
 #  RQ1, 2 专用配置
 # ============================================================
-RQ12_DIR = CODE_DIR / "RQ1, 2"
+RQ12_DIR = CODE_DIR / "RQ1_2"
 RQ12_BASE_DIR = CODE_DIR.parent                           # camelready终稿/
 RQ12_DATA_DIR = RQ12_BASE_DIR / "Data" / "DATA" / "数据集"
 RQ12_INPUT_CONCEPTS_DIR = RQ12_DATA_DIR / "generation concepts"

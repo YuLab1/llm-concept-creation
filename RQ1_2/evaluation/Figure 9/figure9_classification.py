@@ -26,7 +26,7 @@ import matplotlib.patches as mpatches
 import seaborn as sns
 from tqdm import tqdm
 
-# Figure 10 → evaluation → RQ1, 2 → Code
+# Figure 9 → evaluation → RQ1_2 → Code
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
 import config
 from llm_utils import create_client, extract_json_from_text

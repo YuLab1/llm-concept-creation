@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-# Table 1 → evaluation → RQ1, 2 → Code
+# Table 1 → evaluation → RQ1_2 → Code
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
 import config
 

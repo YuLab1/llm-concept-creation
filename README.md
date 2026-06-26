@@ -2,7 +2,7 @@
 
 Official implementation for our **ACL 2026** paper.
 
-> **Paper link** will be updated after publication.
+> **Paper:** [https://aclanthology.org/2026.acl-long.554/](https://aclanthology.org/2026.acl-long.554/)
 
 ## Overview
 
@@ -22,7 +22,7 @@ Code/
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore
 │
-├── RQ1, 2/                            # Concept Creation & Evaluation
+├── RQ1_2/                             # Concept Creation & Evaluation
 │   ├── create.py                      # Concept generation pipeline
 │   ├── evaluation.py                  # Core metric computation (embedding-based)
 │   ├── batch_evaluation.py            # Batch evaluation orchestration
@@ -94,7 +94,7 @@ git clone https://huggingface.co/allenai/scibert_scivocab_uncased models/scibert
 
 ## Data Preparation
 
-All evaluation data is included in the repository under `RQ1, 2/data/` and `RQ3/data/`. No additional downloads are required to reproduce the tables and figures.
+All evaluation data is included in the repository under `RQ1_2/data/` and `RQ3/data/`. No additional downloads are required to reproduce the tables and figures.
 
 **Data structure:**
 - `generation concepts/` — 18 JSON files containing 150 generated concepts each (6 domains × 3 models)
@@ -106,13 +106,13 @@ All evaluation data is included in the repository under `RQ1, 2/data/` and `RQ3/
 
 ```bash
 # Reproduce Table 1 (main evaluation metrics)
-python "RQ1, 2/evaluation/Table 1/table1_metrics.py"
+python "RQ1_2/evaluation/Table 1/table1_metrics.py"
 
 # Reproduce Table 5 (plausibility breakdown)
-python "RQ1, 2/evaluation/Table 5/table5_feasibility.py"
+python "RQ1_2/evaluation/Table 5/table5_feasibility.py"
 
 # Reproduce Table 6 (semantic deviation)
-python "RQ1, 2/evaluation/Table 6/ana.py"
+python "RQ1_2/evaluation/Table 6/ana.py"
 ```
 
 ## Reproducing Main Results
@@ -121,18 +121,18 @@ python "RQ1, 2/evaluation/Table 6/ana.py"
 
 | Paper Table | Script | Command |
 |-------------|--------|---------|
-| Table 1 (Main metrics, MiniLM) | `table1_metrics.py` | `python "RQ1, 2/evaluation/Table 1/table1_metrics.py"` |
-| Table 1 (SciBERT variant) | `table1_metrics.py` | `python "RQ1, 2/evaluation/Table 1/table1_metrics.py" --embedding SciBERT` |
-| Table 5 (Plausibility) | `table5_feasibility.py` | `python "RQ1, 2/evaluation/Table 5/table5_feasibility.py"` |
-| Table 6 (Semantic deviation) | `ana.py` | `python "RQ1, 2/evaluation/Table 6/ana.py"` |
+| Table 1 (Main metrics, MiniLM) | `table1_metrics.py` | `python "RQ1_2/evaluation/Table 1/table1_metrics.py"` |
+| Table 1 (SciBERT variant) | `table1_metrics.py` | `python "RQ1_2/evaluation/Table 1/table1_metrics.py" --embedding SciBERT` |
+| Table 5 (Plausibility) | `table5_feasibility.py` | `python "RQ1_2/evaluation/Table 5/table5_feasibility.py"` |
+| Table 6 (Semantic deviation) | `ana.py` | `python "RQ1_2/evaluation/Table 6/ana.py"` |
 
 ### Figures
 
 | Paper Figure | Script | Command |
 |--------------|--------|---------|
-| Figure 9 (Classification pie) | `figure9_classification.py` | `python "RQ1, 2/evaluation/Figure 9/figure9_classification.py"` |
-| Figure 10 (Temperature) | `plot_temperature.py` | `python "RQ1, 2/evaluation/Figure 10/plot_temperature.py"` |
-| Figure 11 (Entropy) | `entropy_analysis.py` | `python "RQ1, 2/evaluation/Figure 11/entropy_analysis.py"` |
+| Figure 9 (Classification pie) | `figure9_classification.py` | `python "RQ1_2/evaluation/Figure 9/figure9_classification.py"` |
+| Figure 10 (Temperature) | `plot_temperature.py` | `python "RQ1_2/evaluation/Figure 10/plot_temperature.py"` |
+| Figure 11 (Entropy) | `entropy_analysis.py` | `python "RQ1_2/evaluation/Figure 11/entropy_analysis.py"` |
 
 ### RQ3 Pipeline
 
@@ -158,16 +158,34 @@ python step4_visualize.py
 
 ```bash
 # Generate concepts (example: Communication domain, single-domain, GPT-4o)
-python "RQ1, 2/create.py" --model gpt-4o --input <concept_file> --mode single --domain Communication --output output.json
+python "RQ1_2/create.py" --model gpt-4o --input <concept_file> --mode single --domain Communication --output output.json
 
 # Compute evaluation metrics
-python "RQ1, 2/evaluation.py" --input output.json --output_dir eval_output/ --domain Communication
+python "RQ1_2/evaluation.py" --input output.json --output_dir eval_output/ --domain Communication
 ```
 
 ## Citation
 
 ```bibtex
-@inproceedings{}
+@inproceedings{yan-etal-2026-beyond-noise,
+    title = "Beyond Noise: Characterizing Creative Potential in Unverifiable {LLM} Hallucinations",
+    author = "Yan, Yu and
+      Zhang, Chunhong and
+      Zhao, Haiyu and
+      Zeng, Ziyang and
+      Liu, Zihao and
+      Wu, Yongkang and
+      Diao, Jianzhou and
+      Chen, YiJie and
+      Wang, Shujie and
+      Hu, Zheng",
+    booktitle = "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.554/",
+    pages = "12102--12124",
 }
 ```
 
